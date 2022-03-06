@@ -5,7 +5,7 @@ from pprint import pprint
 from can.message import Message
 
 #loading the dbc
-db = cantools.db.load_file('/home/hassan/Desktop/EZmile/EZ10_test_LMS.dbc')
+db = cantools.db.load_file('/home/hassan/Desktop/EZmile/EZ10_test_LMS.dbc') #change this line to the file path on your device
 
 #print(db)
 
