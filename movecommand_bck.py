@@ -5,13 +5,13 @@ from pprint import pprint
 from can.message import Message
 
 #loading the dbc
-db = cantools.db.load_file('/home/hassan/Desktop/EZmile/EZ10_test_LMS.dbc') #change this line to the file path on your device
+db = cantools.db.load_file('/home/hassan/Desktop/EZmile/EZ10_test_LMS.dbc')
 
 #print(db)
 
 msg = db.get_message_by_name('PC_To_Var_1238')
 #print(msg)
-msg_data = msg.encode({'Command_Accel':-0.7,'Command_Speed':-0.7,'Front_Steer_Command':0.0,'Back_Steer_Command':0.0})
+msg_data = msg.encode({'Command_Accel':-0.3,'Command_Speed':-0.3,'Front_Steer_Command':0.0,'Back_Steer_Command':0.0})
 
 msg3 = can.Message(arbitration_id=0x214,data=[232, 3, 208, 7, 0, 0, 0, 0],is_extended_id=False)
 print(msg_data)
@@ -30,4 +30,3 @@ while True:
     
 	except can.CanError:
     		print("Message NOT sent")
-
