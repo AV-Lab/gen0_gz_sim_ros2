@@ -30,7 +30,7 @@ This segment will explain about starting communication with EZmile Gen 0, there 
     10. switch the activ then the auto mode in the inside hatch
     11. press the door button then wait for the emergency light to on ready
     12. rearm the vehicle
-    13. send movement command
+    13. send movement command while the car is rearming, the command should be on while the vehicle is in auto mode
 	  
   the linux commands file include the commands needed for this operation and the python files are needed to send commands
   
