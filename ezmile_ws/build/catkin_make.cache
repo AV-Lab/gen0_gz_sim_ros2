@@ -1,0 +1,2 @@
+catvehicle:cmdvel2gazebo:control_toolbox:obstaclestopper:ouster-gazebo-simulation/ouster_gazebo_plugins:ouster-gazebo-simulation/ouster_os1_64:sicktoolbox:sicktoolbox_wrapper:stepvel
+-DCATKIN_DEVEL_PREFIX=/home/riyadh/Desktop/ezmile_ws/devel -DCMAKE_INSTALL_PREFIX=/home/riyadh/Desktop/ezmile_ws/install -G Unix Makefiles
