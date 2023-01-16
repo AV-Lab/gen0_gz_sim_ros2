@@ -1,0 +1,10 @@
+
+<launch>
+
+<node pkg="gmapping" type="slam_gmapping" name="gmapping_nissan" output="screen" >
+  <remap from="scan" to="catvehicle/scan" />
+  <param name="odom_frame" value="catvehicle/odom" />
+  <param name="base_frame" value="catvehicle/base_link" />
+</node>
+
+</launch>

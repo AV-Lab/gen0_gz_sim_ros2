@@ -1,0 +1,7 @@
+set(catvehicle_SETUP_PY_SETUP_MODULE "distutils.core")
+set(catvehicle_SETUP_PY_VERSION "2.1.0")
+set(catvehicle_SETUP_PY_SCRIPTS "")
+set(catvehicle_SETUP_PY_PACKAGES "catvehicle")
+set(catvehicle_SETUP_PY_PACKAGE_DIRS "src/catvehicle")
+set(catvehicle_SETUP_PY_MODULES "")
+set(catvehicle_SETUP_PY_MODULE_DIRS "")

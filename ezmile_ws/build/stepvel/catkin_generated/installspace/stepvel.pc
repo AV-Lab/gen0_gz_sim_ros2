@@ -1,0 +1,8 @@
+prefix=/home/riyadh/Desktop/ezmile_ws/install
+
+Name: stepvel
+Description: Description of stepvel
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp std_msgs
