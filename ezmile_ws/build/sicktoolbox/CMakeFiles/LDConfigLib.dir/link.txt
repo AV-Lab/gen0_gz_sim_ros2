@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libLDConfigLib.so -o /home/riyadh/Desktop/ezmile_ws/devel/lib/libLDConfigLib.so CMakeFiles/LDConfigLib.dir/c++/examples/ld/ld_config/src/ConfigFile.cpp.o 
