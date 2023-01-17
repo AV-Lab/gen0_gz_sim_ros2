@@ -43,7 +43,7 @@
       <visual name="lidar_visual">
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://ezmile_gen0/meshes/${file_visual}.stl" />
+          <mesh filename="package://catvehicle/meshes/${file_visual}.stl" />
         </geometry>
       </visual>
     </link>

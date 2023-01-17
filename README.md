@@ -24,6 +24,7 @@ sudo apt-get install ros-noetic-amcl
 sudo apt-get install ros-noetic-velodyne-pointcloud
 sudo apt-get install ros-noetic-pointcloud-to-laserscan
 sudo apt-get install libignition-rendering3
+sudo apt-get install ros-noetic-map-server
 ```
 **Install dependencies**
 ```
