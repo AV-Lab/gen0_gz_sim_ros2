@@ -543,9 +543,9 @@ http://www.car-engineer.com/vehicle-inertia-calculation-tool/
             </geometry>
         </collision>
         <visual>
-            <origin xyz="0 0 0" rpy="0 0 -1.57079632679"/>
+            <origin xyz="-0.1 0 0" rpy="0 0 -1.57079632679"/>
                 <geometry>
-                    <mesh scale="1.2 1 1" filename="package://catvehicle/meshes/zed2.stl"/>
+                    <mesh scale="1 1 1" filename="package://catvehicle/meshes/zed2.stl"/>
                 </geometry>
         </visual>
         <inertial>
