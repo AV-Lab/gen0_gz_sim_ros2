@@ -1,0 +1,4 @@
+<launch>
+  <node name="pedestrians_points_node" pkg="pedestrian_trajectory" type="pedestrians_points.py" output="screen">
+  </node>
+</launch>

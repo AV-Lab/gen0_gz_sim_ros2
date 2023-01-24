@@ -1,8 +1,0 @@
-prefix=/home/riyadh/Desktop/ezmile_ws/devel
-
-Name: ouster_gazebo_plugins
-Description: Description of ouster_gazebo_plugins
-Version: 2.0.2
-Cflags: -I/home/riyadh/Desktop/ezmile_ws/src/ouster-gazebo-simulation/ouster_gazebo_plugins/include -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gazebo-11 -I/usr/include/sdformat-9.8 -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/ignition/fuel_tools4 -I/usr/include/x86_64-linux-gnu -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/ignition/common3 -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/ignition/transport8 -I/usr/include/pgm-5.2 -I/usr/include/uuid -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/ignition/msgs5 -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/ignition/math6 -I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/ignition/cmake2 -I/usr/include -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4
-Libs: -L${prefix}/lib -lgazebo_ros_ouster_laser -lgazebo_ros_ouster_gpu_laser
-Requires: roscpp sensor_msgs gazebo_ros

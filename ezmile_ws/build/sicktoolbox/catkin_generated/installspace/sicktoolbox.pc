@@ -1,8 +1,0 @@
-prefix=/home/riyadh/Desktop/ezmile_ws/install
-
-Name: sicktoolbox
-Description: Description of sicktoolbox
-Version: 1.0.103
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lSickLD -lSickLMS1xx -lSickLMS2xx
-Requires: 

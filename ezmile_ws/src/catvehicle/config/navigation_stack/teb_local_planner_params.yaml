@@ -34,7 +34,7 @@ TebLocalPlannerROS:
 
  footprint_model: # types: "point", "circular", "two_circles", "line", "polygon"
    type: "polygon"
-   vertices: [ [-3.93 ,-1.99], [3.93,-1.99], [3.93, 1.99], [-3.93, 1.99] ] # for type "polygon"
+   vertices: [ [-2.2,-1.05], [2.2,-1.05], [2.2, 1.05], [-2.2, 1.05] ] # for type "polygon"
 
  # GoalTolerance
     

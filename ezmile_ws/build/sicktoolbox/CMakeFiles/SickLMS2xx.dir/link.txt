@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libSickLMS2xx.so -o /home/riyadh/Desktop/ezmile_ws/devel/lib/libSickLMS2xx.so CMakeFiles/SickLMS2xx.dir/c++/drivers/lms2xx/sicklms2xx/SickLMS2xx.cc.o CMakeFiles/SickLMS2xx.dir/c++/drivers/lms2xx/sicklms2xx/SickLMS2xxBufferMonitor.cc.o CMakeFiles/SickLMS2xx.dir/c++/drivers/lms2xx/sicklms2xx/SickLMS2xxMessage.cc.o  -lpthread 
