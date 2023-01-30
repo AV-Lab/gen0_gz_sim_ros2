@@ -23,7 +23,7 @@ rosdep install --from-paths src --ignore-src -r -y
 ```
 **lightsfm package build**
 ```
-cd ezmile_ws/lightsfm
+cd src/lightsfm
 make
 sudo make install
 ```
