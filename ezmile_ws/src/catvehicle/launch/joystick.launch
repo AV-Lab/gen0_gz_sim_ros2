@@ -36,7 +36,7 @@ roslaunch catvehicle joystick.launch
             required="true">
 </node>
 
-<node pkg="ezmile_gen0" type="joy2cmdvel.py" name="joy2cmdvel" output="screen"
+<node pkg="catvehicle" type="joy2cmdvel.py" name="joy2cmdvel" output="screen"
             required="true">
 	<param name="namespace" value="/$(arg robot_name)"/>
 	<param name="velmax" value="$(arg velmax)"/>

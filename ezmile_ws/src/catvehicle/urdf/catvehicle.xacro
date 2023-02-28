@@ -710,7 +710,7 @@ http://www.car-engineer.com/vehicle-inertia-calculation-tool/
     </link> -->
 
   <xacro:include filename="$(find catvehicle)/urdf/os1_64.urdf.xacro"/>
-  <xacro:os1_64 parent="base" name="ouster" prefix="/os1_cloud_node" hz="10" samples="512">
+  <xacro:os1_64 parent="base" name="ouster" prefix="/os1_cloud_node" hz="20" samples="512">
     <origin xyz="-0.4 0 2.82" rpy="0 0 0" />
   </xacro:os1_64>
   

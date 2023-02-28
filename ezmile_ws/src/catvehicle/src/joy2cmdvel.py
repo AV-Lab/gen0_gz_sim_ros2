@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # Author: Jonathan Sprinkle
 # Copyright (c) 2015-2016 Arizona Board of Regents

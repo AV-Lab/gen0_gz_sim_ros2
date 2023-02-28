@@ -2,7 +2,7 @@ local_costmap:
   global_frame: map
   robot_base_frame: catvehicle/base_link
   update_frequency: 5.0
-  publish_frequency: 2.0
+  publish_frequency: 5.0
   static_map: false
   rolling_window: true
   width: 20

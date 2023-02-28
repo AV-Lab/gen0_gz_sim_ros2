@@ -4,13 +4,13 @@
  <!-- Run the map server --> 
     <node name="map_server" pkg="map_server" type="map_server" args="$(find catvehicle)/maps/small_city_costmap.yaml"/>
  <!-- Run the eyad map server --> 
-   <!-- <node name="map_server2" pkg="map_server" type="map_server" args="$(find catvehicle)/maps/eyad_map.yaml">
-    <remap from="map" to="map2" />
+  <!-- <node name="map_server2" pkg="map_server" type="map_server" args="$(find catvehicle)/maps/eyad_map.yaml"> </node> -->
+       <!-- <remap from="map" to="map2" />
    </node> -->
 
 
  <!--- Run AMCL --> 
-    <include file="$(find catvehicle)/launch/nissan_amcl.launch" />
+   <include file="$(find catvehicle)/launch/nissan_amcl.launch" />
 
    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
     <remap from="cmd_vel" to="catvehicle/cmd_vel" />
