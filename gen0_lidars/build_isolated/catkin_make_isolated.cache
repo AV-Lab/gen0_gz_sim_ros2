@@ -1,0 +1,2 @@
+libsick_ldmrs:sick_ldmrs_laser/sick_ldmrs_description:sick_ldmrs_laser/sick_ldmrs_driver:sick_ldmrs_laser/sick_ldmrs_laser:sick_ldmrs_laser/sick_ldmrs_msgs:sick_ldmrs_laser/sick_ldmrs_tools
+-DCMAKE_BUILD_TYPE=Release -G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated

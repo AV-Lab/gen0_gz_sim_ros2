@@ -23,11 +23,11 @@ msg = can.Message(arbitration_id=msg.frame_id,data=msg_data,is_extended_id=False
 
 while True:
 	try:
-    		bus.send(msg)
-    		print("message sent on {}".format(bus.channel_info))
-    		time.sleep(0.02)
-    		#print(msg)
-    
+		bus.send(msg)
+		print("message sent on {}".format(bus.channel_info))
+		time.sleep(0.02)
+		#print(msg)
+
 	except can.CanError:
-    		print("Message NOT sent")
+		print("Message NOT sent")
 

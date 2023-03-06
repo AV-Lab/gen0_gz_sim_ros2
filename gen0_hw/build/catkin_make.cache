@@ -1,0 +1,2 @@
+gen0_odom:ira_laser_tools
+-DCATKIN_DEVEL_PREFIX=/home/av-ipc/Desktop/ezmile_gen0/gen0_hw/devel -DCMAKE_INSTALL_PREFIX=/home/av-ipc/Desktop/ezmile_gen0/gen0_hw/install -G Unix Makefiles

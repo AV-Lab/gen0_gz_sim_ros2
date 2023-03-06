@@ -1,0 +1,8 @@
+prefix=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated
+
+Name: sick_ldmrs_driver
+Description: Description of sick_ldmrs_driver
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: roscpp sensor_msgs diagnostic_updater dynamic_reconfigure pcl_conversions sick_ldmrs_msgs

@@ -1,0 +1,5 @@
+roslaunch gen0_odom odom_estimator.launch 
+roslaunch sick_ldmrs_driver sick_ldmrs_node.launch
+roslaunch gen0_odom points_to_scan.launch 
+roslaunch ira_laser_tools laserscan_multi_merger.launch 
+roslaunch gen0_odom gen0_gmapping.launch

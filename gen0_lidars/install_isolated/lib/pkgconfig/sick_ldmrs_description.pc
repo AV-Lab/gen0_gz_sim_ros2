@@ -1,0 +1,8 @@
+prefix=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated
+
+Name: sick_ldmrs_description
+Description: Description of sick_ldmrs_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
