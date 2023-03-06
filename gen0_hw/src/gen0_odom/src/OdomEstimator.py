@@ -50,7 +50,7 @@ class OdomEstimator:
         # Vy= speed*(math.sin(fr_steering) + math.sin(re_steering))/2
         # yaw = -self.wheeltrack/2*math.cos(fr_steering)+ self.wheelbase/2
         Psi_prime= (speed*(math.tan(fr_steering ) - math.tan(re_steering)))/self.wheelbase
-        self.Psi += Psi_prime
+        self.Psi += Psi_prime * dt
         Vx= speed * math.cos(self.Psi)
         Vy= speed * math.sin(self.Psi)
 
