@@ -1,7 +1,0 @@
-digraph G {
-"ldmrs1" -> "ldmrs2"[label=" Broadcaster: /ldmrs1_to_ldmrs2_tf\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
-edge [style=invis];
- subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1677757846.22"[ shape=plaintext ] ;
-}->"ldmrs1";
-}

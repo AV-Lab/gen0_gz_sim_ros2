@@ -1,8 +1,0 @@
-prefix=/home/riyadh/Desktop/ezmile_ws/install
-
-Name: sicktoolbox_wrapper
-Description: Description of sicktoolbox_wrapper
-Version: 2.5.3
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp sensor_msgs sicktoolbox rosconsole diagnostic_updater

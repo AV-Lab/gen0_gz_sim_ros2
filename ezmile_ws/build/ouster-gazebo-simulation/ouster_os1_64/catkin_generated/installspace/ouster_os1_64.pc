@@ -1,8 +1,0 @@
-prefix=/home/riyadh/Desktop/ezmile_ws/install
-
-Name: ouster_os1_64
-Description: Description of ouster_os1_64
-Version: 2.0.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
