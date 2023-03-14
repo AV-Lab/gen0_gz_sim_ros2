@@ -1,0 +1,39 @@
+<launch>
+
+
+  <arg name="model" default="$(find 4ws_robot)/urdf/four_wheel_robot.xacro"/>
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(arg model)" />
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find 4ws_robot)/config/4ws_control.yaml" command="load"/>
+
+  <!-- Launch Gazebo with an empty world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/4ws" args="joint_state_controller joint1_velocity_controller joint2_velocity_controller front_left_steering_position_controller front_right_steering_position_controller back_left_steering_position_controller back_right_steering_position_controller"/>
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+    respawn="false" output="screen">
+    <remap from="/joint_states" to="/4ws/joint_states" />
+  </node>
+
+  <!-- Spawn robot in Gazebo -->
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -model four_wheel_opposite_steering -param robot_description"/>
+
+  <!-- Launch RViz -->
+  <!-- <node name="rviz" pkg="rviz" type="rviz"/> -->
+
+</launch>
+
+
+
+
+
