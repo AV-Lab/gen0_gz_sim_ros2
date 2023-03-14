@@ -8,7 +8,7 @@ import time
 
 
 pub = rospy.Publisher('four_wheel_steering', FourWheelSteeringStamped, queue_size=10)
-rospy.init_node('publisher', anonymous=True)
+rospy.init_node('four_wheel_steering_publisher', anonymous=True)
 
 
 def convert_to_decimal(lsb, msb, type):

@@ -320,7 +320,7 @@
     </link>
 
     <!--Front Right Wheel-->
-    <joint name="front_right_wheel_joint" type="continuous">
+    <joint name="front_right_wheel_joint" type="fixed">
         <parent link="front_right_steering_link"/>
         <child link="front_right_wheel_link"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -418,7 +418,7 @@
 
 <!--Front Left Wheel-->
 
-    <joint name="front_left_wheel_joint" type="continuous">
+    <joint name="front_left_wheel_joint" type="fixed">
           <parent link="front_left_steering_link"/>
           <child link="front_left_wheel_link"/>
           <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -478,6 +478,13 @@
         </inertial>
     </link>
 
+<!-- Lidars to be installed -->
+
+  <xacro:include filename="$(find 4ws_robot)/urdf/os1_64.urdf.xacro"/>
+  <xacro:os1_64 parent="base" name="ouster" prefix="/os1_cloud_node" hz="20" samples="512">
+    <origin xyz="0 0 3.0" rpy="0 0 0" />
+  </xacro:os1_64>
+
 <!-- motors and transmissions for the two rear wheels -->
     <transmission name="tran1">
         <type>transmission_interface/SimpleTransmission</type>
@@ -501,49 +508,49 @@
         </actuator>
     </transmission>
 
-    <transmission name="tran3">
+    <transmission name="steering_back_left_transmission">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="back_left_steering_joint">
             <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         
-        <actuator name="eps_b_left">
+        <actuator name="steering_back_left_acutator">
             <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>
     </transmission>
 
-        <transmission name="tran4">
+    <transmission name="steering_back_right_transmission">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="back_right_steering_joint">
             <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         
-        <actuator name="eps_b_right">
+        <actuator name="steering_back_right_acutator">
             <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>
     </transmission>
     
-    <transmission name="rack_and_pinion_left">
+    <transmission name="steering_front_left_transmission">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="front_left_steering_joint">
             <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         
-        <actuator name="eps_left">
+        <actuator name="steering_front_left_acutator">
             <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>
     </transmission>
 
-    <transmission name="rack_and_pinion_right">
+    <transmission name="steering_front_right_transmission">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="front_right_steering_joint">
             <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         
-        <actuator name="eps_right">
+        <actuator name="steering_front_right_acutator">
             <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>

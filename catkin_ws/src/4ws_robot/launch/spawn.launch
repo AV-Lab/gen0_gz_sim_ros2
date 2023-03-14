@@ -29,7 +29,7 @@
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -model four_wheel_opposite_steering -param robot_description"/>
 
   <!-- Launch RViz -->
-  <!-- <node name="rviz" pkg="rviz" type="rviz"/> -->
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find 4ws_robot)/rviz/4ws.rviz" />
 
 </launch>
 
