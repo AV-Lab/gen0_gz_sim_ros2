@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+
+"""
+In this code I did trials to see how to map both joint velocities into the body speed. for simplicity its a linear relationship
+example:
+writing joint1 and joint2 (1, 1) yields vehicle twist of 0.33 m/s
+writing joint1 and joint2 (2, 2) yields vehicle twist of 0.66 m/s
+
+as such, we can compute the slope 1/0.33 ~ 3.030
+
+"""
+
+import rospy
+from four_wheel_steering_msgs.msg import FourWheelSteeringStamped
+from std_msgs.msg import Header, Float64
+from geometry_msgs.msg import Twist
+import math
+
+class Gazebo4WS:
+    def __init__(self):
+        self.joint_rearL_pub = rospy.Publisher("/4ws/joint1_velocity_controller/command", Float64, queue_size=50)
+        self.joint_rearR_pub = rospy.Publisher("/4ws/joint2_velocity_controller/command", Float64, queue_size=50)
+        self.steering_joint_frontL_pub=rospy.Publisher("/4ws/front_left_steering_position_controller/command", Float64, queue_size=50)
+        self.steering_joint_frontR_pub=rospy.Publisher("/4ws/front_right_steering_position_controller/command", Float64, queue_size=50)
+        self.steering_joint_rearL_pub=rospy.Publisher("/4ws/back_left_steering_position_controller/command", Float64, queue_size=50)
+        self.steering_joint_rearR_pub=rospy.Publisher("/4ws/back_right_steering_position_controller/command", Float64, queue_size=50)
+        rospy.Subscriber("four_wheel_steering", FourWheelSteeringStamped, self.data_callback)
+
+    def data_callback(self, msg):
+        joints_value=  msg.data.speed * 3.030
+        self.joint_rearR_pub.publish(joints_value)
+        self.joint_rearL_pub.publish(joints_value)
+        self.steering_joint_frontL_pub.publish(msg.data.front_steering_angle)
+        self.steering_joint_frontR_pub.publish(msg.data.front_steering_angle)
+        self.steering_joint_rearL_pub.publish(msg.data.rear_steering_angle)
+        self.steering_joint_rearR_pub.publish(msg.data.rear_steering_angle)
+
+
+if __name__ == '__main__':
+    rospy.init_node('gazebo_4ws', anonymous=True)
+    Cmd_4WS = Gazebo4WS()
+    rospy.spin()

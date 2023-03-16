@@ -14,6 +14,16 @@
     joint: back_right_wheel_joint
     pid: {p: 100.0, i: 0.01, d: 10.0}
 
+  # joint3_velocity_controller:
+  #   type: velocity_controllers/JointVelocityController
+  #   joint: front_left_wheel_joint
+  #   pid: {p: 100.0, i: 0.01, d: 10.0}
+
+  # joint4_velocity_controller:
+  #   type: velocity_controllers/JointVelocityController
+  #   joint: front_right_wheel_joint
+  #   pid: {p: 100.0, i: 0.01, d: 10.0}
+
 
   front_left_steering_position_controller:
     type: position_controllers/JointPositionController

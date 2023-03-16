@@ -9,3 +9,10 @@
 
 rostopic pub -1 /4ws/joint1_velocity_controller/command std_msgs/Float64 "data: 2"
 rostopic pub -1 /4ws/joint2_velocity_controller/command std_msgs/Float64 "data: 2"
+
+
+
+
+2 2 0.66 
+1 1 0.33
+

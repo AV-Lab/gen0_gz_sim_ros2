@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/python3
+
 import rospy
 import math
 from nav_msgs.msg import Odometry
@@ -24,7 +25,7 @@ class OdomEstimator:
         # Create the odometry message and set its frame IDs
         self.odom = Odometry()
         self.odom.header.frame_id = "odom"
-        self.odom.child_frame_id = "baselink"
+        self.odom.child_frame_id = "base_link"
 
         self.odom_trans = geometry_msgs.msg.TransformStamped()
 
@@ -45,12 +46,7 @@ class OdomEstimator:
         # Calculate the time elapsed since the last update
         dt = (current_time - self.odom.header.stamp).to_sec()
 
-
-        # Vx= speed*(math.cos(fr_steering) + math.cos(re_steering))/2
-        # Vy= speed*(math.sin(fr_steering) + math.sin(re_steering))/2
-        # yaw = -self.wheeltrack/2*math.cos(fr_steering)+ self.wheelbase/2
         Psi_prime= (speed*(math.tan(fr_steering ) - math.tan(re_steering)))/self.wheelbase
-        self.Psi += Psi_prime * dt
         Vx= speed * math.cos(self.Psi)
         Vy= speed * math.sin(self.Psi)
 
@@ -60,6 +56,7 @@ class OdomEstimator:
         # Update the robot's position and orientation based on the linear and angular velocity
         self.x += Vx * dt
         self.y += Vy * dt
+        self.Psi += Psi_prime * dt
         # self.theta += angular_velocity * dt
         print("the current position: ",self.x, self.y, self.Psi)
         # Create the quaternion for the robot's orientation
@@ -67,13 +64,6 @@ class OdomEstimator:
 
         # Fill in the odometry message with the current position, orientation, and velocity
         self.odom.header.stamp = current_time
-        # self.odom.pose.pose.position.x= self.x
-        # self.odom.pose.pose.position.y= self.y
-        # self.odom.pose.pose.position.z= 0.0
-        # self.odom.pose.pose.orientation=tf.transformations.quaternion_from_euler(0, 0, self.Psi)
-        # self.odom.twist.twist.linear.x = Vx
-        # self.odom.twist.twist.linear.y = Vy
-        # self.odom.twist.twist.angular.z = Psi_prime
 
         self.odom.pose.pose = Pose(Point(self.x, self.y, 0.), odom_quat)
         self.odom.twist.twist = Twist(Vector3(Vx, Vy, 0), Vector3(0, 0, Psi_prime))
@@ -84,7 +74,7 @@ class OdomEstimator:
 
         self.odom_trans.header.stamp = current_time
         self.odom_trans.header.frame_id = "odom"
-        self.odom_trans.child_frame_id = "baselink"
+        self.odom_trans.child_frame_id = "base_link"
         self.odom_trans.transform.translation.x = self.x
         self.odom_trans.transform.translation.y = self.y
         self.odom_trans.transform.translation.z = 0.0

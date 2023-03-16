@@ -71,7 +71,7 @@
   <!-- Define robot links -->
   <link name="base_link">
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 1.57079633"/>
+      <origin xyz="0 0 0" rpy="0 0 -1.57079633"/>
       <geometry>
         <mesh filename="package://4ws_robot/meshes/gen0_colored.dae"/>
       </geometry>
@@ -320,7 +320,7 @@
     </link>
 
     <!--Front Right Wheel-->
-    <joint name="front_right_wheel_joint" type="fixed">
+    <joint name="front_right_wheel_joint" type="continuous">
         <parent link="front_right_steering_link"/>
         <child link="front_right_wheel_link"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -418,7 +418,7 @@
 
 <!--Front Left Wheel-->
 
-    <joint name="front_left_wheel_joint" type="fixed">
+    <joint name="front_left_wheel_joint" type="continuous">
           <parent link="front_left_steering_link"/>
           <child link="front_left_wheel_link"/>
           <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -507,6 +507,30 @@
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>
     </transmission>
+
+    <!-- <transmission name="tran3">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="front_right_wheel_joint">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="motor3">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <transmission name="tran4">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="front_left_wheel_joint">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="motor4">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission> -->
+
+
 
     <transmission name="steering_back_left_transmission">
         <type>transmission_interface/SimpleTransmission</type>
