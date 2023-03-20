@@ -7,7 +7,7 @@ import can
 import time
 
 
-pub = rospy.Publisher('four_wheel_steering', FourWheelSteeringStamped, queue_size=10)
+pub = rospy.Publisher('four_wheel_steering_measurements', FourWheelSteeringStamped, queue_size=10)
 rospy.init_node('four_wheel_steering_publisher', anonymous=True)
 
 

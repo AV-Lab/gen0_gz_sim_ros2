@@ -24,7 +24,7 @@ class Gazebo4WS:
         self.steering_joint_frontR_pub=rospy.Publisher("/4ws/front_right_steering_position_controller/command", Float64, queue_size=50)
         self.steering_joint_rearL_pub=rospy.Publisher("/4ws/back_left_steering_position_controller/command", Float64, queue_size=50)
         self.steering_joint_rearR_pub=rospy.Publisher("/4ws/back_right_steering_position_controller/command", Float64, queue_size=50)
-        rospy.Subscriber("four_wheel_steering", FourWheelSteeringStamped, self.data_callback)
+        rospy.Subscriber("four_wheel_steering_input", FourWheelSteeringStamped, self.data_callback)
 
     def data_callback(self, msg):
         joints_value=  msg.data.speed * 3.030

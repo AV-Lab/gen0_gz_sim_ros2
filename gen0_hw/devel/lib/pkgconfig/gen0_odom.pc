@@ -1,8 +1,0 @@
-prefix=/home/av-ipc/Desktop/ezmile_gen0/gen0_hw/devel
-
-Name: gen0_odom
-Description: Description of gen0_odom
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

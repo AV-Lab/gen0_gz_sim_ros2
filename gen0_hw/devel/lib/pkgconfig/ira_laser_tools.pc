@@ -1,8 +1,0 @@
-prefix=/home/av-ipc/Desktop/ezmile_gen0/gen0_hw/devel
-
-Name: ira_laser_tools
-Description: Description of ira_laser_tools
-Version: 1.0.7
-Cflags: -I/home/av-ipc/Desktop/ezmile_gen0/gen0_hw/devel/include
-Libs: -L${prefix}/lib 
-Requires: 

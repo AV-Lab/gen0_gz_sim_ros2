@@ -1,5 +1,13 @@
 #!/usr/bin/python3
 
+
+"""
+It's important to note that the odom estimation works based on the current measurements of the vehicle not on the input to the vehicle
+
+Hence, we cant use four_wheel_steering_input topic for estimation. Instead we use four_wheel_steering_measurments
+
+"""
+
 import rospy
 import math
 from nav_msgs.msg import Odometry
@@ -35,7 +43,7 @@ class OdomEstimator:
         self.odom_quat = Quaternion()
 
         # Create a subscriber to listen for the speed, front steering, and rear steering data
-        rospy.Subscriber("four_wheel_steering", FourWheelSteeringStamped, self.data_callback)
+        rospy.Subscriber("four_wheel_steering_measurements", FourWheelSteeringStamped, self.data_callback, queue_size= 1)
 
     def data_callback(self, data):
         # Extract the current time and steering angles

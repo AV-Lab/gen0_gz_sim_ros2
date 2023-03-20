@@ -8,7 +8,7 @@ import math
 
 class Cmd4WS:
     def __init__(self):
-        self.pub = rospy.Publisher('four_wheel_steering', FourWheelSteeringStamped, queue_size=10)
+        self.pub = rospy.Publisher('four_wheel_steering_input', FourWheelSteeringStamped, queue_size=10)
         rospy.Subscriber("cmd_vel", Twist, self.data_callback)
         self.four_wheel_steering= FourWheelSteeringStamped()
         self.header= Header()
