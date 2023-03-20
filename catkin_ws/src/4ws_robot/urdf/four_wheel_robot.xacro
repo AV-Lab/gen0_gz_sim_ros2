@@ -508,7 +508,7 @@
         </actuator>
     </transmission>
 
-    <!-- <transmission name="tran3">
+    <transmission name="tran3">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="front_right_wheel_joint">
             <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
@@ -528,7 +528,7 @@
             <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>
-    </transmission> -->
+    </transmission>
 
 
 

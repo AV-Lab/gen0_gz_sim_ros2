@@ -9,6 +9,7 @@
 
   <!-- Launch Gazebo with an empty world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
+   <arg name="world_name" value="$(find 4ws_robot)/worlds/small_city_modified.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
@@ -25,11 +26,11 @@
     <remap from="/joint_states" to="/4ws/joint_states" />
   </node>
 
-<!-- Not needed as joints are already being published from controller manager-->
+<!-- No need as joint state controller ia already publishing the joints-->
 
-  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" respawn="false" output="screen">
-   <remap from="/joint_states" to="/4ws/joint_states" /> 
-  </node>
+  <!-- <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" respawn="false" output="screen">
+   <remap from="/joint_states" to="/4ws/joint_states" />
+  </node> -->
 
   <!-- Spawn robot in Gazebo -->
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -model four_wheel_opposite_steering -param robot_description"/>

@@ -23,6 +23,7 @@ class Measurements4WS:
     def data_callback(self, msg):
         id_back=msg.name.index("back_left_steering_joint") # we dont need to check the right joints because its always the same as the left
         id_front=msg.name.index("front_left_steering_joint") # front and back always have the same magnitude but opposite in sign 
+        id_sign=msg.name.index("back_left_wheel_joint") # to know which direction is the speed
 
         response = self.get_model_state(self.request)
         vx=response.twist.linear.x
@@ -32,7 +33,7 @@ class Measurements4WS:
             speed=0 
 
         self.four_wheel_steering.header=self.header
-        self.four_wheel_steering.data.speed=speed
+        self.four_wheel_steering.data.speed=math.copysign(speed, msg.velocity[id_sign])
         self.four_wheel_steering.data.front_steering_angle=msg.position[id_front]
         self.four_wheel_steering.data.rear_steering_angle= msg.position[id_back]
 
