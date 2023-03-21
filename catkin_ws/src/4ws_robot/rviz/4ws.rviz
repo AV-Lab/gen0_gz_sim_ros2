@@ -12,6 +12,7 @@ Panels:
         - /Map3
         - /Path1
         - /Path2
+        - /LaserScan1
       Splitter Ratio: 0.5
     Tree Height: 746
   - Class: rviz/Selection
@@ -129,6 +130,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        sick_lidar_fr_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
@@ -241,11 +247,39 @@ Visualization Manager:
       Topic: /move_base/TebLocalPlannerROS/local_plan
       Unreliable: false
       Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: LaserScan
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 1
+      Style: Flat Squares
+      Topic: /sick_lidar_fr/scan
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: map
+    Fixed Frame: main_mass
     Frame Rate: 30
   Name: root
   Tools:
@@ -269,7 +303,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 0.132455974817276
+      Distance: 0.4089723229408264
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -277,17 +311,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 7.008960247039795
-        Y: -0.04207019507884979
-        Z: 15.240106582641602
+        X: 1.6547515392303467
+        Y: 0.10365542769432068
+        Z: 15.113029479980469
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.5697963237762451
+      Pitch: 1.4897964000701904
       Target Frame: <Fixed Frame>
-      Yaw: 6.1235857009887695
+      Yaw: 4.388583183288574
     Saved: ~
 Window Geometry:
   Displays:

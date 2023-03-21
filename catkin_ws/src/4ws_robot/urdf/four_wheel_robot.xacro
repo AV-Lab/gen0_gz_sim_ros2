@@ -481,9 +481,127 @@
 <!-- Lidars to be installed -->
 
   <xacro:include filename="$(find 4ws_robot)/urdf/os1_64.urdf.xacro"/>
-  <xacro:os1_64 parent="base" name="ouster" prefix="/os1_cloud_node" hz="20" samples="512">
+  <xacro:os1_64 parent="base" name="ouster" prefix="/os1_cloud_node" hz="10" samples="512">
     <origin xyz="0 0 3.0" rpy="0 0 0" />
   </xacro:os1_64>
+
+<!-- Lidars to be installed -->
+
+<joint name="sick_lidar_fl_joint" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="1.9 0.8 0.3" rpy="${PI} 0 ${3*PI/4}"/>
+    <parent link="base_link"/>
+    <child link="sick_lidar_fl_link"/>
+  </joint>
+
+  <link name="sick_lidar_fl_link">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://4ws_robot/meshes/sick_lidar.obj"/>
+      </geometry>
+    </visual>
+
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+<joint name="sick_lidar_fr_joint" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="1.8 -0.8 0.3" rpy="${PI} 0 ${PI/4}"/>
+    <parent link="base_link"/>
+    <child link="sick_lidar_fr_link"/>
+  </joint>
+  
+  <link name="sick_lidar_fr_link">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://4ws_robot/meshes/sick_lidar.obj"/>
+      </geometry>
+    </visual>
+
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+  <joint name="sick_lidar_rl_joint" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="-1.75 0.85 0.3" rpy="${PI} 0 ${5*PI/4}"/>
+    <parent link="base_link"/>
+    <child link="sick_lidar_rl_link"/>
+  </joint>
+  
+  <link name="sick_lidar_rl_link">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://4ws_robot/meshes/sick_lidar.obj"/>
+      </geometry>
+    </visual>
+
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+    <joint name="sick_lidar_rr_joint" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="-1.85 -0.8 0.3" rpy="${PI} 0 ${-PI/4}"/>
+    <parent link="base_link"/>
+    <child link="sick_lidar_rr_link"/>
+  </joint>
+  
+  <link name="sick_lidar_rr_link">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://4ws_robot/meshes/sick_lidar.obj"/>
+      </geometry>
+    </visual>
+
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
 
 <!-- motors and transmissions for the two rear wheels -->
     <transmission name="tran1">
@@ -586,6 +704,153 @@
     <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
   </plugin>
 </gazebo>
+
+
+
+<gazebo reference="sick_lidar_fl_link">
+    <sensor type="ray" name="sick_lidar_fl">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>40</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1</resolution>
+            <min_angle>0</min_angle>
+            <max_angle>3.141592</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.5</min>
+          <max>30.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise parameters based on published spec for Hokuyo laser
+               achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
+               stddev of 0.01m will put 99.7% of samples within 0.03m of the true
+               reading. -->
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_fl_lidar" filename="libgazebo_ros_laser.so">
+        <topicName>sick_lidar_fl/scan</topicName>
+        <frameName>sick_lidar_fl_link</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+
+<gazebo reference="sick_lidar_fr_link">
+    <sensor type="ray" name="sick_lidar_fr">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>40</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1</resolution>
+            <min_angle>0</min_angle>
+            <max_angle>3.141592</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.5</min>
+          <max>30.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise parameters based on published spec for Hokuyo laser
+               achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
+               stddev of 0.01m will put 99.7% of samples within 0.03m of the true
+               reading. -->
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_fr_lidar" filename="libgazebo_ros_laser.so">
+        <topicName>sick_lidar_fr/scan</topicName>
+        <frameName>sick_lidar_fr_link</frameName>
+      </plugin>
+    </sensor>
+    </gazebo>
+
+    <gazebo reference="sick_lidar_rl_link">
+    <sensor type="ray" name="sick_lidar_rl">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>40</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1</resolution>
+            <min_angle>0</min_angle>
+            <max_angle>3.141592</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.5</min>
+          <max>30.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise parameters based on published spec for Hokuyo laser
+               achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
+               stddev of 0.01m will put 99.7% of samples within 0.03m of the true
+               reading. -->
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_rl_lidar" filename="libgazebo_ros_laser.so">
+        <topicName>sick_lidar_rl/scan</topicName>
+        <frameName>sick_lidar_rl_link</frameName>
+      </plugin>
+    </sensor>
+    </gazebo>
+
+    <gazebo reference="sick_lidar_rr_link">
+    <sensor type="ray" name="sick_lidar_rr">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>40</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1</resolution>
+            <min_angle>0</min_angle>
+            <max_angle>3.141592</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.5</min>
+          <max>30.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise parameters based on published spec for Hokuyo laser
+               achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
+               stddev of 0.01m will put 99.7% of samples within 0.03m of the true
+               reading. -->
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_rr_lidar" filename="libgazebo_ros_laser.so">
+        <topicName>sick_lidar_rr/scan</topicName>
+        <frameName>sick_lidar_rr_link</frameName>
+      </plugin>
+    </sensor>
+    </gazebo>
 
 </robot>
 

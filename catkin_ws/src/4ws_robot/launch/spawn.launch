@@ -9,7 +9,7 @@
 
   <!-- Launch Gazebo with an empty world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-   <arg name="world_name" value="$(find 4ws_robot)/worlds/small_city_modified.world"/>
+   <!-- <arg name="world_name" value="$(find 4ws_robot)/worlds/small_city_modified.world"/> -->
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
