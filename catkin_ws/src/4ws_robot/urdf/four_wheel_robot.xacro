@@ -505,8 +505,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://4ws_robot/meshes/sick_lidar.obj"/>
+        <cylinder length="0.1" radius="0.03"/>
       </geometry>
+         <material name="red"/>
     </visual>
 
     <inertial>
@@ -534,8 +535,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://4ws_robot/meshes/sick_lidar.obj"/>
+       <cylinder length="0.1" radius="0.03"/>
       </geometry>
+        <material name="red"/>
     </visual>
 
     <inertial>
@@ -563,8 +565,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://4ws_robot/meshes/sick_lidar.obj"/>
+        <cylinder length="0.1" radius="0.03"/>
       </geometry>
+        <material name="red"/>
     </visual>
 
     <inertial>
@@ -592,8 +595,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://4ws_robot/meshes/sick_lidar.obj"/>
+        <cylinder length="0.1" radius="0.03"/>
       </geometry>
+        <material name="red"/>
     </visual>
 
     <inertial>
@@ -710,7 +714,7 @@
 <gazebo reference="sick_lidar_fl_link">
     <sensor type="ray" name="sick_lidar_fl">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>40</update_rate>
       <ray>
         <scan>
@@ -728,10 +732,6 @@
         </range>
         <noise>
           <type>gaussian</type>
-          <!-- Noise parameters based on published spec for Hokuyo laser
-               achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
-               stddev of 0.01m will put 99.7% of samples within 0.03m of the true
-               reading. -->
           <mean>0.0</mean>
           <stddev>0.01</stddev>
         </noise>
@@ -747,7 +747,7 @@
 <gazebo reference="sick_lidar_fr_link">
     <sensor type="ray" name="sick_lidar_fr">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>40</update_rate>
       <ray>
         <scan>
@@ -765,10 +765,6 @@
         </range>
         <noise>
           <type>gaussian</type>
-          <!-- Noise parameters based on published spec for Hokuyo laser
-               achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
-               stddev of 0.01m will put 99.7% of samples within 0.03m of the true
-               reading. -->
           <mean>0.0</mean>
           <stddev>0.01</stddev>
         </noise>
@@ -783,7 +779,7 @@
     <gazebo reference="sick_lidar_rl_link">
     <sensor type="ray" name="sick_lidar_rl">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>40</update_rate>
       <ray>
         <scan>
@@ -801,10 +797,6 @@
         </range>
         <noise>
           <type>gaussian</type>
-          <!-- Noise parameters based on published spec for Hokuyo laser
-               achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
-               stddev of 0.01m will put 99.7% of samples within 0.03m of the true
-               reading. -->
           <mean>0.0</mean>
           <stddev>0.01</stddev>
         </noise>
@@ -819,7 +811,7 @@
     <gazebo reference="sick_lidar_rr_link">
     <sensor type="ray" name="sick_lidar_rr">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>40</update_rate>
       <ray>
         <scan>
@@ -837,10 +829,6 @@
         </range>
         <noise>
           <type>gaussian</type>
-          <!-- Noise parameters based on published spec for Hokuyo laser
-               achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
-               stddev of 0.01m will put 99.7% of samples within 0.03m of the true
-               reading. -->
           <mean>0.0</mean>
           <stddev>0.01</stddev>
         </noise>
@@ -851,6 +839,30 @@
       </plugin>
     </sensor>
     </gazebo>
+
+<!-- COLORS -->
+
+   <material name="Red"> -->
+    <color rgba="${255/255} ${0} ${0} 1.0"/>
+  </material>   
+
+
+<gazebo reference="sick_lidar_rr_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+
+  <gazebo reference="sick_lidar_rl_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+
+  <gazebo reference="sick_lidar_fr_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+
+  <gazebo reference="sick_lidar_fl_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+
 
 </robot>
 

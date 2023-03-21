@@ -7425,3 +7425,7 @@ gen0_hw/devel/share/ira_laser_tools/docs/laserscan_multi_mergerConfig.wikidoc
 gen0_hw/devel/share/ira_laser_tools/docs/laserscan_virtualizerConfig-usage.dox
 gen0_hw/devel/share/ira_laser_tools/docs/laserscan_virtualizerConfig.dox
 gen0_hw/devel/share/ira_laser_tools/docs/laserscan_virtualizerConfig.wikidoc
+catkin_ws/src/4ws_robot/meshes/sick_lidar.mtl
+catkin_ws/src/4ws_robot/meshes/sick_lidar.obj
+catkin_ws/src/4ws_robot/meshes/sick_lidar.zip
+catkin_ws/src/4ws_robot/meshes/sick_lidar.zip
