@@ -85,12 +85,7 @@
   <node name="sick_ldmrs_object_marker_rear" pkg="sick_ldmrs_tools" type="sick_ldmrs_object_marker" output="screen" />
 
   </group>
-
-  <!-- <node name="baselink_to_ldmrs1_tf" pkg="tf2_ros" type="static_transform_publisher" output="screen" args="0 0 3.5 0 0.0 0.0 baselink ldmrs1" />
-
-  <node name="baselink_to_ldmrs2_tf" pkg="tf2_ros" type="static_transform_publisher" output="screen" args="-0.15 0 3.5 3.14 0.0 0.0 baselink ldmrs2" /> -->
-
-  <node name="baselink_to_lmdrsx_tf" pkg="tf2_ros" type="static_transform_publisher" output="screen" args="0 0 3.5 0 0.0 0.0 baselink ldmrsx" />
+  
 
   <!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find sick_ldmrs_tools)/config/sick_ldmrs.rviz" /> -->
 

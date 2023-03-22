@@ -1,16 +1,40 @@
 <!-- DESCRITPION -->
 
 <launch>
-	<node pkg="ira_laser_tools" name="laserscan_multi_merger" type="laserscan_multi_merger" output="screen">
-	<param name="destination_frame" value="ldmrsx"/>
-	<param name="cloud_destination_topic" value="/merged_cloud"/>
-	<param name="scan_destination_topic" value="/merged_scan"/>
-	<param name="laserscan_topics" value ="/rear_lidar/scan /front_lidar/scan" /> <!-- LIST OF THE LASER SCAN TOPICS TO SUBSCRIBE -->
-	<param name="angle_min" value="-3.1415"/>
-	<param name="angle_max" value="3.1415"/>
-	<param name="angle_increment" value="0.0058"/>
-	<param name="scan_time" value="0.0333333"/>
-	<param name="range_min" value="0.30"/>
-	<param name="range_max" value="90.0"/>
+
+
+<node name="baselink_to_localization_lidars_tf" pkg="tf2_ros" type="static_transform_publisher" output="screen" args="0 0 3.0 0 0.0 0.0 base_link localization_lidars" />
+<node name="baselink_to_navigation_lidars_tf" pkg="tf2_ros" type="static_transform_publisher" output="screen" args="0 0 3.0 0 0.0 0.0 base_link navigation_lidars" />
+
+<group ns="localization_lidars">
+	<node pkg="ira_laser_tools" name="laserscan_multi_merger_localization" type="laserscan_multi_merger" output="screen">
+		<param name="destination_frame" value="localization_lidars"/>
+		<param name="cloud_destination_topic" value="/merged_cloud_localization"/>
+		<param name="scan_destination_topic" value="/merged_scan_localization"/>
+		<param name="laserscan_topics" value ="/top_rear_lidar/scan /top_front_lidar/scan" /> <!-- LIST OF THE LASER SCAN TOPICS TO SUBSCRIBE -->
+		<param name="angle_min" value="-3.1415"/>
+		<param name="angle_max" value="3.1415"/>
+		<param name="angle_increment" value="0.0058"/>
+		<param name="scan_time" value="0.0333333"/>
+		<param name="range_min" value="0.30"/>
+		<param name="range_max" value="90.0"/>
 	</node>
+</group>
+
+<group ns="navigation_lidars">
+	<node pkg="ira_laser_tools" name="laserscan_multi_merger_navigation" type="laserscan_multi_merger" output="screen">
+		<param name="destination_frame" value="navigation_lidars"/>
+		<param name="cloud_destination_topic" value="/merged_cloud_navigation"/>
+		<param name="scan_destination_topic" value="/merged_scan_navigation"/>
+		<param name="laserscan_topics" value ="/scan_FL /scan_FR /scan_RL /scan_RR" /> <!-- LIST OF THE LASER SCAN TOPICS TO SUBSCRIBE -->
+		<param name="angle_min" value="-3.1415"/>
+		<param name="angle_max" value="3.1415"/> 
+		<param name="angle_increment" value="0.0058"/>
+		<param name="scan_time" value="0.0333333"/>
+		<param name="range_min" value="0.30"/>
+		<param name="range_max" value="90.0"/>
+	</node>
+</group>
+
+
 </launch>

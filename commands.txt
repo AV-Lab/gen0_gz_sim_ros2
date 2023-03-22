@@ -3,3 +3,16 @@ roslaunch sick_ldmrs_driver sick_ldmrs_node.launch
 roslaunch gen0_odom points_to_scan.launch 
 roslaunch ira_laser_tools laserscan_multi_merger.launch 
 roslaunch gen0_odom gen0_gmapping.launch
+
+
+
+
+
+
+Mar 22 2023 Commands:
+
+roslaunch gen0_main main.launch
+roslaunch lms1xx LMS1xx.launch
+roslaunch sick_ldmrs_driver sick_ldmrs_node.launch
+roslaunch gen0_odom points_to_scan.launch
+roslaunch ira_laser_tools laserscan_multi_merger.launch
