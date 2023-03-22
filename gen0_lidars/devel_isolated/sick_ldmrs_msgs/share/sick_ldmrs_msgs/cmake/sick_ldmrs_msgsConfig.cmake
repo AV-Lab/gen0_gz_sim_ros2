@@ -67,14 +67,14 @@ set(sick_ldmrs_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(sick_ldmrs_msgs_SOURCE_PREFIX /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs)
-  set(sick_ldmrs_msgs_DEVEL_PREFIX /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_msgs)
+  set(sick_ldmrs_msgs_SOURCE_PREFIX /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs)
+  set(sick_ldmrs_msgs_DEVEL_PREFIX /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_msgs)
   set(sick_ldmrs_msgs_INSTALL_PREFIX "")
   set(sick_ldmrs_msgs_PREFIX ${sick_ldmrs_msgs_DEVEL_PREFIX})
 else()
   set(sick_ldmrs_msgs_SOURCE_PREFIX "")
   set(sick_ldmrs_msgs_DEVEL_PREFIX "")
-  set(sick_ldmrs_msgs_INSTALL_PREFIX /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated)
+  set(sick_ldmrs_msgs_INSTALL_PREFIX /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/install_isolated)
   set(sick_ldmrs_msgs_PREFIX ${sick_ldmrs_msgs_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(sick_ldmrs_msgs_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_msgs/include;/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs/include " STREQUAL " ")
+if(NOT "/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_msgs/include;/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs/include " STREQUAL " ")
   set(sick_ldmrs_msgs_INCLUDE_DIRS "")
-  set(_include_dirs "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_msgs/include;/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs/include")
+  set(_include_dirs "/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_msgs/include;/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/sick_ldmrs_msgs " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_m
         message(FATAL_ERROR "Project 'sick_ldmrs_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'sick_ldmrs_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'sick_ldmrs_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs/${idir}'.  ${_report}")
     endif()
     _list_append_unique(sick_ldmrs_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_msgs/lib;/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated/lib;/home/av-ipc/gen0_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_msgs/lib;/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/install_isolated/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

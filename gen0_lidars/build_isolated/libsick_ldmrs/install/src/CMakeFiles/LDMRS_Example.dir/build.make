@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs
+CMAKE_SOURCE_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install
+CMAKE_BINARY_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/LDMRS_Example.dir/depend.make
@@ -58,17 +58,17 @@ include src/CMakeFiles/LDMRS_Example.dir/progress.make
 include src/CMakeFiles/LDMRS_Example.dir/flags.make
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsApp.cpp
+src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsApp.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o.provides.build: src/
 
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsFieldApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsFieldApp.cpp
+src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsFieldApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsFieldApp.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsFieldApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsFieldApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsFieldApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsFieldApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o.requires:
 
@@ -106,17 +106,17 @@ src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o.provides.build:
 
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsSectorChangeApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsSectorChangeApp.cpp
+src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsSectorChangeApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsSectorChangeApp.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsSectorChangeApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsSectorChangeApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsSectorChangeApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsSectorChangeApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o.requires:
 
@@ -130,17 +130,17 @@ src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o.provides
 
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsNtpTimeApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsNtpTimeApp.cpp
+src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsNtpTimeApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsNtpTimeApp.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsNtpTimeApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsNtpTimeApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsNtpTimeApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsNtpTimeApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o.requires:
 
@@ -154,17 +154,17 @@ src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o.provides.buil
 
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsScanpointCoordinateApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsScanpointCoordinateApp.cpp
+src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsScanpointCoordinateApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsScanpointCoordinateApp.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsScanpointCoordinateApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsScanpointCoordinateApp.cpp > CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsScanpointCoordinateApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/LdmrsScanpointCoordinateApp.cpp -o CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o.requires:
 
@@ -178,17 +178,17 @@ src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o.p
 
 
 src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/BasicApplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/BasicApplication.cpp
+src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/BasicApplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/BasicApplication.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/BasicApplication.cpp > CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/BasicApplication.cpp > CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/BasicApplication.cpp -o CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/application/BasicApplication.cpp -o CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o.requires:
 
@@ -202,17 +202,17 @@ src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o.provides.bui
 
 
 src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/BasicDevice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/BasicDevice.cpp
+src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/BasicDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/BasicDevice.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/BasicDevice.cpp > CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/BasicDevice.cpp > CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/BasicDevice.cpp -o CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/BasicDevice.cpp -o CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o.requires:
 
@@ -226,17 +226,17 @@ src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o.provides.build: src/C
 
 
 src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LD_MRS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LD_MRS.cpp
+src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LD_MRS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LD_MRS.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LD_MRS.cpp > CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LD_MRS.cpp > CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LD_MRS.cpp -o CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LD_MRS.cpp -o CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o.requires:
 
@@ -250,17 +250,17 @@ src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o.provides.build: src/CMakeF
 
 
 src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LuxBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LuxBase.cpp
+src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LuxBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LuxBase.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LuxBase.cpp > CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LuxBase.cpp > CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LuxBase.cpp -o CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/devices/LuxBase.cpp -o CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o.requires:
 
@@ -274,17 +274,17 @@ src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o.provides.build: src/CMake
 
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/LdmrsSopasLayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/LdmrsSopasLayer.cpp
+src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/LdmrsSopasLayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/LdmrsSopasLayer.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/LdmrsSopasLayer.cpp > CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/LdmrsSopasLayer.cpp > CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/LdmrsSopasLayer.cpp -o CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/LdmrsSopasLayer.cpp -o CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o.requires:
 
@@ -298,17 +298,17 @@ src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o.provides.build: src
 
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/SopasBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/SopasBase.cpp
+src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/SopasBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/SopasBase.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/SopasBase.cpp > CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/SopasBase.cpp > CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/SopasBase.cpp -o CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/SopasBase.cpp -o CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o.requires:
 
@@ -322,17 +322,17 @@ src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o.provides.build: src/CMake
 
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colaa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colaa.cpp
+src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colaa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colaa.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colaa.cpp > CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colaa.cpp > CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colaa.cpp -o CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colaa.cpp -o CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o.requires:
 
@@ -346,17 +346,17 @@ src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o.provides.build: src/CMakeFile
 
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colab.cpp
+src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colab.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colab.cpp > CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colab.cpp > CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colab.cpp -o CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/sopas/colab.cpp -o CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o.requires:
 
@@ -370,17 +370,17 @@ src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o.provides.build: src/CMakeFile
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Measurement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Measurement.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Measurement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Measurement.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Measurement.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Measurement.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Measurement.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Measurement.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o.requires:
 
@@ -394,17 +394,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o.provides.build: src
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/SensorStateInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/SensorStateInfo.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/SensorStateInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/SensorStateInfo.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/SensorStateInfo.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/SensorStateInfo.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/SensorStateInfo.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/SensorStateInfo.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o.requires:
 
@@ -418,17 +418,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o.provides.build:
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Fields.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Fields.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Fields.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Fields.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Fields.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Fields.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Fields.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Fields.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o.requires:
 
@@ -442,17 +442,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o.provides.build: src/CMak
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldParameter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldParameter.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldParameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldParameter.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldParameter.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldParameter.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldParameter.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldParameter.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o.requires:
 
@@ -466,17 +466,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o.provides.build: 
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldDescription.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldDescription.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldDescription.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldDescription.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldDescription.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldDescription.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/FieldDescription.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o.requires:
 
@@ -490,17 +490,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o.provides.build
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCase.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCase.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCase.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCase.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCase.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCase.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o.requires:
 
@@ -514,17 +514,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o.provides.build: src/CM
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCases.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCases.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCases.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCases.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCases.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCases.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCases.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCases.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o.requires:
 
@@ -538,17 +538,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o.provides.build: src/C
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResult.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResult.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResult.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResult.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResult.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResult.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o.requires:
 
@@ -562,17 +562,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o.provides.build: 
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResults.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResults.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResults.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResults.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResults.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResults.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResults.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/EvalCaseResults.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o.requires:
 
@@ -586,17 +586,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o.provides.build:
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon2D.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon2D.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o.requires:
 
@@ -610,17 +610,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o.provides.build: src/C
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon3D.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon3D.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon3D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon3D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon3D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Polygon3D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o.requires:
 
@@ -634,17 +634,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o.provides.build: src/C
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Trigger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Trigger.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Trigger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Trigger.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Trigger.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Trigger.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Trigger.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Trigger.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o.requires:
 
@@ -658,17 +658,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o.provides.build: src/CMa
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point2D.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point2D.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o.requires:
 
@@ -682,17 +682,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o.provides.build: src/CMa
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point3D.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point3D.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point3D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point3D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point3D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Point3D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o.requires:
 
@@ -706,17 +706,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o.provides.build: src/CMa
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Position3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Position3D.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Position3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Position3D.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Position3D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Position3D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Position3D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Position3D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o.requires:
 
@@ -730,17 +730,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o.provides.build: src/
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/PositionWGS84.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/PositionWGS84.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/PositionWGS84.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/PositionWGS84.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/PositionWGS84.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/PositionWGS84.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/PositionWGS84.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/PositionWGS84.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o.requires:
 
@@ -754,17 +754,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o.provides.build: s
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Circle2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Circle2D.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Circle2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Circle2D.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Circle2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Circle2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Circle2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Circle2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o.requires:
 
@@ -778,17 +778,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o.provides.build: src/CM
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Ellipse2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Ellipse2D.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Ellipse2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Ellipse2D.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Ellipse2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Ellipse2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Ellipse2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Ellipse2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o.requires:
 
@@ -802,17 +802,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o.provides.build: src/C
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Box2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Box2D.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Box2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Box2D.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Box2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Box2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Box2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Box2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o.requires:
 
@@ -826,17 +826,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o.provides.build: src/CMake
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Line2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Line2D.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Line2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Line2D.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Line2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Line2D.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Line2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Line2D.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o.requires:
 
@@ -850,17 +850,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o.provides.build: src/CMak
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Msg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Msg.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Msg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Msg.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Msg.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Msg.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Msg.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Msg.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o.requires:
 
@@ -874,17 +874,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o.provides.build: src/CMakeFi
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Scan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Scan.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Scan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Scan.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Scan.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Scan.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Scan.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Scan.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o.requires:
 
@@ -898,17 +898,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o.provides.build: src/CMakeF
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScanPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScanPoint.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScanPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScanPoint.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScanPoint.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScanPoint.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScanPoint.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScanPoint.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o.requires:
 
@@ -922,17 +922,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o.provides.build: src/C
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScannerInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScannerInfo.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScannerInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScannerInfo.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScannerInfo.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScannerInfo.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScannerInfo.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/ScannerInfo.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o.requires:
 
@@ -946,17 +946,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o.provides.build: src
 
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Object.cpp
+src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Object.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Object.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Object.cpp > CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Object.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/datatypes/Object.cpp -o CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o.requires:
 
@@ -970,17 +970,17 @@ src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o.provides.build: src/CMak
 
 
 src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/tcp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/tcp.cpp
+src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/tcp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/tcp.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/tcp.cpp > CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/tcp.cpp > CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/tcp.cpp -o CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/tcp.cpp -o CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o.requires:
 
@@ -994,17 +994,17 @@ src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o.provides.build: src/CMakeF
 
 
 src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/file.cpp
+src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/file.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/file.cpp > CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/file.cpp > CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/file.cpp -o CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/interfaces/file.cpp -o CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o.requires:
 
@@ -1018,17 +1018,17 @@ src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o.provides.build: src/CMake
 
 
 src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/errorhandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/errorhandler.cpp
+src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/errorhandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/errorhandler.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/errorhandler.cpp > CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/errorhandler.cpp > CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/errorhandler.cpp -o CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/errorhandler.cpp -o CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o.requires:
 
@@ -1042,17 +1042,17 @@ src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o.provides.build: src/CM
 
 
 src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/SickThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/SickThread.cpp
+src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/SickThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/SickThread.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/SickThread.cpp > CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/SickThread.cpp > CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/SickThread.cpp -o CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/SickThread.cpp -o CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o.requires:
 
@@ -1066,17 +1066,17 @@ src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o.provides.build: src/CMak
 
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Mutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Mutex.cpp
+src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Mutex.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Mutex.cpp > CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Mutex.cpp > CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Mutex.cpp -o CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Mutex.cpp -o CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o.requires:
 
@@ -1090,17 +1090,17 @@ src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o.provides.build: src/CMakeFile
 
 
 src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/toolbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/toolbox.cpp
+src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/toolbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/toolbox.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/toolbox.cpp > CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/toolbox.cpp > CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/toolbox.cpp -o CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/toolbox.cpp -o CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o.requires:
 
@@ -1114,17 +1114,17 @@ src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o.provides.build: src/CMakeFi
 
 
 src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/MathToolbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/MathToolbox.cpp
+src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/MathToolbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/MathToolbox.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/MathToolbox.cpp > CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/MathToolbox.cpp > CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/MathToolbox.cpp -o CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/MathToolbox.cpp -o CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o.requires:
 
@@ -1138,17 +1138,17 @@ src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o.provides.build: src/CMa
 
 
 src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/BasicDataBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/BasicDataBuffer.cpp
+src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/BasicDataBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/BasicDataBuffer.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/BasicDataBuffer.cpp > CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/BasicDataBuffer.cpp > CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/BasicDataBuffer.cpp -o CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/BasicDataBuffer.cpp -o CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o.requires:
 
@@ -1162,17 +1162,17 @@ src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o.provides.build: src
 
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Timer.cpp
+src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Timer.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Timer.cpp > CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Timer.cpp > CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Timer.cpp -o CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Timer.cpp -o CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o.requires:
 
@@ -1186,17 +1186,17 @@ src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o.provides.build: src/CMakeFile
 
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Time.cpp
+src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Time.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Time.cpp > CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Time.cpp > CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Time.cpp -o CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/Time.cpp -o CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o.requires:
 
@@ -1210,17 +1210,17 @@ src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o.provides.build: src/CMakeFiles
 
 
 src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/WatchdogTimer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/WatchdogTimer.cpp
+src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/WatchdogTimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/WatchdogTimer.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/WatchdogTimer.cpp > CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/WatchdogTimer.cpp > CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/WatchdogTimer.cpp -o CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/tools/WatchdogTimer.cpp -o CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o.requires:
 
@@ -1234,17 +1234,17 @@ src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o.provides.build: src/C
 
 
 src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/manager.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/manager.cpp
+src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/manager.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/manager.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/manager.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/manager.cpp > CMakeFiles/LDMRS_Example.dir/manager.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/manager.cpp > CMakeFiles/LDMRS_Example.dir/manager.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/manager.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/manager.cpp -o CMakeFiles/LDMRS_Example.dir/manager.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/manager.cpp -o CMakeFiles/LDMRS_Example.dir/manager.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o.requires:
 
@@ -1258,17 +1258,17 @@ src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o.provides.build: src/CMakeFiles/LD
 
 
 src/CMakeFiles/LDMRS_Example.dir/main.cpp.o: src/CMakeFiles/LDMRS_Example.dir/flags.make
-src/CMakeFiles/LDMRS_Example.dir/main.cpp.o: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/main.cpp.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/main.cpp.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/main.cpp
+src/CMakeFiles/LDMRS_Example.dir/main.cpp.o: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/CMakeFiles/LDMRS_Example.dir/main.cpp.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LDMRS_Example.dir/main.cpp.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/main.cpp
 
 src/CMakeFiles/LDMRS_Example.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LDMRS_Example.dir/main.cpp.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/main.cpp > CMakeFiles/LDMRS_Example.dir/main.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/main.cpp > CMakeFiles/LDMRS_Example.dir/main.cpp.i
 
 src/CMakeFiles/LDMRS_Example.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LDMRS_Example.dir/main.cpp.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/main.cpp -o CMakeFiles/LDMRS_Example.dir/main.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src/main.cpp -o CMakeFiles/LDMRS_Example.dir/main.cpp.s
 
 src/CMakeFiles/LDMRS_Example.dir/main.cpp.o.requires:
 
@@ -1391,8 +1391,8 @@ src/LDMRS_Example: src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o
 src/LDMRS_Example: src/CMakeFiles/LDMRS_Example.dir/main.cpp.o
 src/LDMRS_Example: src/CMakeFiles/LDMRS_Example.dir/build.make
 src/LDMRS_Example: src/CMakeFiles/LDMRS_Example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking CXX executable LDMRS_Example"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LDMRS_Example.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking CXX executable LDMRS_Example"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LDMRS_Example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/LDMRS_Example.dir/build: src/LDMRS_Example
@@ -1454,10 +1454,10 @@ src/CMakeFiles/LDMRS_Example.dir/requires: src/CMakeFiles/LDMRS_Example.dir/main
 .PHONY : src/CMakeFiles/LDMRS_Example.dir/requires
 
 src/CMakeFiles/LDMRS_Example.dir/clean:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && $(CMAKE_COMMAND) -P CMakeFiles/LDMRS_Example.dir/cmake_clean.cmake
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src && $(CMAKE_COMMAND) -P CMakeFiles/LDMRS_Example.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/LDMRS_Example.dir/clean
 
 src/CMakeFiles/LDMRS_Example.dir/depend:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src/CMakeFiles/LDMRS_Example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src/CMakeFiles/LDMRS_Example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/LDMRS_Example.dir/depend
 

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated")
+  set(CMAKE_INSTALL_PREFIX "/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/install_isolated")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_laser
+CMAKE_SOURCE_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_laser
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser
+CMAKE_BINARY_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser
 
 # Include any dependencies generated for this target.
 include gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend.make
@@ -59,16 +59,16 @@ include gtest/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: gtest/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: /usr/src/googletest/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc
 
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/googletest/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/googletest/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/googletest/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/googletest/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires:
 
@@ -91,8 +91,8 @@ gtest_EXTERNAL_OBJECTS =
 gtest/googlemock/gtest/libgtest.so: gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 gtest/googlemock/gtest/libgtest.so: gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make
 gtest/googlemock/gtest/libgtest.so: gtest/googlemock/gtest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libgtest.so"
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libgtest.so"
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/build: gtest/googlemock/gtest/libgtest.so
@@ -104,10 +104,10 @@ gtest/googlemock/gtest/CMakeFiles/gtest.dir/requires: gtest/googlemock/gtest/CMa
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/requires
 
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_laser /usr/src/googletest/googletest /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_laser /usr/src/googletest/googletest /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 

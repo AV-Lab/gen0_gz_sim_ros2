@@ -1,4 +1,4 @@
-prefix=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated
+prefix=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/install_isolated
 
 Name: sick_ldmrs_driver
 Description: Description of sick_ldmrs_driver

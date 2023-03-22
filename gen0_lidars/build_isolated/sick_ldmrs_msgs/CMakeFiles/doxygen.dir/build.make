@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs
+CMAKE_SOURCE_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs
+CMAKE_BINARY_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_msgs /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_msgs/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

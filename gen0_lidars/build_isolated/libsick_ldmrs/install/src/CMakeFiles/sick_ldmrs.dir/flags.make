@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC
 
 CXX_DEFINES = -Dsick_ldmrs_EXPORTS
 
-CXX_INCLUDES = -I/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/include -I/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src -I/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src 
+CXX_INCLUDES = -I/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/include -I/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src -I/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs/src 
 

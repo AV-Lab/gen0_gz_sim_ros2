@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aa9b5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aa9b5.dir/build.make CMakeFiles/cmTC_aa9b5.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aa9b5.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_aa9b5.dir/CheckSymbolExists.c.o   -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_aa9b5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa9b5.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_aa9b5.dir/CheckSymbolExists.c.o  -o cmTC_aa9b5 
-CMakeFiles/cmTC_aa9b5.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_da5c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da5c6.dir/build.make CMakeFiles/cmTC_da5c6.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da5c6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_da5c6.dir/CheckSymbolExists.c.o   -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_da5c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da5c6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_da5c6.dir/CheckSymbolExists.c.o  -o cmTC_da5c6 
+CMakeFiles/cmTC_da5c6.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_aa9b5.dir/build.make:97: recipe for target 'cmTC_aa9b5' failed
-make[1]: *** [cmTC_aa9b5] Error 1
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_aa9b5/fast' failed
-make: *** [cmTC_aa9b5/fast] Error 2
+CMakeFiles/cmTC_da5c6.dir/build.make:97: recipe for target 'cmTC_da5c6' failed
+make[1]: *** [cmTC_da5c6] Error 1
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_da5c6/fast' failed
+make: *** [cmTC_da5c6/fast] Error 2
 
-File /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a9b5d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a9b5d.dir/build.make CMakeFiles/cmTC_a9b5d.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a9b5d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a9b5d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a9b5d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b5d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a9b5d.dir/CheckFunctionExists.c.o  -o cmTC_a9b5d -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_e2012/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2012.dir/build.make CMakeFiles/cmTC_e2012.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2012.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e2012.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2012.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e2012.dir/CheckFunctionExists.c.o  -o cmTC_e2012 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_a9b5d.dir/build.make:97: recipe for target 'cmTC_a9b5d' failed
-make[1]: *** [cmTC_a9b5d] Error 1
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a9b5d/fast' failed
-make: *** [cmTC_a9b5d/fast] Error 2
+CMakeFiles/cmTC_e2012.dir/build.make:97: recipe for target 'cmTC_e2012' failed
+make[1]: *** [cmTC_e2012] Error 1
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e2012/fast' failed
+make: *** [cmTC_e2012/fast] Error 2
 
 

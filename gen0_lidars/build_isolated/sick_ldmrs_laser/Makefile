@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_laser
+CMAKE_SOURCE_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_laser
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser
+CMAKE_BINARY_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_laser/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

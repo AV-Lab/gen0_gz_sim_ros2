@@ -5,7 +5,7 @@
  
 # Compute paths
 get_filename_component(SICK_LDMRS_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
-set(SICK_LDMRS_INCLUDE_DIRS "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs;/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install")
+set(SICK_LDMRS_INCLUDE_DIRS "/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs;/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install")
  
 # Our library dependencies (contains definitions for IMPORTED targets)
 if(NOT TARGET LDMRS_Example AND NOT SickLDMRS_BINARY_DIR)

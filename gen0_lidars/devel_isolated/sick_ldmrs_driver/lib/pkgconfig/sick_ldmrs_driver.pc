@@ -1,8 +1,8 @@
-prefix=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_driver
+prefix=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_driver
 
 Name: sick_ldmrs_driver
 Description: Description of sick_ldmrs_driver
 Version: 0.0.0
-Cflags: -I/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_driver/include -I/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_driver/include -I/usr/include
+Cflags: -I/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_driver/include -I/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_driver/include -I/usr/include
 Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libboost_system.so
 Requires: roscpp sensor_msgs diagnostic_updater dynamic_reconfigure pcl_conversions sick_ldmrs_msgs

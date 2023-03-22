@@ -478,14 +478,76 @@
         </inertial>
     </link>
 
-<!-- Lidars to be installed -->
+<!-- Localization Lidars -->
 
   <!-- <xacro:include filename="$(find 4ws_robot)/urdf/os1_64.urdf.xacro"/>
   <xacro:os1_64 parent="base" name="ouster" prefix="/os1_cloud_node" hz="10" samples="512">
     <origin xyz="0 0 3.0" rpy="0 0 0" />
   </xacro:os1_64> -->
 
-<!-- Lidars to be installed -->
+  <joint name="top_lidar_front_joint" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="0.2 0 3.0" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="top_lidar_front_link"/>
+  </joint>
+
+  <link name="top_lidar_front_link">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+         <material name="blue"/>
+    </visual>
+
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+
+  <joint name="top_lidar_rear_joint" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="-0.2 0 3.0" rpy="0 0 3.14"/>
+    <parent link="base_link"/>
+    <child link="top_lidar_rear_link"/>
+  </joint>
+
+  <link name="top_lidar_rear_link">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+         <material name="blue"/>
+    </visual>
+
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+
+<!-- Navigation Lidars -->
 
 <joint name="sick_lidar_fl_joint" type="fixed">
     <axis xyz="0 1 0" />
@@ -612,6 +674,10 @@
 
    <material name="Red"> -->
     <color rgba="${255/255} ${0} ${0} 1.0"/>
+  </material>   
+
+   <material name="Blue"> -->
+    <color rgba="${0} ${0} ${255/255} 1.0"/>
   </material>   
 
 </robot>

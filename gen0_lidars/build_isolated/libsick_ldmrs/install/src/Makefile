@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/libsick_ldmrs
+CMAKE_SOURCE_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/libsick_ldmrs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install
+CMAKE_BINARY_DIR = /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(CMAKE_COMMAND) -E cmake_progress_start /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src/CMakeFiles/progress.marks
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles 0
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(CMAKE_COMMAND) -E cmake_progress_start /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src/CMakeFiles/progress.marks
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/sick_ldmrs.dir/rule:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/sick_ldmrs.dir/rule
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/sick_ldmrs.dir/rule
 .PHONY : src/CMakeFiles/sick_ldmrs.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ sick_ldmrs: src/CMakeFiles/sick_ldmrs.dir/rule
 
 # fast build rule for target.
 sick_ldmrs/fast:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/build
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/build
 .PHONY : sick_ldmrs/fast
 
 # Convenience name for target.
 src/CMakeFiles/LDMRS_Example.dir/rule:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/LDMRS_Example.dir/rule
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/LDMRS_Example.dir/rule
 .PHONY : src/CMakeFiles/LDMRS_Example.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ LDMRS_Example: src/CMakeFiles/LDMRS_Example.dir/rule
 
 # fast build rule for target.
 LDMRS_Example/fast:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/build
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/build
 .PHONY : LDMRS_Example/fast
 
 application/BasicApplication.o: application/BasicApplication.cpp.o
@@ -192,8 +192,8 @@ application/BasicApplication.o: application/BasicApplication.cpp.o
 
 # target to build an object file
 application/BasicApplication.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/BasicApplication.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/BasicApplication.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o
 .PHONY : application/BasicApplication.cpp.o
 
 application/BasicApplication.i: application/BasicApplication.cpp.i
@@ -202,8 +202,8 @@ application/BasicApplication.i: application/BasicApplication.cpp.i
 
 # target to preprocess a source file
 application/BasicApplication.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/BasicApplication.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/BasicApplication.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.i
 .PHONY : application/BasicApplication.cpp.i
 
 application/BasicApplication.s: application/BasicApplication.cpp.s
@@ -212,8 +212,8 @@ application/BasicApplication.s: application/BasicApplication.cpp.s
 
 # target to generate assembly for a file
 application/BasicApplication.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/BasicApplication.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/BasicApplication.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.s
 .PHONY : application/BasicApplication.cpp.s
 
 application/LdmrsApp.o: application/LdmrsApp.cpp.o
@@ -222,8 +222,8 @@ application/LdmrsApp.o: application/LdmrsApp.cpp.o
 
 # target to build an object file
 application/LdmrsApp.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsApp.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o
 .PHONY : application/LdmrsApp.cpp.o
 
 application/LdmrsApp.i: application/LdmrsApp.cpp.i
@@ -232,8 +232,8 @@ application/LdmrsApp.i: application/LdmrsApp.cpp.i
 
 # target to preprocess a source file
 application/LdmrsApp.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsApp.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.i
 .PHONY : application/LdmrsApp.cpp.i
 
 application/LdmrsApp.s: application/LdmrsApp.cpp.s
@@ -242,8 +242,8 @@ application/LdmrsApp.s: application/LdmrsApp.cpp.s
 
 # target to generate assembly for a file
 application/LdmrsApp.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsApp.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.s
 .PHONY : application/LdmrsApp.cpp.s
 
 application/LdmrsFieldApp.o: application/LdmrsFieldApp.cpp.o
@@ -252,8 +252,8 @@ application/LdmrsFieldApp.o: application/LdmrsFieldApp.cpp.o
 
 # target to build an object file
 application/LdmrsFieldApp.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsFieldApp.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsFieldApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o
 .PHONY : application/LdmrsFieldApp.cpp.o
 
 application/LdmrsFieldApp.i: application/LdmrsFieldApp.cpp.i
@@ -262,8 +262,8 @@ application/LdmrsFieldApp.i: application/LdmrsFieldApp.cpp.i
 
 # target to preprocess a source file
 application/LdmrsFieldApp.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsFieldApp.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsFieldApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.i
 .PHONY : application/LdmrsFieldApp.cpp.i
 
 application/LdmrsFieldApp.s: application/LdmrsFieldApp.cpp.s
@@ -272,8 +272,8 @@ application/LdmrsFieldApp.s: application/LdmrsFieldApp.cpp.s
 
 # target to generate assembly for a file
 application/LdmrsFieldApp.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsFieldApp.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsFieldApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.s
 .PHONY : application/LdmrsFieldApp.cpp.s
 
 application/LdmrsNtpTimeApp.o: application/LdmrsNtpTimeApp.cpp.o
@@ -282,8 +282,8 @@ application/LdmrsNtpTimeApp.o: application/LdmrsNtpTimeApp.cpp.o
 
 # target to build an object file
 application/LdmrsNtpTimeApp.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsNtpTimeApp.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsNtpTimeApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o
 .PHONY : application/LdmrsNtpTimeApp.cpp.o
 
 application/LdmrsNtpTimeApp.i: application/LdmrsNtpTimeApp.cpp.i
@@ -292,8 +292,8 @@ application/LdmrsNtpTimeApp.i: application/LdmrsNtpTimeApp.cpp.i
 
 # target to preprocess a source file
 application/LdmrsNtpTimeApp.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsNtpTimeApp.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsNtpTimeApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.i
 .PHONY : application/LdmrsNtpTimeApp.cpp.i
 
 application/LdmrsNtpTimeApp.s: application/LdmrsNtpTimeApp.cpp.s
@@ -302,8 +302,8 @@ application/LdmrsNtpTimeApp.s: application/LdmrsNtpTimeApp.cpp.s
 
 # target to generate assembly for a file
 application/LdmrsNtpTimeApp.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsNtpTimeApp.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsNtpTimeApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.s
 .PHONY : application/LdmrsNtpTimeApp.cpp.s
 
 application/LdmrsScanpointCoordinateApp.o: application/LdmrsScanpointCoordinateApp.cpp.o
@@ -312,8 +312,8 @@ application/LdmrsScanpointCoordinateApp.o: application/LdmrsScanpointCoordinateA
 
 # target to build an object file
 application/LdmrsScanpointCoordinateApp.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsScanpointCoordinateApp.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsScanpointCoordinateApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o
 .PHONY : application/LdmrsScanpointCoordinateApp.cpp.o
 
 application/LdmrsScanpointCoordinateApp.i: application/LdmrsScanpointCoordinateApp.cpp.i
@@ -322,8 +322,8 @@ application/LdmrsScanpointCoordinateApp.i: application/LdmrsScanpointCoordinateA
 
 # target to preprocess a source file
 application/LdmrsScanpointCoordinateApp.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsScanpointCoordinateApp.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsScanpointCoordinateApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.i
 .PHONY : application/LdmrsScanpointCoordinateApp.cpp.i
 
 application/LdmrsScanpointCoordinateApp.s: application/LdmrsScanpointCoordinateApp.cpp.s
@@ -332,8 +332,8 @@ application/LdmrsScanpointCoordinateApp.s: application/LdmrsScanpointCoordinateA
 
 # target to generate assembly for a file
 application/LdmrsScanpointCoordinateApp.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsScanpointCoordinateApp.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsScanpointCoordinateApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.s
 .PHONY : application/LdmrsScanpointCoordinateApp.cpp.s
 
 application/LdmrsSectorChangeApp.o: application/LdmrsSectorChangeApp.cpp.o
@@ -342,8 +342,8 @@ application/LdmrsSectorChangeApp.o: application/LdmrsSectorChangeApp.cpp.o
 
 # target to build an object file
 application/LdmrsSectorChangeApp.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsSectorChangeApp.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsSectorChangeApp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o
 .PHONY : application/LdmrsSectorChangeApp.cpp.o
 
 application/LdmrsSectorChangeApp.i: application/LdmrsSectorChangeApp.cpp.i
@@ -352,8 +352,8 @@ application/LdmrsSectorChangeApp.i: application/LdmrsSectorChangeApp.cpp.i
 
 # target to preprocess a source file
 application/LdmrsSectorChangeApp.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsSectorChangeApp.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsSectorChangeApp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.i
 .PHONY : application/LdmrsSectorChangeApp.cpp.i
 
 application/LdmrsSectorChangeApp.s: application/LdmrsSectorChangeApp.cpp.s
@@ -362,8 +362,8 @@ application/LdmrsSectorChangeApp.s: application/LdmrsSectorChangeApp.cpp.s
 
 # target to generate assembly for a file
 application/LdmrsSectorChangeApp.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsSectorChangeApp.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/application/LdmrsSectorChangeApp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.s
 .PHONY : application/LdmrsSectorChangeApp.cpp.s
 
 datatypes/Box2D.o: datatypes/Box2D.cpp.o
@@ -372,8 +372,8 @@ datatypes/Box2D.o: datatypes/Box2D.cpp.o
 
 # target to build an object file
 datatypes/Box2D.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Box2D.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Box2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o
 .PHONY : datatypes/Box2D.cpp.o
 
 datatypes/Box2D.i: datatypes/Box2D.cpp.i
@@ -382,8 +382,8 @@ datatypes/Box2D.i: datatypes/Box2D.cpp.i
 
 # target to preprocess a source file
 datatypes/Box2D.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Box2D.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Box2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.i
 .PHONY : datatypes/Box2D.cpp.i
 
 datatypes/Box2D.s: datatypes/Box2D.cpp.s
@@ -392,8 +392,8 @@ datatypes/Box2D.s: datatypes/Box2D.cpp.s
 
 # target to generate assembly for a file
 datatypes/Box2D.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Box2D.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Box2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.s
 .PHONY : datatypes/Box2D.cpp.s
 
 datatypes/Circle2D.o: datatypes/Circle2D.cpp.o
@@ -402,8 +402,8 @@ datatypes/Circle2D.o: datatypes/Circle2D.cpp.o
 
 # target to build an object file
 datatypes/Circle2D.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Circle2D.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Circle2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o
 .PHONY : datatypes/Circle2D.cpp.o
 
 datatypes/Circle2D.i: datatypes/Circle2D.cpp.i
@@ -412,8 +412,8 @@ datatypes/Circle2D.i: datatypes/Circle2D.cpp.i
 
 # target to preprocess a source file
 datatypes/Circle2D.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Circle2D.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Circle2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.i
 .PHONY : datatypes/Circle2D.cpp.i
 
 datatypes/Circle2D.s: datatypes/Circle2D.cpp.s
@@ -422,8 +422,8 @@ datatypes/Circle2D.s: datatypes/Circle2D.cpp.s
 
 # target to generate assembly for a file
 datatypes/Circle2D.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Circle2D.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Circle2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.s
 .PHONY : datatypes/Circle2D.cpp.s
 
 datatypes/Ellipse2D.o: datatypes/Ellipse2D.cpp.o
@@ -432,8 +432,8 @@ datatypes/Ellipse2D.o: datatypes/Ellipse2D.cpp.o
 
 # target to build an object file
 datatypes/Ellipse2D.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Ellipse2D.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Ellipse2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o
 .PHONY : datatypes/Ellipse2D.cpp.o
 
 datatypes/Ellipse2D.i: datatypes/Ellipse2D.cpp.i
@@ -442,8 +442,8 @@ datatypes/Ellipse2D.i: datatypes/Ellipse2D.cpp.i
 
 # target to preprocess a source file
 datatypes/Ellipse2D.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Ellipse2D.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Ellipse2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.i
 .PHONY : datatypes/Ellipse2D.cpp.i
 
 datatypes/Ellipse2D.s: datatypes/Ellipse2D.cpp.s
@@ -452,8 +452,8 @@ datatypes/Ellipse2D.s: datatypes/Ellipse2D.cpp.s
 
 # target to generate assembly for a file
 datatypes/Ellipse2D.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Ellipse2D.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Ellipse2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.s
 .PHONY : datatypes/Ellipse2D.cpp.s
 
 datatypes/EvalCase.o: datatypes/EvalCase.cpp.o
@@ -462,8 +462,8 @@ datatypes/EvalCase.o: datatypes/EvalCase.cpp.o
 
 # target to build an object file
 datatypes/EvalCase.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCase.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCase.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o
 .PHONY : datatypes/EvalCase.cpp.o
 
 datatypes/EvalCase.i: datatypes/EvalCase.cpp.i
@@ -472,8 +472,8 @@ datatypes/EvalCase.i: datatypes/EvalCase.cpp.i
 
 # target to preprocess a source file
 datatypes/EvalCase.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCase.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCase.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.i
 .PHONY : datatypes/EvalCase.cpp.i
 
 datatypes/EvalCase.s: datatypes/EvalCase.cpp.s
@@ -482,8 +482,8 @@ datatypes/EvalCase.s: datatypes/EvalCase.cpp.s
 
 # target to generate assembly for a file
 datatypes/EvalCase.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCase.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCase.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.s
 .PHONY : datatypes/EvalCase.cpp.s
 
 datatypes/EvalCaseResult.o: datatypes/EvalCaseResult.cpp.o
@@ -492,8 +492,8 @@ datatypes/EvalCaseResult.o: datatypes/EvalCaseResult.cpp.o
 
 # target to build an object file
 datatypes/EvalCaseResult.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResult.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResult.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o
 .PHONY : datatypes/EvalCaseResult.cpp.o
 
 datatypes/EvalCaseResult.i: datatypes/EvalCaseResult.cpp.i
@@ -502,8 +502,8 @@ datatypes/EvalCaseResult.i: datatypes/EvalCaseResult.cpp.i
 
 # target to preprocess a source file
 datatypes/EvalCaseResult.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResult.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResult.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.i
 .PHONY : datatypes/EvalCaseResult.cpp.i
 
 datatypes/EvalCaseResult.s: datatypes/EvalCaseResult.cpp.s
@@ -512,8 +512,8 @@ datatypes/EvalCaseResult.s: datatypes/EvalCaseResult.cpp.s
 
 # target to generate assembly for a file
 datatypes/EvalCaseResult.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResult.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResult.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.s
 .PHONY : datatypes/EvalCaseResult.cpp.s
 
 datatypes/EvalCaseResults.o: datatypes/EvalCaseResults.cpp.o
@@ -522,8 +522,8 @@ datatypes/EvalCaseResults.o: datatypes/EvalCaseResults.cpp.o
 
 # target to build an object file
 datatypes/EvalCaseResults.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResults.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResults.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o
 .PHONY : datatypes/EvalCaseResults.cpp.o
 
 datatypes/EvalCaseResults.i: datatypes/EvalCaseResults.cpp.i
@@ -532,8 +532,8 @@ datatypes/EvalCaseResults.i: datatypes/EvalCaseResults.cpp.i
 
 # target to preprocess a source file
 datatypes/EvalCaseResults.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResults.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResults.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.i
 .PHONY : datatypes/EvalCaseResults.cpp.i
 
 datatypes/EvalCaseResults.s: datatypes/EvalCaseResults.cpp.s
@@ -542,8 +542,8 @@ datatypes/EvalCaseResults.s: datatypes/EvalCaseResults.cpp.s
 
 # target to generate assembly for a file
 datatypes/EvalCaseResults.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResults.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResults.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.s
 .PHONY : datatypes/EvalCaseResults.cpp.s
 
 datatypes/EvalCases.o: datatypes/EvalCases.cpp.o
@@ -552,8 +552,8 @@ datatypes/EvalCases.o: datatypes/EvalCases.cpp.o
 
 # target to build an object file
 datatypes/EvalCases.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCases.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCases.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o
 .PHONY : datatypes/EvalCases.cpp.o
 
 datatypes/EvalCases.i: datatypes/EvalCases.cpp.i
@@ -562,8 +562,8 @@ datatypes/EvalCases.i: datatypes/EvalCases.cpp.i
 
 # target to preprocess a source file
 datatypes/EvalCases.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCases.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCases.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.i
 .PHONY : datatypes/EvalCases.cpp.i
 
 datatypes/EvalCases.s: datatypes/EvalCases.cpp.s
@@ -572,8 +572,8 @@ datatypes/EvalCases.s: datatypes/EvalCases.cpp.s
 
 # target to generate assembly for a file
 datatypes/EvalCases.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCases.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCases.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.s
 .PHONY : datatypes/EvalCases.cpp.s
 
 datatypes/FieldDescription.o: datatypes/FieldDescription.cpp.o
@@ -582,8 +582,8 @@ datatypes/FieldDescription.o: datatypes/FieldDescription.cpp.o
 
 # target to build an object file
 datatypes/FieldDescription.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldDescription.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldDescription.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o
 .PHONY : datatypes/FieldDescription.cpp.o
 
 datatypes/FieldDescription.i: datatypes/FieldDescription.cpp.i
@@ -592,8 +592,8 @@ datatypes/FieldDescription.i: datatypes/FieldDescription.cpp.i
 
 # target to preprocess a source file
 datatypes/FieldDescription.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldDescription.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldDescription.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.i
 .PHONY : datatypes/FieldDescription.cpp.i
 
 datatypes/FieldDescription.s: datatypes/FieldDescription.cpp.s
@@ -602,8 +602,8 @@ datatypes/FieldDescription.s: datatypes/FieldDescription.cpp.s
 
 # target to generate assembly for a file
 datatypes/FieldDescription.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldDescription.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldDescription.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.s
 .PHONY : datatypes/FieldDescription.cpp.s
 
 datatypes/FieldParameter.o: datatypes/FieldParameter.cpp.o
@@ -612,8 +612,8 @@ datatypes/FieldParameter.o: datatypes/FieldParameter.cpp.o
 
 # target to build an object file
 datatypes/FieldParameter.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldParameter.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldParameter.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o
 .PHONY : datatypes/FieldParameter.cpp.o
 
 datatypes/FieldParameter.i: datatypes/FieldParameter.cpp.i
@@ -622,8 +622,8 @@ datatypes/FieldParameter.i: datatypes/FieldParameter.cpp.i
 
 # target to preprocess a source file
 datatypes/FieldParameter.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldParameter.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldParameter.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.i
 .PHONY : datatypes/FieldParameter.cpp.i
 
 datatypes/FieldParameter.s: datatypes/FieldParameter.cpp.s
@@ -632,8 +632,8 @@ datatypes/FieldParameter.s: datatypes/FieldParameter.cpp.s
 
 # target to generate assembly for a file
 datatypes/FieldParameter.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldParameter.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldParameter.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.s
 .PHONY : datatypes/FieldParameter.cpp.s
 
 datatypes/Fields.o: datatypes/Fields.cpp.o
@@ -642,8 +642,8 @@ datatypes/Fields.o: datatypes/Fields.cpp.o
 
 # target to build an object file
 datatypes/Fields.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Fields.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Fields.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o
 .PHONY : datatypes/Fields.cpp.o
 
 datatypes/Fields.i: datatypes/Fields.cpp.i
@@ -652,8 +652,8 @@ datatypes/Fields.i: datatypes/Fields.cpp.i
 
 # target to preprocess a source file
 datatypes/Fields.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Fields.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Fields.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.i
 .PHONY : datatypes/Fields.cpp.i
 
 datatypes/Fields.s: datatypes/Fields.cpp.s
@@ -662,8 +662,8 @@ datatypes/Fields.s: datatypes/Fields.cpp.s
 
 # target to generate assembly for a file
 datatypes/Fields.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Fields.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Fields.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.s
 .PHONY : datatypes/Fields.cpp.s
 
 datatypes/Line2D.o: datatypes/Line2D.cpp.o
@@ -672,8 +672,8 @@ datatypes/Line2D.o: datatypes/Line2D.cpp.o
 
 # target to build an object file
 datatypes/Line2D.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Line2D.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Line2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o
 .PHONY : datatypes/Line2D.cpp.o
 
 datatypes/Line2D.i: datatypes/Line2D.cpp.i
@@ -682,8 +682,8 @@ datatypes/Line2D.i: datatypes/Line2D.cpp.i
 
 # target to preprocess a source file
 datatypes/Line2D.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Line2D.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Line2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.i
 .PHONY : datatypes/Line2D.cpp.i
 
 datatypes/Line2D.s: datatypes/Line2D.cpp.s
@@ -692,8 +692,8 @@ datatypes/Line2D.s: datatypes/Line2D.cpp.s
 
 # target to generate assembly for a file
 datatypes/Line2D.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Line2D.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Line2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.s
 .PHONY : datatypes/Line2D.cpp.s
 
 datatypes/Measurement.o: datatypes/Measurement.cpp.o
@@ -702,8 +702,8 @@ datatypes/Measurement.o: datatypes/Measurement.cpp.o
 
 # target to build an object file
 datatypes/Measurement.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Measurement.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Measurement.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o
 .PHONY : datatypes/Measurement.cpp.o
 
 datatypes/Measurement.i: datatypes/Measurement.cpp.i
@@ -712,8 +712,8 @@ datatypes/Measurement.i: datatypes/Measurement.cpp.i
 
 # target to preprocess a source file
 datatypes/Measurement.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Measurement.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Measurement.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.i
 .PHONY : datatypes/Measurement.cpp.i
 
 datatypes/Measurement.s: datatypes/Measurement.cpp.s
@@ -722,8 +722,8 @@ datatypes/Measurement.s: datatypes/Measurement.cpp.s
 
 # target to generate assembly for a file
 datatypes/Measurement.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Measurement.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Measurement.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.s
 .PHONY : datatypes/Measurement.cpp.s
 
 datatypes/Msg.o: datatypes/Msg.cpp.o
@@ -732,8 +732,8 @@ datatypes/Msg.o: datatypes/Msg.cpp.o
 
 # target to build an object file
 datatypes/Msg.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Msg.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Msg.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o
 .PHONY : datatypes/Msg.cpp.o
 
 datatypes/Msg.i: datatypes/Msg.cpp.i
@@ -742,8 +742,8 @@ datatypes/Msg.i: datatypes/Msg.cpp.i
 
 # target to preprocess a source file
 datatypes/Msg.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Msg.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Msg.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.i
 .PHONY : datatypes/Msg.cpp.i
 
 datatypes/Msg.s: datatypes/Msg.cpp.s
@@ -752,8 +752,8 @@ datatypes/Msg.s: datatypes/Msg.cpp.s
 
 # target to generate assembly for a file
 datatypes/Msg.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Msg.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Msg.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.s
 .PHONY : datatypes/Msg.cpp.s
 
 datatypes/Object.o: datatypes/Object.cpp.o
@@ -762,8 +762,8 @@ datatypes/Object.o: datatypes/Object.cpp.o
 
 # target to build an object file
 datatypes/Object.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Object.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Object.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o
 .PHONY : datatypes/Object.cpp.o
 
 datatypes/Object.i: datatypes/Object.cpp.i
@@ -772,8 +772,8 @@ datatypes/Object.i: datatypes/Object.cpp.i
 
 # target to preprocess a source file
 datatypes/Object.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Object.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Object.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.i
 .PHONY : datatypes/Object.cpp.i
 
 datatypes/Object.s: datatypes/Object.cpp.s
@@ -782,8 +782,8 @@ datatypes/Object.s: datatypes/Object.cpp.s
 
 # target to generate assembly for a file
 datatypes/Object.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Object.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Object.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.s
 .PHONY : datatypes/Object.cpp.s
 
 datatypes/Point2D.o: datatypes/Point2D.cpp.o
@@ -792,8 +792,8 @@ datatypes/Point2D.o: datatypes/Point2D.cpp.o
 
 # target to build an object file
 datatypes/Point2D.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point2D.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o
 .PHONY : datatypes/Point2D.cpp.o
 
 datatypes/Point2D.i: datatypes/Point2D.cpp.i
@@ -802,8 +802,8 @@ datatypes/Point2D.i: datatypes/Point2D.cpp.i
 
 # target to preprocess a source file
 datatypes/Point2D.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point2D.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.i
 .PHONY : datatypes/Point2D.cpp.i
 
 datatypes/Point2D.s: datatypes/Point2D.cpp.s
@@ -812,8 +812,8 @@ datatypes/Point2D.s: datatypes/Point2D.cpp.s
 
 # target to generate assembly for a file
 datatypes/Point2D.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point2D.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.s
 .PHONY : datatypes/Point2D.cpp.s
 
 datatypes/Point3D.o: datatypes/Point3D.cpp.o
@@ -822,8 +822,8 @@ datatypes/Point3D.o: datatypes/Point3D.cpp.o
 
 # target to build an object file
 datatypes/Point3D.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point3D.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point3D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o
 .PHONY : datatypes/Point3D.cpp.o
 
 datatypes/Point3D.i: datatypes/Point3D.cpp.i
@@ -832,8 +832,8 @@ datatypes/Point3D.i: datatypes/Point3D.cpp.i
 
 # target to preprocess a source file
 datatypes/Point3D.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point3D.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point3D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.i
 .PHONY : datatypes/Point3D.cpp.i
 
 datatypes/Point3D.s: datatypes/Point3D.cpp.s
@@ -842,8 +842,8 @@ datatypes/Point3D.s: datatypes/Point3D.cpp.s
 
 # target to generate assembly for a file
 datatypes/Point3D.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point3D.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Point3D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.s
 .PHONY : datatypes/Point3D.cpp.s
 
 datatypes/Polygon2D.o: datatypes/Polygon2D.cpp.o
@@ -852,8 +852,8 @@ datatypes/Polygon2D.o: datatypes/Polygon2D.cpp.o
 
 # target to build an object file
 datatypes/Polygon2D.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon2D.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon2D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o
 .PHONY : datatypes/Polygon2D.cpp.o
 
 datatypes/Polygon2D.i: datatypes/Polygon2D.cpp.i
@@ -862,8 +862,8 @@ datatypes/Polygon2D.i: datatypes/Polygon2D.cpp.i
 
 # target to preprocess a source file
 datatypes/Polygon2D.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon2D.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon2D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.i
 .PHONY : datatypes/Polygon2D.cpp.i
 
 datatypes/Polygon2D.s: datatypes/Polygon2D.cpp.s
@@ -872,8 +872,8 @@ datatypes/Polygon2D.s: datatypes/Polygon2D.cpp.s
 
 # target to generate assembly for a file
 datatypes/Polygon2D.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon2D.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon2D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.s
 .PHONY : datatypes/Polygon2D.cpp.s
 
 datatypes/Polygon3D.o: datatypes/Polygon3D.cpp.o
@@ -882,8 +882,8 @@ datatypes/Polygon3D.o: datatypes/Polygon3D.cpp.o
 
 # target to build an object file
 datatypes/Polygon3D.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon3D.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon3D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o
 .PHONY : datatypes/Polygon3D.cpp.o
 
 datatypes/Polygon3D.i: datatypes/Polygon3D.cpp.i
@@ -892,8 +892,8 @@ datatypes/Polygon3D.i: datatypes/Polygon3D.cpp.i
 
 # target to preprocess a source file
 datatypes/Polygon3D.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon3D.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon3D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.i
 .PHONY : datatypes/Polygon3D.cpp.i
 
 datatypes/Polygon3D.s: datatypes/Polygon3D.cpp.s
@@ -902,8 +902,8 @@ datatypes/Polygon3D.s: datatypes/Polygon3D.cpp.s
 
 # target to generate assembly for a file
 datatypes/Polygon3D.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon3D.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon3D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.s
 .PHONY : datatypes/Polygon3D.cpp.s
 
 datatypes/Position3D.o: datatypes/Position3D.cpp.o
@@ -912,8 +912,8 @@ datatypes/Position3D.o: datatypes/Position3D.cpp.o
 
 # target to build an object file
 datatypes/Position3D.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Position3D.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Position3D.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o
 .PHONY : datatypes/Position3D.cpp.o
 
 datatypes/Position3D.i: datatypes/Position3D.cpp.i
@@ -922,8 +922,8 @@ datatypes/Position3D.i: datatypes/Position3D.cpp.i
 
 # target to preprocess a source file
 datatypes/Position3D.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Position3D.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Position3D.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.i
 .PHONY : datatypes/Position3D.cpp.i
 
 datatypes/Position3D.s: datatypes/Position3D.cpp.s
@@ -932,8 +932,8 @@ datatypes/Position3D.s: datatypes/Position3D.cpp.s
 
 # target to generate assembly for a file
 datatypes/Position3D.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Position3D.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Position3D.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.s
 .PHONY : datatypes/Position3D.cpp.s
 
 datatypes/PositionWGS84.o: datatypes/PositionWGS84.cpp.o
@@ -942,8 +942,8 @@ datatypes/PositionWGS84.o: datatypes/PositionWGS84.cpp.o
 
 # target to build an object file
 datatypes/PositionWGS84.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/PositionWGS84.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/PositionWGS84.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o
 .PHONY : datatypes/PositionWGS84.cpp.o
 
 datatypes/PositionWGS84.i: datatypes/PositionWGS84.cpp.i
@@ -952,8 +952,8 @@ datatypes/PositionWGS84.i: datatypes/PositionWGS84.cpp.i
 
 # target to preprocess a source file
 datatypes/PositionWGS84.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/PositionWGS84.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/PositionWGS84.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.i
 .PHONY : datatypes/PositionWGS84.cpp.i
 
 datatypes/PositionWGS84.s: datatypes/PositionWGS84.cpp.s
@@ -962,8 +962,8 @@ datatypes/PositionWGS84.s: datatypes/PositionWGS84.cpp.s
 
 # target to generate assembly for a file
 datatypes/PositionWGS84.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/PositionWGS84.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/PositionWGS84.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.s
 .PHONY : datatypes/PositionWGS84.cpp.s
 
 datatypes/Scan.o: datatypes/Scan.cpp.o
@@ -972,8 +972,8 @@ datatypes/Scan.o: datatypes/Scan.cpp.o
 
 # target to build an object file
 datatypes/Scan.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Scan.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Scan.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o
 .PHONY : datatypes/Scan.cpp.o
 
 datatypes/Scan.i: datatypes/Scan.cpp.i
@@ -982,8 +982,8 @@ datatypes/Scan.i: datatypes/Scan.cpp.i
 
 # target to preprocess a source file
 datatypes/Scan.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Scan.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Scan.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.i
 .PHONY : datatypes/Scan.cpp.i
 
 datatypes/Scan.s: datatypes/Scan.cpp.s
@@ -992,8 +992,8 @@ datatypes/Scan.s: datatypes/Scan.cpp.s
 
 # target to generate assembly for a file
 datatypes/Scan.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Scan.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Scan.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.s
 .PHONY : datatypes/Scan.cpp.s
 
 datatypes/ScanPoint.o: datatypes/ScanPoint.cpp.o
@@ -1002,8 +1002,8 @@ datatypes/ScanPoint.o: datatypes/ScanPoint.cpp.o
 
 # target to build an object file
 datatypes/ScanPoint.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScanPoint.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScanPoint.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o
 .PHONY : datatypes/ScanPoint.cpp.o
 
 datatypes/ScanPoint.i: datatypes/ScanPoint.cpp.i
@@ -1012,8 +1012,8 @@ datatypes/ScanPoint.i: datatypes/ScanPoint.cpp.i
 
 # target to preprocess a source file
 datatypes/ScanPoint.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScanPoint.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScanPoint.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.i
 .PHONY : datatypes/ScanPoint.cpp.i
 
 datatypes/ScanPoint.s: datatypes/ScanPoint.cpp.s
@@ -1022,8 +1022,8 @@ datatypes/ScanPoint.s: datatypes/ScanPoint.cpp.s
 
 # target to generate assembly for a file
 datatypes/ScanPoint.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScanPoint.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScanPoint.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.s
 .PHONY : datatypes/ScanPoint.cpp.s
 
 datatypes/ScannerInfo.o: datatypes/ScannerInfo.cpp.o
@@ -1032,8 +1032,8 @@ datatypes/ScannerInfo.o: datatypes/ScannerInfo.cpp.o
 
 # target to build an object file
 datatypes/ScannerInfo.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScannerInfo.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScannerInfo.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o
 .PHONY : datatypes/ScannerInfo.cpp.o
 
 datatypes/ScannerInfo.i: datatypes/ScannerInfo.cpp.i
@@ -1042,8 +1042,8 @@ datatypes/ScannerInfo.i: datatypes/ScannerInfo.cpp.i
 
 # target to preprocess a source file
 datatypes/ScannerInfo.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScannerInfo.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScannerInfo.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.i
 .PHONY : datatypes/ScannerInfo.cpp.i
 
 datatypes/ScannerInfo.s: datatypes/ScannerInfo.cpp.s
@@ -1052,8 +1052,8 @@ datatypes/ScannerInfo.s: datatypes/ScannerInfo.cpp.s
 
 # target to generate assembly for a file
 datatypes/ScannerInfo.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScannerInfo.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/ScannerInfo.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.s
 .PHONY : datatypes/ScannerInfo.cpp.s
 
 datatypes/SensorStateInfo.o: datatypes/SensorStateInfo.cpp.o
@@ -1062,8 +1062,8 @@ datatypes/SensorStateInfo.o: datatypes/SensorStateInfo.cpp.o
 
 # target to build an object file
 datatypes/SensorStateInfo.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/SensorStateInfo.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/SensorStateInfo.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o
 .PHONY : datatypes/SensorStateInfo.cpp.o
 
 datatypes/SensorStateInfo.i: datatypes/SensorStateInfo.cpp.i
@@ -1072,8 +1072,8 @@ datatypes/SensorStateInfo.i: datatypes/SensorStateInfo.cpp.i
 
 # target to preprocess a source file
 datatypes/SensorStateInfo.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/SensorStateInfo.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/SensorStateInfo.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.i
 .PHONY : datatypes/SensorStateInfo.cpp.i
 
 datatypes/SensorStateInfo.s: datatypes/SensorStateInfo.cpp.s
@@ -1082,8 +1082,8 @@ datatypes/SensorStateInfo.s: datatypes/SensorStateInfo.cpp.s
 
 # target to generate assembly for a file
 datatypes/SensorStateInfo.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/SensorStateInfo.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/SensorStateInfo.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.s
 .PHONY : datatypes/SensorStateInfo.cpp.s
 
 datatypes/Trigger.o: datatypes/Trigger.cpp.o
@@ -1092,8 +1092,8 @@ datatypes/Trigger.o: datatypes/Trigger.cpp.o
 
 # target to build an object file
 datatypes/Trigger.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Trigger.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Trigger.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o
 .PHONY : datatypes/Trigger.cpp.o
 
 datatypes/Trigger.i: datatypes/Trigger.cpp.i
@@ -1102,8 +1102,8 @@ datatypes/Trigger.i: datatypes/Trigger.cpp.i
 
 # target to preprocess a source file
 datatypes/Trigger.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Trigger.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Trigger.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.i
 .PHONY : datatypes/Trigger.cpp.i
 
 datatypes/Trigger.s: datatypes/Trigger.cpp.s
@@ -1112,8 +1112,8 @@ datatypes/Trigger.s: datatypes/Trigger.cpp.s
 
 # target to generate assembly for a file
 datatypes/Trigger.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Trigger.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/datatypes/Trigger.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.s
 .PHONY : datatypes/Trigger.cpp.s
 
 devices/BasicDevice.o: devices/BasicDevice.cpp.o
@@ -1122,8 +1122,8 @@ devices/BasicDevice.o: devices/BasicDevice.cpp.o
 
 # target to build an object file
 devices/BasicDevice.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/BasicDevice.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/BasicDevice.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o
 .PHONY : devices/BasicDevice.cpp.o
 
 devices/BasicDevice.i: devices/BasicDevice.cpp.i
@@ -1132,8 +1132,8 @@ devices/BasicDevice.i: devices/BasicDevice.cpp.i
 
 # target to preprocess a source file
 devices/BasicDevice.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/BasicDevice.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/BasicDevice.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.i
 .PHONY : devices/BasicDevice.cpp.i
 
 devices/BasicDevice.s: devices/BasicDevice.cpp.s
@@ -1142,8 +1142,8 @@ devices/BasicDevice.s: devices/BasicDevice.cpp.s
 
 # target to generate assembly for a file
 devices/BasicDevice.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/BasicDevice.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/BasicDevice.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.s
 .PHONY : devices/BasicDevice.cpp.s
 
 devices/LD_MRS.o: devices/LD_MRS.cpp.o
@@ -1152,8 +1152,8 @@ devices/LD_MRS.o: devices/LD_MRS.cpp.o
 
 # target to build an object file
 devices/LD_MRS.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LD_MRS.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LD_MRS.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o
 .PHONY : devices/LD_MRS.cpp.o
 
 devices/LD_MRS.i: devices/LD_MRS.cpp.i
@@ -1162,8 +1162,8 @@ devices/LD_MRS.i: devices/LD_MRS.cpp.i
 
 # target to preprocess a source file
 devices/LD_MRS.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LD_MRS.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LD_MRS.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.i
 .PHONY : devices/LD_MRS.cpp.i
 
 devices/LD_MRS.s: devices/LD_MRS.cpp.s
@@ -1172,8 +1172,8 @@ devices/LD_MRS.s: devices/LD_MRS.cpp.s
 
 # target to generate assembly for a file
 devices/LD_MRS.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LD_MRS.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LD_MRS.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.s
 .PHONY : devices/LD_MRS.cpp.s
 
 devices/LuxBase.o: devices/LuxBase.cpp.o
@@ -1182,8 +1182,8 @@ devices/LuxBase.o: devices/LuxBase.cpp.o
 
 # target to build an object file
 devices/LuxBase.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LuxBase.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LuxBase.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o
 .PHONY : devices/LuxBase.cpp.o
 
 devices/LuxBase.i: devices/LuxBase.cpp.i
@@ -1192,8 +1192,8 @@ devices/LuxBase.i: devices/LuxBase.cpp.i
 
 # target to preprocess a source file
 devices/LuxBase.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LuxBase.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LuxBase.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.i
 .PHONY : devices/LuxBase.cpp.i
 
 devices/LuxBase.s: devices/LuxBase.cpp.s
@@ -1202,8 +1202,8 @@ devices/LuxBase.s: devices/LuxBase.cpp.s
 
 # target to generate assembly for a file
 devices/LuxBase.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LuxBase.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/devices/LuxBase.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.s
 .PHONY : devices/LuxBase.cpp.s
 
 interfaces/file.o: interfaces/file.cpp.o
@@ -1212,8 +1212,8 @@ interfaces/file.o: interfaces/file.cpp.o
 
 # target to build an object file
 interfaces/file.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/file.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/file.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o
 .PHONY : interfaces/file.cpp.o
 
 interfaces/file.i: interfaces/file.cpp.i
@@ -1222,8 +1222,8 @@ interfaces/file.i: interfaces/file.cpp.i
 
 # target to preprocess a source file
 interfaces/file.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/file.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/file.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.i
 .PHONY : interfaces/file.cpp.i
 
 interfaces/file.s: interfaces/file.cpp.s
@@ -1232,8 +1232,8 @@ interfaces/file.s: interfaces/file.cpp.s
 
 # target to generate assembly for a file
 interfaces/file.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/file.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/file.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.s
 .PHONY : interfaces/file.cpp.s
 
 interfaces/tcp.o: interfaces/tcp.cpp.o
@@ -1242,8 +1242,8 @@ interfaces/tcp.o: interfaces/tcp.cpp.o
 
 # target to build an object file
 interfaces/tcp.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/tcp.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/tcp.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o
 .PHONY : interfaces/tcp.cpp.o
 
 interfaces/tcp.i: interfaces/tcp.cpp.i
@@ -1252,8 +1252,8 @@ interfaces/tcp.i: interfaces/tcp.cpp.i
 
 # target to preprocess a source file
 interfaces/tcp.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/tcp.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/tcp.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.i
 .PHONY : interfaces/tcp.cpp.i
 
 interfaces/tcp.s: interfaces/tcp.cpp.s
@@ -1262,8 +1262,8 @@ interfaces/tcp.s: interfaces/tcp.cpp.s
 
 # target to generate assembly for a file
 interfaces/tcp.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/tcp.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/interfaces/tcp.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.s
 .PHONY : interfaces/tcp.cpp.s
 
 main.o: main.cpp.o
@@ -1272,8 +1272,8 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/main.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/main.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/main.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -1282,8 +1282,8 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/main.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/main.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/main.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -1292,8 +1292,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/main.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/main.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/main.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 manager.o: manager.cpp.o
@@ -1302,8 +1302,8 @@ manager.o: manager.cpp.o
 
 # target to build an object file
 manager.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/manager.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/manager.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o
 .PHONY : manager.cpp.o
 
 manager.i: manager.cpp.i
@@ -1312,8 +1312,8 @@ manager.i: manager.cpp.i
 
 # target to preprocess a source file
 manager.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/manager.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/manager.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/manager.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/manager.cpp.i
 .PHONY : manager.cpp.i
 
 manager.s: manager.cpp.s
@@ -1322,8 +1322,8 @@ manager.s: manager.cpp.s
 
 # target to generate assembly for a file
 manager.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/manager.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/manager.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/manager.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/manager.cpp.s
 .PHONY : manager.cpp.s
 
 sopas/LdmrsSopasLayer.o: sopas/LdmrsSopasLayer.cpp.o
@@ -1332,8 +1332,8 @@ sopas/LdmrsSopasLayer.o: sopas/LdmrsSopasLayer.cpp.o
 
 # target to build an object file
 sopas/LdmrsSopasLayer.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/LdmrsSopasLayer.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/LdmrsSopasLayer.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o
 .PHONY : sopas/LdmrsSopasLayer.cpp.o
 
 sopas/LdmrsSopasLayer.i: sopas/LdmrsSopasLayer.cpp.i
@@ -1342,8 +1342,8 @@ sopas/LdmrsSopasLayer.i: sopas/LdmrsSopasLayer.cpp.i
 
 # target to preprocess a source file
 sopas/LdmrsSopasLayer.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/LdmrsSopasLayer.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/LdmrsSopasLayer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.i
 .PHONY : sopas/LdmrsSopasLayer.cpp.i
 
 sopas/LdmrsSopasLayer.s: sopas/LdmrsSopasLayer.cpp.s
@@ -1352,8 +1352,8 @@ sopas/LdmrsSopasLayer.s: sopas/LdmrsSopasLayer.cpp.s
 
 # target to generate assembly for a file
 sopas/LdmrsSopasLayer.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/LdmrsSopasLayer.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/LdmrsSopasLayer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.s
 .PHONY : sopas/LdmrsSopasLayer.cpp.s
 
 sopas/SopasBase.o: sopas/SopasBase.cpp.o
@@ -1362,8 +1362,8 @@ sopas/SopasBase.o: sopas/SopasBase.cpp.o
 
 # target to build an object file
 sopas/SopasBase.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/SopasBase.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/SopasBase.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o
 .PHONY : sopas/SopasBase.cpp.o
 
 sopas/SopasBase.i: sopas/SopasBase.cpp.i
@@ -1372,8 +1372,8 @@ sopas/SopasBase.i: sopas/SopasBase.cpp.i
 
 # target to preprocess a source file
 sopas/SopasBase.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/SopasBase.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/SopasBase.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.i
 .PHONY : sopas/SopasBase.cpp.i
 
 sopas/SopasBase.s: sopas/SopasBase.cpp.s
@@ -1382,8 +1382,8 @@ sopas/SopasBase.s: sopas/SopasBase.cpp.s
 
 # target to generate assembly for a file
 sopas/SopasBase.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/SopasBase.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/SopasBase.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.s
 .PHONY : sopas/SopasBase.cpp.s
 
 sopas/colaa.o: sopas/colaa.cpp.o
@@ -1392,8 +1392,8 @@ sopas/colaa.o: sopas/colaa.cpp.o
 
 # target to build an object file
 sopas/colaa.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colaa.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colaa.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o
 .PHONY : sopas/colaa.cpp.o
 
 sopas/colaa.i: sopas/colaa.cpp.i
@@ -1402,8 +1402,8 @@ sopas/colaa.i: sopas/colaa.cpp.i
 
 # target to preprocess a source file
 sopas/colaa.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colaa.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colaa.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.i
 .PHONY : sopas/colaa.cpp.i
 
 sopas/colaa.s: sopas/colaa.cpp.s
@@ -1412,8 +1412,8 @@ sopas/colaa.s: sopas/colaa.cpp.s
 
 # target to generate assembly for a file
 sopas/colaa.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colaa.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colaa.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.s
 .PHONY : sopas/colaa.cpp.s
 
 sopas/colab.o: sopas/colab.cpp.o
@@ -1422,8 +1422,8 @@ sopas/colab.o: sopas/colab.cpp.o
 
 # target to build an object file
 sopas/colab.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colab.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colab.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o
 .PHONY : sopas/colab.cpp.o
 
 sopas/colab.i: sopas/colab.cpp.i
@@ -1432,8 +1432,8 @@ sopas/colab.i: sopas/colab.cpp.i
 
 # target to preprocess a source file
 sopas/colab.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colab.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colab.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.i
 .PHONY : sopas/colab.cpp.i
 
 sopas/colab.s: sopas/colab.cpp.s
@@ -1442,8 +1442,8 @@ sopas/colab.s: sopas/colab.cpp.s
 
 # target to generate assembly for a file
 sopas/colab.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colab.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/sopas/colab.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.s
 .PHONY : sopas/colab.cpp.s
 
 tools/BasicDataBuffer.o: tools/BasicDataBuffer.cpp.o
@@ -1452,8 +1452,8 @@ tools/BasicDataBuffer.o: tools/BasicDataBuffer.cpp.o
 
 # target to build an object file
 tools/BasicDataBuffer.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/BasicDataBuffer.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/BasicDataBuffer.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o
 .PHONY : tools/BasicDataBuffer.cpp.o
 
 tools/BasicDataBuffer.i: tools/BasicDataBuffer.cpp.i
@@ -1462,8 +1462,8 @@ tools/BasicDataBuffer.i: tools/BasicDataBuffer.cpp.i
 
 # target to preprocess a source file
 tools/BasicDataBuffer.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/BasicDataBuffer.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/BasicDataBuffer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.i
 .PHONY : tools/BasicDataBuffer.cpp.i
 
 tools/BasicDataBuffer.s: tools/BasicDataBuffer.cpp.s
@@ -1472,8 +1472,8 @@ tools/BasicDataBuffer.s: tools/BasicDataBuffer.cpp.s
 
 # target to generate assembly for a file
 tools/BasicDataBuffer.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/BasicDataBuffer.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/BasicDataBuffer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.s
 .PHONY : tools/BasicDataBuffer.cpp.s
 
 tools/MathToolbox.o: tools/MathToolbox.cpp.o
@@ -1482,8 +1482,8 @@ tools/MathToolbox.o: tools/MathToolbox.cpp.o
 
 # target to build an object file
 tools/MathToolbox.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/MathToolbox.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/MathToolbox.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o
 .PHONY : tools/MathToolbox.cpp.o
 
 tools/MathToolbox.i: tools/MathToolbox.cpp.i
@@ -1492,8 +1492,8 @@ tools/MathToolbox.i: tools/MathToolbox.cpp.i
 
 # target to preprocess a source file
 tools/MathToolbox.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/MathToolbox.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/MathToolbox.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.i
 .PHONY : tools/MathToolbox.cpp.i
 
 tools/MathToolbox.s: tools/MathToolbox.cpp.s
@@ -1502,8 +1502,8 @@ tools/MathToolbox.s: tools/MathToolbox.cpp.s
 
 # target to generate assembly for a file
 tools/MathToolbox.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/MathToolbox.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/MathToolbox.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.s
 .PHONY : tools/MathToolbox.cpp.s
 
 tools/Mutex.o: tools/Mutex.cpp.o
@@ -1512,8 +1512,8 @@ tools/Mutex.o: tools/Mutex.cpp.o
 
 # target to build an object file
 tools/Mutex.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Mutex.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Mutex.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o
 .PHONY : tools/Mutex.cpp.o
 
 tools/Mutex.i: tools/Mutex.cpp.i
@@ -1522,8 +1522,8 @@ tools/Mutex.i: tools/Mutex.cpp.i
 
 # target to preprocess a source file
 tools/Mutex.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Mutex.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Mutex.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.i
 .PHONY : tools/Mutex.cpp.i
 
 tools/Mutex.s: tools/Mutex.cpp.s
@@ -1532,8 +1532,8 @@ tools/Mutex.s: tools/Mutex.cpp.s
 
 # target to generate assembly for a file
 tools/Mutex.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Mutex.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Mutex.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.s
 .PHONY : tools/Mutex.cpp.s
 
 tools/SickThread.o: tools/SickThread.cpp.o
@@ -1542,8 +1542,8 @@ tools/SickThread.o: tools/SickThread.cpp.o
 
 # target to build an object file
 tools/SickThread.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/SickThread.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/SickThread.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o
 .PHONY : tools/SickThread.cpp.o
 
 tools/SickThread.i: tools/SickThread.cpp.i
@@ -1552,8 +1552,8 @@ tools/SickThread.i: tools/SickThread.cpp.i
 
 # target to preprocess a source file
 tools/SickThread.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/SickThread.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/SickThread.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.i
 .PHONY : tools/SickThread.cpp.i
 
 tools/SickThread.s: tools/SickThread.cpp.s
@@ -1562,8 +1562,8 @@ tools/SickThread.s: tools/SickThread.cpp.s
 
 # target to generate assembly for a file
 tools/SickThread.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/SickThread.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/SickThread.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.s
 .PHONY : tools/SickThread.cpp.s
 
 tools/Time.o: tools/Time.cpp.o
@@ -1572,8 +1572,8 @@ tools/Time.o: tools/Time.cpp.o
 
 # target to build an object file
 tools/Time.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Time.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Time.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o
 .PHONY : tools/Time.cpp.o
 
 tools/Time.i: tools/Time.cpp.i
@@ -1582,8 +1582,8 @@ tools/Time.i: tools/Time.cpp.i
 
 # target to preprocess a source file
 tools/Time.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Time.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Time.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.i
 .PHONY : tools/Time.cpp.i
 
 tools/Time.s: tools/Time.cpp.s
@@ -1592,8 +1592,8 @@ tools/Time.s: tools/Time.cpp.s
 
 # target to generate assembly for a file
 tools/Time.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Time.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Time.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.s
 .PHONY : tools/Time.cpp.s
 
 tools/Timer.o: tools/Timer.cpp.o
@@ -1602,8 +1602,8 @@ tools/Timer.o: tools/Timer.cpp.o
 
 # target to build an object file
 tools/Timer.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Timer.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Timer.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o
 .PHONY : tools/Timer.cpp.o
 
 tools/Timer.i: tools/Timer.cpp.i
@@ -1612,8 +1612,8 @@ tools/Timer.i: tools/Timer.cpp.i
 
 # target to preprocess a source file
 tools/Timer.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Timer.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Timer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.i
 .PHONY : tools/Timer.cpp.i
 
 tools/Timer.s: tools/Timer.cpp.s
@@ -1622,8 +1622,8 @@ tools/Timer.s: tools/Timer.cpp.s
 
 # target to generate assembly for a file
 tools/Timer.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Timer.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/Timer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.s
 .PHONY : tools/Timer.cpp.s
 
 tools/WatchdogTimer.o: tools/WatchdogTimer.cpp.o
@@ -1632,8 +1632,8 @@ tools/WatchdogTimer.o: tools/WatchdogTimer.cpp.o
 
 # target to build an object file
 tools/WatchdogTimer.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/WatchdogTimer.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/WatchdogTimer.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o
 .PHONY : tools/WatchdogTimer.cpp.o
 
 tools/WatchdogTimer.i: tools/WatchdogTimer.cpp.i
@@ -1642,8 +1642,8 @@ tools/WatchdogTimer.i: tools/WatchdogTimer.cpp.i
 
 # target to preprocess a source file
 tools/WatchdogTimer.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/WatchdogTimer.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/WatchdogTimer.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.i
 .PHONY : tools/WatchdogTimer.cpp.i
 
 tools/WatchdogTimer.s: tools/WatchdogTimer.cpp.s
@@ -1652,8 +1652,8 @@ tools/WatchdogTimer.s: tools/WatchdogTimer.cpp.s
 
 # target to generate assembly for a file
 tools/WatchdogTimer.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/WatchdogTimer.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/WatchdogTimer.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.s
 .PHONY : tools/WatchdogTimer.cpp.s
 
 tools/errorhandler.o: tools/errorhandler.cpp.o
@@ -1662,8 +1662,8 @@ tools/errorhandler.o: tools/errorhandler.cpp.o
 
 # target to build an object file
 tools/errorhandler.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/errorhandler.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/errorhandler.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o
 .PHONY : tools/errorhandler.cpp.o
 
 tools/errorhandler.i: tools/errorhandler.cpp.i
@@ -1672,8 +1672,8 @@ tools/errorhandler.i: tools/errorhandler.cpp.i
 
 # target to preprocess a source file
 tools/errorhandler.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/errorhandler.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/errorhandler.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.i
 .PHONY : tools/errorhandler.cpp.i
 
 tools/errorhandler.s: tools/errorhandler.cpp.s
@@ -1682,8 +1682,8 @@ tools/errorhandler.s: tools/errorhandler.cpp.s
 
 # target to generate assembly for a file
 tools/errorhandler.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/errorhandler.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/errorhandler.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.s
 .PHONY : tools/errorhandler.cpp.s
 
 tools/toolbox.o: tools/toolbox.cpp.o
@@ -1692,8 +1692,8 @@ tools/toolbox.o: tools/toolbox.cpp.o
 
 # target to build an object file
 tools/toolbox.cpp.o:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/toolbox.cpp.o
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/toolbox.cpp.o
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o
 .PHONY : tools/toolbox.cpp.o
 
 tools/toolbox.i: tools/toolbox.cpp.i
@@ -1702,8 +1702,8 @@ tools/toolbox.i: tools/toolbox.cpp.i
 
 # target to preprocess a source file
 tools/toolbox.cpp.i:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/toolbox.cpp.i
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/toolbox.cpp.i
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.i
 .PHONY : tools/toolbox.cpp.i
 
 tools/toolbox.s: tools/toolbox.cpp.s
@@ -1712,8 +1712,8 @@ tools/toolbox.s: tools/toolbox.cpp.s
 
 # target to generate assembly for a file
 tools/toolbox.cpp.s:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/toolbox.cpp.s
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/sick_ldmrs.dir/build.make src/CMakeFiles/sick_ldmrs.dir/tools/toolbox.cpp.s
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(MAKE) -f src/CMakeFiles/LDMRS_Example.dir/build.make src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.s
 .PHONY : tools/toolbox.cpp.s
 
 # Help Target
@@ -1894,6 +1894,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

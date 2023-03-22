@@ -51,14 +51,14 @@ add_executable(LDMRS_Example IMPORTED)
 set_property(TARGET sick_ldmrs APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(sick_ldmrs PROPERTIES
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "pthread"
-  IMPORTED_LOCATION_RELEASE "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src/libsick_ldmrs.so.0.1.0"
+  IMPORTED_LOCATION_RELEASE "/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src/libsick_ldmrs.so.0.1.0"
   IMPORTED_SONAME_RELEASE "libsick_ldmrs.so.0"
   )
 
 # Import target "LDMRS_Example" for configuration "Release"
 set_property(TARGET LDMRS_Example APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(LDMRS_Example PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src/LDMRS_Example"
+  IMPORTED_LOCATION_RELEASE "/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/libsick_ldmrs/install/src/LDMRS_Example"
   )
 
 # This file does not depend on other imported targets which have

@@ -42,7 +42,7 @@ unset(_expectedTargets)
 
 
 # The installation prefix configured by this project.
-set(_IMPORT_PREFIX "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated")
+set(_IMPORT_PREFIX "/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/install_isolated")
 
 # Create imported target LDMRS_Example
 add_executable(LDMRS_Example IMPORTED)

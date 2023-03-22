@@ -67,14 +67,14 @@ set(sick_ldmrs_tools_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(sick_ldmrs_tools_SOURCE_PREFIX /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_tools)
-  set(sick_ldmrs_tools_DEVEL_PREFIX /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_tools)
+  set(sick_ldmrs_tools_SOURCE_PREFIX /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/src/sick_ldmrs_laser/sick_ldmrs_tools)
+  set(sick_ldmrs_tools_DEVEL_PREFIX /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_tools)
   set(sick_ldmrs_tools_INSTALL_PREFIX "")
   set(sick_ldmrs_tools_PREFIX ${sick_ldmrs_tools_DEVEL_PREFIX})
 else()
   set(sick_ldmrs_tools_SOURCE_PREFIX "")
   set(sick_ldmrs_tools_DEVEL_PREFIX "")
-  set(sick_ldmrs_tools_INSTALL_PREFIX /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated)
+  set(sick_ldmrs_tools_INSTALL_PREFIX /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/install_isolated)
   set(sick_ldmrs_tools_PREFIX ${sick_ldmrs_tools_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated/lib;/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated/lib;/home/av-ipc/gen0_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/install_isolated/lib;/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/install_isolated/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

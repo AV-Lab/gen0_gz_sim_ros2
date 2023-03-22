@@ -1,7 +1,22 @@
 digraph G {
-"ldmrs1" -> "ldmrs2"[label=" Broadcaster: /ldmrs1_to_ldmrs2_tf\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "sick_lidar_rl_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "top_lidar_front_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"front_right_steering_link" -> "front_right_wheel_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1679494169.07\nOldest transform: 1679494164.17\n"];
+"base_link" -> "top_lidar_rear_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"baselink" -> "ldmrsx"[label=" Broadcaster: /baselink_to_lmdrsx_tf\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"front_left_steering_link" -> "front_left_wheel_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1679494169.07\nOldest transform: 1679494164.17\n"];
+"base_link" -> "back_left_steering_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1679494169.07\nOldest transform: 1679494164.17\n"];
+"base_link" -> "main_mass"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"back_right_steering_link" -> "back_right_wheel_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1679494169.07\nOldest transform: 1679494164.17\n"];
+"base_link" -> "sick_lidar_rr_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "back_right_steering_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1679494169.07\nOldest transform: 1679494164.17\n"];
+"base_link" -> "sick_lidar_fr_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "front_left_steering_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1679494169.07\nOldest transform: 1679494164.17\n"];
+"back_left_steering_link" -> "back_left_wheel_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1679494169.07\nOldest transform: 1679494164.17\n"];
+"base_link" -> "front_right_steering_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1679494169.07\nOldest transform: 1679494164.17\n"];
+"base_link" -> "sick_lidar_fl_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 edge [style=invis];
  subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1677757846.22"[ shape=plaintext ] ;
-}->"ldmrs1";
+"Recorded at time: 1679494169.09"[ shape=plaintext ] ;
+}->"base_link";
 }

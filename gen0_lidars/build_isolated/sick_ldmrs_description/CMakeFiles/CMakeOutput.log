@@ -1,4 +1,4 @@
-The system is: Linux - 5.4.0-139-generic - x86_64
+The system is: Linux - 5.4.0-144-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7422a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7422a.dir/build.make CMakeFiles/cmTC_7422a.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7422a.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_7422a.dir/testCCompiler.c.o   -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_7422a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7422a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_7422a.dir/testCCompiler.c.o  -o cmTC_7422a 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e1cea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1cea.dir/build.make CMakeFiles/cmTC_e1cea.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1cea.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e1cea.dir/testCCompiler.c.o   -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e1cea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1cea.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e1cea.dir/testCCompiler.c.o  -o cmTC_e1cea 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9386e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9386e.dir/build.make CMakeFiles/cmTC_9386e.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9386e.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9386e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_9386e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9386e.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_9386e.dir/CMakeCCompilerABI.c.o  -o cmTC_9386e 
+Run Build Command:"/usr/bin/make" "cmTC_9273a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9273a.dir/build.make CMakeFiles/cmTC_9273a.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9273a.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9273a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_9273a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9273a.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_9273a.dir/CMakeCCompilerABI.c.o  -o cmTC_9273a 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9386e' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cchACHDW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9386e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9386e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9386e' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9273a' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc0M6IF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9273a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9273a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9273a' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9386e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9386e.dir/build.make CMakeFiles/cmTC_9386e.dir/build]
-  ignore line: [make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_9386e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_9386e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_9386e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9386e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_9386e.dir/CMakeCCompilerABI.c.o  -o cmTC_9386e ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9273a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9273a.dir/build.make CMakeFiles/cmTC_9273a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_9273a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_9273a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_9273a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9273a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_9273a.dir/CMakeCCompilerABI.c.o  -o cmTC_9273a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9386e' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cchACHDW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9386e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9386e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9273a' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc0M6IF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9273a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9273a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cchACHDW.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccc0M6IF.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9386e] ==> ignore
+    arg [cmTC_9273a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_9386e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_9273a.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -156,17 +156,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2d464/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2d464.dir/build.make CMakeFiles/cmTC_2d464.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2d464.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2d464.dir/feature_tests.c.o   -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2d464
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d464.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_2d464.dir/feature_tests.c.o  -o cmTC_2d464 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cc492/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc492.dir/build.make CMakeFiles/cmTC_cc492.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc492.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_cc492.dir/feature_tests.c.o   -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cc492
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc492.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_cc492.dir/feature_tests.c.o  -o cmTC_cc492 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -176,17 +176,17 @@ make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_i
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e12a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e12a.dir/build.make CMakeFiles/cmTC_0e12a.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e12a.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_0e12a.dir/feature_tests.c.o   -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0e12a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e12a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_0e12a.dir/feature_tests.c.o  -o cmTC_0e12a 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_debc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_debc4.dir/build.make CMakeFiles/cmTC_debc4.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_debc4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_debc4.dir/feature_tests.c.o   -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.c
+Linking C executable cmTC_debc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_debc4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_debc4.dir/feature_tests.c.o  -o cmTC_debc4 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -196,17 +196,17 @@ make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_i
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3ea16/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ea16.dir/build.make CMakeFiles/cmTC_3ea16.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3ea16.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_3ea16.dir/feature_tests.c.o   -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3ea16
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ea16.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_3ea16.dir/feature_tests.c.o  -o cmTC_3ea16 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c0309/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0309.dir/build.make CMakeFiles/cmTC_c0309.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0309.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_c0309.dir/feature_tests.c.o   -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c0309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0309.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c0309.dir/feature_tests.c.o  -o cmTC_c0309 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -214,30 +214,30 @@ make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_i
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_60797/fast"
-/usr/bin/make -f CMakeFiles/cmTC_60797.dir/build.make CMakeFiles/cmTC_60797.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_60797.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_60797.dir/testCXXCompiler.cxx.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_60797
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60797.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_60797.dir/testCXXCompiler.cxx.o  -o cmTC_60797 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b0be5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0be5.dir/build.make CMakeFiles/cmTC_b0be5.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b0be5.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b0be5.dir/testCXXCompiler.cxx.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b0be5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0be5.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b0be5.dir/testCXXCompiler.cxx.o  -o cmTC_b0be5 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7b135/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7b135.dir/build.make CMakeFiles/cmTC_7b135.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7b135.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_7b135.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_7b135
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b135.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_7b135.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7b135 
+Run Build Command:"/usr/bin/make" "cmTC_1deb1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1deb1.dir/build.make CMakeFiles/cmTC_1deb1.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1deb1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1deb1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_1deb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1deb1.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_1deb1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1deb1 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -249,24 +249,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b135' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPF6N1p.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7b135 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7b135.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b135' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1deb1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccj7BZfc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1deb1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1deb1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1deb1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7b135/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7b135.dir/build.make CMakeFiles/cmTC_7b135.dir/build]
-  ignore line: [make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7b135.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_7b135.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_7b135]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b135.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_7b135.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7b135 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1deb1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1deb1.dir/build.make CMakeFiles/cmTC_1deb1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1deb1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_1deb1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_1deb1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1deb1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_1deb1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1deb1 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -278,13 +278,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b135' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPF6N1p.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7b135 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7b135.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1deb1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccj7BZfc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1deb1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1deb1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccPF6N1p.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccj7BZfc.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7b135] ==> ignore
+    arg [cmTC_1deb1] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_7b135.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_1deb1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -340,17 +340,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4af93/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4af93.dir/build.make CMakeFiles/cmTC_4af93.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4af93.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_4af93.dir/feature_tests.cxx.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4af93
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4af93.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_4af93.dir/feature_tests.cxx.o  -o cmTC_4af93 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fdeeb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fdeeb.dir/build.make CMakeFiles/cmTC_fdeeb.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fdeeb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_fdeeb.dir/feature_tests.cxx.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fdeeb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdeeb.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_fdeeb.dir/feature_tests.cxx.o  -o cmTC_fdeeb 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -413,17 +413,17 @@ make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_i
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aede3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aede3.dir/build.make CMakeFiles/cmTC_aede3.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_aede3.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_aede3.dir/feature_tests.cxx.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_aede3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aede3.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_aede3.dir/feature_tests.cxx.o  -o cmTC_aede3 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_42031/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42031.dir/build.make CMakeFiles/cmTC_42031.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42031.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_42031.dir/feature_tests.cxx.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_42031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42031.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_42031.dir/feature_tests.cxx.o  -o cmTC_42031 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -486,17 +486,17 @@ make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_i
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7fccf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7fccf.dir/build.make CMakeFiles/cmTC_7fccf.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7fccf.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7fccf.dir/feature_tests.cxx.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7fccf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fccf.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_7fccf.dir/feature_tests.cxx.o  -o cmTC_7fccf 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8ef48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ef48.dir/build.make CMakeFiles/cmTC_8ef48.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ef48.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_8ef48.dir/feature_tests.cxx.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8ef48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ef48.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_8ef48.dir/feature_tests.cxx.o  -o cmTC_8ef48 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -559,17 +559,17 @@ make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_i
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb7f1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cb7f1.dir/build.make CMakeFiles/cmTC_cb7f1.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cb7f1.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_cb7f1.dir/feature_tests.cxx.o -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cb7f1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb7f1.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_cb7f1.dir/feature_tests.cxx.o  -o cmTC_cb7f1 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8a467/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a467.dir/build.make CMakeFiles/cmTC_8a467.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a467.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_8a467.dir/feature_tests.cxx.o -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8a467
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a467.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_8a467.dir/feature_tests.cxx.o  -o cmTC_8a467 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -630,30 +630,30 @@ make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_i
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_028da/fast"
-/usr/bin/make -f CMakeFiles/cmTC_028da.dir/build.make CMakeFiles/cmTC_028da.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_028da.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_028da.dir/CheckIncludeFile.c.o   -c /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_028da
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_028da.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_028da.dir/CheckIncludeFile.c.o  -o cmTC_028da 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_92455/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92455.dir/build.make CMakeFiles/cmTC_92455.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92455.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_92455.dir/CheckIncludeFile.c.o   -c /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_92455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92455.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_92455.dir/CheckIncludeFile.c.o  -o cmTC_92455 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
+Change Dir: /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e5dc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e5dc.dir/build.make CMakeFiles/cmTC_0e5dc.dir/build
-make[1]: Entering directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e5dc.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0e5dc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0e5dc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e5dc.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0e5dc.dir/CheckFunctionExists.c.o  -o cmTC_0e5dc -lpthread 
-make[1]: Leaving directory '/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_91fc0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91fc0.dir/build.make CMakeFiles/cmTC_91fc0.dir/build
+make[1]: Entering directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91fc0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_91fc0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_91fc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91fc0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_91fc0.dir/CheckFunctionExists.c.o  -o cmTC_91fc0 -lpthread 
+make[1]: Leaving directory '/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/build_isolated/sick_ldmrs_description/CMakeFiles/CMakeTmp'
 
 

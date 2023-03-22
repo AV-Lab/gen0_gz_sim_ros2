@@ -1,4 +1,4 @@
-prefix=/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_description
+prefix=/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/sick_ldmrs_description
 
 Name: sick_ldmrs_description
 Description: Description of sick_ldmrs_description

@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/av-ipc/Desktop/ezmile_gen0/gen0_lidars/install_isolated;/home/av-ipc/gen0_ws/devel;/opt/ros/melodic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/install_isolated;/opt/ros/melodic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
