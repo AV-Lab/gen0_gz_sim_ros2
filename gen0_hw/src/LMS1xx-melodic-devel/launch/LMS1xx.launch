@@ -1,0 +1,33 @@
+<launch>
+
+
+<!-- FL -->
+  <arg name="publish_min_range_as_inf" default="false" />
+  <node pkg="lms1xx" name="lms1xx_FL" type="LMS1xx_node">
+    <param name="host" value="192.168.5.11" />
+    <param name="frame_id" value="sick_lidar_fl_link" />
+    <remap from="/scan" to="/scan_FL"/>
+    <param name="publish_min_range_as_inf" value="$(arg publish_min_range_as_inf)" />
+  </node>
+<!-- FR -->
+   <node pkg="lms1xx" name="lms1xx_FR" type="LMS1xx_node">
+    <param name="host" value="192.168.5.9" />
+    <param name="frame_id" value="sick_lidar_fr_link" />
+    <remap from="/scan" to="/scan_FR"/>
+    <param name="publish_min_range_as_inf" value="$(arg publish_min_range_as_inf)" />
+  </node>
+  <!-- RL -->
+    <node pkg="lms1xx" name="lms1xx_RL" type="LMS1xx_node">
+    <param name="host" value="192.168.5.12" />
+    <param name="frame_id" value="sick_lidar_rl_link" />
+    <remap from="/scan" to="/scan_RL"/>
+    <param name="publish_min_range_as_inf" value="$(arg publish_min_range_as_inf)" />
+  </node>
+  <!-- RR -->
+     <node pkg="lms1xx" name="lms1xx_RR" type="LMS1xx_node">
+    <param name="host" value="192.168.5.10" />
+    <param name="frame_id" value="sick_lidar_rr_link" />
+    <remap from="/scan" to="/scan_RR"/>
+    <param name="publish_min_range_as_inf" value="$(arg publish_min_range_as_inf)" />
+  </node>
+</launch>
