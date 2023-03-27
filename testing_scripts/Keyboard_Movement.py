@@ -113,6 +113,7 @@ class VehicleControl:
             
             try:
                 msg_steering = can.Message(arbitration_id=0x193, data=[int(self.acceleration_lsb, 16), int(self.acceleration_msb, 16), int(self.speed_lsb, 16), int(self.speed_msb, 16), int(self.front_steer_lsb, 16), int(self.front_steer_msb, 16), int(self.rear_steer_lsb, 16), int(self.rear_steer_msb, 16)],is_extended_id=False)
+                # print(msg_steering)
                 self.bus.send(msg_steering)
             except can.CanError:
                 print("Message NOT sent")

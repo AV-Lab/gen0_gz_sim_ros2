@@ -24,7 +24,10 @@ class Cmd4WS:
         except:
             delta_f= 0 # no turning
         else:
-            delta_f= math.atan(self.wheelbase/(2*r))
+            if r != 0: # (check scenario is from v/oemga = 0/number)
+                delta_f= math.atan(self.wheelbase/(2*r))
+            else:
+                delta_f= 0 # no turning 
 
         delta_r= -delta_f
         self.header.stamp= rospy.Time.now()
