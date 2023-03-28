@@ -21,7 +21,7 @@ from geometry_msgs.msg import Twist
 
 class Hardware4WS:
     def __init__(self):
-        # self.bus = can.interface.Bus(bustype='socketcan',channel='slcan0', bitrate=500000)
+        self.bus = can.interface.Bus(bustype='socketcan',channel='slcan0', bitrate=500000)
         self.desiredSpeedAcceleration= 0.3 # m/s^2
         self.desiredSpeedDeceleration= -1.5 # m/s^2
         self.desiredSpeed= 0
@@ -80,8 +80,7 @@ if __name__ == '__main__':
 
         try: 
             msg_steering = can.Message(arbitration_id=0x193, data=[int(acceleration_lsb, 16), int(acceleration_msb, 16), int(speed_lsb, 16), int(speed_msb, 16), int(front_steer_lsb, 16), int(front_steer_msb, 16), int(rear_steer_lsb, 16), int(rear_steer_msb, 16)],is_extended_id=False)
-            print(msg_steering)
-            # hardware_4ws.bus.send(msg_steering)
+            hardware_4ws.bus.send(msg_steering)
         except can.CanError:
             print("Error: message not sent")
             

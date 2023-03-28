@@ -4,7 +4,7 @@
 
 
 <node name="baselink_to_localization_lidars_tf" pkg="tf2_ros" type="static_transform_publisher" output="screen" args="0 0 3.0 0 0.0 0.0 base_link localization_lidars" />
-<node name="baselink_to_navigation_lidars_tf" pkg="tf2_ros" type="static_transform_publisher" output="screen" args="0 0 3.0 0 0.0 0.0 base_link navigation_lidars" />
+<node name="baselink_to_navigation_lidars_tf" pkg="tf2_ros" type="static_transform_publisher" output="screen" args="0 0 0.28 0 0.0 0.0 base_link navigation_lidars" />
 
 <group ns="localization_lidars">
 	<node pkg="ira_laser_tools" name="laserscan_multi_merger_localization" type="laserscan_multi_merger" output="screen">
