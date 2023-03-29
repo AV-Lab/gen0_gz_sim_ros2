@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 This code converts the four wheel steering input to the hardware wheels of the vehicle. Note that the following are handled in this code:
 
@@ -17,6 +19,7 @@ import rospy
 from four_wheel_steering_msgs.msg import FourWheelSteeringStamped, FourWheelSteering
 from std_msgs.msg import Header
 from geometry_msgs.msg import Twist
+import csv
 
 
 class Hardware4WS:
@@ -30,6 +33,8 @@ class Hardware4WS:
         # parameters used for acceleration logic as it is not handled by the vehilcle internal system
         self.acceleration= 0
         self.previousSpeed = 0
+        self.file= open('/home/av-ipc/four_wheel_inputs.csv', 'a')
+        self.writer = csv.writer(self.file)
         rospy.Subscriber("four_wheel_steering_input", FourWheelSteeringStamped, self.data_callback)
 
     def bytesFromValue(self, step):
@@ -38,13 +43,16 @@ class Hardware4WS:
         return extended_hex[2:4], extended_hex[0:2]
     
     def data_callback(self, msg):
-        if msg.data.speed > abs(5.6) or msg.data.front_steering_angle > abs(0.31) or msg.data.rear_steering_angle > abs(0.31):
+        if float("{:.1f}".format(msg.data.speed)) > abs(5.6) or float("{:.2f}".format(msg.data.front_steering_angle)) > abs(0.31) or float("{:.2f}".format(msg.data.rear_steering_angle)) > abs(0.31):
             print("Ignoring Input as it is exceeding the vehicle limits")
+            with open('/home/av-ipc/four_wheel_inputs.csv', 'a') as f:
+                writer = csv.writer(f)
+                writer.writerow([str(float("{:.1f}".format(msg.data.speed))), str(float("{:.2f}".format(msg.data.front_steering_angle))), str( float("{:.2f}".format(msg.data.rear_steering_angle)))])
         else:
             print("Processing Input")
-            self.desiredSpeed= msg.data.speed
-            self.desiredFrontSteering= msg.data.front_steering_angle
-            self.desiredRearSteering= msg.data.rear_steering_angle
+            self.desiredSpeed= float("{:.1f}".format(msg.data.speed))
+            self.desiredFrontSteering= float("{:.2f}".format(msg.data.front_steering_angle))
+            self.desiredRearSteering= float("{:.2f}".format(msg.data.rear_steering_angle))
             # Acceleration/deceleration logic
             if abs(self.desiredSpeed) < abs(self.previousSpeed):
                 self.acceleration= self.desiredSpeedDeceleration
