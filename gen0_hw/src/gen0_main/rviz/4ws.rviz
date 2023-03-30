@@ -6,6 +6,10 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /Map1
+        - /Path1
+        - /Map2
+        - /Map3
       Splitter Ratio: 0.46176469326019287
     Tree Height: 698
   - Class: rviz/Selection
@@ -174,7 +178,11 @@ Visualization Manager:
           Value: true
         main_mass:
           Value: true
+        map:
+          Value: true
         navigation_lidars:
+          Value: true
+        odom:
           Value: true
         sick_lidar_fl_link:
           Value: true
@@ -194,37 +202,39 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        base_link:
-          back_left_steering_link:
-            back_left_wheel_link:
-              {}
-          back_right_steering_link:
-            back_right_wheel_link:
-              {}
-          front_left_steering_link:
-            front_left_wheel_link:
-              {}
-          front_right_steering_link:
-            front_right_wheel_link:
-              {}
-          localization_lidars:
-            {}
-          main_mass:
-            {}
-          navigation_lidars:
-            {}
-          sick_lidar_fl_link:
-            {}
-          sick_lidar_fr_link:
-            {}
-          sick_lidar_rl_link:
-            {}
-          sick_lidar_rr_link:
-            {}
-          top_lidar_front_link:
-            {}
-          top_lidar_rear_link:
-            {}
+        map:
+          odom:
+            base_link:
+              back_left_steering_link:
+                back_left_wheel_link:
+                  {}
+              back_right_steering_link:
+                back_right_wheel_link:
+                  {}
+              front_left_steering_link:
+                front_left_wheel_link:
+                  {}
+              front_right_steering_link:
+                front_right_wheel_link:
+                  {}
+              localization_lidars:
+                {}
+              main_mass:
+                {}
+              navigation_lidars:
+                {}
+              sick_lidar_fl_link:
+                {}
+              sick_lidar_fr_link:
+                {}
+              sick_lidar_rl_link:
+                {}
+              sick_lidar_rr_link:
+                {}
+              top_lidar_front_link:
+                {}
+              top_lidar_rear_link:
+                {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -339,6 +349,131 @@ Visualization Manager:
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 52; 101; 164
+      Color Transformer: FlatColor
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: LaserScan
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.20000000298023224
+      Style: Flat Squares
+      Topic: /merged_scan_localization
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 115; 210; 22
+      Color Transformer: FlatColor
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: LaserScan
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.20000000298023224
+      Style: Flat Squares
+      Topic: /merged_scan_navigation
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic: /map
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 1
+      Arrow Length: 0.5
+      Axes Length: 0.30000001192092896
+      Axes Radius: 0.009999999776482582
+      Class: rviz/PoseArray
+      Color: 255; 25; 0
+      Enabled: true
+      Head Length: 0.07000000029802322
+      Head Radius: 0.029999999329447746
+      Name: PoseArray
+      Shaft Length: 0.23000000417232513
+      Shaft Radius: 0.009999999776482582
+      Shape: Arrow (Flat)
+      Topic: /particlecloud
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 32; 74; 135
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /move_base/GlobalPlanner/plan
+      Unreliable: false
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic: /move_base/global_costmap/costmap
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: false
+      Name: Map
+      Topic: /move_base/local_costmap/costmap
+      Unreliable: false
+      Use Timestamp: false
+      Value: false
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -367,25 +502,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 19.279987335205078
+      Distance: 35.39921569824219
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 1.6547515392303467
-        Y: 0.10365542769432068
-        Z: 15.113029479980469
+        X: 1.799867033958435
+        Y: 0.646976113319397
+        Z: 19.639896392822266
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.4897964000701904
+      Pitch: 1.0697968006134033
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.388583183288574
+      Yaw: 2.8267674446105957
     Saved: ~
 Window Geometry:
   Displays:
