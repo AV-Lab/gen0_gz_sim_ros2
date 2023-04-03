@@ -21,3 +21,9 @@ roslaunch gen0_main gen0_move_base.launch
 rosrun 4ws_robot cmd_to_4ws.py 
 rosrun gen0_main Hardware4WS.py 
 
+
+source /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/setup.bash
+source /home/av-ipc/Documents/GitHub/ezmile_gen0/catkin_ws/devel/setup.bash
+
+
+

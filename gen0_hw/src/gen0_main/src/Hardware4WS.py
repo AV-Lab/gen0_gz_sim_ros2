@@ -48,17 +48,16 @@ class Hardware4WS:
             with open('/home/av-ipc/four_wheel_inputs.csv', 'a') as f:
                 writer = csv.writer(f)
                 writer.writerow([str(float("{:.1f}".format(msg.data.speed))), str(float("{:.2f}".format(msg.data.front_steering_angle))), str( float("{:.2f}".format(msg.data.rear_steering_angle)))])
+        # print("Processing Input")
+        self.desiredSpeed= min(max(float("{:.1f}".format(msg.data.speed)), -5.6), 5.6)
+        self.desiredFrontSteering= min(max(float("{:.2f}".format(msg.data.front_steering_angle)), -0.31), 0.31)
+        self.desiredRearSteering= min(max(float("{:.2f}".format(msg.data.rear_steering_angle)), -0.31), 0.31)
+        # Acceleration/deceleration logic
+        if abs(self.desiredSpeed) < abs(self.previousSpeed):
+            self.acceleration= self.desiredSpeedDeceleration
         else:
-            print("Processing Input")
-            self.desiredSpeed= float("{:.1f}".format(msg.data.speed))
-            self.desiredFrontSteering= float("{:.2f}".format(msg.data.front_steering_angle))
-            self.desiredRearSteering= float("{:.2f}".format(msg.data.rear_steering_angle))
-            # Acceleration/deceleration logic
-            if abs(self.desiredSpeed) < abs(self.previousSpeed):
-                self.acceleration= self.desiredSpeedDeceleration
-            else:
-                self.acceleration= self.desiredSpeedAcceleration
-            self.previousSpeed=self.desiredSpeed
+            self.acceleration= self.desiredSpeedAcceleration
+        self.previousSpeed=self.desiredSpeed
 
 if __name__ == '__main__':
     rospy.init_node('hardware_4ws', anonymous=True)
@@ -67,19 +66,17 @@ if __name__ == '__main__':
     rearAngle= 0
     while not rospy.is_shutdown():
         # logic to increment the steering angle
-        if float("{:.2f}".format(frontAngle)) != 0.31 and float("{:.2f}".format(frontAngle)) != -0.31:
-            if frontAngle < hardware_4ws.desiredFrontSteering:
-                frontAngle += 0.005 # radians, limited by the vehicle
-            elif frontAngle > hardware_4ws.desiredFrontSteering:
-                frontAngle -= 0.005
-
-        if float("{:.2f}".format(rearAngle)) != 0.31 and float("{:.2f}".format(rearAngle)) != -0.31:
-            if rearAngle < hardware_4ws.desiredRearSteering:
-                rearAngle += 0.005 # radians, limited by the vehicle
-            elif rearAngle > hardware_4ws.desiredRearSteering:
-                rearAngle -= 0.065
-                
-        
+        if frontAngle < hardware_4ws.desiredFrontSteering:
+            frontAngle += 0.005 # radians, limited by the vehicle
+        elif frontAngle > hardware_4ws.desiredFrontSteering:
+            frontAngle -= 0.005
+            
+        if rearAngle < hardware_4ws.desiredRearSteering:
+            rearAngle += 0.005 # radians, limited by the vehicle
+        elif rearAngle > hardware_4ws.desiredRearSteering:
+            rearAngle -= 0.005
+        print("Desired: ", hardware_4ws.desiredFrontSteering,  hardware_4ws.desiredRearSteering)        
+        print("Current: ", frontAngle, rearAngle)
         # convert to bytes format
         speed_lsb, speed_msb = hardware_4ws.bytesFromValue(int(hardware_4ws.desiredSpeed * 1000))
         acceleration_lsb, acceleration_msb = hardware_4ws.bytesFromValue(int(hardware_4ws.acceleration * 1000))
