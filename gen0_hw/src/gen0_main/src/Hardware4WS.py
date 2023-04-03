@@ -43,7 +43,7 @@ class Hardware4WS:
         return extended_hex[2:4], extended_hex[0:2]
     
     def data_callback(self, msg):
-        if float("{:.1f}".format(msg.data.speed)) > abs(5.6) or float("{:.2f}".format(msg.data.front_steering_angle)) > abs(0.31) or float("{:.2f}".format(msg.data.rear_steering_angle)) > abs(0.31):
+        if abs(float("{:.1f}".format(msg.data.speed))) > 5.6 or abs(float("{:.2f}".format(msg.data.front_steering_angle))) > 0.31 or abs(float("{:.2f}".format(msg.data.rear_steering_angle))) > 0.31:
             print("Ignoring Input as it is exceeding the vehicle limits")
             with open('/home/av-ipc/four_wheel_inputs.csv', 'a') as f:
                 writer = csv.writer(f)
