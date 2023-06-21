@@ -1,2 +1,0 @@
-gen0_4ws:ouster-gazebo-simulation/ouster_gazebo_plugins:ouster-gazebo-simulation/ouster_os1_64
--DCATKIN_DEVEL_PREFIX=/home/avl-1/Documents/GitHub/ezmile_gen0/gen0_simulation/devel -DCMAKE_INSTALL_PREFIX=/home/avl-1/Documents/GitHub/ezmile_gen0/gen0_simulation/install -G Unix Makefiles

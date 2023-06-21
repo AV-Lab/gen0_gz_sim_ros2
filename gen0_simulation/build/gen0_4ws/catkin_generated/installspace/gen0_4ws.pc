@@ -1,8 +1,0 @@
-prefix=/home/avl-1/Documents/GitHub/ezmile_gen0/gen0_simulation/install
-
-Name: gen0_4ws
-Description: Description of gen0_4ws
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

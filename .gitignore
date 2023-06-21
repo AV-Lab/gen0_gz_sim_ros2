@@ -1,10 +1,10 @@
-catkin_ws/build/
-catkin_ws/devel/
-gen0_hw/build/
-gen0_hw/devel/
-gen0_lidars/build_isolated/
-gen0_lidars/devel_isolated/
-gen0_lidars/install_isolated/
-catkin_ws/src/4ws_robot/meshes/sick_lidar.obj
-catkin_ws/src/4ws_robot/meshes/sick_lidar.mtl
+gen0_simulation/build/
+gen0_simulation/devel/
+gen0_hardware/gen0_hw/build/
+gen0_hardware/gen0_hw/devel/
+gen0_hardware/gen0_lidars/build_isolated/
+gen0_hardware/gen0_lidars/devel_isolated/
+gen0_hardware/gen0_lidars/install_isolated/
+gen0_simulation/src/gen0_4ws/meshes/sick_lidar.obj
+gen0_simulation/src/gen0_4ws/meshes/sick_lidar.mtl
 
