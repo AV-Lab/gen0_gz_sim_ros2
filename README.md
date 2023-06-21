@@ -3,12 +3,8 @@
 ## *** EZmile-Gen0 Simulation ***
 This section provides instructions on how to run the simulation of the vehicle. It is highly recommended to run the simulation on a computer system with Ubuntu 20.04 operating system installed. In addition, it is also recommended to use the ROS Noetic distribution. as it has been tested and found to work optimally on this particular setup.
 
-### 1) Workspace setup
+### 1) Installation
 
-**Clone the repo**
-```
-git clone https://github.com/AV-Lab/ezmile_gen0
-```
 **ROS Packages**
 ```
 # You can run the rospackages.sh file via terminal which contains all requried ros packages (noetic) 
@@ -18,7 +14,7 @@ sudo chmod +x rospackages.sh
 ```
 **Install dependencies**
 ```
-cd ezmile_ws
+cd gen0_simulation
 rosdep install --from-paths src --ignore-src -r -y
 ```
 **lightsfm package build**
@@ -29,7 +25,7 @@ sudo make install
 ```
 **Build & source the workspace**
 ```
-cd ezmile_ws
+cd gen0_simulation
 catkin_make
 source devel/setup.bash
 ```
@@ -37,13 +33,23 @@ source devel/setup.bash
 
 **Spawn the vehicle in a small city world**
 ```
-roslaunch catvehicle catvehicle_spawn.launch
+roslaunch gen0_4ws spawn.launch
 ```
 The launch file will start the following: 
-1) Catvehicle.launch which spawns the vehicle and its releative Xacros/Urdfs
+1) spawn.launch which spawns the vehicle and its releative Xacros/Urdfs
 2) points_to_scan as the ouster lidar produces pointcloud which gets converted to scan
-3) move_base.launch for the navigation stack
+3) Gazebo Simulator
 4) Rviz for visualization 
+
+```
+roslaunch gen0_4ws gen0_cmd_odom.launch 
+```
+This file launches Odom estimator based on speed measurements from wheel encoders (gazebo velocity topic in this case) and cmd to 4ws conversion nodes.
+
+```
+roslaunch gen0_4ws gen0_move_base.launch 
+```
+This file launches the move base node alongside TEB planner.
 
 **Set a navigation goal on RVIZ**
 
@@ -51,26 +57,24 @@ The launch file will start the following:
 
 **Optional: to run gmapping in a new .world file**
 
-1) Update world_name variable in the catvehicle_empty.launch file to the new world created 
+1) Update world_name variable in the spawn.launch file to the new world created 
 ```
-<arg name="world_name" value="$(find catvehicle)/worlds/plane.world"/>
+<arg name="world_name" value="$(find gen0_4ws)/worlds/****.world"/>
 ```
-2) Save and run catvehicle empty launch file
+2) Save and run spawn launch file
 ```
-roslaunch catvehicle catvehicle_empty.launch
+roslaunch gen0_4ws spawn.launch
 ```
-3) Launch points cloud to scan file
+3) Run the odom estimator and four wheel steering conversions nodes
 ```
-roslaunch catvehicle points_to_scan.launch
+roslaunch gen0_4ws gen0_cmd_odom.launch 
 ```
 4) Run the gmapping launch file
 ```
-roslaunch catvehicle gen0_gmapping.launch
+roslaunch gen0_4ws gen0_gmapping.launch
 ```
-5) Move the vehicle around by writing to cmd_vel topic or using a joystick to create the map
-```
-roslaunch catvehicle joystick.launch
-```
+5) Move the vehicle around by writing to cmd_vel topic
+
 6) Save the map
 ```
 rosrun map_server map_saver -f my_map
@@ -117,6 +121,11 @@ rosrun map_server map_saver -f my_map
 ```
 3) Modify the way points for the pedestrian path
 
+
+## *** EZmile-Gen0 Hardware ***
+
+Instructions will be available soon.
+
 ## *** EZmile-Gen0 Communication ***
 
 This segment will explain about starting hardware communication with EZmile Gen 0, there are however requirements that need to be met before communication is initiated:
@@ -141,7 +150,7 @@ initiating communication with EZmile
     1. turn on vehicle using the outer red knob
     2. turn the switch from arriv to mar in the outside hatch
     3. make sure both switched are set to manual
-    4. connect usb to laptop
+    4. connect usb to laptop/IPC
     5. establish connection using the first set of commands
     6. Rearm vehicle and wait for bell sound
     7. send heartbeat signal
