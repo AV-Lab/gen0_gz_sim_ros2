@@ -9,7 +9,7 @@ roslaunch gen0_main gen0_gmapping.launch
 
 
 
-Mar 22 2023 Commands:
+Gen0 hardware and TEB commands:
 
 roslaunch gen0_main main.launch
 roslaunch lms1xx LMS1xx.launch
@@ -17,20 +17,19 @@ roslaunch sick_ldmrs_driver sick_ldmrs_node.launch
 roslaunch gen0_main points_to_scan.launch
 roslaunch ira_laser_tools laserscan_multi_merger.launch
 roslaunch gen0_odom odom_estimator.launch 
+
+to run gmapping:
+roslaunch gen0_main gen0_gmapping.launch
+
+to run move_base:
 roslaunch gen0_main gen0_move_base.launch 
-rosrun 4ws_robot cmd_to_4ws.py 
+rosrun gen0_main cmd_to_4ws.py 
 rosrun gen0_main Hardware4WS.py 
 
 
+Commands for IPC:
+
 source /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/setup.bash
-source /home/av-ipc/Documents/GitHub/ezmile_gen0/catkin_ws/devel/setup.bash
+source /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_simulation/devel/setup.bash
 source devel/setup.bash
 
-
-
-    x: 53.75
-    y: -32.322
-
-  position: 
-    x: 115.77960968
-    y: -34.1449432373

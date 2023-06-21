@@ -1,0 +1,11 @@
+<launch>
+
+<node name="OdomEstimator" pkg="gen0_4ws" type="OdomEstimator.py" output="screen" />
+
+<node name="cmd_to_4ws" pkg="gen0_4ws" type="cmd_to_4ws.py" output="screen" />
+
+<node name="Fourws_to_gazebo" pkg="gen0_4ws" type="Fourws_to_gazebo.py" output="screen" />
+
+<node name="measurements_to_4ws" pkg="gen0_4ws" type="measurements_to_4ws.py" output="screen" />
+
+</launch>
