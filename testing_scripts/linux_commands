@@ -1,0 +1,34 @@
+to make connection with usb:
+	ls /dev
+	sudo slcand -o -c -f -s6 /dev/ttyUSBX slcan0 , ## change ttyUSBX to the one your device reads ex: ttyUSB0 or ttyUSB1
+	sudo ifconfig slcan0 up
+	ip addr
+
+to receive data:	
+	candump slcan0 | cantools decode /home/hassan/Desktop/EZmile/EZ10_test_LMS.dbc | less
+	cansniffer slcan0
+	
+to send data:
+	python3 /home/hassan/Desktop/EZmile/testcodes/heartbeat.py
+	python3 /home/hassan/Desktop/EZmile/testcodes/pc_can_params.py
+	python3 /home/hassan/Desktop/EZmile/testcodes/movecommand_bck.py
+	python3 /home/hassan/Desktop/EZmile/testcodes/movecommand_frw.py
+	python3 /home/hassan/Desktop/EZmile/testcodes/movecommand_left.py
+	python3 /home/hassan/Desktop/EZmile/testcodes/movecommand_right.py
+	
+	
+	
+Steps to operate the vehicle:
+	1- turn on vehicle using the outer red knob
+	2- turn the switch from arriv to mar in the outside hatch
+	3- make sure both switched are set to manual
+	4- connect usb to laptop
+	5- establish connection using the first set of commands
+	6- Rearm vehicle and wait for bell sound
+	7- send heartbeat signal
+	8- optional: send config param signal
+	9- switch to auto mode from outside
+	10- switch the activ then the auto mode in the inside hatch
+	11- press the door button then wait for the emergency light to on ready
+	12- rearm the vehicle
+	13- send movement command while the car is rearming, the command should be on while the vehicle is in auto mode
