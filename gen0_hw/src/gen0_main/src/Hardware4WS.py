@@ -26,7 +26,7 @@ class Hardware4WS:
     def __init__(self):
         self.bus = can.interface.Bus(bustype='socketcan',channel='slcan0', bitrate=500000)
         self.desiredSpeedAcceleration= 0.3 # m/s^2
-        self.desiredSpeedDeceleration= -1.5 # m/s^2
+        self.desiredSpeedDeceleration= -0.75 # m/s^2
         self.desiredSpeed= 0
         self.desiredFrontSteering= 0
         self.desiredRearSteering = 0
@@ -52,11 +52,17 @@ class Hardware4WS:
         self.desiredSpeed= min(max(float("{:.1f}".format(msg.data.speed)), -5.6), 5.6)
         self.desiredFrontSteering= min(max(float("{:.2f}".format(msg.data.front_steering_angle)), -0.31), 0.31)
         self.desiredRearSteering= min(max(float("{:.2f}".format(msg.data.rear_steering_angle)), -0.31), 0.31)
+        print("Desired Speed: ", abs(self.desiredSpeed))        
         # Acceleration/deceleration logic
         if abs(self.desiredSpeed) < abs(self.previousSpeed):
             self.acceleration= self.desiredSpeedDeceleration
-        else:
+            print("Slowing down......")  
+        elif abs(self.desiredSpeed) > abs(self.previousSpeed):
             self.acceleration= self.desiredSpeedAcceleration
+            print("Speeding up!!")  
+        else:
+            self.acceleration= 0
+            print("Maintaining speed.")  
         self.previousSpeed=self.desiredSpeed
 
 if __name__ == '__main__':
@@ -75,8 +81,8 @@ if __name__ == '__main__':
             rearAngle += 0.005 # radians, limited by the vehicle
         elif rearAngle > hardware_4ws.desiredRearSteering:
             rearAngle -= 0.005
-        print("Desired: ", hardware_4ws.desiredFrontSteering,  hardware_4ws.desiredRearSteering)        
-        print("Current: ", frontAngle, rearAngle)
+        # print("Desired Speed: ", abs(hardware_4ws.desiredSpeed))        
+        # print("Current: ", frontAngle, rearAngle)
         # convert to bytes format
         speed_lsb, speed_msb = hardware_4ws.bytesFromValue(int(hardware_4ws.desiredSpeed * 1000))
         acceleration_lsb, acceleration_msb = hardware_4ws.bytesFromValue(int(hardware_4ws.acceleration * 1000))

@@ -2,7 +2,7 @@
 
    <master auto="start"/>
  <!-- Run the map server --> 
-    <node name="map_server" pkg="map_server" type="map_server" args="$(find gen0_main)/maps/san_test1.yaml"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find gen0_main)/maps/san_parking.yaml"/>
 
  <!--- Run AMCL --> 
    <include file="$(find gen0_main)/launch/gen0_amcl.launch" />

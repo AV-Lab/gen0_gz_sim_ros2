@@ -24,6 +24,13 @@ rosrun gen0_main Hardware4WS.py
 
 source /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/setup.bash
 source /home/av-ipc/Documents/GitHub/ezmile_gen0/catkin_ws/devel/setup.bash
+source devel/setup.bash
 
 
 
+    x: 53.75
+    y: -32.322
+
+  position: 
+    x: 115.77960968
+    y: -34.1449432373
