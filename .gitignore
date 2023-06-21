@@ -5,3 +5,5 @@ gen0_hw/devel/
 gen0_lidars/build_isolated/
 gen0_lidars/devel_isolated/
 gen0_lidars/install_isolated/
+catkin_ws/src/4ws_robot/meshes/sick_lidar.obj
+catkin_ws/src/4ws_robot/meshes/sick_lidar.mtl
