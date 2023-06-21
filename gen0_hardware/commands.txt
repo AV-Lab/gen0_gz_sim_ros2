@@ -23,13 +23,13 @@ roslaunch gen0_main gen0_gmapping.launch
 
 to run move_base:
 roslaunch gen0_main gen0_move_base.launch 
-rosrun gen0_main cmd_to_4ws.py 
+rosrun gen0_main cmd_to_4ws.py      
 rosrun gen0_main Hardware4WS.py 
 
 
 Commands for IPC:
 
-source /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_lidars/devel_isolated/setup.bash
-source /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_simulation/devel/setup.bash
+source /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_hardware/gen0_lidars/devel_isolated/setup.bash
+source /home/av-ipc/Documents/GitHub/ezmile_gen0/gen0_hardware/gen0_hw/devel/setup.bash
 source devel/setup.bash
 
