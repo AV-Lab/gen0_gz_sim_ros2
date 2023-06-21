@@ -1,0 +1,8 @@
+<launch>
+
+<node name="odom_estimator" pkg="gen0_odom" type="OdomEstimator.py" output="screen" />
+
+<node name="vehicle_speed_measurements" pkg="gen0_odom" type="VehicleSpeedMeasurements.py" output="screen" />
+
+
+</launch>

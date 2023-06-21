@@ -1,0 +1,32 @@
+<launch>
+
+
+  <arg name="model" default="$(find gen0_main)/urdf/description.xacro"/>
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(arg model)" />
+
+
+
+  <!-- load the controllers -->
+  <!-- <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/4ws" args="joint_state_controller joint1_velocity_controller joint2_velocity_controller front_left_steering_position_controller front_right_steering_position_controller back_left_steering_position_controller back_right_steering_position_controller"/> -->
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+    respawn="false" output="screen">
+    <remap from="/joint_states" to="/4ws/joint_states" />
+  </node>
+
+<!-- No need as joint state controller ia already publishing the joints-->
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" respawn="false" output="screen">
+   <remap from="/joint_states" to="/4ws/joint_states" />
+  </node>
+
+  <!-- Launch RViz -->
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find gen0_main)/rviz/4ws.rviz" />
+
+</launch>
+
+
+
+
+
