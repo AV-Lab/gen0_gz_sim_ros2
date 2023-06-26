@@ -168,7 +168,40 @@ sudo nano can_setup.sh
 ```
 modify /dev/ttyUSBX to the right port. Make sure to run can_setup file until it shows no port error, then CAN bus should be ready to use.
 
-### 3) Launch the vehicle base codes
+### 3) EZmile-Gen0 Communication
+
+This segment will explain about starting hardware communication with EZmile Gen0, there are however requirements that need to be met before communication is initiated:
+
+**Requirementes:**
+
+  1. install [cantools lib](https://pypi.org/project/cantools/) 
+  
+**Procedure to initiate communication with the vehicle:**
+
+    -> To move the vehicle using the manual controller:
+  
+    1. turn on vehicle using the outer red knob
+    2. turn the switch from arriv to mar in the outside hatch
+    3- release the emergency from the controller
+    4. Rearm vehicle and wait for bell sound
+
+    You can now move the vehicle using the manual controller
+
+    -> To move the vehicle using the codes (autonomous mode):
+    
+    1. send heartbeat signal
+    ```
+    cd gen0_hardware/testing_scripts
+    python3 heartbeat.py
+    ```
+    2. switch the activ then the auto mode in the inside hatch
+    3. close the door using the button then wait for the emergency light to on ready
+    4. rearm the vehicle
+
+    You can now move the vehicle using codes
+
+
+### 4) Launch the vehicle base codes
 
 **Vehicle Main Launch (URDF, transforms and RVIZ). Workspace: gen0_hw**
 ```
@@ -193,7 +226,7 @@ roslaunch gen0_odom odom_estimator.launch
 rosrun gen0_main Hardware4WS.py 
 ```
 
-### 4) Launch TEB Planner
+### 5) Launch TEB Planner
 **Vehicle move_base and cmd convertor Workspace: gen0_hw**
 ```
 roslaunch gen0_main gen0_move_base.launch 
@@ -201,7 +234,7 @@ rosrun gen0_main cmd_to_4ws.py
 ```
 at this point RVIZ might still show no transformation. All you need to do is to release the emergency from the manual controller inside the vehicle and rearm the vehicle. RVIZ should start showing lidar readings and the vehicle 3d model.
 
-### 5) Map Creation
+### 6) Map Creation
 Alternativly if you want to create a new map, launch the vehicle base codes and then launch the following:
 
 **Vehicle SLAM Gmapping Workspace: gen0_hw**
@@ -214,42 +247,4 @@ rosrun map_server map_saver -f my_map
 ```
 Modify the map file name in gen0_move_base.launch, update args="$(find gen0_main)/maps/san_parking.yaml" to the right file name.
 
-
-## *** EZmile-Gen0 Communication ***
-
-This segment will explain about starting hardware communication with EZmile Gen 0, there are however requirements that need to be met before communication is initiated:
-
-initiating communication with EZmile 
-
-
-**Requirementes:**
-
-  1. LAWICEL AB canusb (model T70+) hardware
-  2. install [cantools lib](https://pypi.org/project/cantools/) 
-  3. install [can-utils lib](https://github.com/linux-can/can-utils)
-  4. install linux drivers from ftdi, VCP, D2XX, D3XX [FTDI drivers](https://ftdichip.com/drivers/) "might not be needed"
-  5. reference documents, EZmile files and documents: Gen0 automatic mode command description, LMS CAN interface definition document
-  6. needed document: EZmile LMS dbc file
-  
-  
-**Procedure to initiate communication with the vehicle:**
-
-  first of all make sure the vehicle is in manual mode on both the external and internal panels.
-  
-    1. turn on vehicle using the outer red knob
-    2. turn the switch from arriv to mar in the outside hatch
-    3. make sure both switched are set to manual
-    4. connect usb to laptop/IPC
-    5. establish connection using the first set of commands
-    6. Rearm vehicle and wait for bell sound
-    7. send heartbeat signal
-    8. optional: send config param signal
-    9. switch to auto mode from outside
-    10. switch the activ then the auto mode in the inside hatch
-    11. press the door button then wait for the emergency light to on ready
-    12. rearm the vehicle
-    13. send movement command while the car is rearming, the command should be on while the vehicle is in auto mode
 	  
-  the linux commands file include the commands needed for this operation and the python files are needed to send commands
-  
-  remark: make sure to update the file path of dbc file inside the python files
