@@ -178,27 +178,27 @@ This segment will explain about starting hardware communication with EZmile Gen0
   
 **Procedure to initiate communication with the vehicle:**
 
-    -> To move the vehicle using the manual controller:
-  
-    1. turn on vehicle using the outer red knob
-    2. turn the switch from arriv to mar in the outside hatch
-    3- release the emergency from the controller
-    4. Rearm vehicle and wait for bell sound
+-> To move the vehicle using the manual controller:
 
-    You can now move the vehicle using the manual controller
+1. turn on vehicle using the outer red knob
+2. turn the switch from arriv to mar in the outside hatch
+3- release the emergency from the controller
+4. Rearm vehicle and wait for bell sound
 
-    -> To move the vehicle using the codes (autonomous mode):
-    
-    1. send heartbeat signal
-    ```
-    cd gen0_hardware/testing_scripts
-    python3 heartbeat.py
-    ```
-    2. switch the activ then the auto mode in the inside hatch
-    3. close the door using the button then wait for the emergency light to on ready
-    4. rearm the vehicle
+You can now move the vehicle using the manual controller
 
-    You can now move the vehicle using codes
+-> To move the vehicle using the codes (autonomous mode):
+
+1. send heartbeat signal
+```
+cd gen0_hardware/testing_scripts
+python3 heartbeat.py
+```
+2. switch the activ then the auto mode in the inside hatch
+3. close the door using the button then wait for the emergency light to on ready
+4. rearm the vehicle
+
+You can now move the vehicle using codes
 
 
 ### 4) Launch the vehicle base codes
