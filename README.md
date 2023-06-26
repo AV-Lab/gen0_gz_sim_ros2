@@ -124,7 +124,96 @@ rosrun map_server map_saver -f my_map
 
 ## *** EZmile-Gen0 Hardware ***
 
-Instructions will be available soon.
+This section provides instructions on how to launch vehicle hardware codes, how to create a map using SLAM gmapping and autonomous navigation using TEB planner. The vehicle hardware currently works on ROS Melodic verion.
+
+### 1) Installation
+
+**ROS Packages**
+```
+# You can run the rospackages.sh file via terminal which contains all requried ros packages (noetic) 
+cd ezmile_gen0
+sudo chmod +x rospackages.sh
+./rospackages.sh
+```
+
+**Building the workspaces**
+gen0_hw workspace
+```
+cd gen0_hardware/gen0_hw
+catkin_make
+```
+gen0_lidars workspace
+```
+cd gen0_hardware/gen0_lidars
+catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
+```
+Make sure to source the correct workspace based on which package you want to run:
+```
+source devel/setup.bash
+```
+or for gen0_lidars
+```
+source devel_isolated/setup.bash
+```
+
+### 2) Setup CAN bus communication
+run the following in terminal:
+```
+cd gen0_hardware
+./can_setup.sh
+```
+if the USB port is not recognized then it must be changed inside the file:
+```
+sudo nano can_setup.sh
+```
+modify /dev/ttyUSBX to the right port. Make sure to run can_setup file until it shows no port error, then CAN bus should be ready to use.
+
+### 3) Launch the vehicle base codes
+
+**Vehicle Main Launch (URDF, transforms and RVIZ). Workspace: gen0_hw**
+```
+roslaunch gen0_main main.launch
+```
+**Vehicle 2d navgiation lidars. Workspace: gen0_hw**
+```
+roslaunch lms1xx LMS1xx.launch
+```
+**Vehicle 3d localization lidars. Workspace: gen0_lidars**
+```
+roslaunch sick_ldmrs_driver sick_ldmrs_node.launch
+```
+**Vehicle points to scan conversion and merger Workspace: gen0_hw**
+```
+roslaunch gen0_main points_to_scan.launch
+roslaunch ira_laser_tools laserscan_multi_merger.launch
+```
+**Vehicle odom estimator Workspace: gen0_hw**
+```
+roslaunch gen0_odom odom_estimator.launch
+rosrun gen0_main Hardware4WS.py 
+```
+
+### 4) Launch TEB Planner
+**Vehicle move_base and cmd convertor Workspace: gen0_hw**
+```
+roslaunch gen0_main gen0_move_base.launch 
+rosrun gen0_main cmd_to_4ws.py
+```
+at this point RVIZ might still show no transformation. All you need to do is to release the emergency from the manual controller inside the vehicle and rearm the vehicle. RVIZ should start showing lidar readings and the vehicle 3d model.
+
+### 5) Map Creation
+Alternativly if you want to create a new map, launch the vehicle base codes and then launch the following:
+
+**Vehicle SLAM Gmapping Workspace: gen0_hw**
+```
+roslaunch gen0_main gen0_gmapping.launch
+```
+After moving the vehicle around to get capture a map you can save the map using the following:
+```
+rosrun map_server map_saver -f my_map
+```
+Modify the map file name in gen0_move_base.launch, update args="$(find gen0_main)/maps/san_parking.yaml" to the right file name.
+
 
 ## *** EZmile-Gen0 Communication ***
 
