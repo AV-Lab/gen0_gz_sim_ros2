@@ -42,6 +42,77 @@
         <falloff>0</falloff>
       </spot>
     </light>
+  <actor name="actor1">
+    <pose>2 3 1.213800 0 0 0</pose>
+    <skin>
+      <filename>moonwalk.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="walking">
+      <filename>walk.dae</filename>
+      <scale>1.000000</scale>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <!-- plugin definition -->
+    <plugin name="actor1_plugin" filename="libPedestrianSFMPlugin.so">
+      <velocity>1</velocity>
+      <radius>0.4</radius>
+      <animation_factor>5.1</animation_factor>
+      <people_distance>6.0</people_distance>
+      <!-- weights -->
+      <goal_weight>2.0</goal_weight>
+      <obstacle_weight>0.0</obstacle_weight>
+      <social_weight>15</social_weight>
+      <group_gaze_weight>3.0</group_gaze_weight>
+      <group_coh_weight>2.0</group_coh_weight>
+      <group_rep_weight>1.0</group_rep_weight>
+      <ignore_obstacles>
+        <model>ground_plane</model>
+        <model>sidewalk_16</model>
+      </ignore_obstacles>
+      <trajectory>
+        <cyclic>true</cyclic>
+        <waypoint>40 8 1.213800</waypoint>
+        <waypoint>40 -8 1.213800</waypoint>
+      </trajectory>
+    </plugin>
+    </actor>
+        <actor name="actor2">
+    <pose>4 3 1.213800 0 0 0</pose>
+    <skin>
+      <filename>moonwalk.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="walking">
+      <filename>walk.dae</filename>
+      <scale>1.000000</scale>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <!-- plugin definition -->
+    <plugin name="actor1_plugin" filename="libPedestrianSFMPlugin.so">
+      <velocity>1</velocity>
+      <radius>0.4</radius>
+      <animation_factor>5.1</animation_factor>
+      <people_distance>6.0</people_distance>
+      <!-- weights -->
+      <goal_weight>2.0</goal_weight>
+      <obstacle_weight>0.0</obstacle_weight>
+      <social_weight>15</social_weight>
+      <group_gaze_weight>3.0</group_gaze_weight>
+      <group_coh_weight>2.0</group_coh_weight>
+      <group_rep_weight>1.0</group_rep_weight>
+      <ignore_obstacles>
+        <model>ground_plane</model>
+        <model>sidewalk_16</model>
+      </ignore_obstacles>
+      <trajectory>
+        <cyclic>true</cyclic>
+        <waypoint>40 -3 1.213800</waypoint>
+        <waypoint>0 5 1.213800</waypoint>
+      </trajectory>
+    </plugin>
+    </actor>
+
     <model name='ground_plane'>
       <static>1</static>
       <link name='link'>

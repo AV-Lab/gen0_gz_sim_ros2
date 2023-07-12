@@ -29,7 +29,7 @@ class Measurements4WS:
         vx=response.twist.linear.x
         vy=response.twist.linear.y
         speed=math.sqrt(vx**2 + vy**2)
-        if speed < 0.01:# ignore speed if the value is too small. otherwise it will accmulate with odom
+        if speed < 0.011:# ignore speed if the value is too small. otherwise it will accmulate with odom
             speed=0 
 
         self.four_wheel_steering.header=self.header
