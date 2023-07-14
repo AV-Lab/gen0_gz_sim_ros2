@@ -122,6 +122,35 @@ rosrun map_server map_saver -f my_map
 3) Modify the way points for the pedestrian path
 
 
+## *** Pedestrians Trajectories ***
+This branch is dedicated for pedestrians trajectories work integration with Gen0 simulation. For documentation on how to download the gen0 platform please refer to the main branch.
+
+### 1) Running the simulation
+
+**Spawn the vehicle in a small city world**
+```
+roslaunch gen0_4ws spawn.launch
+roslaunch gen0_4ws gen0_cmd_odom.launch
+roslaunch gen0_4ws gen0_move_base.launch 
+```
+
+**Launch pedestrians points**
+```
+roslaunch pedestrian_trajectory pedestrians_points.launch pedestrians_names:="actor1,actor2" frequency:=2 points:=8
+```
+The launch file will start the following nodes: 
+1) pedestrians_past_points which publishes the recorded points of pedestrians and shows it on rviz view markers.
+2) pedestrians_predicted_points which subscribes to the predicted points of pedestrians and shows it on rviz view markers.
+
+Note: You can get the pedestrians names from gazebo, please make sure to follow the format above to pass the names without any spaces in between.
+
+**Launch pedestrians predictions**
+```
+cd Pedestrain_Trajectory-main
+python3 evaluate_with_ROS.py
+```
+
+
 ## *** EZmile-Gen0 Hardware ***
 
 This section provides instructions on how to launch vehicle hardware codes, how to create a map using SLAM gmapping and autonomous navigation using TEB planner. The vehicle hardware currently works on ROS Melodic verion.
