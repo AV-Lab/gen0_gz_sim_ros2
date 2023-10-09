@@ -1,9 +1,0 @@
-<launch>
-
-<node pkg="gmapping" type="slam_gmapping" name="gmapping_gen0" output="screen" >
-  <remap from="scan" to="merged_scan_navigation" />
-  <param name="odom_frame" value="odom" />
-  <param name="base_frame" value="base_link" />
-</node>
-
-</launch>

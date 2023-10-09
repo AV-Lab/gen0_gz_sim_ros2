@@ -1,9 +1,0 @@
-<launch>
-  <arg name="pedestrians_names" default="actor1,actor2"/>
-  <arg name="frequency" default="2"/>
-  <arg name="points" default="8"/>
-
-  <node name="pedestrians_past_points_node" pkg="pedestrian_trajectory" type="pedestrians_past_points.py" args="$(arg pedestrians_names) $(arg frequency) $(arg points)" output="screen"/>
-  <node name="pedestrians_predicted_points_node" pkg="pedestrian_trajectory" type="pedestrians_predicted_points.py" output="screen"/>
-  
-</launch>

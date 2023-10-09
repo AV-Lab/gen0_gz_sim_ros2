@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<!--
+  Try sending commands:
+    gz topic -t "/model/diff_drive/cmd_vel" -m gz.msgs.Twist -p "linear: {x: 1.0}, angular: {z: -0.1}"
+    ros2 topic pub /diff_drive/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 5.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.1}}"
+  Listen to odometry:
+    gz topic -e -t /model/diff_drive/odometry
+    ros2 topic echo /model/diff_drive/odometry
+-->
+<sdf version="1.8">
+  <world name="demo">
+
+    <plugin
+      filename="ignition-gazebo-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>10 10 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="body">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1000 1000</size> <!-- Adjust the size as needed -->
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1000 1000</size> <!-- Adjust the size as needed -->
+              <texture>
+                <diffuse>0.8 0.8 0.8 1</diffuse> <!-- Adjust the color as needed -->
+              </texture>
+            </plane>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="my_mesh">
+      <pose>60 -30 5.45  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/worlds/san_parking_model/parking.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    
+    <!-- <model name="gen0_model">
+      <self_collide>true</self_collide>
+      <pose>0 0 0.35 0 0 0</pose>
+      <include merge="true">
+        <uri>package://gen0_main/worlds/san_parking_model</uri>
+      </include>
+
+      <plugin
+        filename="ignition-joint-state-publisher-system"
+        name="gz::sim::systems::JointStatePublisher">
+      </plugin>
+
+      <plugin
+        filename="ignition-pose-publisher-system"
+        name="gz::sim::systems::PosePublisher">
+        <publish_link_pose>true</publish_link_pose>
+        <use_pose_vector_msg>true</use_pose_vector_msg>
+        <static_publisher>true</static_publisher>
+        <static_update_frequency>1</static_update_frequency>
+      </plugin>
+
+    </model> -->
+
+  </world>
+</sdf>
