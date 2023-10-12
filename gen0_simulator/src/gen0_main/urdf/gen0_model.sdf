@@ -10,7 +10,7 @@
             <pose>0 0 0 0 0 -1.57079633</pose>
             <geometry>
                 <mesh> 
-                    <uri>model://gen0_colored.dae</uri>
+                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_colored.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -19,7 +19,7 @@
             <pose>0 0 0 0 0 -1.57079633</pose>
             <geometry>
                 <mesh> 
-                    <uri>model://gen0_colored.dae</uri>
+                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_colored.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -95,7 +95,7 @@
         <visual name='visual_back_right_wheel'>
             <geometry>
                 <mesh> 
-                    <uri>model://gen0_wheels.dae</uri>
+                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -185,7 +185,7 @@
         <visual name='visual_back_left_wheel'>
             <geometry>
                 <mesh> 
-                    <uri>model://gen0_wheels.dae</uri>
+                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -274,7 +274,7 @@
         <visual name='visual_front_right_wheel'>
             <geometry>
                 <mesh> 
-                    <uri>model://gen0_wheels.dae</uri>
+                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -363,7 +363,7 @@
         <visual name='visual_front_left_wheel'>
             <geometry>
                 <mesh> 
-                    <uri>model://gen0_wheels.dae</uri>
+                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -426,27 +426,27 @@
         <sensor name='gpu_lidar' type='gpu_lidar'>
             <pose>0 0 0 0 0 0</pose>
             <topic>scan</topic>
-            <ignition_frame_id>gen0_model/lidar_link</ignition_frame_id>
+            <ignition_frame_id>lidar_link</ignition_frame_id>
             <update_rate>10</update_rate>
             <lidar>
             <scan>
                 <horizontal>
-                <samples>640</samples>
+                <samples>512</samples>
                 <resolution>1</resolution>
-                <min_angle>-0.261799</min_angle>
-                <max_angle>0.261799</max_angle>
+                <min_angle>-3.14</min_angle>
+                <max_angle>3.14</max_angle>
                 </horizontal>
                 <vertical>
                 <samples>64</samples>
                 <resolution>1</resolution>
-                <min_angle>0.0</min_angle>
-                <max_angle>0.0</max_angle>
+                <min_angle>-0.289724656</min_angle>
+                <max_angle>0.289724656</max_angle>
                 </vertical>
             </scan>
             <range>
-                <min>0.08</min>
-                <max>10.0</max>
-                <resolution>0.01</resolution>
+                <min>1.5</min>
+                <max>30.0</max>
+                <resolution>0.03</resolution>
             </range>
             </lidar>
             <visualize>true</visualize>
@@ -641,20 +641,26 @@
         <min_angular_velocity>-1</min_angular_velocity>
       </plugin> -->
 
-    <!-- <plugin
+    <plugin
         filename="ignition-gazebo-joint-state-publisher-system"
         name="gz::sim::systems::JointStatePublisher">
-    </plugin> -->
+    </plugin>
 
-    <plugin
+    <!-- <plugin
         filename="ignition-gazebo-pose-publisher-system"
         name="gz::sim::systems::PosePublisher">
         <publish_link_pose>true</publish_link_pose>
         <use_pose_vector_msg>true</use_pose_vector_msg>
         <static_publisher>true</static_publisher>
         <static_update_frequency>1</static_update_frequency>
-    </plugin>
+    </plugin> -->
 
+    <!-- <plugin
+        filename="ignition-gazebo-odometry-publisher-system"
+        name="gz::sim::systems::OdometryPublisher">
+        <odom_frame>gen0_model/odom</odom_frame>
+        <robot_base_frame>gen0_model</robot_base_frame>
+    </plugin> -->
 
 </model>
 

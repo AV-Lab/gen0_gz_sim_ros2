@@ -25,7 +25,7 @@ def generate_launch_description():
         robot_desc = infp.read()
 
     return LaunchDescription([
-        DeclareLaunchArgument('namespace', default_value='gen0_model'),
+        # DeclareLaunchArgument('namespace', default_value='gen0_model'),
         DeclareLaunchArgument('use_sim_time', default_value='false', choices=['true', 'false']),
          IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -33,16 +33,6 @@ def generate_launch_description():
         launch_arguments={'gz_args':
             world_file
         }.items(),
-        ),
-        Node(
-            package='robot_state_publisher',
-            executable='robot_state_publisher',
-            name='robot_state_publisher',
-            output='both',
-            parameters=[
-                {'use_sim_time': LaunchConfiguration('use_sim_time')},
-                {'robot_description': robot_desc},
-            ]
         ),
         # Node(
         #     package='joint_state_publisher',
@@ -61,22 +51,20 @@ def generate_launch_description():
         #     ('ign_args', [world_file])
         # ]
         # ),
-        Node(
-            package='ros_ign_gazebo',
-            executable='create',
-            arguments=['-name', LaunchConfiguration('namespace'),
-                       '-x', '-25.00',
-                       '-y', '13.5288',
-                       '-z', '0.1',
-                       '-Y', '1.0',
-                        # '-x', '0.0',
-                        # '-y', '0.0',
-                        # '-z', '0.0',
-                        # '-Y', '0.0',
-                       '-topic', 'robot_description'],
-            output='screen'
-        ),
-
+        # Node(
+        #     package='ros_ign_gazebo',
+        #     executable='create',
+        #     arguments=['-x', '-25.00',
+        #                '-y', '13.5288',
+        #                '-z', '0.1',
+        #                '-Y', '1.0',
+        #                 # '-x', '0.0',
+        #                 # '-y', '0.0',
+        #                 # '-z', '0.0',
+        #                 # '-Y', '0.0',
+        #                '-topic', 'robot_description'],
+        #     output='screen'
+        # ),
         Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
@@ -85,6 +73,26 @@ def generate_launch_description():
             'qos_overrides./tf_static.publisher.durability': 'transient_local',
         }],
         output='screen'
+        ),
+        Node(
+            package='robot_state_publisher',
+            executable='robot_state_publisher',
+            name='robot_state_publisher',
+            output='both',
+            parameters=[
+                {'use_sim_time': LaunchConfiguration('use_sim_time')},
+                {'robot_description': robot_desc},
+            ]
+        ),
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            arguments=['-d', os.path.join(pkg_share_dir, 'config', 'gen0_main.rviz')],
+            # condition=IfCondition(LaunchConfiguration('rviz'))
+        ),
+        Node(
+            package='gen0_main',
+            executable='odom_frame_corrector',
         )
     ])
 

@@ -79,30 +79,14 @@
       </link>
     </model>
 
-
-    
-    <!-- <model name="gen0_model">
+    <model name="gen0_model">
       <self_collide>true</self_collide>
-      <pose>0 0 0.35 0 0 0</pose>
+      <pose>-25.00 13.5288 0.1 0 0 1</pose>
       <include merge="true">
-        <uri>package://gen0_main/worlds/san_parking_model</uri>
+        <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/urdf/gen0_model.sdf</uri>
       </include>
 
-      <plugin
-        filename="ignition-joint-state-publisher-system"
-        name="gz::sim::systems::JointStatePublisher">
-      </plugin>
-
-      <plugin
-        filename="ignition-pose-publisher-system"
-        name="gz::sim::systems::PosePublisher">
-        <publish_link_pose>true</publish_link_pose>
-        <use_pose_vector_msg>true</use_pose_vector_msg>
-        <static_publisher>true</static_publisher>
-        <static_update_frequency>1</static_update_frequency>
-      </plugin>
-
-    </model> -->
+    </model>
 
   </world>
 </sdf>
