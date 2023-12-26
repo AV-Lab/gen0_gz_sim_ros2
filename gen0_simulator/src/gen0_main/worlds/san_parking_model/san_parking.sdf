@@ -1,12 +1,5 @@
 <?xml version="1.0" ?>
-<!--
-  Try sending commands:
-    gz topic -t "/model/diff_drive/cmd_vel" -m gz.msgs.Twist -p "linear: {x: 1.0}, angular: {z: -0.1}"
-    ros2 topic pub /diff_drive/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 5.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.1}}"
-  Listen to odometry:
-    gz topic -e -t /model/diff_drive/odometry
-    ros2 topic echo /model/diff_drive/odometry
--->
+
 <sdf version="1.8">
   <world name="demo">
 
@@ -26,6 +19,9 @@
       filename="ignition-gazebo-sensors-system"
       name="gz::sim::systems::Sensors">
       <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="libignition-gazebo-imu-system.so"
+      name="ignition::gazebo::systems::Imu">
     </plugin>
 
     <light name="sun" type="directional">
@@ -81,7 +77,7 @@
 
     <model name="gen0_model">
       <self_collide>true</self_collide>
-      <pose>-25.00 13.5288 0.1 0 0 1</pose>
+      <pose>-15.860234926383706 27.763237163711953 0.1 0 0 1</pose>
       <include merge="true">
         <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/urdf/gen0_model.sdf</uri>
       </include>

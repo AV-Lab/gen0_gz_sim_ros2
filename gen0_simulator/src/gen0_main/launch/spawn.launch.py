@@ -27,7 +27,7 @@ def generate_launch_description():
     return LaunchDescription([
         # DeclareLaunchArgument('namespace', default_value='gen0_model'),
         DeclareLaunchArgument('use_sim_time', default_value='false', choices=['true', 'false']),
-         IncludeLaunchDescription(
+        IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')),
         launch_arguments={'gz_args':
@@ -84,15 +84,22 @@ def generate_launch_description():
                 {'robot_description': robot_desc},
             ]
         ),
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            arguments=['-d', os.path.join(pkg_share_dir, 'config', 'gen0_main.rviz')],
-            # condition=IfCondition(LaunchConfiguration('rviz'))
-        ),
-        Node(
-            package='gen0_main',
-            executable='odom_frame_corrector',
-        )
+        # Node(
+        #     package='rviz2',
+        #     executable='rviz2',
+        #     arguments=['-d', os.path.join(pkg_share_dir, 'config', 'gen0_main.rviz')],
+        #     # condition=IfCondition(LaunchConfiguration('rviz'))
+        # ),
+        # Node(
+        #     package='gen0_main',
+        #     executable='odom_frame_corrector',
+        # ),
+        # Node(
+        #     package='gen0_main',
+        #     executable='ground_truth_publisher',
+        # )
     ])
+
+
+
 

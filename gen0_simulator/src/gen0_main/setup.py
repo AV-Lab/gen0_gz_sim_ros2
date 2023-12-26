@@ -37,7 +37,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'odom_frame_corrector = gen0_main.odom_frame_corrector:main'
+        'odom_frame_corrector = gen0_main.odom_frame_corrector:main',
+        'ground_truth_publisher = gen0_main.pose_publisher:main'
         ],
     },
 )

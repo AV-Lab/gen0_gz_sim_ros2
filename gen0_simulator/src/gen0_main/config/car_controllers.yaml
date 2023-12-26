@@ -3,22 +3,44 @@ controller_manager:
     update_rate: 30
     use_sim_time: true
 
-    acker_cont:
-      type: ackermann_steering_controller/AckermannSteeringController
+    # acker_cont:
+    #   type: ackermann_steering_controller/AckermannSteeringController
     
     joint_broad:
       type: joint_state_broadcaster/JointStateBroadcaster
 
+    test_steering_controllers_library:
+      type: steering_controllers_library/SteeringControllersLibrary
 
-acker_cont:
+
+# acker_cont:
+#   ros__parameters:
+#     reference_timeout: 2.0
+#     front_steering: true
+#     open_loop: false
+#     velocity_rolling_window_size: 10
+#     position_feedback: false
+#     use_stamped_vel: true
+#     rear_wheels_names: [rear_right_wheel_joint, rear_left_wheel_joint]
+#     front_wheels_names: [front_right_steering_joint, front_left_steering_joint]
+
+#     wheelbase: 2.8
+#     front_wheel_track: 1.385
+#     rear_wheel_track: 1.385
+#     front_wheels_radius: 0.33
+#     rear_wheels_radius: 0.33
+
+
+test_steering_controllers_library:
   ros__parameters:
-    reference_timeout: 2.0
+
+    reference_timeout: 0.1
     front_steering: true
     open_loop: false
     velocity_rolling_window_size: 10
     position_feedback: false
     use_stamped_vel: true
-    rear_wheels_names: [rear_right_wheel_joint, rear_left_wheel_joint]
+    rear_wheels_names: [back_left_wheel_joint, back_right_wheel_joint]
     front_wheels_names: [front_right_steering_joint, front_left_steering_joint]
 
     wheelbase: 2.8

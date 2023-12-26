@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-
 <sdf version="1.6">
 
   <model name='gen0_model'>
@@ -453,6 +452,96 @@
         </sensor>
     </link>
 
+    <link name="lidar2_link">
+        <pose>-0.5 0 3 0 0 0</pose>
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>0.000166667</ixx>
+            <iyy>0.000166667</iyy>
+            <izz>0.000166667</izz>
+          </inertia>
+        </inertial>
+        <collision name="lidar2_collision">
+          <geometry>
+            <box>
+              <size>0.1 0.1 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="lidar2_visual">
+          <geometry>
+            <box>
+              <size>0.1 0.1 0.1</size>
+            </box>
+          </geometry>
+        </visual>
+              
+        <sensor name='gpu_lidar2' type='gpu_lidar'>
+            <pose>0 0 0 0 0 0</pose>
+            <topic>scan2</topic>
+            <ignition_frame_id>lidar2_link</ignition_frame_id>
+            <update_rate>10</update_rate>
+            <lidar>
+            <scan>
+                <horizontal>
+                <samples>512</samples>
+                <resolution>1</resolution>
+                <min_angle>-3.14</min_angle>
+                <max_angle>3.14</max_angle>
+                </horizontal>
+                <vertical>
+                <samples>64</samples>
+                <resolution>1</resolution>
+                <min_angle>-0.289724656</min_angle>
+                <max_angle>0.289724656</max_angle>
+                </vertical>
+            </scan>
+            <range>
+                <min>1.5</min>
+                <max>30.0</max>
+                <resolution>0.03</resolution>
+            </range>
+            </lidar>
+            <visualize>true</visualize>
+        </sensor>
+    </link>
+
+
+    <link name="imu_link">
+        <pose>0.5 0 3 0 0 0</pose>
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>0.000166667</ixx>
+            <iyy>0.000166667</iyy>
+            <izz>0.000166667</izz>
+          </inertia>
+        </inertial>
+        <collision name="imu_collision">
+          <geometry>
+            <box>
+              <size>0.1 0.05 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="imu_visual">
+          <geometry>
+            <box>
+              <size>0.1 0.05 0.1</size>
+            </box>
+          </geometry>
+        </visual> 
+        <sensor name='imu_sensor' type='imu'>
+            <always_on>1</always_on>
+            <update_rate>1</update_rate>
+            <visualize>true</visualize>
+            <topic>imu</topic>
+        </sensor>
+    </link>
+
+
+
     <joint name="inertial_joint" type="fixed">
         <parent>base_link</parent>
         <child>main_mass</child>
@@ -463,18 +552,30 @@
         <child>lidar_link</child>
     </joint>
 
-    <joint name="back_right_steering_joint" type="fixed">
+
+    <joint name='lidar2_joint' type='fixed'>
+        <parent>base_link</parent>
+        <child>lidar2_link</child>
+    </joint>
+
+    <joint name='imu_joint' type='fixed'>
+        <parent>base_link</parent>
+        <child>imu_link</child>
+    </joint>
+
+
+    <joint name="back_right_steering_joint" type="revolute">
         <parent>base_link</parent>
         <child>back_right_steering_link</child>
-        <!-- <axis>
+       <axis>
             <xyz>0 0 1</xyz>
             <limit>
                 <lower>-0.6</lower>
                 <upper>0.6</upper>
-                <velocity>1.0</velocity>
-                <effort>25</effort>
+                <velocity>1000</velocity>
+                <effort>10000</effort>
             </limit>
-        </axis> -->
+        </axis>
     </joint>
     
     <joint name="back_right_wheel_joint" type="revolute">
@@ -498,18 +599,18 @@
         </joint_properties>
     </joint>
     
-        <joint name="back_left_steering_joint" type="fixed">
+        <joint name="back_left_steering_joint" type="revolute">
         <parent>base_link</parent>
         <child>back_left_steering_link</child>
-        <!-- <axis>
+        <axis>
             <xyz>0 0 1</xyz>
             <limit>
                 <lower>-0.6</lower>
                 <upper>0.6</upper>
-                <velocity>1.0</velocity>
-                <effort>25</effort>
+                <velocity>1000</velocity>
+                <effort>10000</effort>
             </limit>
-        </axis> -->
+        </axis>
     </joint>
     
     <joint name="back_left_wheel_joint" type="revolute">
@@ -606,14 +707,12 @@
     <plugin
         filename="ignition-gazebo-ackermann-steering-system"
         name="gz::sim::systems::AckermannSteering">
-        <left_joint>front_left_wheel_joint</left_joint>
         <left_joint>back_left_wheel_joint</left_joint>
-        <right_joint>front_right_wheel_joint</right_joint>
         <right_joint>back_right_wheel_joint</right_joint>
-        <left_steering_joint>front_left_steering_joint</left_steering_joint>
-        <right_steering_joint>front_right_steering_joint</right_steering_joint>
+        <left_steering_joint>back_left_steering_joint</left_steering_joint>
+        <right_steering_joint>back_right_steering_joint</right_steering_joint>
         <kingpin_width>1.0</kingpin_width>
-        <steering_limit>0.5</steering_limit>
+        <steering_limit>0.6</steering_limit>
         <wheel_base>2.8</wheel_base>
         <wheel_separation>1.385</wheel_separation>
         <wheel_radius>0.33</wheel_radius>
@@ -646,21 +745,38 @@
         name="gz::sim::systems::JointStatePublisher">
     </plugin>
 
-    <!-- <plugin
+    <plugin
+        filename="ignition-gazebo-joint-position-controller-system"
+        name="gz::sim::systems::JointPositionController">
+        <joint_name>front_left_steering_joint</joint_name>
+        <topic>/model/gen0_model/joint/front_left_steering_joint/cmd_pos</topic>
+        <p_gain>100</p_gain>
+        <i_gain>0.0</i_gain>
+        <d_gain>0.0</d_gain>
+        <!-- <cmd_max>0.6</cmd_max>
+        <cmd_min>-0.6</cmd_min> -->
+    </plugin>
+
+    <plugin
+        filename="ignition-gazebo-joint-position-controller-system"
+        name="gz::sim::systems::JointPositionController">
+        <joint_name>front_right_steering_joint</joint_name>
+        <topic>/model/gen0_model/joint/front_right_steering_joint/cmd_pos</topic>
+        <p_gain>100</p_gain>
+        <i_gain>0.0</i_gain>
+        <d_gain>0.0</d_gain>
+        <!-- <cmd_max>0.6</cmd_max>
+        <cmd_min>-0.6</cmd_min> -->
+    </plugin>
+
+    <plugin
         filename="ignition-gazebo-pose-publisher-system"
         name="gz::sim::systems::PosePublisher">
         <publish_link_pose>true</publish_link_pose>
         <use_pose_vector_msg>true</use_pose_vector_msg>
-        <static_publisher>true</static_publisher>
-        <static_update_frequency>1</static_update_frequency>
-    </plugin> -->
-
-    <!-- <plugin
-        filename="ignition-gazebo-odometry-publisher-system"
-        name="gz::sim::systems::OdometryPublisher">
-        <odom_frame>gen0_model/odom</odom_frame>
-        <robot_base_frame>gen0_model</robot_base_frame>
-    </plugin> -->
+        <publish_nested_model_pose>true</publish_nested_model_pose>
+        <static_publisher>false</static_publisher>
+    </plugin>
 
 </model>
 
