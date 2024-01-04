@@ -77,7 +77,8 @@
 
     <model name="gen0_model">
       <self_collide>true</self_collide>
-      <pose>-15.860234926383706 27.763237163711953 0.1 0 0 1</pose>
+      <!-- <pose>-15.860234926383706 27.763237163711953 0.1 0 0 1</pose> -->
+      <pose>52.7489 12.5969 0.1 0 0 2.6220</pose>
       <include merge="true">
         <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/urdf/gen0_model.sdf</uri>
       </include>

@@ -716,8 +716,8 @@
         <wheel_base>2.8</wheel_base>
         <wheel_separation>1.385</wheel_separation>
         <wheel_radius>0.33</wheel_radius>
-        <min_velocity>-1</min_velocity>
-        <max_velocity>1</max_velocity>
+        <min_velocity>-3</min_velocity>
+        <max_velocity>3</max_velocity>
         <min_acceleration>-3</min_acceleration>
         <max_acceleration>3</max_acceleration>
     </plugin>
@@ -751,8 +751,8 @@
         <joint_name>front_left_steering_joint</joint_name>
         <topic>/model/gen0_model/joint/front_left_steering_joint/cmd_pos</topic>
         <p_gain>100</p_gain>
-        <i_gain>0.0</i_gain>
-        <d_gain>0.0</d_gain>
+        <i_gain>0.01</i_gain>
+        <d_gain>10.0</d_gain>
         <!-- <cmd_max>0.6</cmd_max>
         <cmd_min>-0.6</cmd_min> -->
     </plugin>
@@ -763,8 +763,8 @@
         <joint_name>front_right_steering_joint</joint_name>
         <topic>/model/gen0_model/joint/front_right_steering_joint/cmd_pos</topic>
         <p_gain>100</p_gain>
-        <i_gain>0.0</i_gain>
-        <d_gain>0.0</d_gain>
+        <i_gain>0.01</i_gain>
+        <d_gain>10.0</d_gain>
         <!-- <cmd_max>0.6</cmd_max>
         <cmd_min>-0.6</cmd_min> -->
     </plugin>
