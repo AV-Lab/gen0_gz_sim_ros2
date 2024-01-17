@@ -444,7 +444,7 @@
             </scan>
             <range>
                 <min>1.5</min>
-                <max>30.0</max>
+                <max>80.0</max>
                 <resolution>0.03</resolution>
             </range>
             </lidar>
@@ -452,7 +452,7 @@
         </sensor>
     </link>
 
-    <link name="lidar2_link">
+    <!-- <link name="lidar2_link">
         <pose>-0.5 0 3 0 0 0</pose>
         <inertial>
           <mass>0.1</mass>
@@ -499,13 +499,13 @@
             </scan>
             <range>
                 <min>1.5</min>
-                <max>30.0</max>
+                <max>80.0</max>
                 <resolution>0.03</resolution>
             </range>
             </lidar>
             <visualize>true</visualize>
         </sensor>
-    </link>
+    </link> -->
 
 
     <link name="imu_link">
@@ -552,11 +552,11 @@
         <child>lidar_link</child>
     </joint>
 
-
+<!-- 
     <joint name='lidar2_joint' type='fixed'>
         <parent>base_link</parent>
         <child>lidar2_link</child>
-    </joint>
+    </joint> -->
 
     <joint name='imu_joint' type='fixed'>
         <parent>base_link</parent>

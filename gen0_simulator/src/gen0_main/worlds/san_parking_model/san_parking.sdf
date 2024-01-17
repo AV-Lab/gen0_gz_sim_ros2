@@ -38,47 +38,29 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
-    <model name="ground_plane">
+    <model name="my_mesh">
+      <pose>0 0 0  1.57079632679 0 0</pose>
       <static>true</static>
       <link name="body">
-        <collision name="collision">
+        <visual name="visual">
           <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>1000 1000</size> <!-- Adjust the size as needed -->
-            </plane>
+            <mesh><uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/worlds/san_reduced_obj/san.obj</uri></mesh>
+          </geometry>
+        </visual>
+          <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/worlds/san_reduced_obj/san.obj</uri>
+            </mesh>
           </geometry>
         </collision>
-        <visual name="visual">
-          <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>1000 1000</size> <!-- Adjust the size as needed -->
-              <texture>
-                <diffuse>0.8 0.8 0.8 1</diffuse> <!-- Adjust the color as needed -->
-              </texture>
-            </plane>
-          </geometry>
-        </visual>
-      </link>
-    </model>
-
-    <model name="my_mesh">
-      <pose>60 -30 5.45  0 0 0</pose>
-      <static>true</static>
-      <link name="body">
-        <visual name="visual">
-          <geometry>
-            <mesh><uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/worlds/san_parking_model/parking.dae</uri></mesh>
-          </geometry>
-        </visual>
       </link>
     </model>
 
     <model name="gen0_model">
       <self_collide>true</self_collide>
       <!-- <pose>-15.860234926383706 27.763237163711953 0.1 0 0 1</pose> -->
-      <pose>52.7489 12.5969 0.1 0 0 2.6220</pose>
+      <pose>-20.6991 -22.4324 5.0 0 0 -0.5406</pose>
       <include merge="true">
         <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/urdf/gen0_model.sdf</uri>
       </include>
