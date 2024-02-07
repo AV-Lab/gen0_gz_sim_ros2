@@ -26,7 +26,7 @@
 
     <light name="sun" type="directional">
       <cast_shadows>true</cast_shadows>
-      <pose>10 10 10 0 0 0</pose>
+      <pose>10 10 30 0 0 0</pose>
       <diffuse>0.8 0.8 0.8 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
@@ -37,6 +37,16 @@
       </attenuation>
       <direction>-0.5 0.1 -0.9</direction>
     </light>
+
+    <scene>
+  <sky>
+  <sunset>6  </sunset>
+    <clouds>
+      <speed>24</speed>
+    </clouds>
+  </sky>
+</scene>
+
 
     <model name="my_mesh">
       <pose>0 0 0  1.57079632679 0 0</pose>
@@ -65,7 +75,15 @@
         <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/urdf/gen0_model.sdf</uri>
       </include>
 
-    </model>
+    <!-- </model>
+
+        <model name="car">
+      <self_collide>true</self_collide>
+      <include merge="true">
+        <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/models/car_008/model.sdf</uri>
+      </include>
+
+    </model> -->
 
   </world>
 </sdf>
