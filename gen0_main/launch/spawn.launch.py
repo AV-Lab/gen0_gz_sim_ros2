@@ -94,10 +94,6 @@ def generate_launch_description():
         #     package='gen0_main',
         #     executable='odom_frame_corrector',
         # ),
-        # Node(
-        #     package='gen0_main',
-        #     executable='ground_truth_publisher',
-        # )
     ])
 
 

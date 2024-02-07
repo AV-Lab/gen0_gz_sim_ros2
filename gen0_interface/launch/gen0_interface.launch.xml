@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <node pkg="my_vehicle_interface" exec="steering_status_publisher.py" name="steering_status_publisher">
+  </node>
+
+  <node pkg="my_vehicle_interface" exec="velocity_status_publisher.py" name="velocity_status_publisher">
+  </node>
+
+  <node pkg="my_vehicle_interface" exec="ackermann_to_vehicle.py" name="ackermann_to_vehicle">
+  </node>
+
+  <node pkg="tf2_ros" exec="static_transform_publisher" name="world_map_tf" args="--x -20.6991 --y -22.4324 --z 0.0 --yaw 1.0302 --frame-id /world --child-frame-id /map">
+  </node>
+  <node pkg="my_vehicle_interface" exec="pose_publisher.py" name="pose_publisher">
+  </node>
+<!-- 
+  <node pkg="my_vehicle_interface" exec="gnss_publisher.py" name="gnss_publisher">
+  </node> -->
+
+</launch>
