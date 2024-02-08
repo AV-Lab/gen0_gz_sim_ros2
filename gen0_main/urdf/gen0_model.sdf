@@ -9,7 +9,7 @@
             <pose>0 0 0 0 0 -1.57079633</pose>
             <geometry>
                 <mesh> 
-                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_colored.dae</uri>
+                    <uri>../meshes/gen0_colored.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -18,7 +18,7 @@
             <pose>0 0 0 0 0 -1.57079633</pose>
             <geometry>
                 <mesh> 
-                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_colored.dae</uri>
+                    <uri>../meshes/gen0_colored.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -94,7 +94,7 @@
         <visual name='visual_back_right_wheel'>
             <geometry>
                 <mesh> 
-                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae</uri>
+                    <uri>../meshes/gen0_wheels.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -184,7 +184,7 @@
         <visual name='visual_back_left_wheel'>
             <geometry>
                 <mesh> 
-                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae</uri>
+                    <uri>../meshes/gen0_wheels.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -273,7 +273,7 @@
         <visual name='visual_front_right_wheel'>
             <geometry>
                 <mesh> 
-                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae</uri>
+                    <uri>../meshes/gen0_wheels.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>
@@ -362,7 +362,7 @@
         <visual name='visual_front_left_wheel'>
             <geometry>
                 <mesh> 
-                    <uri>file:///home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae</uri>
+                    <uri>../meshes/gen0_wheels.dae</uri>
                     <scale>1 1 1</scale>
                 </mesh>
             </geometry>

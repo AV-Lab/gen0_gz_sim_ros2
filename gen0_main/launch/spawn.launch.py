@@ -10,10 +10,9 @@ import os
 def generate_launch_description():
     pkg_share_dir = get_package_share_directory('gen0_main')
     # xacro_file = PathJoinSubstitution([pkg_share_dir, 'urdf', 'description.urdf.xacro'])
-    model_file= PathJoinSubstitution([pkg_share_dir, 'worlds/san_parking_model', 'gen0_model.sdf'])
     bridge_file= PathJoinSubstitution([pkg_share_dir, 'config', 'bridge.yaml'])
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
-    world_file= PathJoinSubstitution([pkg_share_dir, 'worlds/san_parking_model', 'san_parking.sdf'])
+    world_file= PathJoinSubstitution([pkg_share_dir, 'worlds/san_roundabout', 'san_roundabout.sdf'])
     # ros_ign_gazebo = get_package_share_directory('ros_ign_gazebo')
     # ign_gazebo_launch = PathJoinSubstitution([ros_ign_gazebo, 'launch', 'ign_gazebo.launch.py'])
 

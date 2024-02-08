@@ -73,7 +73,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 -1.57079633"/>
       <geometry>
-        <mesh filename="/home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_colored.dae"/>
+        <mesh filename="./meshes/gen0_colored.dae"/>
       </geometry>
     </visual>
   </link>
@@ -176,7 +176,7 @@
             <geometry>
                 <!--cylinder length="${tyre_length}" radius="${tyre_radius}"/>
                 <scale xyz="1 1 1"/-->
-                <mesh scale="1.2 1 1" filename="/home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae"/>
+                <mesh scale="1.2 1 1" filename="./meshes/gen0_wheels.dae"/>
             </geometry>
         </visual>
         
@@ -268,7 +268,7 @@
             <origin xyz="0 ${-car_width_offset*2} 0.0" rpy="0 0 ${PI/2}"/>
             <geometry>
                 <!--cylinder length="${tyre_length}" radius="${tyre_radius}"/-->
-                <mesh scale="1.2 1 1" filename="/home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae"/>
+                <mesh scale="1.2 1 1" filename="./meshes/gen0_wheels.dae"/>
             </geometry>
         </visual>
         
@@ -367,7 +367,7 @@
             <geometry>
                 <!--cylinder length="${tyre_length}" radius="${tyre_radius}"/>
                 <scale xyz="1 1 1"/-->
-                <mesh scale="1.2 1 1" filename="/home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae"/>
+                <mesh scale="1.2 1 1" filename="./meshes/gen0_wheels.dae"/>
                 </geometry>  
         </visual>
         
@@ -464,7 +464,7 @@
             <origin xyz="0 ${-car_width_offset*2} 0.0" rpy="0 0 ${PI/2}"/>
             <geometry>
             <!--cylinder length="${tyre_length}" radius="${tyre_radius}"/-->
-            <mesh scale="1.2 1 1" filename="/home/av-lab/Documents/GitHub/ezmile_gen0/gen0_simulator/src/gen0_main/meshes/gen0_wheels.dae"/>
+            <mesh scale="1.2 1 1" filename="./meshes/gen0_wheels.dae"/>
             </geometry>
         </visual>
 
