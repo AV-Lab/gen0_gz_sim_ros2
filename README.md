@@ -1,4 +1,5 @@
 # gen0_gz_sim_ros2
+![](/assets/images/simulation.png)
 
 ## System Rquirements 
 - Ubuntu 22.04 LTS
