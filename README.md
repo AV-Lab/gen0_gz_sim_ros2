@@ -7,8 +7,16 @@
 - RAM 8GB or more
   
 ## Dependencies
-1) ROS2 Humble
-2) Gazebo ignition 6.x
+-  ROS2 Humble
+-  Gazebo ignition 6.x (Fortress for ROS2 Humble)
+-  transforms3d
+```
+pip install transforms3d
+```
+-  ros-humble-tf-transformations
+```
+sudo apt install ros-humble-tf-transformations
+```
 
 ## Installation
 1) Create a ROS2 workspace
