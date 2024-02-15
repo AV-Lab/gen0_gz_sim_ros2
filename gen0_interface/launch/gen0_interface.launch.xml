@@ -9,12 +9,9 @@
 
   <node pkg="gen0_interface" exec="ackermann_to_vehicle.py" name="ackermann_to_vehicle">
   </node>
-
-  <node pkg="tf2_ros" exec="static_transform_publisher" name="world_map_tf" args="--x -20.6991 --y -22.4324 --z 0.0 --yaw 1.0302 --frame-id /world --child-frame-id /map">
-  </node> 
   
-  <node pkg="gen0_interface" exec="pose_publisher.py" name="pose_publisher">
-  </node> 
+  <!-- <node pkg="gen0_interface" exec="pose_publisher.py" name="pose_publisher">
+  </node>  -->
  
   <!-- 
   <node pkg="gen0_interface" exec="gnss_publisher.py" name="gnss_publisher">

@@ -18,6 +18,7 @@ def generate_launch_description():
             default_value='false', 
             choices=['true', 'false']
     )
+
     pkg_share_dir = get_package_share_directory('gen0_main')
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
     bridge_file= PathJoinSubstitution([pkg_share_dir, 'config', 'bridge.yaml'])
@@ -64,10 +65,17 @@ def generate_launch_description():
         #     arguments=['-d', os.path.join(pkg_share_dir, 'config', 'gen0_main.rviz')],
         #     # condition=IfCondition(LaunchConfiguration('rviz'))
         # ),
-        # Node(
-        #     package='gen0_main',
-        #     executable='ground_truth_publisher',
-        # ),
+        Node(
+            package='gen0_main',
+            executable='ground_truth_publisher',
+        ),
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='world_map_tf',
+            namespace='',
+            arguments=['-20.6991', '-22.4324', '0.0', '1.0302', '0.0', '0.0', 'world', 'map']
+        )
     ])
 
 
