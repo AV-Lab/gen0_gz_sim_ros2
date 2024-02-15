@@ -41,7 +41,19 @@ source install/setup.bash
 ```
 
 ## Running the simulation
+### gen0_main
 ```
 ros2 launch gen0_main spawn.launch.py 
 ```
-
+### gen0_controller
+```
+ros2 launch gen0_interface gen0_interface.launch.xml 
+```
+```
+ros2 run gen0_controller PIDcontroller_CTE.py 
+```
+```
+ros2 run gen0_controller path_loader.py 
+```
+## Path following
+The controller follows a specific trajectory specified in the stations/stationx.json file to add a new station create a new file with the points and update path_loader node with the proper stations order
