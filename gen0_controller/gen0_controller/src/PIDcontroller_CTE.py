@@ -66,7 +66,7 @@ class PIDControllerCTENode(Node):
         steering_command = self.steering_pid.calculate(cross_track_error)
 
         self.control_cmd.lateral.steering_tire_angle=steering_command
-        self.control_cmd.longitudinal.speed=3.0
+        self.control_cmd.longitudinal.speed=2.0
         # Publish control commands
         self.control_publisher.publish(self.control_cmd)
     

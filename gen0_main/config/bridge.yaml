@@ -1,6 +1,6 @@
 ---
-- ros_topic_name: "/gen0_model/cmd_vel"
-  gz_topic_name: "/model/gen0_model/cmd_vel"
+- ros_topic_name: "/gen0_model/speed_cmd"
+  gz_topic_name: "/model/gen0_model/speed_cmd"
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "gz.msgs.Twist"
   direction: ROS_TO_GZ
@@ -8,11 +8,6 @@
   gz_topic_name: "/clock"
   ros_type_name: "rosgraph_msgs/msg/Clock"
   gz_type_name: "gz.msgs.Clock"
-  direction: GZ_TO_ROS
-- ros_topic_name: "/gen0_model/odometry"
-  gz_topic_name: "/model/gen0_model/odometry"
-  ros_type_name: "nav_msgs/msg/Odometry"
-  gz_type_name: "gz.msgs.Odometry"
   direction: GZ_TO_ROS
 - ros_topic_name: "/gen0_model/scan"
   gz_topic_name: "/scan"
@@ -49,12 +44,12 @@
   ros_type_name: "tf2_msgs/msg/TFMessage"
   gz_type_name: "gz.msgs.Pose_V"
   direction: GZ_TO_ROS
-- ros_topic_name: "/joint_pose/front_left_steering_joint"
+- ros_topic_name: "/gen0_model/front_left_steering"
   gz_topic_name: "/model/gen0_model/joint/front_left_steering_joint/cmd_pos"
   ros_type_name: "std_msgs/msg/Float64"
   gz_type_name: "gz.msgs.Double"
   direction: ROS_TO_GZ
-- ros_topic_name: "/joint_pose/front_right_steering_joint"
+- ros_topic_name: "/gen0_model/front_right_steering"
   gz_topic_name: "/model/gen0_model/joint/front_right_steering_joint/cmd_pos"
   ros_type_name: "std_msgs/msg/Float64"
   gz_type_name: "gz.msgs.Double"

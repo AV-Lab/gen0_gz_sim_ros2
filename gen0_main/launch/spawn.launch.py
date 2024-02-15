@@ -64,10 +64,10 @@ def generate_launch_description():
         #     arguments=['-d', os.path.join(pkg_share_dir, 'config', 'gen0_main.rviz')],
         #     # condition=IfCondition(LaunchConfiguration('rviz'))
         # ),
-        Node(
-            package='gen0_main',
-            executable='ground_truth_publisher',
-        ),
+        # Node(
+        #     package='gen0_main',
+        #     executable='ground_truth_publisher',
+        # ),
     ])
 
 

@@ -704,9 +704,12 @@
         </joint_properties>
     </joint>
 
+    <!-- The ackermann plugin is only being used for speed control -->
     <plugin
         filename="ignition-gazebo-ackermann-steering-system"
         name="gz::sim::systems::AckermannSteering">
+        <topic>/model/gen0_model/speed_cmd</topic>
+        <odom_topic>ackodom</odom_topic>
         <left_joint>back_left_wheel_joint</left_joint>
         <right_joint>back_right_wheel_joint</right_joint>
         <left_steering_joint>back_left_steering_joint</left_steering_joint>
@@ -740,6 +743,12 @@
         <min_angular_velocity>-1</min_angular_velocity>
       </plugin> -->
 
+    <!-- <plugin
+        filename="ignition-gazebo-velocity-control-system"
+        name="gz::sim::systems::VelocityControl">
+    </plugin> -->
+
+
     <plugin
         filename="ignition-gazebo-joint-state-publisher-system"
         name="gz::sim::systems::JointStatePublisher">
@@ -750,9 +759,7 @@
         name="gz::sim::systems::JointPositionController">
         <joint_name>front_left_steering_joint</joint_name>
         <topic>/model/gen0_model/joint/front_left_steering_joint/cmd_pos</topic>
-        <p_gain>100</p_gain>
-        <i_gain>0.01</i_gain>
-        <d_gain>10.0</d_gain>
+        <use_velocity_commands>true</use_velocity_commands>
         <!-- <cmd_max>0.6</cmd_max>
         <cmd_min>-0.6</cmd_min> -->
     </plugin>
@@ -762,9 +769,7 @@
         name="gz::sim::systems::JointPositionController">
         <joint_name>front_right_steering_joint</joint_name>
         <topic>/model/gen0_model/joint/front_right_steering_joint/cmd_pos</topic>
-        <p_gain>100</p_gain>
-        <i_gain>0.01</i_gain>
-        <d_gain>10.0</d_gain>
+        <use_velocity_commands>true</use_velocity_commands>
         <!-- <cmd_max>0.6</cmd_max>
         <cmd_min>-0.6</cmd_min> -->
     </plugin>

@@ -17,9 +17,9 @@ class AckermannVehicle(Node):
         )
         self.steering= Float64()
         self.speed= Twist()
-        self.publisher_left = self.create_publisher(Float64, '/joint_pose/front_left_steering_joint', 10)
-        self.publisher_right = self.create_publisher(Float64, '/joint_pose/front_right_steering_joint', 10)
-        self.publisher_speed= self.create_publisher(Twist, '/gen0_model/cmd_vel', 10)
+        self.publisher_left = self.create_publisher(Float64, '/gen0_model/front_left_steering', 10)
+        self.publisher_right = self.create_publisher(Float64, '/gen0_model/front_right_steering', 10)
+        self.publisher_speed= self.create_publisher(Twist, '/gen0_model/speed_cmd', 10)
         self.logger = self.get_logger()
         
     def cmd_callback(self, msg):

@@ -2,8 +2,8 @@
 
 import rclpy
 from rclpy.node import Node
-from gen0_interfaces.srv import PathLoad
-from gen0_interfaces.msg import PathPoints
+from gen0_controller_interfaces.srv import PathLoad
+from gen0_controller_interfaces.msg import PathPoints
 import json
 import os
 import time

@@ -68,7 +68,7 @@
 
     <model name="gen0_model">
       <self_collide>true</self_collide>
-      <pose>-20.6991 -22.4324 5.0 0 0 -0.5406</pose>
+      <pose>-20.6991 -22.4324 2.85 0 0 -0.5406</pose>
       <include merge="true">
         <uri>../urdf/gen0_model.sdf</uri>
       </include>
