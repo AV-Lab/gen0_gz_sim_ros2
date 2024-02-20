@@ -17,7 +17,7 @@ class GroundTruthPublisher(Node):
         while not self.tf_buffer.can_transform('map', 'world', rclpy.time.Time().to_msg()):
             self.get_logger().info("Waiting for transform...")
             rclpy.spin_once(self)  # Spin once to process events
-        self.subscription = self.create_subscription(PoseArray, '/gen0_model/pose', self.pose_callback, 10)
+        self.subscription = self.create_subscription(PoseArray, '/gen0_model/links/poses', self.pose_callback, 10)
         self.publisher = self.create_publisher(Odometry, '/localization/kinematic_state', 10)
         self.tf_broadcaster = tf2_ros.TransformBroadcaster(self)
         self.world_pose= PoseStamped()
