@@ -54,7 +54,8 @@ setup(
     entry_points={
         'console_scripts': [
         'odom_frame_corrector = gen0_main.odom_frame_corrector:main',
-        'ground_truth_publisher = gen0_main.pose_publisher:main'
+        'ground_truth_publisher = gen0_main.pose_publisher:main',
+        'actors_loader = gen0_main.actors_loader:main'
         ],
     },
 )

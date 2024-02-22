@@ -72,7 +72,9 @@
       <include merge="true">
         <uri>../urdf/gen0_model.sdf</uri>
       </include>
-      </model>
+    </model>
+
+      <!-- <include><uri>../worlds/scenarios/san_roundabout/walking_actors.sdf</uri></include> -->
       
   </world>
 </sdf>

@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/a3.jpg
+map_Kd ../san_textures/a3.jpg
 
 newmtl mat_1027
 Ns 225.000000
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/_.jpg
+map_Kd ../san_textures/_.jpg
 
 newmtl mat_1030
 Ns 225.000000
@@ -32,7 +32,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/a52.jpg
+map_Kd ../san_textures/a52.jpg
 
 newmtl mat_1040
 Ns 225.000000
@@ -43,7 +43,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar_3_.jpg
+map_Kd ../san_textures/minar_3_.jpg
 
 newmtl mat_1044
 Ns 225.000000
@@ -54,7 +54,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar.jpg
+map_Kd ../san_textures/minar.jpg
 
 newmtl mat_1047
 Ns 225.000000
@@ -65,7 +65,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar10_.jpg
+map_Kd ../san_textures/minar10_.jpg
 
 newmtl mat_1052
 Ns 225.000000
@@ -76,7 +76,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar11_.jpg
+map_Kd ../san_textures/minar11_.jpg
 
 newmtl mat_1070
 Ns 225.000000
@@ -87,7 +87,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar8_.jpg
+map_Kd ../san_textures/minar8_.jpg
 
 newmtl mat_1124
 Ns 225.000000
@@ -98,7 +98,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/E_B_C_a_1.jpg
+map_Kd ../san_textures/E_B_C_a_1.jpg
 
 newmtl mat_1130
 Ns 225.000000
@@ -109,7 +109,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/a42.jpg
+map_Kd ../san_textures/a42.jpg
 
 newmtl mat_1132
 Ns 225.000000
@@ -120,7 +120,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/a42a.jpg
+map_Kd ../san_textures/a42a.jpg
 
 newmtl mat_1134
 Ns 225.000000
@@ -131,7 +131,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar9_.jpg
+map_Kd ../san_textures/minar9_.jpg
 
 newmtl mat_1137
 Ns 225.000000
@@ -142,7 +142,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/give_way.jpg
+map_Kd ../san_textures/give_way.jpg
 
 newmtl mat_1142
 Ns 225.000000
@@ -153,7 +153,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar7_.jpg
+map_Kd ../san_textures/minar7_.jpg
 
 newmtl mat_1143
 Ns 225.000000
@@ -164,7 +164,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/P_Park1.jpg
+map_Kd ../san_textures/P_Park1.jpg
 
 newmtl mat_1152
 Ns 225.000000
@@ -175,7 +175,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar6_.jpg
+map_Kd ../san_textures/minar6_.jpg
 
 newmtl mat_1153
 Ns 225.000000
@@ -186,7 +186,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_1.jpg
+map_Kd ../san_textures/b15_1.jpg
 
 newmtl mat_1154
 Ns 225.000000
@@ -197,7 +197,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b14_2_1.jpg
+map_Kd ../san_textures/b14_2_1.jpg
 
 newmtl mat_1158
 Ns 225.000000
@@ -208,7 +208,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar12_.jpg
+map_Kd ../san_textures/minar12_.jpg
 
 newmtl mat_1161
 Ns 225.000000
@@ -219,7 +219,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/a1.jpg
+map_Kd ../san_textures/a1.jpg
 
 newmtl mat_1168
 Ns 225.000000
@@ -230,7 +230,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/a42b.jpg
+map_Kd ../san_textures/a42b.jpg
 
 newmtl mat_1178
 Ns 225.000000
@@ -241,7 +241,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar5_.jpg
+map_Kd ../san_textures/minar5_.jpg
 
 newmtl mat_1179
 Ns 225.000000
@@ -252,7 +252,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_2.jpg
+map_Kd ../san_textures/b15_2.jpg
 
 newmtl mat_1181
 Ns 225.000000
@@ -263,7 +263,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/A5.jpg
+map_Kd ../san_textures/A5.jpg
 
 newmtl mat_1201
 Ns 225.000000
@@ -274,7 +274,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b14_2.jpg
+map_Kd ../san_textures/b14_2.jpg
 
 newmtl mat_1202
 Ns 225.000000
@@ -285,7 +285,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar13_.jpg
+map_Kd ../san_textures/minar13_.jpg
 
 newmtl mat_1203
 Ns 225.000000
@@ -296,7 +296,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar14_.jpg
+map_Kd ../san_textures/minar14_.jpg
 
 newmtl mat_1207
 Ns 225.000000
@@ -307,7 +307,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/M_2arrow.jpg
+map_Kd ../san_textures/M_2arrow.jpg
 
 newmtl mat_1215
 Ns 225.000000
@@ -318,7 +318,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar4_.jpg
+map_Kd ../san_textures/minar4_.jpg
 
 newmtl mat_1216
 Ns 225.000000
@@ -329,7 +329,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar15_.jpg
+map_Kd ../san_textures/minar15_.jpg
 
 newmtl mat_1220
 Ns 225.000000
@@ -340,7 +340,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar16_.jpg
+map_Kd ../san_textures/minar16_.jpg
 
 newmtl mat_1223
 Ns 225.000000
@@ -351,7 +351,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar17_.jpg
+map_Kd ../san_textures/minar17_.jpg
 
 newmtl mat_1227
 Ns 225.000000
@@ -362,7 +362,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar18_.jpg
+map_Kd ../san_textures/minar18_.jpg
 
 newmtl mat_1229
 Ns 225.000000
@@ -373,7 +373,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar19_.jpg
+map_Kd ../san_textures/minar19_.jpg
 
 newmtl mat_1232
 Ns 225.000000
@@ -384,7 +384,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar1_.jpg
+map_Kd ../san_textures/minar1_.jpg
 
 newmtl mat_1234
 Ns 225.000000
@@ -395,7 +395,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar20_.jpg
+map_Kd ../san_textures/minar20_.jpg
 
 newmtl mat_1239
 Ns 225.000000
@@ -406,7 +406,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar21_.jpg
+map_Kd ../san_textures/minar21_.jpg
 
 newmtl mat_1241
 Ns 225.000000
@@ -417,7 +417,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar22_.jpg
+map_Kd ../san_textures/minar22_.jpg
 
 newmtl mat_1245
 Ns 225.000000
@@ -428,7 +428,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar23_.jpg
+map_Kd ../san_textures/minar23_.jpg
 
 newmtl mat_1250
 Ns 225.000000
@@ -439,7 +439,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar2_.jpg
+map_Kd ../san_textures/minar2_.jpg
 
 newmtl mat_1253
 Ns 225.000000
@@ -450,7 +450,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/minar3_.jpg
+map_Kd ../san_textures/minar3_.jpg
 
 newmtl mat_1255
 Ns 225.000000
@@ -461,7 +461,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/a42bc.jpg
+map_Kd ../san_textures/a42bc.jpg
 
 newmtl mat_1717
 Ns 225.000000
@@ -472,7 +472,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_1718
 Ns 225.000000
@@ -483,7 +483,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1719
 Ns 225.000000
@@ -494,7 +494,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_1790
 Ns 225.000000
@@ -505,7 +505,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_25.jpg
+map_Kd ../san_textures/Wood_Texture_01_25.jpg
 
 newmtl mat_1791
 Ns 225.000000
@@ -516,7 +516,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1792
 Ns 225.000000
@@ -527,7 +527,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1793
 Ns 225.000000
@@ -538,7 +538,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1794
 Ns 225.000000
@@ -549,7 +549,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1795
 Ns 225.000000
@@ -560,7 +560,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_1796
 Ns 225.000000
@@ -571,7 +571,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1797
 Ns 225.000000
@@ -582,7 +582,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_1799
 Ns 225.000000
@@ -593,7 +593,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1800
 Ns 225.000000
@@ -604,7 +604,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1801
 Ns 225.000000
@@ -615,7 +615,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1802
 Ns 225.000000
@@ -626,7 +626,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1803
 Ns 225.000000
@@ -637,7 +637,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_13.jpg
+map_Kd ../san_textures/Wood_Texture_01_13.jpg
 
 newmtl mat_1804
 Ns 225.000000
@@ -648,7 +648,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1805
 Ns 225.000000
@@ -659,7 +659,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1806
 Ns 225.000000
@@ -670,7 +670,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1807
 Ns 225.000000
@@ -681,7 +681,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1808
 Ns 225.000000
@@ -692,7 +692,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_13.jpg
+map_Kd ../san_textures/Wood_Texture_01_13.jpg
 
 newmtl mat_1809
 Ns 225.000000
@@ -703,7 +703,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1810
 Ns 225.000000
@@ -714,7 +714,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1811
 Ns 225.000000
@@ -725,7 +725,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_1812
 Ns 225.000000
@@ -736,7 +736,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_182
 Ns 225.000000
@@ -747,7 +747,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1823
 Ns 225.000000
@@ -758,7 +758,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_1824
 Ns 225.000000
@@ -769,7 +769,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1825
 Ns 225.000000
@@ -780,7 +780,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_1826
 Ns 225.000000
@@ -791,7 +791,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_25.jpg
+map_Kd ../san_textures/Wood_Texture_01_25.jpg
 
 newmtl mat_1827
 Ns 225.000000
@@ -802,7 +802,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1828
 Ns 225.000000
@@ -813,7 +813,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1829
 Ns 225.000000
@@ -824,7 +824,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_183
 Ns 225.000000
@@ -835,7 +835,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1830
 Ns 225.000000
@@ -846,7 +846,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1831
 Ns 225.000000
@@ -857,7 +857,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_25.jpg
+map_Kd ../san_textures/Wood_Texture_01_25.jpg
 
 newmtl mat_1832
 Ns 225.000000
@@ -868,7 +868,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1833
 Ns 225.000000
@@ -879,7 +879,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1834
 Ns 225.000000
@@ -890,7 +890,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1835
 Ns 225.000000
@@ -901,7 +901,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1836
 Ns 225.000000
@@ -912,7 +912,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_25.jpg
+map_Kd ../san_textures/Wood_Texture_01_25.jpg
 
 newmtl mat_1837
 Ns 225.000000
@@ -923,7 +923,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1838
 Ns 225.000000
@@ -934,7 +934,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1839
 Ns 225.000000
@@ -945,7 +945,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_184
 Ns 225.000000
@@ -956,7 +956,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1840
 Ns 225.000000
@@ -967,7 +967,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1841
 Ns 225.000000
@@ -978,7 +978,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_25.jpg
+map_Kd ../san_textures/Wood_Texture_01_25.jpg
 
 newmtl mat_1842
 Ns 225.000000
@@ -989,7 +989,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1843
 Ns 225.000000
@@ -1000,7 +1000,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1844
 Ns 225.000000
@@ -1011,7 +1011,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1845
 Ns 225.000000
@@ -1022,7 +1022,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_1846
 Ns 225.000000
@@ -1033,7 +1033,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_1847
 Ns 225.000000
@@ -1044,7 +1044,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1848
 Ns 225.000000
@@ -1055,7 +1055,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1849
 Ns 225.000000
@@ -1066,7 +1066,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_185
 Ns 225.000000
@@ -1077,7 +1077,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1850
 Ns 225.000000
@@ -1088,7 +1088,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1851
 Ns 225.000000
@@ -1099,7 +1099,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_1852
 Ns 225.000000
@@ -1110,7 +1110,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1853
 Ns 225.000000
@@ -1121,7 +1121,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_1854
 Ns 225.000000
@@ -1132,7 +1132,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_1855
 Ns 225.000000
@@ -1143,7 +1143,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1856
 Ns 225.000000
@@ -1154,7 +1154,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_1857
 Ns 225.000000
@@ -1165,7 +1165,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_1858
 Ns 225.000000
@@ -1176,7 +1176,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1859
 Ns 225.000000
@@ -1187,7 +1187,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_186
 Ns 225.000000
@@ -1198,7 +1198,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1860
 Ns 225.000000
@@ -1209,7 +1209,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_1861
 Ns 225.000000
@@ -1220,7 +1220,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1862
 Ns 225.000000
@@ -1231,7 +1231,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_1863
 Ns 225.000000
@@ -1242,7 +1242,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_1864
 Ns 225.000000
@@ -1253,7 +1253,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1865
 Ns 225.000000
@@ -1264,7 +1264,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1866
 Ns 225.000000
@@ -1275,7 +1275,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1867
 Ns 225.000000
@@ -1286,7 +1286,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1868
 Ns 225.000000
@@ -1297,7 +1297,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_1869
 Ns 225.000000
@@ -1308,7 +1308,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_187
 Ns 225.000000
@@ -1319,7 +1319,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1870
 Ns 225.000000
@@ -1330,7 +1330,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1871
 Ns 225.000000
@@ -1341,7 +1341,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1872
 Ns 225.000000
@@ -1352,7 +1352,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1873
 Ns 225.000000
@@ -1363,7 +1363,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_1874
 Ns 225.000000
@@ -1374,7 +1374,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1875
 Ns 225.000000
@@ -1385,7 +1385,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_1876
 Ns 225.000000
@@ -1396,7 +1396,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_1877
 Ns 225.000000
@@ -1407,7 +1407,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1878
 Ns 225.000000
@@ -1418,7 +1418,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1879
 Ns 225.000000
@@ -1429,7 +1429,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_188
 Ns 225.000000
@@ -1440,7 +1440,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1880
 Ns 225.000000
@@ -1451,7 +1451,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1881
 Ns 225.000000
@@ -1462,7 +1462,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_1882
 Ns 225.000000
@@ -1473,7 +1473,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1883
 Ns 225.000000
@@ -1484,7 +1484,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1884
 Ns 225.000000
@@ -1495,7 +1495,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1885
 Ns 225.000000
@@ -1506,7 +1506,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1886
 Ns 225.000000
@@ -1517,7 +1517,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_1887
 Ns 225.000000
@@ -1528,7 +1528,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1888
 Ns 225.000000
@@ -1539,7 +1539,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1889
 Ns 225.000000
@@ -1550,7 +1550,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_189
 Ns 225.000000
@@ -1561,7 +1561,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1890
 Ns 225.000000
@@ -1572,7 +1572,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1891
 Ns 225.000000
@@ -1583,7 +1583,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_21.jpg
+map_Kd ../san_textures/Wood_Texture_01_21.jpg
 
 newmtl mat_1892
 Ns 225.000000
@@ -1594,7 +1594,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_02_Color_Green_Leave_Texture_02_Alpha_23.png
+map_Kd ../san_textures/Leave_Texture_02_Color_Green_Leave_Texture_02_Alpha_23.png
 
 newmtl mat_1893
 Ns 225.000000
@@ -1605,7 +1605,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_02_Color_Green_Leave_Texture_02_Alpha_23.png
+map_Kd ../san_textures/Leave_Texture_02_Color_Green_Leave_Texture_02_Alpha_23.png
 
 newmtl mat_1894
 Ns 225.000000
@@ -1616,7 +1616,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_02_Color_Green_Leave_Texture_02_Alpha_23.png
+map_Kd ../san_textures/Leave_Texture_02_Color_Green_Leave_Texture_02_Alpha_23.png
 
 newmtl mat_1895
 Ns 225.000000
@@ -1627,7 +1627,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_02_Color_Green_Leave_Texture_02_Alpha_23.png
+map_Kd ../san_textures/Leave_Texture_02_Color_Green_Leave_Texture_02_Alpha_23.png
 
 newmtl mat_1896
 Ns 225.000000
@@ -1638,7 +1638,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_1897
 Ns 225.000000
@@ -1649,7 +1649,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1898
 Ns 225.000000
@@ -1660,7 +1660,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_1899
 Ns 225.000000
@@ -1671,7 +1671,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_190
 Ns 225.000000
@@ -1682,7 +1682,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1900
 Ns 225.000000
@@ -1693,7 +1693,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_1901
 Ns 225.000000
@@ -1704,7 +1704,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_1902
 Ns 225.000000
@@ -1715,7 +1715,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_1903
 Ns 225.000000
@@ -1726,7 +1726,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1904
 Ns 225.000000
@@ -1737,7 +1737,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1905
 Ns 225.000000
@@ -1748,7 +1748,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1906
 Ns 225.000000
@@ -1759,7 +1759,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1907
 Ns 225.000000
@@ -1770,7 +1770,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_1908
 Ns 225.000000
@@ -1781,7 +1781,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1909
 Ns 225.000000
@@ -1792,7 +1792,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_191
 Ns 225.000000
@@ -1803,7 +1803,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_1910
 Ns 225.000000
@@ -1814,7 +1814,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1911
 Ns 225.000000
@@ -1825,7 +1825,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1912
 Ns 225.000000
@@ -1836,7 +1836,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_1913
 Ns 225.000000
@@ -1847,7 +1847,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1914
 Ns 225.000000
@@ -1858,7 +1858,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1915
 Ns 225.000000
@@ -1869,7 +1869,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_1916
 Ns 225.000000
@@ -1880,7 +1880,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_192
 Ns 225.000000
@@ -1891,7 +1891,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_193
 Ns 225.000000
@@ -1902,7 +1902,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_194
 Ns 225.000000
@@ -1913,7 +1913,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_195
 Ns 225.000000
@@ -1924,7 +1924,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_196
 Ns 225.000000
@@ -1935,7 +1935,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_197
 Ns 225.000000
@@ -1946,7 +1946,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_198
 Ns 225.000000
@@ -1957,7 +1957,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_199
 Ns 225.000000
@@ -1968,7 +1968,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_200
 Ns 225.000000
@@ -1979,7 +1979,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_202
 Ns 225.000000
@@ -1990,7 +1990,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_203
 Ns 225.000000
@@ -2001,7 +2001,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_2112
 Ns 225.000000
@@ -2012,7 +2012,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_25.jpg
+map_Kd ../san_textures/Wood_Texture_01_25.jpg
 
 newmtl mat_2113
 Ns 225.000000
@@ -2023,7 +2023,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_2114
 Ns 225.000000
@@ -2034,7 +2034,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_2115
 Ns 225.000000
@@ -2045,7 +2045,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_2116
 Ns 225.000000
@@ -2056,7 +2056,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
+map_Kd ../san_textures/Leave_Texture_03_Color_Green_Leave_Texture_03_Alpha_27.png
 
 newmtl mat_2117
 Ns 225.000000
@@ -2067,7 +2067,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_2118
 Ns 225.000000
@@ -2078,7 +2078,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_2119
 Ns 225.000000
@@ -2089,7 +2089,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_2169
 Ns 225.000000
@@ -2100,7 +2100,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2170
 Ns 225.000000
@@ -2111,7 +2111,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2171
 Ns 225.000000
@@ -2122,7 +2122,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2172
 Ns 225.000000
@@ -2133,7 +2133,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2178
 Ns 225.000000
@@ -2144,7 +2144,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_13.jpg
+map_Kd ../san_textures/Wood_Texture_01_13.jpg
 
 newmtl mat_2179
 Ns 225.000000
@@ -2155,7 +2155,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2180
 Ns 225.000000
@@ -2166,7 +2166,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2181
 Ns 225.000000
@@ -2177,7 +2177,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2182
 Ns 225.000000
@@ -2188,7 +2188,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_221
 Ns 225.000000
@@ -2199,7 +2199,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_222
 Ns 225.000000
@@ -2210,7 +2210,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_223
 Ns 225.000000
@@ -2221,7 +2221,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_224
 Ns 225.000000
@@ -2232,7 +2232,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_225
 Ns 225.000000
@@ -2243,7 +2243,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_226
 Ns 225.000000
@@ -2254,7 +2254,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_227
 Ns 225.000000
@@ -2265,7 +2265,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_228
 Ns 225.000000
@@ -2276,7 +2276,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/p_cityBlock06b.jpg
+map_Kd ../san_textures/p_cityBlock06b.jpg
 
 newmtl mat_2307
 Ns 225.000000
@@ -2287,7 +2287,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/19bark1.jpg
+map_Kd ../san_textures/19bark1.jpg
 
 newmtl mat_2308
 Ns 225.000000
@@ -2298,7 +2298,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan2_19fan2_opacity.png
+map_Kd ../san_textures/19fan2_19fan2_opacity.png
 
 newmtl mat_2309
 Ns 225.000000
@@ -2309,7 +2309,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/19fan1_19fan1_opacity.png
+map_Kd ../san_textures/19fan1_19fan1_opacity.png
 
 newmtl mat_2310
 Ns 225.000000
@@ -2320,7 +2320,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_2311
 Ns 225.000000
@@ -2331,7 +2331,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2312
 Ns 225.000000
@@ -2342,7 +2342,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2313
 Ns 225.000000
@@ -2353,7 +2353,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2314
 Ns 225.000000
@@ -2364,7 +2364,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2406
 Ns 225.000000
@@ -2375,7 +2375,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_2407
 Ns 225.000000
@@ -2386,7 +2386,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2408
 Ns 225.000000
@@ -2397,7 +2397,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2409
 Ns 225.000000
@@ -2408,7 +2408,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2410
 Ns 225.000000
@@ -2419,7 +2419,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2469
 Ns 225.000000
@@ -2430,7 +2430,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_35.jpg
+map_Kd ../san_textures/Wood_Texture_01_35.jpg
 
 newmtl mat_2470
 Ns 225.000000
@@ -2441,7 +2441,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2471
 Ns 225.000000
@@ -2452,7 +2452,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2472
 Ns 225.000000
@@ -2463,7 +2463,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2473
 Ns 225.000000
@@ -2474,7 +2474,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2479
 Ns 225.000000
@@ -2485,7 +2485,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_35.jpg
+map_Kd ../san_textures/Wood_Texture_01_35.jpg
 
 newmtl mat_2480
 Ns 225.000000
@@ -2496,7 +2496,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2481
 Ns 225.000000
@@ -2507,7 +2507,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2482
 Ns 225.000000
@@ -2518,7 +2518,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2483
 Ns 225.000000
@@ -2529,7 +2529,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2484
 Ns 225.000000
@@ -2540,7 +2540,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_2485
 Ns 225.000000
@@ -2551,7 +2551,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2486
 Ns 225.000000
@@ -2562,7 +2562,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2487
 Ns 225.000000
@@ -2573,7 +2573,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2488
 Ns 225.000000
@@ -2584,7 +2584,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2489
 Ns 225.000000
@@ -2595,7 +2595,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_2490
 Ns 225.000000
@@ -2606,7 +2606,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2491
 Ns 225.000000
@@ -2617,7 +2617,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2492
 Ns 225.000000
@@ -2628,7 +2628,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2493
 Ns 225.000000
@@ -2639,7 +2639,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2586
 Ns 225.000000
@@ -2650,7 +2650,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_4.jpg
+map_Kd ../san_textures/Wood_Texture_01_4.jpg
 
 newmtl mat_2587
 Ns 225.000000
@@ -2661,7 +2661,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2588
 Ns 225.000000
@@ -2672,7 +2672,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2589
 Ns 225.000000
@@ -2683,7 +2683,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2590
 Ns 225.000000
@@ -2694,7 +2694,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
+map_Kd ../san_textures/Leave_Texture_03_Color_DarkGreen_Leave_Texture_03_Alpha.png
 
 newmtl mat_2591
 Ns 225.000000
@@ -2705,7 +2705,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_35.jpg
+map_Kd ../san_textures/Wood_Texture_01_35.jpg
 
 newmtl mat_2592
 Ns 225.000000
@@ -2716,7 +2716,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2593
 Ns 225.000000
@@ -2727,7 +2727,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2594
 Ns 225.000000
@@ -2738,7 +2738,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2595
 Ns 225.000000
@@ -2749,7 +2749,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
+map_Kd ../san_textures/Leave_Texture_04_Color_LightGreen_r_Leave_Texture_04_Alpha_r_37.png
 
 newmtl mat_2596
 Ns 225.000000
@@ -2760,7 +2760,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_13.jpg
+map_Kd ../san_textures/Wood_Texture_01_13.jpg
 
 newmtl mat_2597
 Ns 225.000000
@@ -2771,7 +2771,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2598
 Ns 225.000000
@@ -2782,7 +2782,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2599
 Ns 225.000000
@@ -2793,7 +2793,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2600
 Ns 225.000000
@@ -2804,7 +2804,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2601
 Ns 225.000000
@@ -2815,7 +2815,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_13.jpg
+map_Kd ../san_textures/Wood_Texture_01_13.jpg
 
 newmtl mat_2602
 Ns 225.000000
@@ -2826,7 +2826,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2603
 Ns 225.000000
@@ -2837,7 +2837,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2604
 Ns 225.000000
@@ -2848,7 +2848,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2605
 Ns 225.000000
@@ -2859,7 +2859,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2606
 Ns 225.000000
@@ -2870,7 +2870,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_13.jpg
+map_Kd ../san_textures/Wood_Texture_01_13.jpg
 
 newmtl mat_2607
 Ns 225.000000
@@ -2881,7 +2881,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2608
 Ns 225.000000
@@ -2892,7 +2892,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2609
 Ns 225.000000
@@ -2903,7 +2903,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2610
 Ns 225.000000
@@ -2914,7 +2914,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2611
 Ns 225.000000
@@ -2925,7 +2925,7 @@ Ke 0.039216 0.031373 0.023529
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wood_Texture_01_13.jpg
+map_Kd ../san_textures/Wood_Texture_01_13.jpg
 
 newmtl mat_2612
 Ns 225.000000
@@ -2936,7 +2936,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2613
 Ns 225.000000
@@ -2947,7 +2947,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2614
 Ns 225.000000
@@ -2958,7 +2958,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_2615
 Ns 225.000000
@@ -2969,7 +2969,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd ../textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
+map_Kd ../san_textures/Leave_Texture_04_Color_Green_r_Leave_Texture_04_Alpha_r_15.png
 
 newmtl mat_396
 Ns 225.000000
@@ -2980,7 +2980,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_21_09.405B39B28146200DC910296F5C81DD18.jpg
+map_Kd ../san_textures/5_21_09.405B39B28146200DC910296F5C81DD18.jpg
 
 newmtl mat_415
 Ns 225.000000
@@ -2991,7 +2991,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_20_11.424A4C23534B83145F46F40C4FA0B3D3.jpg
+map_Kd ../san_textures/5_20_11.424A4C23534B83145F46F40C4FA0B3D3.jpg
 
 newmtl mat_416
 Ns 225.000000
@@ -3002,7 +3002,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_20_10.A49E4CEFE47699DB6497A7DE946D690F.jpg
+map_Kd ../san_textures/5_20_10.A49E4CEFE47699DB6497A7DE946D690F.jpg
 
 newmtl mat_417
 Ns 225.000000
@@ -3013,7 +3013,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_20_09.F3787F48FE59631874FE515806755D0A.jpg
+map_Kd ../san_textures/5_20_09.F3787F48FE59631874FE515806755D0A.jpg
 
 newmtl mat_418
 Ns 225.000000
@@ -3024,7 +3024,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_20_08.52E7EBE0922721488251E53C3C8DFA59.jpg
+map_Kd ../san_textures/5_20_08.52E7EBE0922721488251E53C3C8DFA59.jpg
 
 newmtl mat_434
 Ns 225.000000
@@ -3035,7 +3035,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_19_13.5F068F6B2D89A66CB5CB10C3A967EA27.jpg
+map_Kd ../san_textures/5_19_13.5F068F6B2D89A66CB5CB10C3A967EA27.jpg
 
 newmtl mat_435
 Ns 225.000000
@@ -3046,7 +3046,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_19_12.73F3EFB6849984B4E2487A2C49CEF516.jpg
+map_Kd ../san_textures/5_19_12.73F3EFB6849984B4E2487A2C49CEF516.jpg
 
 newmtl mat_436
 Ns 225.000000
@@ -3057,7 +3057,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_19_11.1D5E5A525AB1C9A830D2A61D6A3EADEC.jpg
+map_Kd ../san_textures/5_19_11.1D5E5A525AB1C9A830D2A61D6A3EADEC.jpg
 
 newmtl mat_437
 Ns 225.000000
@@ -3068,7 +3068,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_19_10.5AB4A449E438AE7DA54697B6193364EB.jpg
+map_Kd ../san_textures/5_19_10.5AB4A449E438AE7DA54697B6193364EB.jpg
 
 newmtl mat_438
 Ns 225.000000
@@ -3079,7 +3079,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_19_09.DDF5CEF3AF9C6511D27D52AF136FAB3D.jpg
+map_Kd ../san_textures/5_19_09.DDF5CEF3AF9C6511D27D52AF136FAB3D.jpg
 
 newmtl mat_439
 Ns 225.000000
@@ -3090,7 +3090,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_19_08.29CF90C785DFCD1E5EFAA54BB0759098.jpg
+map_Kd ../san_textures/5_19_08.29CF90C785DFCD1E5EFAA54BB0759098.jpg
 
 newmtl mat_454
 Ns 225.000000
@@ -3101,7 +3101,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_18_13.2F911FEBC05C4B6F7C5E4A91EFD9AA30.jpg
+map_Kd ../san_textures/5_18_13.2F911FEBC05C4B6F7C5E4A91EFD9AA30.jpg
 
 newmtl mat_455
 Ns 225.000000
@@ -3112,7 +3112,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_18_12.22D3BE891D501D6FD5451639E6D32BDE.jpg
+map_Kd ../san_textures/5_18_12.22D3BE891D501D6FD5451639E6D32BDE.jpg
 
 newmtl mat_456
 Ns 225.000000
@@ -3123,7 +3123,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_18_11.C784D1A06D4C9F894538D91E3F3442CE.jpg
+map_Kd ../san_textures/5_18_11.C784D1A06D4C9F894538D91E3F3442CE.jpg
 
 newmtl mat_457
 Ns 225.000000
@@ -3134,7 +3134,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_18_10.38C9F09473F657E9A2556DF45BB2472F.jpg
+map_Kd ../san_textures/5_18_10.38C9F09473F657E9A2556DF45BB2472F.jpg
 
 newmtl mat_458
 Ns 225.000000
@@ -3145,7 +3145,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_18_09.BE9E8F161FDDE55DC6C33E469DE345A7.jpg
+map_Kd ../san_textures/5_18_09.BE9E8F161FDDE55DC6C33E469DE345A7.jpg
 
 newmtl mat_459
 Ns 225.000000
@@ -3156,7 +3156,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_18_08.951FF5587453894A1D0ED8ACD4DC16F0.jpg
+map_Kd ../san_textures/5_18_08.951FF5587453894A1D0ED8ACD4DC16F0.jpg
 
 newmtl mat_460
 Ns 225.000000
@@ -3167,7 +3167,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_18_07.19D9CE19A0366646BE9A87AAD713F2AC.jpg
+map_Kd ../san_textures/5_18_07.19D9CE19A0366646BE9A87AAD713F2AC.jpg
 
 newmtl mat_474
 Ns 225.000000
@@ -3178,7 +3178,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_17_12.A2A579C9BD40BABCE53D266D933D7055.jpg
+map_Kd ../san_textures/5_17_12.A2A579C9BD40BABCE53D266D933D7055.jpg
 
 newmtl mat_475
 Ns 225.000000
@@ -3189,7 +3189,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_17_11.455268538CE8AE9B16E1976F3CDE1698.jpg
+map_Kd ../san_textures/5_17_11.455268538CE8AE9B16E1976F3CDE1698.jpg
 
 newmtl mat_476
 Ns 225.000000
@@ -3200,7 +3200,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_17_10.C8F31C13076FB9B3D6C37139406A9456.jpg
+map_Kd ../san_textures/5_17_10.C8F31C13076FB9B3D6C37139406A9456.jpg
 
 newmtl mat_477
 Ns 225.000000
@@ -3211,7 +3211,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_17_09.DADE0ACDC94B44A79B601CF792C95B20.jpg
+map_Kd ../san_textures/5_17_09.DADE0ACDC94B44A79B601CF792C95B20.jpg
 
 newmtl mat_478
 Ns 225.000000
@@ -3222,7 +3222,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_17_08.783E7B84FE4BB55FD998D7CFF0D534A6.jpg
+map_Kd ../san_textures/5_17_08.783E7B84FE4BB55FD998D7CFF0D534A6.jpg
 
 newmtl mat_479
 Ns 225.000000
@@ -3233,7 +3233,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_17_07.4BAF6D936CEF83DFC0FEA57A2B816463.jpg
+map_Kd ../san_textures/5_17_07.4BAF6D936CEF83DFC0FEA57A2B816463.jpg
 
 newmtl mat_493
 Ns 225.000000
@@ -3244,7 +3244,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_16_11.CC52B4C9D2822EF59913EF9330DEE2B3.jpg
+map_Kd ../san_textures/5_16_11.CC52B4C9D2822EF59913EF9330DEE2B3.jpg
 
 newmtl mat_494
 Ns 225.000000
@@ -3255,7 +3255,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_16_10.40CDFF53E42EDA9DC1D3912AAC4BB8B9.jpg
+map_Kd ../san_textures/5_16_10.40CDFF53E42EDA9DC1D3912AAC4BB8B9.jpg
 
 newmtl mat_495
 Ns 225.000000
@@ -3266,7 +3266,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_16_09.F89D069D3D46ACD619FD2ADBAB692B1F.jpg
+map_Kd ../san_textures/5_16_09.F89D069D3D46ACD619FD2ADBAB692B1F.jpg
 
 newmtl mat_511
 Ns 225.000000
@@ -3277,7 +3277,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/5_15_11.20256ACF4DF10F7DEBE62412BE02A6C7.jpg
+map_Kd ../san_textures/5_15_11.20256ACF4DF10F7DEBE62412BE02A6C7.jpg
 
 newmtl mat_729
 Ns 225.000000
@@ -3298,7 +3298,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/checker.jpg
+map_Kd ../san_textures/checker.jpg
 
 newmtl mat_736
 Ns 225.000000
@@ -3319,7 +3319,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Metal_Aluminum_Anodized.jpg
+map_Kd ../san_textures/Metal_Aluminum_Anodized.jpg
 
 newmtl mat_739
 Ns 225.000000
@@ -3330,7 +3330,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Steel_Brushed_Stainless.jpg
+map_Kd ../san_textures/Steel_Brushed_Stainless.jpg
 
 newmtl mat_741
 Ns 225.000000
@@ -3341,7 +3341,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_3_1.jpg
+map_Kd ../san_textures/b15_3_1.jpg
 
 newmtl mat_742
 Ns 225.000000
@@ -3352,7 +3352,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Metal_Seamed.jpg
+map_Kd ../san_textures/Metal_Seamed.jpg
 
 newmtl mat_743
 Ns 225.000000
@@ -3393,7 +3393,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_4.jpg
+map_Kd ../san_textures/b15_4.jpg
 
 newmtl mat_755
 Ns 225.000000
@@ -3404,7 +3404,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Wall_3_1.jpg
+map_Kd ../san_textures/Wall_3_1.jpg
 
 newmtl mat_773
 Ns 225.000000
@@ -3415,7 +3415,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_5.jpg
+map_Kd ../san_textures/b15_5.jpg
 
 newmtl mat_790
 Ns 225.000000
@@ -3436,7 +3436,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_5_1_.jpg
+map_Kd ../san_textures/b15_5_1_.jpg
 
 newmtl mat_799
 Ns 225.000000
@@ -3447,7 +3447,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1.jpg
+map_Kd ../san_textures/streetlight_1_1.jpg
 
 newmtl mat_801
 Ns 225.000000
@@ -3458,7 +3458,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_20_.jpg
+map_Kd ../san_textures/streetlight_1_1_20_.jpg
 
 newmtl mat_802
 Ns 225.000000
@@ -3469,7 +3469,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Parking_1.jpg
+map_Kd ../san_textures/Parking_1.jpg
 
 newmtl mat_803
 Ns 225.000000
@@ -3480,7 +3480,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_21_.jpg
+map_Kd ../san_textures/streetlight_1_1_21_.jpg
 
 newmtl mat_805
 Ns 225.000000
@@ -3491,7 +3491,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_22_.jpg
+map_Kd ../san_textures/streetlight_1_1_22_.jpg
 
 newmtl mat_807
 Ns 225.000000
@@ -3512,7 +3512,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_2_.jpg
+map_Kd ../san_textures/streetlight_1_1_2_.jpg
 
 newmtl mat_810
 Ns 225.000000
@@ -3523,7 +3523,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/yelllowstripes2.jpg
+map_Kd ../san_textures/yelllowstripes2.jpg
 
 newmtl mat_812
 Ns 225.000000
@@ -3534,7 +3534,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b8_8.jpg
+map_Kd ../san_textures/b8_8.jpg
 
 newmtl mat_815
 Ns 225.000000
@@ -3545,7 +3545,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b8_4.jpg
+map_Kd ../san_textures/b8_4.jpg
 
 newmtl mat_821
 Ns 225.000000
@@ -3566,7 +3566,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/A23_1.jpg
+map_Kd ../san_textures/A23_1.jpg
 
 newmtl mat_827
 Ns 225.000000
@@ -3577,7 +3577,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_9_.jpg
+map_Kd ../san_textures/streetlight_1_1_9_.jpg
 
 newmtl mat_828
 Ns 225.000000
@@ -3588,7 +3588,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_14_.jpg
+map_Kd ../san_textures/streetlight_1_1_14_.jpg
 
 newmtl mat_829
 Ns 225.000000
@@ -3599,7 +3599,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_12_.jpg
+map_Kd ../san_textures/streetlight_1_1_12_.jpg
 
 newmtl mat_830
 Ns 225.000000
@@ -3610,7 +3610,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1.jpg
+map_Kd ../san_textures/streetlight_1.jpg
 
 newmtl mat_831
 Ns 225.000000
@@ -3621,7 +3621,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_15_.jpg
+map_Kd ../san_textures/streetlight_1_1_15_.jpg
 
 newmtl mat_832
 Ns 225.000000
@@ -3632,7 +3632,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/_1.jpg
+map_Kd ../san_textures/_1.jpg
 
 newmtl mat_833
 Ns 225.000000
@@ -3643,7 +3643,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/light_2.jpg
+map_Kd ../san_textures/light_2.jpg
 
 newmtl mat_834
 Ns 225.000000
@@ -3654,7 +3654,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_.jpg
+map_Kd ../san_textures/streetlight_1_1_.jpg
 
 newmtl mat_836
 Ns 225.000000
@@ -3665,7 +3665,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_10_.jpg
+map_Kd ../san_textures/streetlight_1_1_10_.jpg
 
 newmtl mat_837
 Ns 225.000000
@@ -3676,7 +3676,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_16_.jpg
+map_Kd ../san_textures/streetlight_1_1_16_.jpg
 
 newmtl mat_838
 Ns 225.000000
@@ -3687,7 +3687,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_11_.jpg
+map_Kd ../san_textures/streetlight_1_1_11_.jpg
 
 newmtl mat_840
 Ns 225.000000
@@ -3698,7 +3698,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.521569
 illum 9
-map_Kd ../textures/Translucent_Glass_Sky_Reflection.jpg
+map_Kd ../san_textures/Translucent_Glass_Sky_Reflection.jpg
 
 newmtl mat_841
 Ns 225.000000
@@ -3709,7 +3709,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_18_.jpg
+map_Kd ../san_textures/streetlight_1_1_18_.jpg
 
 newmtl mat_842
 Ns 225.000000
@@ -3720,7 +3720,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_5_.jpg
+map_Kd ../san_textures/streetlight_1_1_5_.jpg
 
 newmtl mat_843
 Ns 225.000000
@@ -3731,7 +3731,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_1_.jpg
+map_Kd ../san_textures/streetlight_1_1_1_.jpg
 
 newmtl mat_848
 Ns 225.000000
@@ -3742,7 +3742,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_13_.jpg
+map_Kd ../san_textures/streetlight_1_1_13_.jpg
 
 newmtl mat_850
 Ns 225.000000
@@ -3753,7 +3753,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_19_.jpg
+map_Kd ../san_textures/streetlight_1_1_19_.jpg
 
 newmtl mat_855
 Ns 225.000000
@@ -3764,7 +3764,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_4_.jpg
+map_Kd ../san_textures/streetlight_1_1_4_.jpg
 
 newmtl mat_856
 Ns 225.000000
@@ -3775,7 +3775,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_3_.jpg
+map_Kd ../san_textures/streetlight_1_1_3_.jpg
 
 newmtl mat_857
 Ns 225.000000
@@ -3786,7 +3786,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_7_.jpg
+map_Kd ../san_textures/streetlight_1_1_7_.jpg
 
 newmtl mat_858
 Ns 225.000000
@@ -3797,7 +3797,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_5_2_.jpg
+map_Kd ../san_textures/b15_5_2_.jpg
 
 newmtl mat_859
 Ns 225.000000
@@ -3808,7 +3808,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_17_.jpg
+map_Kd ../san_textures/streetlight_1_1_17_.jpg
 
 newmtl mat_860
 Ns 225.000000
@@ -3819,7 +3819,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_8_.jpg
+map_Kd ../san_textures/streetlight_1_1_8_.jpg
 
 newmtl mat_862
 Ns 225.000000
@@ -3830,7 +3830,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/streetlight_1_1_6_.jpg
+map_Kd ../san_textures/streetlight_1_1_6_.jpg
 
 newmtl mat_873
 Ns 225.000000
@@ -3841,7 +3841,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/no_entry.jpg
+map_Kd ../san_textures/no_entry.jpg
 
 newmtl mat_876
 Ns 225.000000
@@ -3852,7 +3852,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b14_4.jpg
+map_Kd ../san_textures/b14_4.jpg
 
 newmtl mat_882
 Ns 225.000000
@@ -3863,7 +3863,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/Ppark.jpg
+map_Kd ../san_textures/Ppark.jpg
 
 newmtl mat_919
 Ns 225.000000
@@ -3874,7 +3874,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_7.jpg
+map_Kd ../san_textures/b15_7.jpg
 
 newmtl mat_921
 Ns 225.000000
@@ -3885,7 +3885,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_8.jpg
+map_Kd ../san_textures/b15_8.jpg
 
 newmtl mat_923
 Ns 225.000000
@@ -3896,7 +3896,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_8_1.jpg
+map_Kd ../san_textures/b15_8_1.jpg
 
 newmtl mat_925
 Ns 225.000000
@@ -3907,7 +3907,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b14_3.jpg
+map_Kd ../san_textures/b14_3.jpg
 
 newmtl mat_929
 Ns 225.000000
@@ -3918,7 +3918,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/a44.jpg
+map_Kd ../san_textures/a44.jpg
 
 newmtl mat_937
 Ns 225.000000
@@ -3929,7 +3929,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/humps.jpg
+map_Kd ../san_textures/humps.jpg
 
 newmtl mat_984
 Ns 225.000000
@@ -3940,7 +3940,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b15_3.jpg
+map_Kd ../san_textures/b15_3.jpg
 
 newmtl mat_985
 Ns 225.000000
@@ -3951,7 +3951,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/M_1arrow_Circ.jpg
+map_Kd ../san_textures/M_1arrow_Circ.jpg
 
 newmtl mat_998
 Ns 225.000000
@@ -3962,7 +3962,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/b14_1.jpg
+map_Kd ../san_textures/b14_1.jpg
 
 newmtl mat_999
 Ns 225.000000
@@ -3973,4 +3973,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../textures/a41.jpg
+map_Kd ../san_textures/a41.jpg

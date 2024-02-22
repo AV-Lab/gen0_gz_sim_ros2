@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <actor name="pedestrian_1">
+      <skin>
+        <filename>https://fuel.ignitionrobotics.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>https://fuel.ignitionrobotics.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <auto_start>true</auto_start>
+        <trajectory id="1" type="walking">
+          <waypoint>
+            <time>0</time>
+            <pose>-15 -22.4 5 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>1</time>
+            <pose>-12 -22.4 5 0 0 0</pose>
+          </waypoint>
+          <!-- Add more waypoints as needed -->
+        </trajectory>
+      </script>
+    </actor>
+</sdf>

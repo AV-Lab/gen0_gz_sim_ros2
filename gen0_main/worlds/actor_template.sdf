@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.6">
+  <world name="demo">
+    <actor name="actor_template">
+      <skin>
+        <filename>__ANIMATION_FILENAME__</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="talk_b">
+        <filename>__ANIMATION_FILENAME__</filename>
+        <scale>0.055</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <auto_start>true</auto_start>
+        <trajectory id="0" type="talk_b">
+          <waypoint>
+            <time>0</time>
+            <pose>__START_POSITION__</pose>
+          </waypoint>
+          <waypoint>
+            <time>__DURATION__</time>
+            <pose>__END_POSITION__</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+
+  </world>
+</sdf>
