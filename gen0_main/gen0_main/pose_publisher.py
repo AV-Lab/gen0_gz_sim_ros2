@@ -29,8 +29,8 @@ class GroundTruthPublisher(Node):
         still does not accept the message type tf2_geometry_msgs, however it accepts PoseStamped messages
         '''
         self.world_pose.header.frame_id= 'world'
-        self.world_pose.pose.position= msg.poses[12].position
-        self.world_pose.pose.orientation= msg.poses[12].orientation
+        self.world_pose.pose.position= msg.poses[11].position
+        self.world_pose.pose.orientation= msg.poses[11].orientation
 
         # Create an odom message of location relative to map frame
         self.location.header.stamp= self.get_clock().now().to_msg()

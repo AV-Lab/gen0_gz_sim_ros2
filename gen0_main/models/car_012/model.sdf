@@ -27,7 +27,7 @@
         <cast_shadows>false</cast_shadows>
 	<geometry>
           <mesh>
-            <uri>model://car_012/meshes/car_012.dae</uri>
+            <uri>meshes/car_012.dae</uri>
           </mesh>
         </geometry>
       </visual>

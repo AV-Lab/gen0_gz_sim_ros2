@@ -43,7 +43,7 @@ def generate_launch_description():
     )
     sim_arg=DeclareLaunchArgument(
             'use_sim_time', 
-            default_value='false', 
+            default_value='true', 
             choices=['true', 'false']
     )
     actors_arg=DeclareLaunchArgument(
@@ -96,22 +96,24 @@ def generate_launch_description():
                 {'robot_description': robot_desc},
             ]
         ),
-        # Node(
-        #     package='rviz2',
-        #     executable='rviz2',
-        #     arguments=['-d', os.path.join(pkg_share_dir, 'config', 'gen0_main.rviz')],
-        #     # condition=IfCondition(LaunchConfiguration('rviz'))
-        # ),
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            arguments=['-d', os.path.join(pkg_share_dir, 'config', 'gen0_main.rviz')],
+            # condition=IfCondition(LaunchConfiguration('rviz'))
+        ),
         Node(
             package='gen0_main',
             executable='ground_truth_publisher',
+            parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
         ),
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
             name='world_map_tf',
             namespace='',
-            arguments=['-20.6991', '-22.4324', '0.0', '1.0302', '0.0', '0.0', 'world', 'map']
+            arguments=['-20.6991', '-22.4324', '0.0', '1.0302', '0.0', '0.0', 'world', 'map'],
+            parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
         )
     ])
 
