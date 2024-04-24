@@ -17,7 +17,7 @@ class PathService(Node):
         self.next_station='station3.json'
 
     def handle_get_path(self, request, response):
-        time.sleep(10)
+        # time.sleep(10)
         self.file_path = os.path.join(self.script_dir, '..', '..', 'share', 'gen0_controller', 'stations', self.next_station)
         print(self.next_station)
         try:

@@ -1,42 +1,52 @@
 #!/usr/bin/env python3
 
+import xml.etree.ElementTree as ET
 import rclpy
 from rclpy.node import Node
-import xml.etree.ElementTree as ET
-import sys
-import os
 from ament_index_python.packages import get_package_share_directory
+import os
 
 class ActorsLoader(Node):
     def __init__(self):
         super().__init__('actors_loader')
-        # initilze the parameters
-        self.declare_parameter('actors_scenario', " ") # adding empty default just to remove the warning msg | the node is garanteed to have actors and world
+        self.declare_parameter('actors_scenario', " ")
         self.declare_parameter('world', " ")
-        # get the parameters values from the launch file
         self.actors_scenario = self.get_parameter('actors_scenario').value 
         self.world = self.get_parameter('world').value
-        self.package_directory= get_package_share_directory('gen0_main')
+        self.package_directory = get_package_share_directory('gen0_main')
         self.add_scenario()
 
     def add_scenario(self):
-        tree = ET.parse(self.package_directory + '/worlds/' + self.world + '/' + self.world + '.sdf')
-        root = tree.getroot()
-        world_element = root.find("world")
+        # Load the world file
+        world_file_path = self.package_directory + '/worlds/' + self.world + '/' + self.world + '.sdf'
+        world_tree = ET.parse(world_file_path)
+        world_root = world_tree.getroot()
+        world_element = world_root.find("world")
+
         if world_element is None:
             print("Error: No <world> element found in the base world file.")
             return
-        for include in world_element.findall(".//include[@type='actors_scenario']"): # remove any existing scenarios
-            world_element.remove(include)
-        include_tag = ET.Element("include")
-        include_tag.set("type", "actors_scenario") 
-        uri_tag = ET.SubElement(include_tag, "uri")
-        uri_tag.text = f"../worlds/scenarios/{self.world}/{self.actors_scenario}.sdf"  # Adjust this path as necessary
+        
+        # Remove existing actors
+        actors = world_element.findall('actor')
+        for actor in actors:
+            world_element.remove(actor)
+        
+        # Load the actors scenario file
+        actors_scenario_path = self.package_directory + '/worlds/scenarios/' + self.world + '/' + self.actors_scenario + '.sdf'
+        if os.path.exists(actors_scenario_path):
+            actors_scenario_tree = ET.parse(actors_scenario_path)
+            actors_scenario_root = actors_scenario_tree.getroot()
 
-        world_element.append(include_tag)
+            # Assuming your actors are directly under the root in the actors_scenario.sdf
+            for actor in actors_scenario_root.findall('actor'):
+                actor_string = ET.tostring(actor, encoding='unicode')
+                new_actor_element = ET.fromstring(actor_string)
+                world_element.append(new_actor_element)
 
-        tree.write(self.package_directory + '/worlds/' + self.world + '/' + self.world + '.sdf')
-    
+        # Write the modified world file back
+        world_tree.write(world_file_path)
+
 def main(args=None):
     rclpy.init(args=args)
     node = ActorsLoader()
@@ -46,3 +56,5 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 
 <sdf version="1.8">
   <world name="demo">
@@ -41,9 +41,9 @@
     <scene>
       <sky>
         <sunset>6</sunset>
-      <clouds>
-        <speed>24</speed>
-      </clouds>
+        <clouds>
+          <speed>24</speed>
+        </clouds>
       </sky>
     </scene>
 
@@ -53,7 +53,9 @@
       <link name="body">
         <visual name="visual">
           <geometry>
-            <mesh><uri>san_roundabout.obj</uri></mesh>
+            <mesh>
+              <uri>san_roundabout.obj</uri>
+            </mesh>
           </geometry>
         </visual>
         <collision name="collision">
@@ -74,7 +76,15 @@
       </include>
     </model>
 
-      <!-- <include><uri>../worlds/scenarios/san_roundabout/walking_actors.sdf</uri></include> -->
-      
+
+    <model name="car_008">
+      <self_collide>true</self_collide>
+      <pose>8.0 0 3 0 0 1.57</pose>
+      <include merge="true">
+        <uri>../models/car_012/model.sdf</uri> 
+      </include>
+    </model>
+
+
   </world>
 </sdf>

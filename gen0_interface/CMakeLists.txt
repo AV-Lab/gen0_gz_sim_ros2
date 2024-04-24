@@ -22,7 +22,6 @@ install(PROGRAMS
   src/velocity_status_publisher.py
   src/ackermann_to_vehicle.py
   src/gnss_publisher.py
-  src/pose_publisher.py
   src/path_subscriber.py
   DESTINATION lib/${PROJECT_NAME}
 )

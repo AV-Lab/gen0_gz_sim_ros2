@@ -3,3 +3,4 @@ gen0_simulator/install/
 gen0_simulator/log/
 gen0_simulator/src/gen0_main/worlds
 
+gen0_main/worlds/san_full/san_full.obj
