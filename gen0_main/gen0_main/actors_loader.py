@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 import rclpy
 from rclpy.node import Node
 from ament_index_python.packages import get_package_share_directory
+import os
 
 class ActorsLoader(Node):
     def __init__(self):
@@ -33,14 +34,15 @@ class ActorsLoader(Node):
         
         # Load the actors scenario file
         actors_scenario_path = self.package_directory + '/worlds/scenarios/' + self.world + '/' + self.actors_scenario + '.sdf'
-        actors_scenario_tree = ET.parse(actors_scenario_path)
-        actors_scenario_root = actors_scenario_tree.getroot()
+        if os.path.exists(actors_scenario_path):
+            actors_scenario_tree = ET.parse(actors_scenario_path)
+            actors_scenario_root = actors_scenario_tree.getroot()
 
-        # Assuming your actors are directly under the root in the actors_scenario.sdf
-        for actor in actors_scenario_root.findall('actor'):
-            actor_string = ET.tostring(actor, encoding='unicode')
-            new_actor_element = ET.fromstring(actor_string)
-            world_element.append(new_actor_element)
+            # Assuming your actors are directly under the root in the actors_scenario.sdf
+            for actor in actors_scenario_root.findall('actor'):
+                actor_string = ET.tostring(actor, encoding='unicode')
+                new_actor_element = ET.fromstring(actor_string)
+                world_element.append(new_actor_element)
 
         # Write the modified world file back
         world_tree.write(world_file_path)

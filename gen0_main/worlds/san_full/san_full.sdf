@@ -54,14 +54,14 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>san_roundabout.obj</uri>
+              <uri>san_full.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>san_roundabout.obj</uri>
+              <uri>san_full.obj</uri>
             </mesh>
           </geometry>
         </collision>
@@ -70,21 +70,28 @@
 
     <model name="gen0_model">
       <self_collide>true</self_collide>
-      <pose>-20.6991 -22.4324 2.85 0 0 -0.5406</pose>
+      <pose>92.8436 91.4755 -5.5701 0 0 -2.0836</pose>
       <include merge="true">
         <uri>../urdf/gen0_model.sdf</uri>
       </include>
     </model>
 
-
-    <model name="car_008">
-      <self_collide>true</self_collide>
-      <pose>8.0 0 3 0 0 1.57</pose>
-      <include merge="true">
-        <uri>../models/car_012/model.sdf</uri> 
-      </include>
+    <model name="red_box">
+        <static>true</static>
+        <link name="link">
+          <visual name="visual">
+            <geometry>
+              <sphere>
+                <radius>0.1</radius> <!-- Adjust size as needed -->
+              </sphere>
+            </geometry>
+            <material>
+                <ambient>1 0 0 1</ambient> <!-- Red color -->
+                <diffuse>1 0 0 1</diffuse>
+                <specular>1 0 0 1</specular>              
+            </material>
+          </visual>
+        </link>
     </model>
-
-
   </world>
 </sdf>

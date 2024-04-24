@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 
+### FAILURE CODE DONT USE###
+
 import rclpy
 from rclpy.node import Node
 from builtin_interfaces.msg import Time

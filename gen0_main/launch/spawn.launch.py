@@ -17,19 +17,18 @@ def actors_launch(context, *args, **kwargs):
 
     actions = []
 
-    # Check if the scenario file exists
-    if os.path.exists(scenario_file_path):
-        actors_launch_file = os.path.join(pkg_share_dir, 'launch', 'actors.launch.py')
-        # If the file exists, include the actors.launch.py and add it to the actions list
-        actions.append(IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(actors_launch_file),
-            launch_arguments={
-                'world': world,
-                'actors_scenario': actors_scenario
-            }.items(),
-        ))
-    else:
-        actions.append(LogInfo(msg=f"Scenario {actors_scenario} does not exist for world {world}"))
+    actors_launch_file = os.path.join(pkg_share_dir, 'launch', 'actors.launch.py')
+    # If the file exists, include the actors.launch.py and add it to the actions list
+    actions.append(IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(actors_launch_file),
+        launch_arguments={
+            'world': world,
+            'actors_scenario': actors_scenario
+        }.items(),
+    ))
+
+    if not os.path.exists(scenario_file_path):
+        actions.append(LogInfo(msg=f"\033[93m[WARNING] Scenario {actors_scenario} does not exist for world {world}\033[0m"))
         
     return actions
 
@@ -51,6 +50,12 @@ def generate_launch_description():
             default_value= "", 
             description='The scenario for pedestrians (without extension to be used in Gazebo world file)'
     )
+    rviz_arg=DeclareLaunchArgument(
+            'rviz', 
+            default_value= "false", 
+            choices=['true', 'false']
+    )
+
 
     # Paths
     pkg_share_dir = get_package_share_directory('gen0_main')
@@ -68,6 +73,7 @@ def generate_launch_description():
         world_arg,
         sim_arg,
         actors_arg,
+        rviz_arg,
         OpaqueFunction(function=actors_launch),
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
@@ -100,7 +106,7 @@ def generate_launch_description():
             package='rviz2',
             executable='rviz2',
             arguments=['-d', os.path.join(pkg_share_dir, 'config', 'gen0_main.rviz')],
-            # condition=IfCondition(LaunchConfiguration('rviz'))
+            condition=IfCondition(LaunchConfiguration('rviz'))
         ),
         Node(
             package='gen0_main',
