@@ -55,6 +55,12 @@ def generate_launch_description():
             default_value= "false", 
             choices=['true', 'false']
     )
+    autoware_arg=DeclareLaunchArgument(
+            'autoware', 
+            default_value= "false", 
+            choices=['true', 'false']
+    )
+
 
 
     # Paths
@@ -74,6 +80,7 @@ def generate_launch_description():
         sim_arg,
         actors_arg,
         rviz_arg,
+        autoware_arg,
         OpaqueFunction(function=actors_launch),
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
@@ -112,6 +119,7 @@ def generate_launch_description():
             package='gen0_main',
             executable='ground_truth_publisher',
             parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
+            condition=UnlessCondition(LaunchConfiguration('autoware'))
         ),
         Node(
             package='tf2_ros',
