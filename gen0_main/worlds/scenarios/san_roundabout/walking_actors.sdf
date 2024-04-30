@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <sdf version="1.6">
   <actor name="pedestrian_1">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
     <skin>
       <filename>../../meshes/actors/Male Actor 2/meshes/walk.dae</filename>
       <scale>1.0</scale>
@@ -221,6 +224,9 @@
     </script>
   </actor>
   <actor name="pedestrian_2">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
     <skin>
       <filename>../../meshes/actors/Male Actor/meshes/talk_a.dae</filename>
       <scale>1.0</scale>
@@ -245,6 +251,9 @@
     </script>
   </actor>
   <actor name="pedestrian_3">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
     <skin>
       <filename>../../meshes/actors/Male Actor/meshes/talk_b.dae</filename>
       <scale>1.0</scale>
@@ -269,6 +278,9 @@
     </script>
   </actor>
   <actor name="pedestrian_4">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
     <skin>
       <filename>../../meshes/actors/Male visitor/meshes/MaleVisitorWalk.dae</filename>
       <scale>1.0</scale>
@@ -305,6 +317,9 @@
     </script>
   </actor>
   <actor name="pedestrian_5">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
     <skin>
       <filename>../../meshes/actors/Female Visitor/meshes/FemaleVisitorWalk.dae</filename>
       <scale>1.0</scale>
@@ -338,6 +353,9 @@
     </script>
   </actor>
   <actor name="pedestrian_6">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
     <skin>
       <filename>../../meshes/actors/Female Doctor/meshes/DoctorFemaleWalk.dae</filename>
       <scale>1.0</scale>
@@ -371,6 +389,9 @@
     </script>
   </actor>
   <actor name="pedestrian_7">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
     <skin>
       <filename>../../meshes/actors/Male visitor/meshes/MaleVisitorWalk.dae</filename>
       <scale>1.0</scale>
