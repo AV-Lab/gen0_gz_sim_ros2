@@ -28,7 +28,7 @@ class ignition::gazebo::systems::ActorPosePrivate
 
   public: transport::Node::Publisher posePub;
   
-  public: double updateFrequency = 1;
+  public: double updateFrequency = -1;
 
   public: std::chrono::steady_clock::duration updatePeriod{0};
 
@@ -99,8 +99,6 @@ void ActorPose::PostUpdate(const UpdateInfo &_info,
         return;
     
     auto actorpose = _ecm.Component<components::WorldPose>(this->dataPtr->actorEntity);
-
-    std::cout << "Entity [" << this->dataPtr->actorEntity << "] is an actor. and the position is " << actorpose->Data() << " " << std::endl;
 
     msgs::Pose *msg = nullptr;
     this->dataPtr->poseMsg.Clear();

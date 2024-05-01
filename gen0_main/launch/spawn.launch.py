@@ -61,8 +61,6 @@ def generate_launch_description():
             choices=['true', 'false']
     )
 
-
-
     # Paths
     pkg_share_dir = get_package_share_directory('gen0_main')
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')

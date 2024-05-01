@@ -18,10 +18,10 @@ find_package(rclpy REQUIRED)
 ament_python_install_package(${PROJECT_NAME})
 # Install Python executables
 install(PROGRAMS
-  src/PIDcontroller.py
-  src/PIDcontroller_CTE.py
-  src/localization_points.py
-  src/path_loader.py
+  gen0_controller/PIDcontroller.py
+  gen0_controller/PIDcontroller_CTE.py
+  gen0_controller/localization_points.py
+  gen0_controller/path_loader.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

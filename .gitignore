@@ -1,6 +1,3 @@
-gen0_simulator/build/
-gen0_simulator/install/
-gen0_simulator/log/
-gen0_simulator/src/gen0_main/worlds
+gz_plugins/build/
 
 gen0_main/worlds/san_full/san_full.obj
