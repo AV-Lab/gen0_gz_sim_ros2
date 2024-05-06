@@ -57,7 +57,6 @@ setup(
         'ground_truth_publisher = gen0_main.pose_publisher:main',
         'actors_loader = gen0_main.actors_loader:main',
         'actors_spawner = gen0_main.actors_spawner:main',
-        'actors_position = gen0_main.actors_position:main'
         ],
     },
 )

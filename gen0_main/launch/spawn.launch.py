@@ -89,13 +89,13 @@ def generate_launch_description():
             }.items(),
         ),
         Node(
-        package='ros_gz_bridge',
-        executable='parameter_bridge',
-        parameters=[{
-            'config_file': bridge_file,
-            'qos_overrides./tf_static.publisher.durability': 'transient_local',
-        }],
-        output='screen'
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            parameters=[{
+                'config_file': bridge_file,
+                'qos_overrides./tf_static.publisher.durability': 'transient_local',
+            }],
+            output='screen'
         ),
         Node(
             package='robot_state_publisher',

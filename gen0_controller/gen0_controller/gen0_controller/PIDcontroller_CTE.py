@@ -50,6 +50,7 @@ class PIDControllerCTENode(Node):
             return
         elif self.waiting_for_service:
             self.path.extend(self.path_loader())
+            print(self.path)
             return
     
         # Current position in (x,y,yaw) format
