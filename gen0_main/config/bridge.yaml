@@ -75,17 +75,27 @@
   gz_type_name: "ignition.msgs.Pose"
   direction: GZ_TO_ROS
 - ros_topic_name: "/actor/pedestrian_5/pose"
-  gz_topic_name: "/actor/pedestrian_4/pose"
+  gz_topic_name: "/actor/pedestrian_5/pose"
   ros_type_name: "geometry_msgs/msg/PoseStamped"
   gz_type_name: "ignition.msgs.Pose"
   direction: GZ_TO_ROS
 - ros_topic_name: "/actor/pedestrian_6/pose"
-  gz_topic_name: "/actor/pedestrian_4/pose"
+  gz_topic_name: "/actor/pedestrian_6/pose"
   ros_type_name: "geometry_msgs/msg/PoseStamped"
   gz_type_name: "ignition.msgs.Pose"
   direction: GZ_TO_ROS
 - ros_topic_name: "/actor/pedestrian_7/pose"
   gz_topic_name: "/actor/pedestrian_7/pose"
+  ros_type_name: "geometry_msgs/msg/PoseStamped"
+  gz_type_name: "ignition.msgs.Pose"
+  direction: GZ_TO_ROS
+- ros_topic_name: "/actor/pedestrian_8/pose"
+  gz_topic_name: "/actor/pedestrian_8/pose"
+  ros_type_name: "geometry_msgs/msg/PoseStamped"
+  gz_type_name: "ignition.msgs.Pose"
+  direction: GZ_TO_ROS
+- ros_topic_name: "/actor/pedestrian_9/pose"
+  gz_topic_name: "/actor/pedestrian_9/pose"
   ros_type_name: "geometry_msgs/msg/PoseStamped"
   gz_type_name: "ignition.msgs.Pose"
   direction: GZ_TO_ROS

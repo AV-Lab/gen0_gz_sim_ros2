@@ -2,9 +2,9 @@
 
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import Twist, PoseStamped
 import math
-from nav_msgs.msg import Odometry
+from nav_msgs.msg import Odometry, Path
 from collections import deque
 from tf_transformations import euler_from_quaternion
 from autoware_auto_control_msgs.msg import AckermannControlCommand
@@ -36,6 +36,8 @@ class PIDControllerCTENode(Node):
             10
         )
         
+        self.path_publisher = self.create_publisher(Path, '/planning/path', 10)
+        
         self.subscription = self.create_subscription(Odometry, '/localization/kinematic_state',self.path_tracking, 10)
 
     def path_tracking(self, msg):
@@ -50,7 +52,6 @@ class PIDControllerCTENode(Node):
             return
         elif self.waiting_for_service:
             self.path.extend(self.path_loader())
-            print(self.path)
             return
     
         # Current position in (x,y,yaw) format
@@ -74,9 +75,13 @@ class PIDControllerCTENode(Node):
     def find_target_pose(self, vehicle_position):
         current_goal_distance = math.sqrt((self.path[0][0] - vehicle_position[0]) ** 2 + (self.path[0][1] - vehicle_position[1]) ** 2)
         next_goal_distance = math.sqrt((self.path[1][0] - vehicle_position[0]) ** 2 + (self.path[1][1] - vehicle_position[1]) ** 2)
+
         if next_goal_distance < current_goal_distance:
             self.get_logger().debug('Updating goal point....')
             self.path.popleft()
+        
+        self.publish_path()
+
         if len(self.path) > 1:
             target_pose = self.path[0] 
             future_position= self.path[1]
@@ -120,6 +125,22 @@ class PIDControllerCTENode(Node):
             else:
                 self.get_logger().error('Service call failed')
         return path
+
+    def publish_path(self):
+        path_msg = Path()
+        path_msg.header.frame_id = "map"
+        path_msg.header.stamp = self.get_clock().now().to_msg()
+
+        for data in self.path:
+            pose_stamped = PoseStamped()
+            pose_stamped.header.frame_id = "map"
+            pose_stamped.header.stamp = path_msg.header.stamp
+            pose_stamped.pose.position.x = data[0]
+            pose_stamped.pose.position.y = data[1]
+            pose_stamped.pose.orientation.z = data[2] 
+            path_msg.poses.append(pose_stamped)
+
+        self.path_publisher.publish(path_msg)
 
     def destroy(self):
         super().destroy_node()

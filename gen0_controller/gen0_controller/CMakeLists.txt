@@ -22,6 +22,7 @@ install(PROGRAMS
   gen0_controller/PIDcontroller_CTE.py
   gen0_controller/localization_points.py
   gen0_controller/path_loader.py
+  gen0_controller/collision_checker.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

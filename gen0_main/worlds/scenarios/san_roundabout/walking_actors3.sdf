@@ -21,200 +21,20 @@
           <pose>-14.98 -22.50 4.0 0 0 -0.5</pose>
         </waypoint>
         <waypoint>
-          <time>0.70</time>
-          <pose>-14.24 -22.92 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>1.40</time>
-          <pose>-13.50 -23.34 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>2.10</time>
-          <pose>-12.75 -23.76 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>2.80</time>
-          <pose>-12.01 -24.18 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>3.50</time>
-          <pose>-11.27 -24.60 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>4.20</time>
-          <pose>-10.53 -25.02 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>4.90</time>
-          <pose>-9.78 -25.44 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>5.60</time>
-          <pose>-9.04 -25.86 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>6.30</time>
-          <pose>-8.30 -26.28 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
           <time>7.00</time>
           <pose>-7.56 -26.70 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>7.70</time>
-          <pose>-6.81 -27.12 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>8.40</time>
-          <pose>-6.07 -27.54 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>9.10</time>
-          <pose>-5.33 -27.96 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>9.80</time>
-          <pose>-4.59 -28.38 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>10.50</time>
-          <pose>-3.84 -28.80 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>11.20</time>
-          <pose>-3.10 -29.22 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>11.90</time>
-          <pose>-2.36 -29.64 4.0 0 0 -0.5</pose>
         </waypoint>
         <waypoint>
           <time>12.60</time>
           <pose>-1.62 -30.06 4.0 0 0 -0.5</pose>
         </waypoint>
         <waypoint>
-          <time>13.30</time>
-          <pose>-0.87 -30.48 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>14.00</time>
-          <pose>-0.13 -30.90 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>14.70</time>
-          <pose>0.61 -31.32 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>15.40</time>
-          <pose>1.35 -31.74 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>16.10</time>
-          <pose>2.10 -32.16 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>16.80</time>
-          <pose>2.84 -32.58 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>17.50</time>
-          <pose>3.58 -33.00 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>18.20</time>
-          <pose>4.32 -33.42 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>18.90</time>
-          <pose>5.06 -33.84 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
           <time>19.60</time>
           <pose>5.81 -34.26 4.0 0 0 -0.5</pose>
         </waypoint>
         <waypoint>
-          <time>20.30</time>
-          <pose>6.55 -34.68 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>21.00</time>
-          <pose>7.29 -35.10 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>21.70</time>
-          <pose>8.03 -35.52 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>22.40</time>
-          <pose>8.78 -35.94 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>23.10</time>
-          <pose>9.52 -36.36 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>23.80</time>
-          <pose>10.26 -36.78 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>24.50</time>
-          <pose>11.00 -37.20 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>25.20</time>
-          <pose>11.75 -37.62 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>25.90</time>
-          <pose>12.49 -38.04 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
           <time>26.60</time>
           <pose>13.23 -38.46 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>27.30</time>
-          <pose>13.97 -38.88 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>28.00</time>
-          <pose>14.72 -39.30 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>28.70</time>
-          <pose>15.46 -39.72 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>29.40</time>
-          <pose>16.20 -40.14 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>30.10</time>
-          <pose>16.94 -40.56 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>30.80</time>
-          <pose>17.69 -40.98 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>31.50</time>
-          <pose>18.43 -41.40 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>32.20</time>
-          <pose>19.17 -41.82 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>32.90</time>
-          <pose>19.91 -42.24 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>33.60</time>
-          <pose>20.66 -42.66 4.0 0 0 -0.5</pose>
-        </waypoint>
-        <waypoint>
-          <time>34.30</time>
-          <pose>21.40 -43.08 4.0 0 0 -0.5</pose>
         </waypoint>
         <waypoint>
           <time>35.00</time>
@@ -223,4 +43,289 @@
       </trajectory>
     </script>
   </actor>
+  <actor name="pedestrian_2">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
+    <skin>
+      <filename>../../meshes/actors/Male Actor/meshes/talk_a.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="talking_2">
+      <filename>../../meshes/actors/Male Actor/meshes/talk_a.dae</filename>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <script>
+      <loop>true</loop>
+      <auto_start>true</auto_start>
+      <trajectory id="1" type="talking_2" tension="1">
+        <waypoint>
+          <time>0.00</time>
+          <pose>-11.8 -35.30 4.1 0 0 0.95</pose>
+        </waypoint>
+        <waypoint>
+          <time>10.00</time>
+          <pose>-11.8 -35.30 4.1 0 0 0.95</pose>
+        </waypoint>
+      </trajectory>
+    </script>
+  </actor>
+  <actor name="pedestrian_3">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
+    <skin>
+      <filename>../../meshes/actors/Male Actor/meshes/talk_b.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="talking_3">
+      <filename>../../meshes/actors/Male Actor/meshes/talk_b.dae</filename>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <script>
+      <loop>true</loop>
+      <auto_start>true</auto_start>
+      <trajectory id="1" type="talking" tension="1">
+        <waypoint>
+          <time>0.00</time>
+          <pose>-13.3 -34.50 4.1 0 0 1.0</pose>
+        </waypoint>
+        <waypoint>
+          <time>10.00</time>
+          <pose>-13.3 -34.50 4.1 0 0 1.0</pose>
+        </waypoint>
+      </trajectory>
+    </script>
+  </actor>
+  <actor name="pedestrian_4">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
+    <skin>
+      <filename>../../meshes/actors/Male visitor/meshes/MaleVisitorWalk.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="walking_4">
+      <filename>../../meshes/actors/Male visitor/meshes/MaleVisitorWalk.dae</filename>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <script>
+      <loop>true</loop>
+      <auto_start>true</auto_start>
+      <trajectory id="1" type="walking" tension="1">
+        <waypoint>
+          <time>0.00</time>
+          <pose>-1.8 -29.9 3.9 0 0 -0.5</pose>
+        </waypoint>
+        <waypoint>
+          <time>5.0</time>
+          <pose>2.8 -32.50 3.9 0 0 -2.14</pose>
+        </waypoint>
+        <waypoint>
+          <time>15.00</time>
+          <pose>-0.69 -41.8 3.9 0 0 -2.14</pose>
+        </waypoint>
+        <waypoint>
+          <time>17.00</time>
+          <pose>-0.69 -41.8 3.9 0 0 -0.57</pose>
+        </waypoint>
+        <waypoint>
+          <time>40.00</time>
+          <pose>26.2 -57.3 3.9 0 0 -0.57</pose>
+        </waypoint>
+      </trajectory>
+    </script>
+  </actor>
+  <actor name="pedestrian_5">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
+    <skin>
+      <filename>../../meshes/actors/Female Visitor/meshes/FemaleVisitorWalk.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="walking_5">
+      <filename>../../meshes/actors/Female Visitor/meshes/FemaleVisitorWalk.dae</filename>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <script>
+      <loop>true</loop>
+      <auto_start>true</auto_start>
+      <delay_start>0.0</delay_start>
+      <trajectory id="1" type="walking" tension="1">
+        <waypoint>
+          <time>0.00</time>
+          <pose>-3.3 -29.2 3.0 0 0 -2.14</pose>
+        </waypoint>
+        <waypoint>
+          <time>10.00</time>
+          <pose>-7.6 -37.8 3.1 0 0 -2.14</pose>
+        </waypoint>
+        <waypoint>
+          <time>12.00</time>
+          <pose>-7.6 -37.8 3.1 0 0 -0.57</pose>
+        </waypoint>
+        <waypoint>
+          <time>45.00</time>
+          <pose>26.2 -57.3 3.1 0 0 -0.57</pose>
+        </waypoint>
+      </trajectory>
+    </script>
+  </actor>
+  <actor name="pedestrian_6">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
+    <skin>
+      <filename>../../meshes/actors/Female Doctor/meshes/DoctorFemaleWalk.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="walking_6">
+      <filename>../../meshes/actors/Female Doctor/meshes/DoctorFemaleWalk.dae</filename>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <script>
+      <loop>true</loop>
+      <auto_start>true</auto_start>
+      <delay_start>5.0</delay_start>
+      <trajectory id="1" type="walking" tension="1">
+        <waypoint>
+          <time>60.0</time>
+          <pose>29.8 -22.3 3.0 0 0 1.069</pose>
+        </waypoint>
+        <waypoint>
+          <time>70.0</time>
+          <pose>33.5 -13.3 3.0 0 0 1.069</pose>
+        </waypoint>
+        <waypoint>
+          <time>72.0</time>
+          <pose>33.5 -13.3 3.0 0 0 2.6415</pose>
+        </waypoint>
+        <waypoint>
+          <time>87.0</time>
+          <pose>12.8 -1.22 3.0 0 0 2.6415</pose>
+        </waypoint>
+      </trajectory>
+    </script>
+  </actor>
+  <actor name="pedestrian_7">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
+    <skin>
+      <filename>../../meshes/actors/Male visitor/meshes/MaleVisitorWalk.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="walking_4">
+      <filename>../../meshes/actors/Male visitor/meshes/MaleVisitorWalk.dae</filename>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <script>
+      <loop>true</loop>
+      <auto_start>true</auto_start>
+      <!-- <delay_start>5.0</delay_start> -->
+      <trajectory id="1" type="walking" tension="1">
+        <waypoint>
+          <time>0.0</time>
+          <pose>27.3 -67.2 4.0 0 0 -0.57</pose>
+        </waypoint>
+        <waypoint>
+          <time>4.0</time>
+          <pose>35.67 -74.1 4.0 0 0 -0.57</pose>
+        </waypoint>
+        <waypoint>
+          <time>6.0</time>
+          <pose>33.67 -74.1 4.0 0 0 2.6415</pose>
+        </waypoint>
+        <waypoint>
+          <time>10.0</time>
+          <pose>27.3 -67.2 4.0 0 0 2.6415</pose>
+        </waypoint>
+        <waypoint>
+          <time>12.0</time>
+          <pose>27.3 -67.2 4.0 0 0 -0.57</pose>
+        </waypoint>
+      </trajectory>
+    </script>
+  </actor>
+  <actor name="pedestrian_8">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
+    <skin>
+      <filename>../../meshes/actors/Male Actor 2/meshes/walk.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="walking">
+      <filename>../../meshes/actors/Male Actor 2/meshes/walk.dae</filename>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <script>
+      <loop>true</loop>
+      <auto_start>true</auto_start>
+      <trajectory id="1" type="walking" tension="1">
+        <waypoint>
+          <time>0.00</time>
+          <pose>6.5788 -34.8975 4.1 0 0 -2.14</pose>
+        </waypoint>
+        <waypoint>
+          <time>5.00</time>
+          <pose>1.9128 -43.4391 4.1 0 0 -2.14</pose>
+        </waypoint>
+        <waypoint>
+          <time>6.00</time>
+          <pose>1.9128 -43.4391 4.1 0 0 1.0</pose>
+        </waypoint>
+        <waypoint>
+          <time>11.00</time>
+          <pose>6.5788 -34.8975 4.1 0 0 1.0</pose>
+        </waypoint>
+        <waypoint>
+          <time>12.00</time>
+          <pose>6.5788 -34.8975 4.1 0 0 -2.14</pose>
+        </waypoint>
+      </trajectory>
+    </script>
+  </actor>
+  <actor name="pedestrian_9">
+    <plugin filename="ActorPose"
+    name="ignition::gazebo::systems::ActorPose">
+    </plugin>
+    <skin>
+      <filename>../../meshes/actors/Male Actor 2/meshes/walk.dae</filename>
+      <scale>1.0</scale>
+    </skin>
+    <animation name="walking">
+      <filename>../../meshes/actors/Male Actor 2/meshes/walk.dae</filename>
+      <interpolate_x>true</interpolate_x>
+    </animation>
+    <script>
+      <loop>true</loop>
+      <auto_start>true</auto_start>
+      <trajectory id="1" type="walking" tension="1">
+        <waypoint>
+          <time>0.00</time>
+          <pose>5.0617 -44.8505 4.1 0 0 1.0</pose>
+        </waypoint>
+        <waypoint>
+          <time>5.00</time>
+          <pose>9.2902 -36.4660 4.1 0 0 1.0</pose>
+        </waypoint>
+        <waypoint>
+          <time>6.00</time>
+          <pose>9.2902 -36.4660 4.1 0 0 -2.14</pose>
+        </waypoint>
+        <waypoint>
+          <time>11.00</time>
+          <pose>5.0617 -44.8505 4.1 0 0 -2.14</pose>
+        </waypoint>
+        <waypoint>
+          <time>12.00</time>
+          <pose>5.0617 -44.8505 4.1 0 0 1.0</pose>
+        </waypoint>
+      </trajectory>
+    </script>
+  </actor>
+
+
 </sdf>

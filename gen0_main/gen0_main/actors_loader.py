@@ -5,7 +5,9 @@ import rclpy
 from rclpy.node import Node
 from ament_index_python.packages import get_package_share_directory
 import os
+import tf2_ros
 from geometry_msgs.msg import PoseArray, PoseStamped
+import tf2_geometry_msgs
 
 class ActorsLoader(Node):
     def __init__(self):
@@ -19,6 +21,12 @@ class ActorsLoader(Node):
         self.actors_subscriptions = [] # List of all subscriptions to actors
         self.actor_positions = {}  # Dictionary to store latest positions of actors
         self.publisher = self.create_publisher(PoseArray, '/actors/poses', 10)
+        self.tf_buffer = tf2_ros.Buffer()
+        self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
+        # wait for transform world -> map to appear
+        while not self.tf_buffer.can_transform('map', 'world', rclpy.time.Time().to_msg()):
+            self.get_logger().info("Waiting for transform...")
+            rclpy.spin_once(self)  # Spin once to process events
 
         self.add_scenario()
         self.subscribe_to_actors()
@@ -66,7 +74,9 @@ class ActorsLoader(Node):
             self.actors_subscriptions.append(subscription)
     
     def actor_position_callback(self, msg, actor_name):
-        self.actor_positions[actor_name] = msg
+        msg.header.frame_id= 'world' # manually setting the frame id, as the publisher is coming from gz-ros bridge and it does not have a frame id
+        msg_transformed= self.tf_buffer.transform(msg, 'map') # transform from world position to map
+        self.actor_positions[actor_name] = msg_transformed
         pose_array_msg = PoseArray()
         pose_array_msg.header.stamp=self.get_clock().now().to_msg()
 
