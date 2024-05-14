@@ -32,7 +32,7 @@ class PIDControllerCTENode(Node):
 
         self.control_publisher = self.create_publisher(
             AckermannControlCommand,
-            '/control/command/control_cmd',
+            '/gen0_model/command/control_cmd',
             10
         )
         

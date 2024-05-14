@@ -432,8 +432,8 @@
                         <horizontal>
                             <samples>1024</samples>
                             <resolution>1</resolution>
-                            <min_angle>-3.14</min_angle>
-                            <max_angle>3.14</max_angle>
+                            <min_angle>-1.5707</min_angle>
+                            <max_angle>1.5707</max_angle>
                         </horizontal>
                         <vertical>
                             <samples>64</samples>

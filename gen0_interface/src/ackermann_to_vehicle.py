@@ -11,7 +11,7 @@ class AckermannVehicle(Node):
         super().__init__('ackermann_vehicle')
         self.subscription = self.create_subscription(
             AckermannControlCommand,
-            '/control/command/control_cmd',
+            '/gen0_model/command/control_cmd',
             self.cmd_callback,
             10
         )

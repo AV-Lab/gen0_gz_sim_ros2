@@ -9,6 +9,7 @@ from matplotlib.patches import Rectangle, Circle
 import matplotlib.transforms as transforms
 import math
 import matplotlib
+from gen0_controller_interfaces.msg import Collision, CollisionArray
 
 matplotlib.style.use('seaborn-darkgrid')
 
@@ -18,18 +19,19 @@ class CollisionCheck(Node):
         self.subscription_path = self.create_subscription(Path, '/planning/path', self.path_callback, 10)
         self.subscription_odom = self.create_subscription(Odometry, '/localization/kinematic_state', self.odom_callback, 10)
         self.subscription_pedestrians = self.create_subscription(PoseArray, '/actors/poses', self.pedestrians_callback, 10)
+        self.collision_publisher = self.create_publisher(CollisionArray, '/controller/collisions', 10)
         self.car = None  # This will hold the rectangle representing the car
         self.car_circles = []  # Car's detection circles
         self.path_circles = []  # Circles for the first N path points
         self.pedestrian_circles = []  # Circles for pedestrians
-        self.length = 1.99
-        self.width = 3.93
+        self.length = 1.99 # Car length
+        self.width = 3.93 # Car width
         self.car_circle_radius = 2.0
         self.point_circle_radius = 1.5
         self.pedestrian_circle_radius = 1
         self.plot_range_x = 50
         self.plot_range_y = 50
-        self.number_of_points = 30
+        self.number_of_points = 30 # Lookahead distance
         self.initialize_plot()
 
     def initialize_plot(self):
@@ -96,6 +98,9 @@ class CollisionCheck(Node):
             circle.center = (x + offset_x, y + offset_y)
 
     def pedestrians_callback(self, msg):
+        all_collisions = CollisionArray()
+        all_collisions.collisions = []
+        all_collisions.state= "nominal"
         collision_detected = [False] * len(msg.poses)
         for i, pose in enumerate(msg.poses):
             if i >= len(self.pedestrian_circles):
@@ -109,6 +114,17 @@ class CollisionCheck(Node):
             for car_circle in self.car_circles:
                 if self.circles_intersect((pose.position.x, pose.position.y), self.pedestrian_circle_radius, car_circle.center, car_circle.radius):
                     collision_detected[i] = True
+                    # Need to implement emergency break here #
+                    #                                        #
+                    #                                        #
+                    collision = Collision()
+                    collision.pedestrian_position.x = pose.position.x
+                    collision.pedestrian_position.y = pose.position.y
+                    collision.global_path_point_position.x = car_circle.center[0]
+                    collision.global_path_point_position.y = car_circle.center[1]
+                    collision.collision_object_type = "car_circle"
+                    all_collisions.collisions.append(collision)
+                    all_collisions.state= "e_stop"
                     break
 
             # Check collisions with path circles if no collision detected yet
@@ -116,10 +132,22 @@ class CollisionCheck(Node):
                 for path_circle in self.path_circles:
                     if self.circles_intersect((pose.position.x, pose.position.y), self.pedestrian_circle_radius, path_circle.center, path_circle.radius):
                         collision_detected[i] = True
+                        collision = Collision()
+                        collision.pedestrian_position.x = pose.position.x
+                        collision.pedestrian_position.y = pose.position.y
+                        collision.global_path_point_position.x = path_circle.center[0]
+                        collision.global_path_point_position.y = path_circle.center[1]
+                        collision.collision_object_type = "global_path_point"
+                        all_collisions.collisions.append(collision)
+                        if all_collisions.state != "e_stop":
+                            all_collisions.state= "deaccelerate"
                         break
-
+                    
             # Update circle color based on collision
             self.pedestrian_circles[i].set_color('red' if collision_detected[i] else 'orange')
+
+        if all_collisions:
+            self.collision_publisher.publish(all_collisions)
 
         self.fig.canvas.draw()
         self.fig.canvas.flush_events()
