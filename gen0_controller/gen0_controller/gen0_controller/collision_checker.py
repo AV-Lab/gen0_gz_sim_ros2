@@ -129,7 +129,7 @@ class CollisionCheck(Node):
 
             # Check collisions with path circles if no collision detected yet
             if not collision_detected[i]:
-                for path_circle in self.path_circles:
+                for j, path_circle in enumerate(self.path_circles):
                     if self.circles_intersect((pose.position.x, pose.position.y), self.pedestrian_circle_radius, path_circle.center, path_circle.radius):
                         collision_detected[i] = True
                         collision = Collision()
@@ -138,6 +138,7 @@ class CollisionCheck(Node):
                         collision.global_path_point_position.x = path_circle.center[0]
                         collision.global_path_point_position.y = path_circle.center[1]
                         collision.collision_object_type = "global_path_point"
+                        collision.index= j
                         all_collisions.collisions.append(collision)
                         if all_collisions.state != "e_stop":
                             all_collisions.state= "deaccelerate"

@@ -6,8 +6,8 @@ from geometry_msgs.msg import Twist, PoseStamped
 import math
 from nav_msgs.msg import Odometry, Path
 from collections import deque
+from std_msgs.msg import Float64
 from tf_transformations import euler_from_quaternion
-from autoware_auto_control_msgs.msg import AckermannControlCommand
 from gen0_controller_interfaces.srv import PathLoad
 from gen0_controller_interfaces.msg import PathPoints
 import numpy as np
@@ -18,7 +18,6 @@ class PIDControllerCTENode(Node):
 
         # Initialize PID parameters for steering and speed control
         self.steering_pid = PIDController(kp=3.0, ki=0.0, kd=1.0)
-        self.starting_point= True
 
         self.path_client = self.create_client(PathLoad, 'get_path')
         while not self.path_client.wait_for_service(timeout_sec=1.0):
@@ -28,17 +27,16 @@ class PIDControllerCTENode(Node):
         self.path=deque()
         self.waiting_for_service=False
 
-        self.control_cmd= AckermannControlCommand()
+        self.publisher_left = self.create_publisher(Float64, '/gen0_model/front_left_steering', 10)
+        self.publisher_right = self.create_publisher(Float64, '/gen0_model/front_right_steering', 10)
+        self.publisher_speed= self.create_publisher(Twist, '/gen0_model/speed_cmd', 10)
 
-        self.control_publisher = self.create_publisher(
-            AckermannControlCommand,
-            '/gen0_model/command/control_cmd',
-            10
-        )
+        self.steering_msg= Float64()
+        self.speed_msg= Twist()
         
         self.path_publisher = self.create_publisher(Path, '/planning/path', 10)
         
-        self.subscription = self.create_subscription(Odometry, '/localization/kinematic_state',self.path_tracking, 10)
+        self.location_subscription = self.create_subscription(Odometry, '/localization/kinematic_state',self.path_tracking, 10)
 
     def path_tracking(self, msg):
         if (not self.path or len(self.path) <= 1) and not self.waiting_for_service:
@@ -67,10 +65,12 @@ class PIDControllerCTENode(Node):
         # Calculate steering based on CTE
         steering_command = self.steering_pid.calculate(cross_track_error)
 
-        self.control_cmd.lateral.steering_tire_angle=steering_command
-        self.control_cmd.longitudinal.speed=2.0
+        self.steering_msg.data=steering_command
+        self.speed_msg.linear.x=2.0
         # Publish control commands
-        self.control_publisher.publish(self.control_cmd)
+        self.publisher_left.publish(self.steering_msg)
+        self.publisher_right.publish(self.steering_msg)
+        self.publisher_speed.publish(self.speed_msg)
     
     def find_target_pose(self, vehicle_position):
         current_goal_distance = math.sqrt((self.path[0][0] - vehicle_position[0]) ** 2 + (self.path[0][1] - vehicle_position[1]) ** 2)
@@ -89,9 +89,11 @@ class PIDControllerCTENode(Node):
         else:
             self.path.popleft()
             self.get_logger().info('Path Completed')
-            self.control_cmd.longitudinal.speed=0.0
-            self.control_cmd.lateral.steering_tire_angle=0.0
-            self.control_publisher.publish(self.control_cmd)
+            self.steering_msg.data= 0.0
+            self.speed_msg.linear.x= 0.0
+            self.publisher_left.publish(self.steering_msg)
+            self.publisher_right.publish(self.steering_msg)
+            self.publisher_speed.publish(self.speed_msg)
 
     def find_cross_track_error(self, vehicle_position, target_position, future_position):
         path_vector= np.array([future_position[0] - target_position[0], future_position[1] - target_position[1]]) # vector from target position to future position

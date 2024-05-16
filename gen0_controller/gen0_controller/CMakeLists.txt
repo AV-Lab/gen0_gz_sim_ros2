@@ -20,6 +20,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   gen0_controller/PIDcontroller.py
   gen0_controller/PIDcontroller_CTE.py
+  gen0_controller/PIDcontroller_velocity.py
   gen0_controller/localization_points.py
   gen0_controller/path_loader.py
   gen0_controller/collision_checker.py

@@ -1,4 +1,8 @@
 ---
+- ros_topic_name: "/gen0_model/odometry"
+  gz_topic_name: "/ackodom"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
 - ros_topic_name: "/gen0_model/speed_cmd"
   gz_topic_name: "/model/gen0_model/speed_cmd"
   ros_type_name: "geometry_msgs/msg/Twist"
