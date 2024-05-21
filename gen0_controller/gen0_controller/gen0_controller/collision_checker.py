@@ -27,11 +27,11 @@ class CollisionCheck(Node):
         self.length = 1.99 # Car length
         self.width = 3.93 # Car width
         self.car_circle_radius = 2.0
-        self.point_circle_radius = 1.5
+        self.point_circle_radius = 2.0
         self.pedestrian_circle_radius = 1
         self.plot_range_x = 50
         self.plot_range_y = 50
-        self.number_of_points = 30 # Lookahead distance
+        self.number_of_points = 15 # Lookahead distance
         self.initialize_plot()
 
     def initialize_plot(self):
@@ -62,7 +62,7 @@ class CollisionCheck(Node):
             if i >= len(self.path_circles):
                 # Create new circle if not enough exist
                 circle = Circle((pose.pose.position.x, pose.pose.position.y), self.point_circle_radius, color='green', fill=False)
-                # self.ax.add_patch(circle)
+                self.ax.add_patch(circle)
                 self.path_circles.append(circle)
             else:
                 # Update position of existing circle

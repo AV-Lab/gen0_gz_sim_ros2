@@ -2,7 +2,7 @@
 
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import  Point
+from geometry_msgs.msg import Point, Twist
 from autoware_auto_vehicle_msgs.msg import VelocityReport
 import math
 from nav_msgs.msg import Odometry, Path
@@ -15,6 +15,9 @@ class PIDControllerVelocityNode(Node):
         self.goal_pose_distance_threshold = 3 # distance between the collision point and the stop point
         self.velocity_pid = PIDController(kp=3.0, ki=0.0, kd=1.0)
         self.path= Path()
+        self.goal_point_path=Path()
+        self.previous_goal_pose= Point()
+        self.speed_msg= Twist()
         self.collisions= CollisionArray()
         self.state= 'nominal'
         self.vehicle_velocity = 0
@@ -22,6 +25,7 @@ class PIDControllerVelocityNode(Node):
         self.path_subscription = self.create_subscription(Path, '/planning/path', self.path_callback, 10)
         self.collisions_subscription = self.create_subscription(CollisionArray, '/controller/collisions', self.collisions_callback, 10)
         self.velocity_susbcription= self.create_subscription(VelocityReport, '/vehicle/status/velocity_status', self.velocity_callback, 10)
+        self.publisher_speed= self.create_publisher(Twist, '/gen0_model/speed_cmd', 10)
 
     def path_velocity(self, msg):
         if self.collisions.collisions:
@@ -34,39 +38,55 @@ class PIDControllerVelocityNode(Node):
             else:
                 goal_pose=self.find_stop_point()
                 if goal_pose:
-                    self.generate_velocities(msg.pose.pose.position, goal_pose, 0)
+                    if goal_pose != self.previous_goal_pose:
+                        self.previous_goal_pose = goal_pose
+                        self.velocities = self.generate_velocities(msg.pose.pose.position, goal_pose, 0)
+                        # print("point to stop at: ", goal_pose)
+                        # print("velocities: ", velocities)
+                        # print("path to collision: ", self.goal_point_path)
+                        print("*******************")
+                        self.speed_msg.linear.x=self.velocity_pid.calculate(abs(self.velocities[-len(self.goal_point_path.poses)] - self.vehicle_velocity))
+                        self.publisher_speed.publish(self.speed_msg)
         else:
-            pass
-            # Nominal state
+            self.speed_msg.linear.x= 5.6
+            self.publisher_speed.publish(self.speed_msg)
 
     def find_stop_point(self):
         # logic to find nearest collision
-        nearest_collision_index=0
-        collision_point= Point()
+        nearest_collision_index=self.collisions.collisions[0].index
         for collision in self.collisions.collisions:
-            if collision.index >= nearest_collision_index:
+            if collision.index <= nearest_collision_index:
                 nearest_collision_index= collision.index
-                collision_point= collision.global_path_point_position
+
         # logic to determine the goal point
         cumulative_distance= 0
-        for i in range(nearest_collision_index-1, -1, -1):
-            current_pose = self.path.poses[i].pose.position
-            next_pose = self.path.poses[i+1].pose.position if i < nearest_collision_index-1 else collision_point
+        for i in range(nearest_collision_index, -1, -1):
+            current_pose = self.path.poses[i-1].pose.position
+            next_pose = self.path.poses[i].pose.position
             cumulative_distance += self.euclidean_distance(current_pose, next_pose)
 
             if cumulative_distance >= self.goal_pose_distance_threshold:
-                self.get_logger().info(f'Found pose at index {i} with cumulative distance: {cumulative_distance}')
+                # self.get_logger().info(f'Found pose at index {i} with cumulative distance: {cumulative_distance}')
+                self.goal_point_path.poses = self.path.poses[:i]
                 return current_pose
             
         self.get_logger().info(f'could not find a point less than 3m cumulative distance: {cumulative_distance}')
         return None
     
+    # not complete
     def generate_velocities(self, vehicle_pose, goal_pose, s_speed):
-        velocities = []
-        speed_increment = (s_speed - self.vehicle_velocity) / (self.n_points - 1)
+        total_distance= sum(self.euclidean_distance(self.goal_point_path.poses[i].pose.position, self.goal_point_path.poses[i+1].pose.position) for i in range(len(self.goal_point_path.poses) - 1))
+        total_speed_change= s_speed - self.vehicle_velocity
+        velocities = [self.vehicle_velocity]
+        current_distance = 0
+        current_speed = self.vehicle_velocity
     
-        for i in range(self.n_points):
-            current_speed = self.vehicle_velocity + i * speed_increment
+        for i in range(len(self.goal_point_path.poses) - 1):
+            segment_distance = self.euclidean_distance(self.goal_point_path.poses[i].pose.position, self.goal_point_path.poses[i + 1].pose.position)
+            current_distance += segment_distance
+            
+            # Calculate the new speed based on the proportion of the total distance covered
+            current_speed = self.vehicle_velocity + (current_distance / total_distance) * total_speed_change
             velocities.append(current_speed)
     
         return velocities
@@ -93,8 +113,8 @@ class PIDController:
         self.prev_error = 0
         self.integral = 0
 
-    def calculate(self, cross_track_error):
-        error = cross_track_error 
+    def calculate(self, velocity_error):
+        error = velocity_error 
         self.integral += error
         derivative = error - self.prev_error
 
@@ -102,7 +122,7 @@ class PIDController:
         # print(output)
 
         self.prev_error = error
-        return min(max(output, 0), 2)
+        return min(max(output, 0), 5.6)
 
 
 def main(args=None):

@@ -66,11 +66,11 @@ class PIDControllerCTENode(Node):
         steering_command = self.steering_pid.calculate(cross_track_error)
 
         self.steering_msg.data=steering_command
-        self.speed_msg.linear.x=2.0
+        # self.speed_msg.linear.x=5.6
         # Publish control commands
         self.publisher_left.publish(self.steering_msg)
         self.publisher_right.publish(self.steering_msg)
-        self.publisher_speed.publish(self.speed_msg)
+        # self.publisher_speed.publish(self.speed_msg)
     
     def find_target_pose(self, vehicle_position):
         current_goal_distance = math.sqrt((self.path[0][0] - vehicle_position[0]) ** 2 + (self.path[0][1] - vehicle_position[1]) ** 2)
@@ -90,10 +90,10 @@ class PIDControllerCTENode(Node):
             self.path.popleft()
             self.get_logger().info('Path Completed')
             self.steering_msg.data= 0.0
-            self.speed_msg.linear.x= 0.0
+            # self.speed_msg.linear.x= 0.0
             self.publisher_left.publish(self.steering_msg)
             self.publisher_right.publish(self.steering_msg)
-            self.publisher_speed.publish(self.speed_msg)
+            # self.publisher_speed.publish(self.speed_msg)
 
     def find_cross_track_error(self, vehicle_position, target_position, future_position):
         path_vector= np.array([future_position[0] - target_position[0], future_position[1] - target_position[1]]) # vector from target position to future position
@@ -162,7 +162,7 @@ class PIDController:
         derivative = error - self.prev_error
 
         output = self.kp * error + self.ki * self.integral + self.kd * derivative
-        # print(output)
+        print(output)
 
         self.prev_error = error
         return min(max(output, -0.6), 0.6)

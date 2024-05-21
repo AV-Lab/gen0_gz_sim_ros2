@@ -719,7 +719,7 @@
             <wheel_separation>1.385</wheel_separation>
             <wheel_radius>0.33</wheel_radius>
             <min_velocity>-3</min_velocity>
-            <max_velocity>3</max_velocity>
+            <max_velocity>7</max_velocity>
             <min_acceleration>-3</min_acceleration>
             <max_acceleration>3</max_acceleration>
         </plugin>
