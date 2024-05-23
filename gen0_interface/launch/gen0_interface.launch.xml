@@ -2,12 +2,15 @@
 <launch>
 
   <node pkg="gen0_interface" exec="steering_status_publisher.py" name="steering_status_publisher">
+    <!-- <param name="use_sim_time" value="true"/> -->
   </node>
 
   <node pkg="gen0_interface" exec="velocity_status_publisher.py" name="velocity_status_publisher">
+    <!-- <param name="use_sim_time" value="true"/> -->
   </node>
 
   <node pkg="gen0_interface" exec="ackermann_to_vehicle.py" name="ackermann_to_vehicle">
+    <param name="use_sim_time" value="true"/>
   </node>
   
   <!-- <node pkg="gen0_interface" exec="pose_publisher.py" name="pose_publisher">

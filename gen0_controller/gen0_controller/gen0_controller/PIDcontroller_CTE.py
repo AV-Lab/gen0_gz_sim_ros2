@@ -140,6 +140,7 @@ class PIDControllerCTENode(Node):
             pose_stamped.pose.position.x = data[0]
             pose_stamped.pose.position.y = data[1]
             pose_stamped.pose.orientation.z = data[2] 
+            pose_stamped.pose.position.z = data[3] # used as an index
             path_msg.poses.append(pose_stamped)
 
         self.path_publisher.publish(path_msg)
@@ -162,10 +163,9 @@ class PIDController:
         derivative = error - self.prev_error
 
         output = self.kp * error + self.ki * self.integral + self.kd * derivative
-        print(output)
 
         self.prev_error = error
-        return min(max(output, -0.6), 0.6)
+        return min(max(output, -0.5), 0.5)
 
 def main(args=None):
     rclpy.init(args=args)

@@ -11,25 +11,28 @@ from gen0_controller_interfaces.msg import Collision, CollisionArray
 class PIDControllerVelocityNode(Node):
     def __init__(self):
         super().__init__('pid_controller_velocity_node')
-        self.n_points= 50 # number of points for linear interporlation
-        self.goal_pose_distance_threshold = 3 # distance between the collision point and the stop point
+        self.goal_pose_distance_threshold = 4.5 # distance between the collision point and the stop point
         self.velocity_pid = PIDController(kp=3.0, ki=0.0, kd=1.0)
         self.path= Path()
         self.goal_point_path=Path()
         self.previous_goal_pose= Point()
         self.speed_msg= Twist()
         self.collisions= CollisionArray()
-        self.state= 'nominal'
-        self.vehicle_velocity = 0
+        self.state= 0
+        self.vehicle_velocity = 0.0
         self.location_subscription = self.create_subscription(Odometry, '/localization/kinematic_state', self.path_velocity, 10)
         self.path_subscription = self.create_subscription(Path, '/planning/path', self.path_callback, 10)
         self.collisions_subscription = self.create_subscription(CollisionArray, '/controller/collisions', self.collisions_callback, 10)
         self.velocity_susbcription= self.create_subscription(VelocityReport, '/vehicle/status/velocity_status', self.velocity_callback, 10)
         self.publisher_speed= self.create_publisher(Twist, '/gen0_model/speed_cmd', 10)
+        self.deceleration= 1.5 # limitation by the real vehicle
+        self.estop_deceleration= 6.25 # assuming a full brake and based on the stopping distance equation
 
     def path_velocity(self, msg):
         if self.collisions.collisions:
+            self.state=0
             if self.collisions.state == 'e_stop':
+                self.speed_msg.linear.x= 0.0
                 print('e_stop')
                 # Need to implement emergency break here #
                 #                                        #
@@ -41,14 +44,22 @@ class PIDControllerVelocityNode(Node):
                     if goal_pose != self.previous_goal_pose:
                         self.previous_goal_pose = goal_pose
                         self.velocities = self.generate_velocities(msg.pose.pose.position, goal_pose, 0)
-                        # print("point to stop at: ", goal_pose)
-                        # print("velocities: ", velocities)
-                        # print("path to collision: ", self.goal_point_path)
                         print("*******************")
-                        self.speed_msg.linear.x=self.velocity_pid.calculate(abs(self.velocities[-len(self.goal_point_path.poses)] - self.vehicle_velocity))
-                        self.publisher_speed.publish(self.speed_msg)
+
+                    print("velocities are: ", self.velocities)
+                    print(self.goal_point_path.poses)
+                    self.speed_msg.linear.x=self.velocities[-(len(self.goal_point_path.poses))]
+                    print(self.velocities[-(len(self.goal_point_path.poses))])
+                else:
+                    self.speed_msg.linear.x= 0.0
+                    print("failed to decelerate in time, to estop")
+                self.publisher_speed.publish(self.speed_msg) 
         else:
-            self.speed_msg.linear.x= 5.6
+            if self.state != 1:
+                print("No collisions")
+                self.previous_goal_pose = None # very important to reset the previous_goal_pose if there are no more collisions
+                self.state = 1
+            self.speed_msg.linear.x= 5.0
             self.publisher_speed.publish(self.speed_msg)
 
     def find_stop_point(self):
@@ -60,40 +71,46 @@ class PIDControllerVelocityNode(Node):
 
         # logic to determine the goal point
         cumulative_distance= 0
-        for i in range(nearest_collision_index, -1, -1):
-            current_pose = self.path.poses[i-1].pose.position
-            next_pose = self.path.poses[i].pose.position
+        tmp= []
+        global_path = self.path.poses # assigning the current global path to a variable to avoid the affect path changes during the execution of the for loop
+
+        for i in range(int(nearest_collision_index) - int(global_path[0].pose.position.z), 0, -1):
+            print(nearest_collision_index, global_path[0].pose.position.z)
+            current_pose = global_path[i-1].pose.position
+            next_pose = global_path[i].pose.position
             cumulative_distance += self.euclidean_distance(current_pose, next_pose)
+            tmp.append(current_pose)
 
             if cumulative_distance >= self.goal_pose_distance_threshold:
-                # self.get_logger().info(f'Found pose at index {i} with cumulative distance: {cumulative_distance}')
-                self.goal_point_path.poses = self.path.poses[:i]
+                self.get_logger().info(f'Found pose at index {i} with cumulative distance: {cumulative_distance}')
+                self.goal_point_path.poses = global_path[:i]
                 return current_pose
             
-        self.get_logger().info(f'could not find a point less than 3m cumulative distance: {cumulative_distance}')
+        self.get_logger().info(f'could not find a point less than {self.goal_pose_distance_threshold} cumulative distance: {cumulative_distance}')
+        print(tmp)
         return None
     
     # not complete
     def generate_velocities(self, vehicle_pose, goal_pose, s_speed):
-        total_distance= sum(self.euclidean_distance(self.goal_point_path.poses[i].pose.position, self.goal_point_path.poses[i+1].pose.position) for i in range(len(self.goal_point_path.poses) - 1))
-        total_speed_change= s_speed - self.vehicle_velocity
+        distances = []
         velocities = [self.vehicle_velocity]
-        current_distance = 0
-        current_speed = self.vehicle_velocity
-    
+
         for i in range(len(self.goal_point_path.poses) - 1):
-            segment_distance = self.euclidean_distance(self.goal_point_path.poses[i].pose.position, self.goal_point_path.poses[i + 1].pose.position)
-            current_distance += segment_distance
-            
-            # Calculate the new speed based on the proportion of the total distance covered
-            current_speed = self.vehicle_velocity + (current_distance / total_distance) * total_speed_change
-            velocities.append(current_speed)
+            distances.append(self.euclidean_distance(self.goal_point_path.poses[i].pose.position, self.goal_point_path.poses[i+1].pose.position))
+            previous_speed = velocities[-1]
+            distance = distances[i]
+            # make sure the speed is not negative
+            try:
+                new_speed = math.sqrt(previous_speed**2 - 2 * self.deceleration * distance)
+            except ValueError: 
+                new_speed = 0.0
+            velocities.append(new_speed)
     
         return velocities
         
 
     def euclidean_distance(self, p1, p2):
-        return math.sqrt((p1.x - p2.x)**2 + (p1.y - p2.y)**2 + (p1.z - p2.z)**2)
+        return math.sqrt((p1.x - p2.x)**2 + (p1.y - p2.y)**2)
 
     def path_callback(self, msg):
         self.path=msg

@@ -24,6 +24,7 @@ install(PROGRAMS
   gen0_controller/localization_points.py
   gen0_controller/path_loader.py
   gen0_controller/collision_checker.py
+  gen0_controller/collision_visual.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

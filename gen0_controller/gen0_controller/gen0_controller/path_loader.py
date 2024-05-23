@@ -14,7 +14,7 @@ class PathService(Node):
         super().__init__('path_service')
         self.path_service = self.create_service(PathLoad, 'get_path', self.handle_get_path)
         self.script_dir = os.path.dirname(os.path.abspath(__file__))
-        self.next_station='station3.json'
+        self.next_station='station1.json'
 
     def handle_get_path(self, request, response):
         # time.sleep(10)
@@ -32,10 +32,10 @@ class PathService(Node):
 
         # response.path = [PathPoints(point=[1.0, 2.0, 3.0]), PathPoints(point=[1.0, 2.0, 3.0])]
         # response.path=[]
-        if self.next_station == 'station3.json':
-            self.next_station='station4.json'
+        if self.next_station == 'station1.json':
+            self.next_station='station2.json'
         else:
-            self.next_station='station3.json'
+            self.next_station='station1.json'
         return response
 
 def main(args=None):
