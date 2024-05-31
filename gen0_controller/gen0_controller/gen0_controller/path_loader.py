@@ -30,8 +30,6 @@ class PathService(Node):
         # Convert the path data to PathPoints.msg format
         response.path = [PathPoints(point=point) for point in path_data]
 
-        # response.path = [PathPoints(point=[1.0, 2.0, 3.0]), PathPoints(point=[1.0, 2.0, 3.0])]
-        # response.path=[]
         if self.next_station == 'station1.json':
             self.next_station='station2.json'
         else:

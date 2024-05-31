@@ -140,7 +140,9 @@ class PIDControllerCTENode(Node):
             pose_stamped.pose.position.x = data[0]
             pose_stamped.pose.position.y = data[1]
             pose_stamped.pose.orientation.z = data[2] 
-            pose_stamped.pose.position.z = data[3] # used as an index
+            pose_stamped.pose.orientation.y = data[3] # used for velocity
+            pose_stamped.pose.orientation.x = data[4] # used for c_flag
+            pose_stamped.pose.position.z = data[5] # used as an index
             path_msg.poses.append(pose_stamped)
 
         self.path_publisher.publish(path_msg)
