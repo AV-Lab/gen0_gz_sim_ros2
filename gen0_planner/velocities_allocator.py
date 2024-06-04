@@ -35,10 +35,7 @@ for i in range(len(global_path)):
                 Vf= min(path_to_stop[j][3], math.sqrt(Vi**2 + (2*desired_deceleration * path_to_stop[j][4])))
                 prev_Vf=Vf
             except:
-                if j== len(path_to_stop)-2:
-                    Vf=0.3 # the minimum velocity
-                else:
-                    Vf=prev_Vf
+                Vf=prev_Vf
             global_path[int(path_to_stop[j][6])][3] = Vf
             velocities.append(Vf)
             print(velocities)
