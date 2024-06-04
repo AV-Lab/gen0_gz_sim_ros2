@@ -137,12 +137,13 @@ class PIDControllerCTENode(Node):
             pose_stamped = PoseStamped()
             pose_stamped.header.frame_id = "map"
             pose_stamped.header.stamp = path_msg.header.stamp
-            pose_stamped.pose.position.x = data[0]
-            pose_stamped.pose.position.y = data[1]
-            pose_stamped.pose.orientation.z = data[2] 
+            pose_stamped.pose.position.x = data[0] # x
+            pose_stamped.pose.position.y = data[1] # y
+            pose_stamped.pose.orientation.z = data[2] # yaw
             pose_stamped.pose.orientation.y = data[3] # used for velocity
-            pose_stamped.pose.orientation.x = data[4] # used for c_flag
-            pose_stamped.pose.position.z = data[5] # used as an index
+            pose_stamped.pose.orientation.w = data[4] # used for e_distance
+            pose_stamped.pose.orientation.x = data[5] # used for c_flag
+            pose_stamped.pose.position.z = data[6] # used as an index
             path_msg.poses.append(pose_stamped)
 
         self.path_publisher.publish(path_msg)

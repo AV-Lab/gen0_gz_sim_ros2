@@ -7,11 +7,12 @@ from autoware_auto_vehicle_msgs.msg import VelocityReport
 import math
 from nav_msgs.msg import Odometry, Path
 from gen0_controller_interfaces.msg import Collision, CollisionArray
+from std_msgs.msg import Bool
 
 class PIDControllerVelocityNode(Node):
     def __init__(self):
         super().__init__('pid_controller_velocity_node')
-        self.goal_pose_distance_threshold = 4.5 # distance between the collision point and the stop point
+        self.goal_pose_distance_threshold = 3 + 1.5 # distance between the collision point and the stop point plus distance from the front to the center of the vehicle
         self.velocity_pid = PIDController(kp=3.0, ki=0.0, kd=1.0)
         self.path= Path()
         self.goal_point_path=Path()
@@ -25,6 +26,8 @@ class PIDControllerVelocityNode(Node):
         self.collisions_subscription = self.create_subscription(CollisionArray, '/controller/collisions', self.collisions_callback, 10)
         self.velocity_susbcription= self.create_subscription(VelocityReport, '/vehicle/status/velocity_status', self.velocity_callback, 10)
         self.publisher_speed= self.create_publisher(Twist, '/gen0_model/speed_cmd', 10)
+        self.subscription = self.create_subscription(Bool, '/planning/green_signal', self.signal_callback, 10)
+        self.proceed= False
         self.deceleration= 1.5 # limitation by the real vehicle
         self.estop_deceleration= 6.25 # assuming a full brake and based on the stopping distance equation
 
@@ -46,10 +49,10 @@ class PIDControllerVelocityNode(Node):
                         self.velocities = self.generate_velocities(msg.pose.pose.position, goal_pose, 0)
                         print("*******************")
 
-                    print("velocities are: ", self.velocities)
-                    print(self.goal_point_path.poses)
+                    # print("velocities are: ", self.velocities)
+                    # print(self.goal_point_path.poses)
                     self.speed_msg.linear.x=self.velocities[-(len(self.goal_point_path.poses))]
-                    print(self.velocities[-(len(self.goal_point_path.poses))])
+                    # print(self.velocities[-(len(self.goal_point_path.poses))])
                 else:
                     self.speed_msg.linear.x= 0.0
                     print("failed to decelerate in time, to estop")
@@ -59,8 +62,17 @@ class PIDControllerVelocityNode(Node):
                 print("No collisions")
                 self.previous_goal_pose = None # very important to reset the previous_goal_pose if there are no more collisions
                 self.state = 1
-            self.speed_msg.linear.x= 5.0
-            self.publisher_speed.publish(self.speed_msg)
+            # make sure there is a path
+            if self.path.poses:
+                if self.proceed and (self.path.poses[0].pose.orientation.x == 1.0): # check the stop flag
+                    print("received green signal")
+                    self.speed_msg.linear.x= 0.3  # use the velocity of 0.3 to begin with
+                else:
+                    self.proceed = False
+                    self.speed_msg.linear.x= self.path.poses[0].pose.orientation.y # velocity element from path, check PIDcontroller_CTE publish_path()
+                self.publisher_speed.publish(self.speed_msg)
+            else:
+                print("waiting to receive path")
 
     def find_stop_point(self):
         # logic to find nearest collision
@@ -71,15 +83,12 @@ class PIDControllerVelocityNode(Node):
 
         # logic to determine the goal point
         cumulative_distance= 0
-        tmp= []
         global_path = self.path.poses # assigning the current global path to a variable to avoid the affect path changes during the execution of the for loop
 
         for i in range(int(nearest_collision_index) - int(global_path[0].pose.position.z), 0, -1):
-            print(nearest_collision_index, global_path[0].pose.position.z)
             current_pose = global_path[i-1].pose.position
             next_pose = global_path[i].pose.position
             cumulative_distance += self.euclidean_distance(current_pose, next_pose)
-            tmp.append(current_pose)
 
             if cumulative_distance >= self.goal_pose_distance_threshold:
                 self.get_logger().info(f'Found pose at index {i} with cumulative distance: {cumulative_distance}')
@@ -87,7 +96,6 @@ class PIDControllerVelocityNode(Node):
                 return current_pose
             
         self.get_logger().info(f'could not find a point less than {self.goal_pose_distance_threshold} cumulative distance: {cumulative_distance}')
-        print(tmp)
         return None
     
     # not complete
@@ -120,6 +128,9 @@ class PIDControllerVelocityNode(Node):
     
     def velocity_callback(self, msg):
         self.vehicle_velocity= msg.longitudinal_velocity
+    
+    def signal_callback(self, msg):
+        self.proceed = msg.data
 
 
 class PIDController:
