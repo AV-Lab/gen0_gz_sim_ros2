@@ -30,6 +30,7 @@ class PIDControllerVelocityNode(Node):
         self.proceed= False
         self.deceleration= 1.5 # limitation by the real vehicle
         self.estop_deceleration= 6.25 # assuming a full brake and based on the stopping distance equation
+        self.persistent = False
 
     def path_velocity(self, msg):
         if self.collisions.collisions:
@@ -64,12 +65,21 @@ class PIDControllerVelocityNode(Node):
                 self.state = 1
             # make sure there is a path
             if self.path.poses:
-                if self.proceed and (self.path.poses[0].pose.orientation.x == 1.0): # check the stop flag
-                    print("received green signal")
-                    self.speed_msg.linear.x= 0.3  # use the velocity of 0.3 to begin with
-                else:
-                    self.proceed = False
-                    self.speed_msg.linear.x= self.path.poses[0].pose.orientation.y # velocity element from path, check PIDcontroller_CTE publish_path()
+                if self.path.poses[0].pose.orientation.x == 1.0:
+                    self.speed_msg.linear.x = 0.0
+                    while self.vehicle_velocity != 0.0 and self.persistent: # dont allow the vehicle to proceed until the vehicle is completely stopped
+                        self.proceed = False
+                        self.persistent= False
+                        self.publisher_speed.publish(self.speed_msg)
+                if self.proceed:
+                    if self.path.poses[1]: # check if a new path has been loaded, or the current path still have points
+                        if self.path.poses[0].pose.orientation.x == 1.0: # if there is a stop flag in the current waypoint, find the next one
+                            self.speed_msg.linear.x= self.path.poses[1].pose.orientation.y # velocity element from path, check PIDcontroller_CTE publish_path()
+                        else:
+                            self.persistent= True
+                            self.speed_msg.linear.x= self.path.poses[0].pose.orientation.y
+                    else: # write 0.3 speed until a new path arrives
+                        self.speed_msg.linear.x= 0.3  # use the velocity of 0.3 to begin with
                 self.publisher_speed.publish(self.speed_msg)
             else:
                 print("waiting to receive path")
