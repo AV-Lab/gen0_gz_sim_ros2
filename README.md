@@ -55,5 +55,14 @@ ros2 run gen0_controller PIDcontroller_CTE.py
 ```
 ros2 run gen0_controller path_loader.py 
 ```
+```
+ros2 run gen0_controller collision_checker.py
+```
+```
+ros2 run gen0_controller PIDcontroller_velocity.py
+```
+```
+ros2 run gen0_controller collision_visual.py
+```
 ## Path following
 The controller follows a specific trajectory specified in the stations/stationx.json file to add a new station create a new file with the points and update path_loader node with the proper stations order
