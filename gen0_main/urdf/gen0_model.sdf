@@ -821,7 +821,7 @@
             <topic>/model/gen0_model/joint/front_left_steering_joint/cmd_pos</topic>
             <use_velocity_commands>true</use_velocity_commands>
             <!-- <cmd_max>0.6</cmd_max>
-        <cmd_min>-0.6</cmd_min> -->
+            <cmd_min>-0.6</cmd_min> -->
         </plugin>
 
         <plugin
@@ -831,15 +831,15 @@
             <topic>/model/gen0_model/joint/front_right_steering_joint/cmd_pos</topic>
             <use_velocity_commands>true</use_velocity_commands>
             <!-- <cmd_max>0.6</cmd_max>
-        <cmd_min>-0.6</cmd_min> -->
+            <cmd_min>-0.6</cmd_min> -->
         </plugin>
 
         <plugin
             filename="ignition-gazebo-pose-publisher-system"
             name="gz::sim::systems::PosePublisher">
             <publish_link_pose>true</publish_link_pose>
-            <use_pose_vector_msg>true</use_pose_vector_msg>
-            <publish_nested_model_pose>true</publish_nested_model_pose>
+            <use_pose_vector_msg>false</use_pose_vector_msg>
+            <publish_nested_model_pose>false</publish_nested_model_pose>
             <static_publisher>false</static_publisher>
         </plugin>
 
