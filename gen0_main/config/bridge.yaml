@@ -13,25 +13,20 @@
   ros_type_name: "rosgraph_msgs/msg/Clock"
   gz_type_name: "gz.msgs.Clock"
   direction: GZ_TO_ROS
-- ros_topic_name: "/gen0_model/scan"
-  gz_topic_name: "/scan"
-  ros_type_name: "sensor_msgs/msg/LaserScan"
-  gz_type_name: "gz.msgs.LaserScan"
-  direction: GZ_TO_ROS
-- ros_topic_name: "/gen0_model/lidar_points"
-  gz_topic_name: "/scan/points"
+- ros_topic_name: "/gen0_model/front3d/lidar/points"
+  gz_topic_name: "front3d/scan/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"
   gz_type_name: "gz.msgs.PointCloudPacked"
   direction: GZ_TO_ROS
-- ros_topic_name: "/gen0_model/scan2"
-  gz_topic_name: "/scan2"
+- ros_topic_name: "/gen0_model/fr/lidar/scan"
+  gz_topic_name: "fr/scan"
   ros_type_name: "sensor_msgs/msg/LaserScan"
   gz_type_name: "gz.msgs.LaserScan"
   direction: GZ_TO_ROS
-- ros_topic_name: "/gen0_model/lidar2_points"
-  gz_topic_name: "/scan2/points"
-  ros_type_name: "sensor_msgs/msg/PointCloud2"
-  gz_type_name: "gz.msgs.PointCloudPacked"
+- ros_topic_name: "/gen0_model/fl/lidar/scan"
+  gz_topic_name: "fl/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
   direction: GZ_TO_ROS
 - ros_topic_name: "/joint_states"
   gz_topic_name: "/world/demo/model/gen0_model/joint_state"

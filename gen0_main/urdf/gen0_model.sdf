@@ -397,7 +397,7 @@
             </collision>
         </link>
 
-        <link name="lidar_link">
+        <link name="front_3d_lidar_link">
             <pose>1.9 0 1.5 0 0 0</pose>
             <inertial>
                 <mass>0.1</mass>
@@ -422,22 +422,20 @@
                 </geometry>
             </visual>
 
-            <sensor name='gpu_lidar' type='gpu_lidar'>
+            <sensor name='front_3d_gpu_lidar' type='gpu_lidar'>
                 <pose>0 0 0 0 0 0</pose>
-                <topic>scan</topic>
-                <ignition_frame_id>lidar_link</ignition_frame_id>
+                <topic>front3d/scan</topic>
+                <ignition_frame_id>front_3d_lidar_link</ignition_frame_id>
                 <update_rate>10</update_rate>
                 <lidar>
                     <scan>
                         <horizontal>
                             <samples>1024</samples>
-                            <resolution>1</resolution>
                             <min_angle>-1.5707</min_angle>
                             <max_angle>1.5707</max_angle>
                         </horizontal>
                         <vertical>
                             <samples>64</samples>
-                            <resolution>1</resolution>
                             <min_angle>-0.3926991</min_angle>
                             <max_angle>0.3926991</max_angle>
                         </vertical>
@@ -452,60 +450,112 @@
             </sensor>
         </link>
 
-        <!-- <link name="lidar2_link">
-        <pose>-0.5 0 3 0 0 0</pose>
-        <inertial>
-          <mass>0.1</mass>
-          <inertia>
-            <ixx>0.000166667</ixx>
-            <iyy>0.000166667</iyy>
-            <izz>0.000166667</izz>
-          </inertia>
-        </inertial>
-        <collision name="lidar2_collision">
-          <geometry>
-            <box>
-              <size>0.1 0.1 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="lidar2_visual">
-          <geometry>
-            <box>
-              <size>0.1 0.1 0.1</size>
-            </box>
-          </geometry>
-        </visual>
-              
-        <sensor name='gpu_lidar2' type='gpu_lidar'>
-            <pose>0 0 0 0 0 0</pose>
-            <topic>scan2</topic>
-            <ignition_frame_id>lidar2_link</ignition_frame_id>
-            <update_rate>10</update_rate>
-            <lidar>
-            <scan>
-                <horizontal>
-                <samples>512</samples>
-                <resolution>1</resolution>
-                <min_angle>-3.14</min_angle>
-                <max_angle>3.14</max_angle>
-                </horizontal>
-                <vertical>
-                <samples>64</samples>
-                <resolution>1</resolution>
-                <min_angle>-0.289724656</min_angle>
-                <max_angle>0.289724656</max_angle>
-                </vertical>
-            </scan>
-            <range>
-                <min>1.5</min>
-                <max>80.0</max>
-                <resolution>0.03</resolution>
-            </range>
-            </lidar>
-            <visualize>true</visualize>
-        </sensor>
-    </link> -->
+        <link name="fr_2d_lidar_link">
+            <pose>1.84 -0.85 0.33 0 0 0</pose>
+            <inertial>
+                <mass>0.1</mass>
+                <inertia>
+                    <ixx>0.000166667</ixx>
+                    <iyy>0.000166667</iyy>
+                    <izz>0.000166667</izz>
+                </inertia>
+            </inertial>
+            <collision name="fr_2d_lidar_collision">
+                <geometry>
+                    <box>
+                        <size>0.1 0.1 0.1</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="fr_2d_lidar_visual">
+                <geometry>
+                    <box>
+                        <size>0.1 0.1 0.1</size>
+                    </box>
+                </geometry>
+            </visual>
+
+            <sensor name='fr_2d_gpu_lidar' type='gpu_lidar'>
+                <pose>0 0 0 0 0 0</pose>
+                <topic>fr/scan</topic>
+                <ignition_frame_id>fr_2d_lidar_link</ignition_frame_id>
+                <update_rate>10</update_rate>
+                <lidar>
+                    <scan>
+                        <horizontal>
+                            <samples>640</samples>
+                            <min_angle>-2.356</min_angle>
+                            <max_angle>1.5</max_angle>
+                        </horizontal>
+                        <vertical>
+                            <samples>1</samples>
+                            <min_angle>0.0</min_angle>
+                            <max_angle>0.0</max_angle>
+                        </vertical>
+                    </scan>
+                    <range>
+                        <min>0.5</min>
+                        <max>30</max>
+                        <resolution>0.01</resolution>
+                    </range>
+                </lidar>
+                <visualize>true</visualize>
+            </sensor>
+        </link>
+
+
+        <link name="fl_2d_lidar_link">
+            <pose>1.84 0.85 0.33 0 0 0</pose>
+            <inertial>
+                <mass>0.1</mass>
+                <inertia>
+                    <ixx>0.000166667</ixx>
+                    <iyy>0.000166667</iyy>
+                    <izz>0.000166667</izz>
+                </inertia>
+            </inertial>
+            <collision name="fl_2d_lidar_collision">
+                <geometry>
+                    <box>
+                        <size>0.1 0.1 0.1</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="fl_2d_lidar_visual">
+                <geometry>
+                    <box>
+                        <size>0.1 0.1 0.1</size>
+                    </box>
+                </geometry>
+            </visual>
+
+            <sensor name='fl_2d_gpu_lidar' type='gpu_lidar'>
+                <pose>0 0 0 0 0 0</pose>
+                <topic>fl/scan</topic>
+                <ignition_frame_id>fl_2d_lidar_link</ignition_frame_id>
+                <update_rate>10</update_rate>
+                <lidar>
+                    <scan>
+                        <horizontal>
+                            <samples>640</samples>
+                            <min_angle>-1.5</min_angle>
+                            <max_angle>2.356</max_angle>
+                        </horizontal>
+                        <vertical>
+                            <samples>1</samples>
+                            <min_angle>0.0</min_angle>
+                            <max_angle>0.0</max_angle>
+                        </vertical>
+                    </scan>
+                    <range>
+                        <min>0.5</min>
+                        <max>30</max>
+                        <resolution>0.01</resolution>
+                    </range>
+                </lidar>
+                <visualize>true</visualize>
+            </sensor>
+        </link>
 
 
         <!-- <link name="imu_link">
@@ -546,10 +596,21 @@
             <child>main_mass</child>
         </joint>
 
-        <joint name='lidar_joint' type='fixed'>
+        <joint name='front_3d_lidar_joint' type='fixed'>
             <parent>base_link</parent>
-            <child>lidar_link</child>
+            <child>front_3d_lidar_link</child>
         </joint>
+
+        <joint name='fr_2d_lidar_joint' type='fixed'>
+            <parent>base_link</parent>
+            <child>fr_2d_lidar_link</child>
+        </joint>
+
+        <joint name='fl_2d_lidar_joint' type='fixed'>
+            <parent>base_link</parent>
+            <child>fl_2d_lidar_link</child>
+        </joint>
+
 
         <!-- 
     <joint name='lidar2_joint' type='fixed'>
