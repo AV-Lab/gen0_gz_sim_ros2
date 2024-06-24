@@ -64,5 +64,9 @@ ros2 run gen0_controller PIDcontroller_velocity.py
 ```
 ros2 run gen0_controller collision_visual.py
 ```
+Start by giving the vehicle a green flag "true"
+```
+ros2 topic pub /planning/green_signal std_msgs/Bool "data: true" --once
+```
 ## Path following
 The controller follows a specific trajectory specified in the stations/stationx.json file to add a new station create a new file with the points and update path_loader node with the proper stations order
