@@ -34,7 +34,7 @@ class GroundTruthPublisher(Node):
 
         # Create an odom message of location relative to map frame
         self.location.header.stamp= self.get_clock().now().to_msg()
-        self.location.header.frame_id, self.location.child_frame_id = "map", "odom"
+        self.location.header.frame_id, self.location.child_frame_id = "lanelet_map", "odom"
         # transform from odom to map by using odom to world (gazebo ground truth)
         position_odom_map = self.tf_buffer.transform(self.world_pose, 'lanelet_map')
         self.location.pose.pose.orientation=position_odom_map.pose.orientation
@@ -46,7 +46,7 @@ class GroundTruthPublisher(Node):
     def pose_to_transform(self, location_msg):
         transform = TransformStamped()
         transform.header.stamp = self.get_clock().now().to_msg()
-        transform.header.frame_id = "map"
+        transform.header.frame_id = "lanelet_map"
         transform.child_frame_id = "odom"
         translation = location_msg.pose.pose.position
         rotation = location_msg.pose.pose.orientation

@@ -479,7 +479,7 @@
                 <pose>0 0 0 0 0 0</pose>
                 <topic>fr/scan</topic>
                 <ignition_frame_id>fr_2d_lidar_link</ignition_frame_id>
-                <update_rate>10</update_rate>
+                <update_rate>20</update_rate>
                 <lidar>
                     <scan>
                         <horizontal>
@@ -533,7 +533,7 @@
                 <pose>0 0 0 0 0 0</pose>
                 <topic>fl/scan</topic>
                 <ignition_frame_id>fl_2d_lidar_link</ignition_frame_id>
-                <update_rate>10</update_rate>
+                <update_rate>20</update_rate>
                 <lidar>
                     <scan>
                         <horizontal>
@@ -630,8 +630,8 @@
             <axis>
                 <xyz>0 0 1</xyz>
                 <limit>
-                    <lower>-0.6</lower>
-                    <upper>0.6</upper>
+                    <lower>-0.5</lower>
+                    <upper>0.5</upper>
                     <velocity>1000</velocity>
                     <effort>10000</effort>
                 </limit>
@@ -665,8 +665,8 @@
             <axis>
                 <xyz>0 0 1</xyz>
                 <limit>
-                    <lower>-0.6</lower>
-                    <upper>0.6</upper>
+                    <lower>-0.5</lower>
+                    <upper>0.5</upper>
                     <velocity>1000</velocity>
                     <effort>10000</effort>
                 </limit>
@@ -700,8 +700,8 @@
             <axis>
                 <xyz>0 0 1</xyz>
                 <limit>
-                    <lower>-0.6</lower>
-                    <upper>0.6</upper>
+                    <lower>-0.5</lower>
+                    <upper>0.5</upper>
                     <velocity>1000</velocity>
                     <effort>10000</effort>
                 </limit>
@@ -735,8 +735,8 @@
             <axis>
                 <xyz>0 0 1</xyz>
                 <limit>
-                    <lower>-0.6</lower>
-                    <upper>0.6</upper>
+                    <lower>-0.5</lower>
+                    <upper>0.5</upper>
                     <velocity>1000</velocity>
                     <effort>10000</effort>
                 </limit>
@@ -775,7 +775,7 @@
             <left_steering_joint>back_left_steering_joint</left_steering_joint>
             <right_steering_joint>back_right_steering_joint</right_steering_joint>
             <kingpin_width>1.0</kingpin_width>
-            <steering_limit>0.6</steering_limit>
+            <steering_limit>0.5</steering_limit>
             <wheel_base>2.8</wheel_base>
             <wheel_separation>1.385</wheel_separation>
             <wheel_radius>0.33</wheel_radius>
@@ -784,30 +784,6 @@
             <min_acceleration>-6.25</min_acceleration> 
             <max_acceleration>3</max_acceleration>
         </plugin>
-
-        <!-- <plugin
-        filename="ignition-gazebo-diff-drive-system"
-        name="ignition::gazebo::systems::DiffDrive">
-        <left_joint>front_left_wheel_joint</left_joint>
-        <right_joint>back_left_wheel_joint</right_joint>
-        <wheel_separation>1.25</wheel_separation>
-        <wheel_radius>0.3</wheel_radius>
-        <odom_publish_frequency>1</odom_publish_frequency>
-        <max_linear_acceleration>1</max_linear_acceleration>
-        <min_linear_acceleration>-1</min_linear_acceleration>
-        <max_angular_acceleration>2</max_angular_acceleration>
-        <min_angular_acceleration>-2</min_angular_acceleration>
-        <max_linear_velocity>0.5</max_linear_velocity>
-        <min_linear_velocity>-0.5</min_linear_velocity>
-        <max_angular_velocity>1</max_angular_velocity>
-        <min_angular_velocity>-1</min_angular_velocity>
-      </plugin> -->
-
-        <!-- <plugin
-        filename="ignition-gazebo-velocity-control-system"
-        name="gz::sim::systems::VelocityControl">
-    </plugin> -->
-
 
         <plugin
             filename="ignition-gazebo-joint-state-publisher-system"
@@ -838,8 +814,8 @@
             filename="ignition-gazebo-pose-publisher-system"
             name="gz::sim::systems::PosePublisher">
             <publish_link_pose>true</publish_link_pose>
-            <use_pose_vector_msg>false</use_pose_vector_msg>
-            <publish_nested_model_pose>false</publish_nested_model_pose>
+            <use_pose_vector_msg>true</use_pose_vector_msg>
+            <publish_nested_model_pose>true</publish_nested_model_pose>
             <static_publisher>false</static_publisher>
         </plugin>
 

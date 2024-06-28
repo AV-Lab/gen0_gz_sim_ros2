@@ -125,7 +125,7 @@ def generate_launch_description():
             executable='static_transform_publisher',
             name='world_lanelet_map_tf',
             namespace='',
-            arguments=['-20.6991', '-22.4324', '-2.8500', '0.0', '0.0', '0.0', 'world', 'lanelet_map'],
+            arguments=['-20.6991', '-22.4324', '-2.8500', '1.0302', '0.0', '0.0', 'world', 'lanelet_map'],
             parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
         ),
         Node(
@@ -136,14 +136,6 @@ def generate_launch_description():
             arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', 'odom', 'base_link'],
             parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
         ),
-        Node(
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            name='laneletmap_costmap_tf',
-            namespace='',
-            arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '-0.5406', 'lanelet_map', 'map'],
-            parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
-        )
     ])
 
 

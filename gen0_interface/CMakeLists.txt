@@ -23,6 +23,7 @@ install(PROGRAMS
   src/ackermann_to_vehicle.py
   src/gnss_publisher.py
   src/path_subscriber.py
+  src/keyboard_teleop.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
