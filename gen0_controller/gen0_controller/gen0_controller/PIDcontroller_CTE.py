@@ -130,12 +130,12 @@ class PIDControllerCTENode(Node):
 
     def publish_path(self):
         path_msg = Path()
-        path_msg.header.frame_id = "map"
+        path_msg.header.frame_id = "lanelet_map"
         path_msg.header.stamp = self.get_clock().now().to_msg()
 
         for data in self.path:
             pose_stamped = PoseStamped()
-            pose_stamped.header.frame_id = "map"
+            pose_stamped.header.frame_id = "lanelet_map"
             pose_stamped.header.stamp = path_msg.header.stamp
             pose_stamped.pose.position.x = data[0] # x
             pose_stamped.pose.position.y = data[1] # y

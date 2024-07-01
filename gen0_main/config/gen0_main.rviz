@@ -6,6 +6,10 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /TF1
+        - /TF1/Status1
+        - /PointCloud21
+        - /Map1
       Splitter Ratio: 0.49613600969314575
     Tree Height: 866
   - Class: rviz_common/Selection
@@ -44,6 +48,12 @@ Visualization Manager:
           Value: true
         base_link:
           Value: true
+        fl_2d_lidar_link:
+          Value: true
+        fr_2d_lidar_link:
+          Value: true
+        front_3d_lidar_link:
+          Value: true
         front_left_steering_link:
           Value: true
         front_left_wheel_link:
@@ -52,11 +62,13 @@ Visualization Manager:
           Value: true
         front_right_wheel_link:
           Value: true
-        lidar_link:
+        lanelet_map:
           Value: true
         main_mass:
           Value: true
         map:
+          Value: true
+        odom:
           Value: true
         world:
           Value: true
@@ -67,24 +79,30 @@ Visualization Manager:
       Show Names: false
       Tree:
         world:
-          map:
-            base_link:
-              back_left_steering_link:
-                back_left_wheel_link:
-                  {}
-              back_right_steering_link:
-                back_right_wheel_link:
-                  {}
-              front_left_steering_link:
-                front_left_wheel_link:
-                  {}
-              front_right_steering_link:
-                front_right_wheel_link:
-                  {}
-              lidar_link:
-                {}
-              main_mass:
-                {}
+          lanelet_map:
+            map:
+              odom:
+                base_link:
+                  back_left_steering_link:
+                    back_left_wheel_link:
+                      {}
+                  back_right_steering_link:
+                    back_right_wheel_link:
+                      {}
+                  fl_2d_lidar_link:
+                    {}
+                  fr_2d_lidar_link:
+                    {}
+                  front_3d_lidar_link:
+                    {}
+                  front_left_steering_link:
+                    front_left_wheel_link:
+                      {}
+                  front_right_steering_link:
+                    front_right_wheel_link:
+                      {}
+                  main_mass:
+                    {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -117,7 +135,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /gen0_model/lidar_points
+        Value: /gen0_model/front3d/lidar/points
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
@@ -147,10 +165,31 @@ Visualization Manager:
       Update Interval: 0
       Value: false
       Visual Enabled: true
+    - Alpha: 0.699999988079071
+      Class: rviz_default_plugins/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: map
+      Update Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: map_updates
+      Use Timestamp: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: map
+    Fixed Frame: world
     Frame Rate: 30
   Name: root
   Tools:
@@ -229,5 +268,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1920
-  X: 0
-  Y: 0
+  X: 2868
+  Y: 244

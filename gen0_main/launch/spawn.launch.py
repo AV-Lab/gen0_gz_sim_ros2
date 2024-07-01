@@ -111,7 +111,8 @@ def generate_launch_description():
             package='rviz2',
             executable='rviz2',
             arguments=['-d', os.path.join(pkg_share_dir, 'config', 'gen0_main.rviz')],
-            condition=IfCondition(LaunchConfiguration('rviz'))
+            condition=IfCondition(LaunchConfiguration('rviz')),
+            parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}]
         ),
         Node(
             package='gen0_main',
@@ -122,11 +123,19 @@ def generate_launch_description():
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
-            name='world_map_tf',
+            name='world_lanelet_map_tf',
             namespace='',
-            arguments=['-20.6991', '-22.4324', '0.0', '1.0302', '0.0', '0.0', 'world', 'map'],
+            arguments=['-20.6991', '-22.4324', '-2.8500', '1.0302', '0.0', '0.0', 'world', 'lanelet_map'],
             parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
-        )
+        ),
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='odom_baselink_tf',
+            namespace='',
+            arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', 'odom', 'base_link'],
+            parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
+        ),
     ])
 
 

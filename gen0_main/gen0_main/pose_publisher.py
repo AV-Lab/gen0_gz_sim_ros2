@@ -14,7 +14,7 @@ class GroundTruthPublisher(Node):
         self.tf_buffer = tf2_ros.Buffer()
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
         # wait for transform world -> map to appear
-        while not self.tf_buffer.can_transform('map', 'world', rclpy.time.Time().to_msg()):
+        while not self.tf_buffer.can_transform('lanelet_map', 'world', rclpy.time.Time().to_msg()):
             self.get_logger().info("Waiting for transform...")
             rclpy.spin_once(self)  # Spin once to process events
         self.subscription = self.create_subscription(PoseArray, '/gen0_model/links/poses', self.pose_callback, 10)
@@ -34,11 +34,11 @@ class GroundTruthPublisher(Node):
 
         # Create an odom message of location relative to map frame
         self.location.header.stamp= self.get_clock().now().to_msg()
-        self.location.header.frame_id, self.location.child_frame_id = "map", "base_link"
-        # transform from base_link to map by using base_link to world (gazebo ground truth)
-        position_base_link_map = self.tf_buffer.transform(self.world_pose, 'map')
-        self.location.pose.pose.orientation=position_base_link_map.pose.orientation
-        self.location.pose.pose.position= position_base_link_map.pose.position
+        self.location.header.frame_id, self.location.child_frame_id = "lanelet_map", "odom"
+        # transform from odom to map by using odom to world (gazebo ground truth)
+        position_odom_map = self.tf_buffer.transform(self.world_pose, 'lanelet_map')
+        self.location.pose.pose.orientation=position_odom_map.pose.orientation
+        self.location.pose.pose.position= position_odom_map.pose.position
         self.location.pose.pose.position.z = self.location.pose.pose.position.z -5.79225126837 # keep the z fixed because the lanlent is designed that way -2.9453 
         self.tf_broadcaster.sendTransform(self.pose_to_transform(self.location))
         self.publisher.publish(self.location)
@@ -46,8 +46,8 @@ class GroundTruthPublisher(Node):
     def pose_to_transform(self, location_msg):
         transform = TransformStamped()
         transform.header.stamp = self.get_clock().now().to_msg()
-        transform.header.frame_id = "map"
-        transform.child_frame_id = "base_link"
+        transform.header.frame_id = "lanelet_map"
+        transform.child_frame_id = "odom"
         translation = location_msg.pose.pose.position
         rotation = location_msg.pose.pose.orientation
         transform.transform.translation = Vector3()
