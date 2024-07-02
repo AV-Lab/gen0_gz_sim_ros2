@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
 
+    <node pkg="gen0_controller" exec="PIDcontroller_CTE.py" name="steering_controller">
+    </node>
 
+    <node pkg="gen0_controller" exec="PIDcontroller_velocity.py" name="velocity_controller">
+    </node>
+
+    <node pkg="gen0_controller" exec="collision_checker.py" name="velocity_controller">
+    </node>
+
+    <node pkg="gen0_controller" exec="path_loader.py" name="velocity_controller">
+    </node>   
 
 </launch>
