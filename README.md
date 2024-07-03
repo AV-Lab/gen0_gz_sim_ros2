@@ -46,7 +46,7 @@ cd src
 ```
 2) Clone the repo
 ```
-git clone https://github.com/AV-Lab/gen0_gz_sim_ros2.git
+git clone https://github.com/AV-Lab/gen0_gz_sim_ros2.git .
 ```
 3) Build the workspace
 ```
@@ -74,7 +74,7 @@ export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=$(pwd)/build
 TBC
 
 ## Quick Start Guide
-Make sure to source the workspace and to export the gazebo plugin (only needed on the main terminal)
+Make sure to source the workspace and to export the gazebo plugin (only needed on the main terminal), to avoid having to do that everytime add it to the bashrc file or use ./gzbuild.sh file provided in the repo to launch the simulation (gen0_main) but remember to give it chmod +x.
 
 ### 1) Launch the simulation and spawn the vehicle (gen0_main)
 ```
