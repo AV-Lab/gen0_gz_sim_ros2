@@ -17,7 +17,7 @@ class VisualizationNode(Node):
         super().__init__('visualization_node')
         self.subscription_path = self.create_subscription(Path, '/planning/path', self.path_callback, 10)
         self.subscription_odom = self.create_subscription(Odometry, '/localization/kinematic_state', self.odom_callback, 10)
-        self.subscription_pedestrians = self.create_subscription(PoseArray, '/actors/poses', self.pedestrians_callback, 10)
+        self.subscription_pedestrians = self.create_subscription(PoseArray, '/detection_pose_array', self.pedestrians_callback, 10)
         self.car = None  # This will hold the rectangle representing the car
         self.car_circles = []  # Car's detection circles
         self.path_circles = []  # Circles for the first N path points

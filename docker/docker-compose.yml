@@ -1,0 +1,33 @@
+version: '3.8' # Specifies the version of the Docker Compose file format
+
+services:
+  ros: # Service name
+    image: osrf/ros:humble-desktop # Specifies the Docker image to use for this service
+    container_name: ros # Sets the container name to "ros"
+    network_mode: host # Uses the host's networking stack (container shares the host's network)
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix # Mounts the X11 Unix socket for GUI applications
+      - /etc/localtime:/etc/localtime:ro # Mounts the local timezone file in read-only mode to sync container time
+      - /dev/:/dev/ # Mounts the /dev directory to access host devices
+    environment:
+      - color_prompt=yes # Environment variable for colored prompts
+      - DISPLAY # Passes the DISPLAY environment variable for X11 forwarding
+      - TERM # Passes the TERM environment variable for terminal settings
+      - QT_X11_NO_MITSHM=1 # Prevents MIT-SHM extension usage for X11, useful for remote displays
+      - DRI_NAME=card1 # Sets the DRI (Direct Rendering Infrastructure) device
+      - NVIDIA_VISIBLE_DEVICES=all # Makes all NVIDIA devices visible to the container
+      - NVIDIA_DRIVER_CAPABILITIES=all # Grants all NVIDIA driver capabilities to the container
+      - __NV_PRIME_RENDER_OFFLOAD=1 # Enables NVIDIA PRIME render offload
+      - __GLX_VENDOR_LIBRARY_NAME=nvidia # Specifies the GLX vendor library to use (NVIDIA)
+    tty: true # Allocates a TTY for the container, useful for interactive shells
+    stdin_open: true # Keeps stdin open to support interactive processes
+    devices:
+      - /dev/:/dev/ # Maps the /dev directory to access host devices (repeated for completeness)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia # Specifies the NVIDIA driver
+              count: all # Allocates all available GPUs
+              capabilities: [gpu] # Requests GPU capabilities
+    runtime: nvidia # Uses the NVIDIA runtime for GPU support

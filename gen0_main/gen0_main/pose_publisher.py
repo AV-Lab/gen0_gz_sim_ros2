@@ -25,7 +25,7 @@ class GroundTruthPublisher(Node):
 
     def pose_callback(self, msg):
         '''
-        Need create a PoseStamped message out of the PoseArray that we receive since on the developemnt date tf2_ros.Buffer().transform 
+        Need to create a PoseStamped message out of the PoseArray that we receive since on the developemnt date tf2_ros.Buffer().transform 
         still does not accept the message type tf2_geometry_msgs, however it accepts PoseStamped messages
         '''
         self.world_pose.header.frame_id= 'world'
