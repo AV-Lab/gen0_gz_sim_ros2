@@ -2,8 +2,8 @@ version: '3.8' # Specifies the version of the Docker Compose file format
 
 services:
   ros: # Service name
-    image: osrf/ros:humble-desktop # Specifies the Docker image to use for this service
-    container_name: ros # Sets the container name to "ros"
+    image: ghcr.io/av-lab/gen0-gz-sim-ros2:main # Specifies the Docker image to use for this service
+    container_name: gen0-gz-sim-ros2 # Sets the container name to "ros"
     network_mode: host # Uses the host's networking stack (container shares the host's network)
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix # Mounts the X11 Unix socket for GUI applications
