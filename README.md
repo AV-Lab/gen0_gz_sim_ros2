@@ -71,7 +71,10 @@ export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=$(pwd)/build
 ```
 
 ## Docker Installation
-TBC
+Use the ready image then refer to Quick Start Guide.
+```
+docker pull ghcr.io/av-lab/gen0-gz-sim-ros2:main
+```
 
 ## Quick Start Guide
 Make sure to source the workspace and to export the gazebo plugin (only needed on the main terminal), to avoid having to do that everytime add it to the bashrc file or use ./gzbuild.sh file provided in the repo to launch the simulation (gen0_main) but remember to give it chmod +x.
@@ -130,10 +133,15 @@ ros2 run gen0_interface keyboard_teleop.py
 
 ### Planner and map creation 
 
+TBC
+
 ### World and pedestrians scenario 
+
+TBC
 
 ### Transform tree
 
+TBC
 
 ## Known Issues
 
