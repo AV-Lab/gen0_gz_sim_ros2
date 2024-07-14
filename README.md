@@ -22,6 +22,10 @@ The system requirements depend on the world and number of pedestrians present du
   
 ## Dependencies
 -  ROS2 Humble: https://docs.ros.org/en/humble/Installation.html
+-  colcon to build packages
+```
+sudo apt install python3-colcon-common-extensions
+```
 -  Gazebo ignition 6.x (Fortress for ROS2 Humble): https://gazebosim.org/docs/fortress/install_ubuntu
 - ros_gz package
 ```
