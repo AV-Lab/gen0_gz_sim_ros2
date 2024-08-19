@@ -96,6 +96,10 @@ class VisualizationNode(Node):
 
     def pedestrians_callback(self, msg):
         collision_detected = [False] * len(msg.poses)
+        for circle in self.pedestrian_circles:
+            self.ax.patches.remove(circle)
+        self.pedestrian_circles =[]
+
         for i, pose in enumerate(msg.poses):
             px, py = pose.position.x, pose.position.y
             for car_circle in self.car_circles:
@@ -109,14 +113,9 @@ class VisualizationNode(Node):
                         collision_detected[i] = True
                         break
 
-            # Update circle color based on collision
-            if i >= len(self.pedestrian_circles):
-                circle = Circle((px, py), self.pedestrian_circle_radius, color='orange' if collision_detected[i] else 'yellow', fill=False)
-                self.ax.add_patch(circle)
-                self.pedestrian_circles.append(circle)
-            else:
-                self.pedestrian_circles[i].center = (px, py)
-                self.pedestrian_circles[i].set_color('red' if collision_detected[i] else 'orange')
+            circle = Circle((px, py), self.pedestrian_circle_radius, color='red' if collision_detected[i] else 'orange', fill=False)
+            self.ax.add_patch(circle)
+            self.pedestrian_circles.append(circle)
 
         self.fig.canvas.draw()
         self.fig.canvas.flush_events()
