@@ -396,9 +396,8 @@
                 </surface>
             </collision>
         </link>
-
         <link name="front_3d_lidar_link">
-            <pose>1.9 0 1.5 0 0 0</pose>
+            <pose>1.9 0 1.9 0 0 0</pose>
             <inertial>
                 <mass>0.1</mass>
                 <inertia>
@@ -443,10 +442,65 @@
                     <range>
                         <min>0.5</min>
                         <max>170</max>
-                        <resolution>0.03</resolution>
+                        <resolution>0.02</resolution>
                     </range>
                 </lidar>
                 <visualize>true</visualize>
+            </sensor>
+        </link>
+        <link name="front_camera_link">
+            <pose>1.9 0 1.6 0 0 0</pose>
+            <inertial>
+                <mass>0.1</mass>
+                <inertia>
+                    <ixx>0.000166667</ixx>
+                    <iyy>0.000166667</iyy>
+                    <izz>0.000166667</izz>
+                </inertia>
+            </inertial>
+            <collision name="camera_collision">
+                <geometry>
+                    <box>
+                        <size>0.1 0.1 0.1</size>
+                    </box>
+                </geometry>
+            </collision>
+            <visual name="camera_visual">
+                <geometry>
+                    <box>
+                        <size>0.1 0.1 0.1</size>
+                    </box>
+                </geometry>
+            </visual>
+
+            <sensor name="front_camera" type="camera">
+                <pose>0 0 0 0 0 0</pose>
+                <topic>camera/images</topic>
+
+                <camera>
+                    <horizontal_fov>1.047</horizontal_fov>
+                   
+                    <image>
+                        <width>900</width>
+                        <height>700</height>
+                        <format>R8G8B8</format>
+                    </image>
+                    <clip>
+                        <near>0.1</near>
+                        <far>100</far>
+                    </clip>
+                </camera>
+                <update_rate>20</update_rate>
+                 <always_on>1</always_on>
+                <visualize>true</visualize>
+                <!-- <plugin name="camera_controller" filename="libgazebo_ros_camera.so"> -->
+                    <!-- <always_on>true</always_on>
+                    <update_rate>30.0</update_rate>
+                    <camera_name>front_camera</camera_name>
+                    <image_topic_name>camera/image_raw</image_topic_name>
+                    <camera_info_topic_name>camera/camera_info</camera_info_topic_name> -->
+                    <!-- <frame_name>front_camera_joint</frame_name>
+                </plugin> -->
             </sensor>
         </link>
 
@@ -600,6 +654,11 @@
             <parent>base_link</parent>
             <child>front_3d_lidar_link</child>
         </joint>
+        <joint name='front_camera_joint' type='fixed'>
+            <parent>base_link</parent>
+            <child>front_camera_link</child>
+        </joint>
+        
 
         <joint name='fr_2d_lidar_joint' type='fixed'>
             <parent>base_link</parent>
@@ -742,6 +801,7 @@
                 </limit>
             </axis>
         </joint>
+
 
         <joint name="front_left_wheel_joint" type="revolute">
             <parent>front_left_steering_link</parent>
