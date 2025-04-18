@@ -1,16 +1,15 @@
 # gen0_gz_sim_ros2
-gen0_gz_sim is an under development simulation ennvironemnt of an autonomous shuttle (gen0) based on ROS2 and gazebo ignition, it currently includes path following controllers which navigates the vehicle based on a predefined global path and ground truth localization with ackermann kinematics.
+gen0_gz_sim is a simulation environment currently under development for an autonomous shuttle (Gen0) at Khalifa University's SAN Campus. Built on ROS2 and Gazebo Ignition, it features a platform with four-wheel steering control kinematics.
 
 ![](/assets/images/simulation.png)
 
 ## Table of Contents 
 - [System Requirements](#system-requirements)
-- [Dependencies](#dependencies)
 - [Source Installation](#source-installation)
 - [Docker Installation](#docker-installation)
 - [Quick Start Guide](#quick-start-guide)
-- [Development Guide](#development-guide)
 - [Known issues](#known-issues)
+- [Integration with ORBit](#integration-with-orbit)
 
 
 ## System Rquirements 
@@ -19,28 +18,30 @@ The system requirements depend on the world and number of pedestrians present du
 - RAM 64GB 
 - RTX 2080ti
 - i9 9900k
-  
-## Dependencies
--  ROS2 Humble: https://docs.ros.org/en/humble/Installation.html
+
+## Source Installation
+
+### Dependencies
+
+-  [ROS2 Humble](https://docs.ros.org/en/humble/Installation.html)
+-  [Gazebo ignition 6.x (Fortress for ROS2 Humble)](https://gazebosim.org/docs/fortress/install_ubuntu)
+- [san_full]() model download from the release 
 -  colcon to build packages
 ```
 sudo apt install python3-colcon-common-extensions
 ```
--  Gazebo ignition 6.x (Fortress for ROS2 Humble): https://gazebosim.org/docs/fortress/install_ubuntu
 - ros_gz package
 ```
 sudo apt-get install ros-humble-ros-gz
 ```
--  transforms3d
+-  python libraries
 ```
-pip install transforms3d
+pip3 install -r requirements.txt
 ```
 - ros-humble-tf-transformations
 ```
 sudo apt install ros-humble-tf-transformations
 ```
-
-## Source Installation
 
 ### Workspace setup
 1) Create a ROS2 workspace
@@ -54,8 +55,10 @@ cd src
 ```
 git clone https://github.com/AV-Lab/gen0_gz_sim_ros2.git .
 ```
-
-
+3) Move the downloaded san_full model to worlds directory
+```
+mv san_full.obj ~/gen0_gz_sim_ros2/src/gen0_gz_sim_ros2/gen0_main/worlds/san_full
+```
 
 ### Building the workspace
 
@@ -90,7 +93,7 @@ export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=$(pwd)/build
 ## Docker Installation
 Use the ready image then refer to Quick Start Guide.
 ```
-docker pull ghcr.io/av-lab/gen0-gz-sim-ros2:main
+docker pull ghcr.io/av-lab/gen0-gz-sim-ros2:latest
 ```
 
 ## Quick Start Guide
@@ -110,27 +113,13 @@ Note: the launch file has the following arguments:
 ros2 run gen0_interface cmdvel_to_vehicle.py
 ```
 
-## Development Guide
-
-TBC
-
 ## Known Issues
 
 - When adding a new link to the vehicle or removing an existing one, the localization might fail since the world ground truth is from gazebo "/gen0_model/links/poses" PoseArray topic and the index of the base_link keep on changing everytime a link has been changed inside the car. Check pose_publisher in gen0_main to update the index.
 
 - Sometimes the pedestirans secenario does not get updated until the package has been built twice, in rare situations you will have to delete the install and build folders, and rebuild the package.
 
-- The 3D lidar provide a pointcloud messsage which has no intenstiy values.
 
+## Integration with ORBit
 
-# Commands to use submodules:
-
-- First initialize and update the first level submodules  
-    ```
-    git submodule update --init --depth 1 
-    ```
-
-- Then initialize only the second level submodules
-    ``` 
-    git submodule foreach 'git submodule update --init --depth 1' 
-    ```
+- Refer to the guide available at [avlab knowledge base](https://kb.avlab.io/20-DevOps/21-Software%20Dev/21.1-ORBit/) for integration instructions.
