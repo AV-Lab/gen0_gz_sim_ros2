@@ -11,10 +11,10 @@ cd "$WORKSPACE/src/gen0_gz_sim_ros2/gen0_gz_sim_ros2/gz_plugins/build" || exit
 cmake ..
 make
 cd ..
-export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=$(pwd)/build
+export GZ_SIM_SYSTEM_PLUGIN_PATH=$(pwd)/build
 
 cd "$WORKSPACE" || exit
-source /opt/ros/humble/setup.bash
+source /opt/ros/jazzy/setup.bash
 colcon build --packages-ignore race_plan_control
 source install/setup.bash
 

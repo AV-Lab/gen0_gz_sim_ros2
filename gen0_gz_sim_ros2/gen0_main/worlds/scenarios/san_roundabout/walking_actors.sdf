@@ -2,7 +2,7 @@
 <sdf version="1.6">
   <actor name="pedestrian_1">
     <plugin filename="ActorPose"
-    name="ignition::gazebo::systems::ActorPose">
+    name="gz::sim::systems::ActorPose">
     </plugin>
     <skin>
       <filename>../../meshes/actors/Male Actor 2/meshes/walk.dae</filename>
@@ -225,7 +225,7 @@
   </actor>
   <actor name="pedestrian_2">
     <plugin filename="ActorPose"
-    name="ignition::gazebo::systems::ActorPose">
+    name="gz::sim::systems::ActorPose">
     </plugin>
     <skin>
       <filename>../../meshes/actors/Male Actor/meshes/talk_a.dae</filename>
@@ -252,7 +252,7 @@
   </actor>
   <actor name="pedestrian_3">
     <plugin filename="ActorPose"
-    name="ignition::gazebo::systems::ActorPose">
+    name="gz::sim::systems::ActorPose">
     </plugin>
     <skin>
       <filename>../../meshes/actors/Male Actor/meshes/talk_b.dae</filename>
@@ -279,7 +279,7 @@
   </actor>
   <actor name="pedestrian_4">
     <plugin filename="ActorPose"
-    name="ignition::gazebo::systems::ActorPose">
+    name="gz::sim::systems::ActorPose">
     </plugin>
     <skin>
       <filename>../../meshes/actors/Male visitor/meshes/MaleVisitorWalk.dae</filename>
@@ -318,7 +318,7 @@
   </actor>
   <actor name="pedestrian_5">
     <plugin filename="ActorPose"
-    name="ignition::gazebo::systems::ActorPose">
+    name="gz::sim::systems::ActorPose">
     </plugin>
     <skin>
       <filename>../../meshes/actors/Female Visitor/meshes/FemaleVisitorWalk.dae</filename>
@@ -354,7 +354,7 @@
   </actor>
   <actor name="pedestrian_6">
     <plugin filename="ActorPose"
-    name="ignition::gazebo::systems::ActorPose">
+    name="gz::sim::systems::ActorPose">
     </plugin>
     <skin>
       <filename>../../meshes/actors/Female Doctor/meshes/DoctorFemaleWalk.dae</filename>
@@ -390,7 +390,7 @@
   </actor>
   <actor name="pedestrian_7">
     <plugin filename="ActorPose"
-    name="ignition::gazebo::systems::ActorPose">
+    name="gz::sim::systems::ActorPose">
     </plugin>
     <skin>
       <filename>../../meshes/actors/Male visitor/meshes/MaleVisitorWalk.dae</filename>

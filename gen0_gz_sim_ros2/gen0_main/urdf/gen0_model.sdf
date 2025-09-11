@@ -424,7 +424,7 @@
             <sensor name='front_3d_gpu_lidar' type='gpu_lidar'>
                 <pose>0 0 0 0 0 0</pose>
                 <topic>front3d/scan</topic>
-                <ignition_frame_id>front_3d_lidar_link</ignition_frame_id>
+                <gz:frame_id >front_3d_lidar_link</gz:frame_id >
                 <update_rate>10</update_rate>
                 <lidar>
                     <scan>
@@ -532,7 +532,7 @@
             <sensor name='fr_2d_gpu_lidar' type='gpu_lidar'>
                 <pose>0 0 0 0 0 0</pose>
                 <topic>fr/scan</topic>
-                <ignition_frame_id>fr_2d_lidar_link</ignition_frame_id>
+                <gz:frame_id >fr_2d_lidar_link</gz:frame_id >
                 <update_rate>20</update_rate>
                 <lidar>
                     <scan>
@@ -586,7 +586,7 @@
             <sensor name='fl_2d_gpu_lidar' type='gpu_lidar'>
                 <pose>0 0 0 0 0 0</pose>
                 <topic>fl/scan</topic>
-                <ignition_frame_id>fl_2d_lidar_link</ignition_frame_id>
+                <gz:frame_id >fl_2d_lidar_link</gz:frame_id >
                 <update_rate>20</update_rate>
                 <lidar>
                     <scan>
@@ -651,7 +651,7 @@
           <always_on>1</always_on>
           <update_rate>10</update_rate>
           <topic>navsat</topic>
-          <ignition_frame_id>gps_link</ignition_frame_id>
+          <gz:frame_id >gps_link</gz:frame_id >
         </sensor>
       </link>
 
@@ -724,14 +724,10 @@
                     <effort>10000</effort>
                     <velocity>5000</velocity>
                 </limit>
+                <dynamics>  
+                    <damping>0.01</damping>
+                </dynamics>
             </axis>
-            <dynamics>
-                <damping>0.01</damping>
-            </dynamics>
-            <joint_properties>
-                <damping>10</damping>
-                <friction>1.0</friction>
-            </joint_properties>
         </joint>
 
         <joint name="back_left_steering_joint" type="revolute">
@@ -759,14 +755,10 @@
                     <effort>10000</effort>
                     <velocity>5000</velocity>
                 </limit>
+                <dynamics>
+                    <damping>0.01</damping>
+                </dynamics>
             </axis>
-            <dynamics>
-                <damping>0.01</damping>
-            </dynamics>
-            <joint_properties>
-                <damping>10</damping>
-                <friction>1.0</friction>
-            </joint_properties>
         </joint>
 
         <joint name="front_right_steering_joint" type="revolute">
@@ -794,14 +786,10 @@
                     <effort>10000</effort>
                     <velocity>5000</velocity>
                 </limit>
+                <dynamics>  
+                    <damping>0.01</damping>
+                </dynamics>
             </axis>
-            <dynamics>
-                <damping>0.01</damping>
-            </dynamics>
-            <joint_properties>
-                <damping>10</damping>
-                <friction>1.0</friction>
-            </joint_properties>
         </joint>
 
         <joint name="front_left_steering_joint" type="revolute">
@@ -830,19 +818,15 @@
                     <effort>10000</effort>
                     <velocity>5000</velocity>
                 </limit>
+                <dynamics>  
+                    <damping>0.01</damping>
+                </dynamics>
             </axis>
-            <dynamics>
-                <damping>0.01</damping>
-            </dynamics>
-            <joint_properties>
-                <damping>10</damping>
-                <friction>1.0</friction>
-            </joint_properties>
         </joint>
 
         <!-- The ackermann plugin is only being used for speed control -->
         <!-- <plugin
-            filename="ignition-gazebo-ackermann-steering-system"
+            filename="gz-sim-ackermann-steering-system"
             name="gz::sim::systems::AckermannSteering">
             <topic>/model/gen0_model/speed_cmd</topic>
             <odom_topic>ackodom</odom_topic>
@@ -862,12 +846,12 @@
         </plugin> -->
 
         <plugin
-            filename="ignition-gazebo-joint-state-publisher-system"
+            filename="gz-sim-joint-state-publisher-system"
             name="gz::sim::systems::JointStatePublisher">
         </plugin>
 
         <plugin
-            filename="ignition-gazebo-joint-position-controller-system"
+            filename="gz-sim-joint-position-controller-system"
             name="gz::sim::systems::JointPositionController">
             <joint_name>front_left_steering_joint</joint_name>
             <topic>/model/gen0_model/joint/front_left_steering_joint/cmd_pos</topic>
@@ -875,7 +859,7 @@
         </plugin>
 
         <plugin
-            filename="ignition-gazebo-joint-position-controller-system"
+            filename="gz-sim-joint-position-controller-system"
             name="gz::sim::systems::JointPositionController">
             <joint_name>front_right_steering_joint</joint_name>
             <topic>/model/gen0_model/joint/front_right_steering_joint/cmd_pos</topic>
@@ -883,7 +867,7 @@
         </plugin>
 
         <plugin
-            filename="ignition-gazebo-joint-position-controller-system"
+            filename="gz-sim-joint-position-controller-system"
             name="gz::sim::systems::JointPositionController">
             <joint_name>back_left_steering_joint</joint_name>
             <topic>/model/gen0_model/joint/back_left_steering_joint/cmd_pos</topic>
@@ -891,7 +875,7 @@
         </plugin>
 
         <plugin
-            filename="ignition-gazebo-joint-position-controller-system"
+            filename="gz-sim-joint-position-controller-system"
             name="gz::sim::systems::JointPositionController">
             <joint_name>back_right_steering_joint</joint_name>
             <topic>/model/gen0_model/joint/back_right_steering_joint/cmd_pos</topic>
@@ -899,28 +883,28 @@
         </plugin>
 
         <plugin
-            filename="ignition-gazebo-joint-controller-system"
+            filename="gz-sim-joint-controller-system"
             name="gz::sim::systems::JointController">
             <joint_name>back_left_wheel_joint</joint_name>
             <topic>/model/gen0_model/joint/back_left_wheel_joint/cmd_pos</topic>
         </plugin>
 
         <plugin
-            filename="ignition-gazebo-joint-controller-system"
+            filename="gz-sim-joint-controller-system"
             name="gz::sim::systems::JointController">
             <joint_name>back_right_wheel_joint</joint_name>
             <topic>/model/gen0_model/joint/back_right_wheel_joint/cmd_pos</topic>
         </plugin>
 
         <!-- <plugin
-            filename="ignition-gazebo-velocity-control-system"
+            filename="gz-sim-velocity-control-system"
             name="gz::sim::systems::VelocityControl">
             <initial_linear>0 0 0</initial_linear>
             <initial_angular>0 0 0</initial_angular>
          </plugin> -->
 
         <plugin
-            filename="ignition-gazebo-pose-publisher-system"
+            filename="gz-sim-pose-publisher-system"
             name="gz::sim::systems::PosePublisher">
             <publish_link_pose>true</publish_link_pose>
             <use_pose_vector_msg>true</use_pose_vector_msg>

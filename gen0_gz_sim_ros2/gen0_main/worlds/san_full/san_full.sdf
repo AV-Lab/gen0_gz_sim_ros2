@@ -4,28 +4,28 @@
   <world name="default">
 
     <plugin
-      filename="ignition-gazebo-physics-system"
+      filename="gz-sim-physics-system"
       name="gz::sim::systems::Physics">
     </plugin>
     <plugin
-      filename="ignition-gazebo-user-commands-system"
+      filename="gz-sim-user-commands-system"
       name="gz::sim::systems::UserCommands">
     </plugin>
     <plugin
-      filename="ignition-gazebo-scene-broadcaster-system"
+      filename="gz-sim-scene-broadcaster-system"
       name="gz::sim::systems::SceneBroadcaster">
     </plugin>
     <plugin
-      filename="ignition-gazebo-sensors-system"
+      filename="gz-sim-sensors-system"
       name="gz::sim::systems::Sensors">
       <render_engine>ogre2</render_engine>
     </plugin>
-    <plugin filename="libignition-gazebo-imu-system.so"
-      name="ignition::gazebo::systems::Imu">
+    <plugin filename="gz-sim-imu-system"
+      name="gz::sim::systems::Imu">
     </plugin>
     <plugin
-      filename="ignition-gazebo-navsat-system"
-      name="ignition::gazebo::systems::NavSat">
+      filename="gz-sim-navsat-system"
+      name="gz::sim::systems::NavSat">
     </plugin>
 
     <spherical_coordinates>
@@ -84,7 +84,7 @@
 
     <model name="gen0_model">
       <self_collide>true</self_collide>
-      <pose>181.21 -111.34 3.0 0 0 1.04</pose>
+      <pose>-2.528601618340641 -10.368307308731294 3 0 0 -1.9760680446114314</pose>
       <include merge="true">
         <uri>../urdf/gen0_model.sdf</uri>
       </include>

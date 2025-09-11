@@ -67,7 +67,7 @@ def generate_launch_description():
     bridge_file= PathJoinSubstitution([pkg_share_dir, 'config', 'bridge.yaml'])
     world_file= PathJoinSubstitution([pkg_share_dir, 'worlds/', LaunchConfiguration('world'), PythonExpression(["'", LaunchConfiguration('world'), "'", ' + ".sdf"'])])
     vehicle_file=os.path.join(pkg_share_dir, 'urdf', 'gen0_model.sdf')
-    os.environ['IGN_GAZEBO_RESOURCE_PATH']= pkg_share_dir + "/meshes" # Load the meshes to the gazebo server
+    os.environ['GZ_SIM_RESOURCE_PATH']= pkg_share_dir + "/meshes" # Load the meshes to the gazebo server
 
     # Files
     with open(vehicle_file, 'r') as infp:

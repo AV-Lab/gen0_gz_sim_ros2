@@ -2,7 +2,7 @@
 <sdf version="1.6">
 <actor name="pedestrian_1">
     <plugin filename="ActorPose"
-    name="ignition::gazebo::systems::ActorPose">
+    name="gz::sim::systems::ActorPose">
     </plugin>
     <skin>
         <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>

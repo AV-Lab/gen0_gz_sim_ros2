@@ -1,5 +1,5 @@
 # gen0_gz_sim_ros2
-gen0_gz_sim is a simulation environment currently under development for an autonomous shuttle (Gen0) at Khalifa University's SAN Campus. Built on ROS2 and Gazebo Ignition, it features a platform with four-wheel steering control kinematics.
+gen0_gz_sim is a simulation environment currently under development for an autonomous shuttle (Gen0) at Khalifa University's SAN Campus. Built on ROS2 and Gazebo Harmonic, it features a platform with four-wheel steering control kinematics.
 
 ![](/assets/images/simulation.png)
 
@@ -14,7 +14,7 @@ gen0_gz_sim is a simulation environment currently under development for an auton
 
 ## System Rquirements 
 The system requirements depend on the world and number of pedestrians present during the runtime, furthermore, the following specifications were used to develop the simulation environement:
-- Ubuntu 22.04 LTS
+- Ubuntu 24.04 LTS
 - RAM 64GB 
 - RTX 2080ti
 - i9 9900k
@@ -23,8 +23,8 @@ The system requirements depend on the world and number of pedestrians present du
 
 ### Dependencies
 
--  [ROS2 Humble](https://docs.ros.org/en/humble/Installation.html)
--  [Gazebo ignition 6.x (Fortress for ROS2 Humble)](https://gazebosim.org/docs/fortress/install_ubuntu)
+-  [ROS2 Jazzy](https://docs.ros.org/en/jazzy/Installation.html)
+-  [Gazebo Harmonic (for ROS2 Jazzy)](https://gazebosim.org/docs/harmonic/install_ubuntu)
 - [san_full]() model download from the release 
 -  colcon to build packages
 ```
@@ -32,7 +32,7 @@ sudo apt install python3-colcon-common-extensions
 ```
 - ros_gz package
 ```
-sudo apt-get install ros-humble-ros-gz
+sudo apt-get install ros-jazzy-ros-gz
 ```
 -  python libraries
 ```
@@ -40,7 +40,7 @@ pip3 install -r requirements.txt
 ```
 - ros-humble-tf-transformations
 ```
-sudo apt install ros-humble-tf-transformations
+sudo apt install ros-jazzy-tf-transformations
 ```
 
 ### Workspace setup
@@ -87,13 +87,7 @@ cd ..
 ```
 - add the path as a gazebo system plugin 
 ```
-export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=$(pwd)/build
-```
-
-## Docker Installation
-Use the ready image then refer to Quick Start Guide.
-```
-docker pull ghcr.io/av-lab/gen0-gz-sim-ros2:latest
+export GZ_SIM_SYSTEM_PLUGIN_PATH=$(pwd)/build
 ```
 
 ## Quick Start Guide

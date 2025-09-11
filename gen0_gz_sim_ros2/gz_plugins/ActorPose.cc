@@ -13,20 +13,20 @@
 
 #include "ActorPose.hh"
 
-using namespace ignition;
-using namespace gazebo;
+using namespace gz;
+using namespace sim;
 using namespace systems;
 
-class ignition::gazebo::systems::ActorPosePrivate
+class gz::sim::systems::ActorPosePrivate
 {
   /// \brief Entity for the actor.
   public: Entity actorEntity{kNullEntity};
   
-  public: msgs::Pose poseMsg;
+  public: gz::msgs::Pose poseMsg;
 
-  public: transport::Node node;
+  public: gz::transport::Node node;
 
-  public: transport::Node::Publisher posePub;
+  public: gz::transport::Node::Publisher posePub;
   
   public: double updateFrequency = -1;
 
@@ -74,11 +74,11 @@ void ActorPose::Configure(const Entity &_entity,
 void ActorPose::PostUpdate(const UpdateInfo &_info,
     const EntityComponentManager &_ecm)
 {
-    IGN_PROFILE("ActorPose::PostUpdate");
+    GZ_PROFILE("ActorPose::PostUpdate");
 
     if (_info.dt < std::chrono::steady_clock::duration::zero())
     {
-        ignwarn << "Detected jump back in time ["
+        gzwarn << "Detected jump back in time ["
             << std::chrono::duration_cast<std::chrono::seconds>(_info.dt).count()
             << "s]. System may not work properly." << std::endl;
     }
@@ -104,7 +104,7 @@ void ActorPose::PostUpdate(const UpdateInfo &_info,
     this->dataPtr->poseMsg.Clear();
     msg = &this->dataPtr->poseMsg;
     
-    auto timeStamp = convert<msgs::Time>(_info.simTime);
+    auto timeStamp = gz::sim::convert<gz::msgs::Time>(_info.simTime);
     auto header = msg->mutable_header();
     header->mutable_stamp()->CopyFrom(timeStamp);
     const math::Pose3d &transform = actorpose->Data();  
@@ -120,9 +120,9 @@ void ActorPose::PostUpdate(const UpdateInfo &_info,
     this->dataPtr->lastUpdate = _info.simTime;
 }
 
-IGNITION_ADD_PLUGIN(ActorPose, System,
+GZ_ADD_PLUGIN(ActorPose, System,
   ActorPose::ISystemConfigure,
   ActorPose::ISystemPostUpdate
 )
 
-IGNITION_ADD_PLUGIN_ALIAS(ActorPose, "ignition::gazebo::systems::ActorPose")
+GZ_ADD_PLUGIN_ALIAS(ActorPose, "gz::sim::systems::ActorPose")
