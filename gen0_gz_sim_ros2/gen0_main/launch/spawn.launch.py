@@ -60,6 +60,11 @@ def generate_launch_description():
             default_value= "false", 
             choices=['true', 'false']
     )
+    use_gui_config_arg = DeclareLaunchArgument(
+    'use_gui_config',
+    default_value='false',
+    choices=['true', 'false'],
+    )
 
     # Paths
     pkg_share_dir = get_package_share_directory('gen0_main')
@@ -67,6 +72,12 @@ def generate_launch_description():
     bridge_file= PathJoinSubstitution([pkg_share_dir, 'config', 'bridge.yaml'])
     world_file= PathJoinSubstitution([pkg_share_dir, 'worlds/', LaunchConfiguration('world'), PythonExpression(["'", LaunchConfiguration('world'), "'", ' + ".sdf"'])])
     vehicle_file=os.path.join(pkg_share_dir, 'urdf', 'gen0_model.sdf')
+    gui_config_path = PathJoinSubstitution([pkg_share_dir, 'config', 'gui_teleop.config'])
+    gz_args = PythonExpression([
+        "'", world_file, "'",
+        " + (' --gui-config ' + '", gui_config_path, "') if '",
+        LaunchConfiguration('use_gui_config'), "' == 'true' else ''"
+    ])
     os.environ['GZ_SIM_RESOURCE_PATH']= pkg_share_dir + "/meshes" # Load the meshes to the gazebo server
 
     # Files
@@ -79,14 +90,26 @@ def generate_launch_description():
         actors_arg,
         rviz_arg,
         ground_turth_arg,
+        use_gui_config_arg,
         OpaqueFunction(function=actors_launch),
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')
             ),
             launch_arguments={
-                    'gz_args': world_file
+                'gz_args': PythonExpression([
+                    "'", world_file, "' + ' --gui-config ' + '", gui_config_path, "'"
+                ])
             }.items(),
+            condition=IfCondition(LaunchConfiguration('use_gui_config'))
+        ),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')
+            ),
+            launch_arguments={'gz_args': world_file}.items(),
+            condition=UnlessCondition(LaunchConfiguration('use_gui_config'))
         ),
         Node(
             package='ros_gz_bridge',

@@ -95,12 +95,13 @@ Make sure to source the workspace and to export the gazebo plugin (only needed o
 
 ### 1) Launch the simulation and spawn the vehicle (gen0_main)
 ```
-ros2 launch gen0_main spawn.launch.py world:=san_full actors_scenario:=walking_actors
+ros2 launch gen0_main spawn.launch.py world:=san_full actors_scenario:=walking_actors use_gui_config:=true
 ```
 Note: the launch file has the following arguments:
 - world: Name of the world file (without extension) to be used in Gazebo simulation
 - actors_scenario: The scenario for pedestrians (without extension to be used in Gazebo world file)
 - rviz: launch rviz
+- use_gui_config: true → use packaged GUI (gui_teleop.config); false → use SDF/default GUI.
 
 ### 2) Enable Interfacing with the vehicle (gen0_interface)
 ```

@@ -144,6 +144,11 @@
   ros_type_name: "geometry_msgs/msg/PoseStamped"
   gz_type_name: "gz.msgs.Pose"
   direction: GZ_TO_ROS
+- ros_topic_name: "/control/cmd_vel"
+  gz_topic_name: "/control/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "gz.msgs.Twist"
+  direction: GZ_TO_ROS
 # - ros_topic_name: "/tf"
 #   gz_topic_name: "/model/gen0_model/tf"
 #   ros_type_name: "tf2_msgs/msg/TFMessage"
