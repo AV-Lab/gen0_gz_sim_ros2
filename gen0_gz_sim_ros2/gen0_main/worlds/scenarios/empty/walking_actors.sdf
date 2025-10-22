@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+<actor name="pedestrian_1">
+    <plugin filename="ActorPose"
+    name="gz::sim::systems::ActorPose">
+    </plugin>
+    <skin>
+        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+        <scale>1.0</scale>
+    </skin>
+    <animation name="walk">
+        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+    </animation>
+        <script>
+        <loop>true</loop>
+        <delay_start>0.000000</delay_start>
+        <auto_start>true</auto_start>
+                <trajectory id="0" type="walk" tension="0.6">
+            <waypoint>
+                <time>0</time>
+                <pose>-30.85 8.24 -4.2 0 0 0</pose>
+            </waypoint>
+            <waypoint>
+                <time>2</time>
+                <pose>-33.15 9.38 -4.2 0 0 0</pose>
+            </waypoint>
+            <waypoint>
+                <time>10</time>
+                <pose>-29.94 18.84 -4.2 0 0 0</pose>
+            </waypoint>
+            <waypoint>
+                <time>18</time>
+                <pose>-37.87 12.18 -4.2 0 0 0</pose>
+            </waypoint>
+        </trajectory>
+    </script>
+</actor>
+</sdf>
