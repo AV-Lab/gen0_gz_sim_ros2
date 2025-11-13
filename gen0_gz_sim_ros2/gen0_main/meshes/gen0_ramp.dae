@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.4 LTS commit date:2025-10-27, commit time:12:46, hash:b3efe983cc58</authoring_tool>
+    </contributor>
+    <created>2025-10-31T08:08:00</created>
+    <modified>2025-10-31T08:08:00</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material_005-effect">
+      <profile_COMMON>
+        <newparam sid="gen0-surface">
+          <surface type="2D">
+            <init_from>gen0</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="gen0-sampler">
+          <sampler2D>
+            <source>gen0-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="gen0-sampler" texcoord="Roof_low-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Black-effect">
+      <profile_COMMON>
+        <newparam sid="ramp-surface">
+          <surface type="2D">
+            <init_from>ramp</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="ramp-sampler">
+          <sampler2D>
+            <source>ramp-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="ramp-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="gen0" name="gen0">
+      <init_from>gen0.png</init_from>
+    </image>
+    <image id="ramp" name="ramp">
+      <init_from>ramp.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material_005-material" name="Material.005">
+      <instance_effect url="#Material_005-effect"/>
+    </material>
+    <material id="Black-material" name="Black">
+      <instance_effect url="#Black-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Roof_low_004-mesh" name="Roof_low.004">
+      <mesh>
+        <source id="Roof_low_004-mesh-positions">
+          <float_array id="Roof_low_004-mesh-positions-array" count="63">-5.17964e-4 -0.02405899 0.334705 -5.18978e-4 -0.02405899 -0.334706 -5.19991e-4 -0.02413499 0 1.01328e-6 4.4018e-5 0.334705 0 0 0 1.01328e-6 4.4018e-5 -0.334706 -1.055e-5 2.51353e-4 -0.4986243 -5.08547e-4 -0.02367174 -0.4986243 -2.74539e-4 -0.01282721 -0.4986243 -5.07593e-4 -0.02367466 0.4973758 -2.71916e-4 -0.01272922 0.4973758 -9.89437e-6 2.49773e-4 0.4973757 -6.46339e-4 -0.0300002 0.03245574 -6.46443e-4 -0.0300002 -0.03245586 -6.34615e-4 -0.0300002 0.4973758 -6.36785e-4 -0.0300002 0.3643116 -6.47007e-4 -0.03000015 -0.334706 -6.35508e-4 -0.03000015 -0.4986243 -6.46259e-4 -0.0300002 0 -6.37689e-4 -0.03000015 -0.3643122 -6.45995e-4 -0.0300002 0.334705</float_array>
+          <technique_common>
+            <accessor source="#Roof_low_004-mesh-positions-array" count="21" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Roof_low_004-mesh-normals">
+          <float_array id="Roof_low_004-mesh-normals-array" count="117">0.9997683 -0.02152663 -1.29065e-5 0.9997683 -0.02152663 -1.95671e-7 0.9997679 -0.02154439 -3.10991e-4 0.9997706 -0.02142339 -4.31834e-6 0.9998043 -0.01974004 -0.001261889 0.9997963 -0.02018064 -9.60545e-5 0.9997674 -0.02156865 1.90143e-7 0.9997695 -0.02147448 -3.39919e-6 0.9998197 -0.018983 -3.89534e-4 0.9997999 -0.02000296 -1.89959e-4 0.9997681 -0.0215401 -1.16265e-6 0.9998235 -0.01879251 -1.77659e-4 0.999801 -0.01993149 -8.66917e-4 0.9997717 -0.02136957 -6.72759e-5 0.9997674 -0.02156865 1.29814e-5 0.9998007 -0.01996338 2.93363e-4 0.9997681 -0.0215401 -1.86407e-6 0.9997747 -0.02122604 4.20655e-4 0.9998013 -0.01990652 9.94676e-4 0.9997689 -0.02149856 -1.77887e-5 0.9997684 -0.02152323 2.46475e-6 0.9997784 -0.02102595 -0.001047194 0.9998022 -0.01988923 3.06255e-4 0.999769 -0.02149474 7.13252e-5 0.9997679 -0.02154433 -1.86498e-6 0.9997684 -0.02152323 -5.67702e-6 0.9997679 -0.02154439 -1.14006e-6 0.9997683 -0.02152699 -1.28804e-5 0.9997853 -0.02068281 0.001324892 0.9998202 -0.01894915 -6.51839e-4 0.9998096 -0.01948261 0.00113362 0.9997999 -0.01998937 8.42168e-4 0.9997673 -0.02157342 1.26524e-5 0.9997948 -0.02023887 9.47973e-4 0.9997692 -0.02148473 -1.61924e-4 0.9998111 -0.01939696 -0.001260936 0.9998011 -0.01994073 3.30664e-4 0.999768 -0.02154439 -1.86695e-6 0.9997679 -0.02154326 -1.16182e-6</float_array>
+          <technique_common>
+            <accessor source="#Roof_low_004-mesh-normals-array" count="39" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Roof_low_004-mesh-map-0">
+          <float_array id="Roof_low_004-mesh-map-0-array" count="132">0.9577913 0.4768348 0.9566682 0.4607116 0.9590577 0.4607116 0.9566682 0.4607116 0.9590533 0.4275372 0.9590577 0.4607116 0.9566682 0.4607116 0.9560792 0.4636461 0.9560792 0.4607116 0.9590577 0.3943626 0.9577817 0.3781158 0.9590782 0.3781158 0.9590533 0.4275372 0.9566682 0.3943626 0.9590577 0.3943626 0.9590577 0.4607116 0.9590781 0.4768348 0.9577913 0.4768348 0.9566682 0.4607116 0.9566606 0.4275372 0.9590533 0.4275372 0.9567063 0.4768348 0.9560792 0.4636461 0.9566682 0.4607116 0.9566682 0.3943626 0.9577817 0.3781158 0.9590577 0.3943626 0.9590533 0.4275372 0.9566606 0.4275372 0.9566682 0.3943626 0.9560792 0.3943626 0.9560792 0.3914281 0.9566682 0.3943626 0.9560792 0.4307541 0.9560792 0.4275372 0.9566606 0.4275372 0.9560792 0.3914281 0.9567065 0.3781158 0.9566682 0.3943626 0.9560792 0.4243203 0.9566682 0.3943626 0.9566606 0.4275372 0.9560792 0.4275372 0.9560792 0.4243203 0.9566606 0.4275372 0.9560792 0.4307541 0.9566682 0.4607116 0.9560792 0.4607116 0.9577913 0.4768348 0.9567063 0.4768348 0.9566682 0.4607116 0.9567063 0.4768348 0.9560792 0.4768348 0.9560792 0.4636461 0.9566682 0.3943626 0.9567065 0.3781158 0.9577817 0.3781158 0.9560792 0.3914281 0.9560791 0.3781158 0.9567065 0.3781158 0.9560792 0.4243203 0.9560792 0.3943626 0.9566682 0.3943626 0.9560792 0.4307541 0.9566606 0.4275372 0.9566682 0.4607116</float_array>
+          <technique_common>
+            <accessor source="#Roof_low_004-mesh-map-0-array" count="66" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Roof_low_004-mesh-vertices">
+          <input semantic="POSITION" source="#Roof_low_004-mesh-positions"/>
+        </vertices>
+        <triangles material="Material_005-material" count="22">
+          <input semantic="VERTEX" source="#Roof_low_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Roof_low_004-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Roof_low_004-mesh-map-0" offset="2" set="0"/>
+          <p>10 0 0 0 0 1 3 0 2 0 1 3 4 1 4 3 1 5 0 2 6 15 2 7 20 2 8 5 3 9 8 4 10 6 5 11 4 6 12 1 6 13 5 6 14 3 7 15 11 8 16 10 9 17 0 10 18 2 10 19 4 10 20 9 11 21 15 12 22 0 13 23 1 14 24 8 15 25 5 14 26 4 16 27 2 16 28 1 16 29 16 17 30 19 18 31 1 19 32 12 20 33 18 20 34 2 20 35 19 21 36 7 22 37 1 23 38 13 24 39 1 24 40 2 24 41 18 25 42 13 25 43 2 25 44 12 26 45 0 26 46 20 26 47 10 27 48 9 28 49 0 27 50 9 29 51 14 30 52 15 31 53 1 32 54 7 32 55 8 33 56 19 34 57 17 35 58 7 36 59 13 37 60 16 37 61 1 37 62 12 38 63 2 38 64 0 38 65</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Cube-mesh" name="Cube">
+      <mesh>
+        <source id="Cube-mesh-positions">
+          <float_array id="Cube-mesh-positions-array" count="48">-2 -1 -2 -2 -1 0 -2 1 -2 -2 1 0 0 -1 -2 0 -1 0 0 1 -2 0 1 0 -2.38419e-7 -1 -2 -2.38419e-7 -1 0 -2.38419e-7 1 -2 -2.38419e-7 1 0 -2 -1 -2 -2 1 -2 0 -1 -2 0 1 -2</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube-mesh-normals">
+          <float_array id="Cube-mesh-normals-array" count="36">-1 0 0 0 1 0 0 -1 0 0 0 1 1 0 0 0 0 -1 -1 0 0 0 1 0 0 -1 0 0 0 1 1 0 0 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube-mesh-map-0">
+          <float_array id="Cube-mesh-map-0-array" count="72">0.3333333 0.3333333 0.6666668 0 0.6666667 0.3333333 0 0.3333333 0.3333334 0 0.3333333 0.3333334 0 0.6666668 0.3333334 0.3333334 0.3333333 0.6666668 1 0.6666667 0.6666667 0.3333333 1 0.3333334 0.3333334 0.6666667 0.6666668 0.3333333 0.6666667 0.6666667 1 0.3333334 0.6666667 0 1 0 0.3333333 0.3333333 0.3333334 0 0.6666668 0 0 0.3333333 0 0 0.3333334 0 0 0.6666668 0 0.3333334 0.3333334 0.3333334 1 0.6666667 0.6666666 0.6666667 0.6666667 0.3333333 0.3333334 0.6666667 0.3333334 0.3333333 0.6666668 0.3333333 1 0.3333334 0.6666667 0.3333333 0.6666667 0</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube-mesh-vertices">
+          <input semantic="POSITION" source="#Cube-mesh-positions"/>
+        </vertices>
+        <triangles material="Black-material" count="12">
+          <input semantic="VERTEX" source="#Cube-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 2 0 1 0 0 2 3 1 3 6 1 4 2 1 5 5 2 6 0 2 7 4 2 8 3 3 9 5 3 10 7 3 11 11 4 12 8 4 13 10 4 14 15 5 15 12 5 16 13 5 17 1 6 18 3 6 19 2 6 20 3 7 21 7 7 22 6 7 23 5 8 24 1 8 25 0 8 26 3 9 27 1 9 28 5 9 29 11 10 30 9 10 31 8 10 32 15 11 33 14 11 34 12 11 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Roof_low_002" name="Roof_low.002" type="NODE">
+        <matrix sid="transform">1.000329 0 0 0.900692 0 7.54974e-8 -0.9999998 2.96277e-8 0 0.9999934 7.54979e-8 0.392377 0 0 0 1</matrix>
+        <instance_geometry url="#Roof_low_004-mesh" name="Roof_low.002">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_005-material" target="#Material_005-material">
+                <bind_vertex_input semantic="Roof_low-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube" name="Cube" type="NODE">
+        <matrix sid="transform">0.75 0 0 0.8982072 0 0.498 0 6.24001e-4 0 0 0.015 0.392377 0 0 0 1</matrix>
+        <instance_geometry url="#Cube-mesh" name="Cube">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Black-material" target="#Black-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

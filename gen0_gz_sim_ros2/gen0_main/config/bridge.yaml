@@ -1,5 +1,4 @@
 ---
-
 # - ros_topic_name: "/gen0_model/odometry"
 #   gz_topic_name: "/ackodom"
 #   ros_type_name: "nav_msgs/msg/Odometry"
@@ -149,6 +148,36 @@
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "gz.msgs.Twist"
   direction: GZ_TO_ROS
+- ros_topic_name: "/gen0_model/right_door/forward"
+  gz_topic_name: "/model/gen0_model/joint/right_door_slide_forward/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+- ros_topic_name: "/gen0_model/right_door/sideways"
+  gz_topic_name: "/model/gen0_model/joint/right_door_slide_sideways/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+- ros_topic_name: "/gen0_model/left_door/forward"
+  gz_topic_name: "/model/gen0_model/joint/left_door_slide_forward/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+- ros_topic_name: "/gen0_model/left_door/sideways"
+  gz_topic_name: "/model/gen0_model/joint/left_door_slide_sideways/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+- ros_topic_name: "/gen0_model/ramp/forward"
+  gz_topic_name: "/model/gen0_model/joint/ramp_slide_forward/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+- ros_topic_name: "/gen0_model/ramp/rotate"
+  gz_topic_name: "/model/gen0_model/joint/ramp_slide_rotate/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
 # - ros_topic_name: "/tf"
 #   gz_topic_name: "/model/gen0_model/tf"
 #   ros_type_name: "tf2_msgs/msg/TFMessage"
